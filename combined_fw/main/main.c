@@ -1,64 +1,31 @@
-#include "lcd_port.h"
+#include "aw9523.h"
 #include "lvgl_port.h"
-#include "scale.h"
-#include "spindle_enc.h"
-#include "buttons.h"
-#include "ui_logic.h"
-#include "ui_styles.h"
-#include "ui_main.h"
-#include "i2c_protocol.h"
+#include "esp_lcd_panel_ops.h"
+#include "esp_lcd_panel_rgb.h"
+#include "esp_lcd_touch_gt911.h"
 #include "driver/i2c.h"
+#include "driver/gpio.h"
+#include "driver/ledc.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "esp_log.h"
+#include <string.h>
 
 static const char *TAG_MAIN = "main";
+static esp_lcd_panel_handle_t g_panel = NULL;
 
-static void i2c_scan(void)
+IRAM_ATTR static bool on_vsync(esp_lcd_panel_handle_t panel,
+                                const esp_lcd_rgb_panel_event_data_t *edata,
+                                void *user_ctx)
 {
-    ESP_LOGI(TAG_MAIN, "I2C scan (bus %d, SDA=%d SCL=%d)...", CFG_I2C_BUS, CFG_I2C_SDA, CFG_I2C_SCL);
-    for (int addr = 0x08; addr < 0x78; addr++) {
-        i2c_cmd_handle_t cmd = i2c_cmd_link_create();
-        i2c_master_start(cmd);
-        i2c_master_write_byte(cmd, (addr << 1) | I2C_MASTER_WRITE, true);
-        i2c_master_stop(cmd);
-        esp_err_t ret = i2c_master_cmd_begin(CFG_I2C_BUS, cmd, pdMS_TO_TICKS(20));
-        i2c_cmd_link_delete(cmd);
-        if (ret == ESP_OK) {
-            ESP_LOGI(TAG_MAIN, "  found device at 0x%02X", addr);
-        }
-    }
-    ESP_LOGI(TAG_MAIN, "I2C scan done.");
-}
-
-static void ui_task(void *arg)
-{
-    int tick = 0;
-    while (1) {
-        int32_t axial  = scale_get_position(SCALE_AXIAL);
-        int32_t radial = scale_get_position(SCALE_RADIAL);
-
-        if (lvgl_port_lock(CFG_APP_LVGL_LOCK_MS)) {
-            ui_logic_update_positions(axial, radial);
-            ui_logic_get_state()->spindle_count = spindle_enc_get_count();
-
-            if (++tick >= 4) {
-                tick = 0;
-                ui_logic_handle_button(buttons_read());
-            }
-
-            ui_main_update();
-            lvgl_port_unlock();
-        }
-
-        vTaskDelay(pdMS_TO_TICKS(CFG_APP_POLL_MS));
-    }
+    return false;
 }
 
 void app_main(void)
 {
-    ESP_LOGI(TAG_MAIN, "Linear Scale Combined firmware starting");
+    ESP_LOGI(TAG_MAIN, "=== RAW LCD TEST — no LVGL at all ===");
 
+    // I2C init
     i2c_config_t i2c_conf = {
         .mode = I2C_MODE_MASTER,
         .sda_io_num = CFG_I2C_SDA,
@@ -69,24 +36,97 @@ void app_main(void)
     };
     ESP_ERROR_CHECK(i2c_param_config(CFG_I2C_BUS, &i2c_conf));
     ESP_ERROR_CHECK(i2c_driver_install(CFG_I2C_BUS, I2C_MODE_MASTER, 0, 0, 0));
-    i2c_scan();
+    aw9523_init();
 
-    ESP_ERROR_CHECK(lcd_port_init());
-    ESP_ERROR_CHECK(lcd_port_bl_on());
-    ESP_ERROR_CHECK(scale_init(SCALE_AXIAL, CFG_SCALE_AXIAL_A, CFG_SCALE_AXIAL_B));
-    ESP_ERROR_CHECK(scale_init(SCALE_RADIAL, CFG_SCALE_RADIAL_A, CFG_SCALE_RADIAL_B));
-    ESP_ERROR_CHECK(spindle_enc_init());
-    ESP_ERROR_CHECK(buttons_init());
+    // Backlight PWM
+    ledc_timer_config_t ledc_timer = {
+        .speed_mode = LEDC_LOW_SPEED_MODE,
+        .duty_resolution = LEDC_TIMER_10_BIT,
+        .timer_num = LEDC_TIMER_0,
+        .freq_hz = CFG_BL_FREQ_HZ,
+        .clk_cfg = LEDC_AUTO_CLK,
+    };
+    ESP_ERROR_CHECK(ledc_timer_config(&ledc_timer));
+    ledc_channel_config_t ledc_ch = {
+        .gpio_num = CFG_BL_GPIO,
+        .speed_mode = LEDC_LOW_SPEED_MODE,
+        .channel = LEDC_CHANNEL_0,
+        .timer_sel = LEDC_TIMER_0,
+        .duty = CFG_BL_DUTY_MAX,
+        .hpoint = 0,
+    };
+    ESP_ERROR_CHECK(ledc_channel_config(&ledc_ch));
 
-    ui_logic_init();
+    // LCD panel
+    esp_lcd_rgb_panel_config_t panel_config = {
+        .clk_src = LCD_CLK_SRC_PLL240M,
+        .timings = {
+            .pclk_hz = CFG_LCD_PCLK_HZ,
+            .h_res = CFG_LCD_H_RES,
+            .v_res = CFG_LCD_V_RES,
+            .hsync_pulse_width = CFG_LCD_HSYNC_PW,
+            .hsync_back_porch = CFG_LCD_HSYNC_BP,
+            .hsync_front_porch = CFG_LCD_HSYNC_FP,
+            .vsync_pulse_width = CFG_LCD_VSYNC_PW,
+            .vsync_back_porch = CFG_LCD_VSYNC_BP,
+            .vsync_front_porch = CFG_LCD_VSYNC_FP,
+        },
+        .data_width = CFG_LCD_DATA_WIDTH,
+        .bits_per_pixel = CFG_LCD_BPP,
+        .num_fbs = 1,
+        .bounce_buffer_size_px = 0,
+        .dma_burst_size = 64,
+        .sram_trans_align = CFG_LCD_SRAM_ALIGN,
+        .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+        .hsync_gpio_num = CFG_LCD_HSYNC,
+        .vsync_gpio_num = CFG_LCD_VSYNC,
+        .de_gpio_num = CFG_LCD_DE,
+        .pclk_gpio_num = CFG_LCD_PCLK,
+        .disp_gpio_num = CFG_LCD_DISP,
+        .data_gpio_nums = {
+            CFG_LCD_D0, CFG_LCD_D1, CFG_LCD_D2, CFG_LCD_D3,
+            CFG_LCD_D4, CFG_LCD_D5, CFG_LCD_D6, CFG_LCD_D7,
+            CFG_LCD_D8, CFG_LCD_D9, CFG_LCD_D10, CFG_LCD_D11,
+            CFG_LCD_D12, CFG_LCD_D13, CFG_LCD_D14, CFG_LCD_D15,
+        },
+        .flags = {
+            .fb_in_psram = 1,
+        },
+    };
+    ESP_ERROR_CHECK(esp_lcd_new_rgb_panel(&panel_config, &g_panel));
 
-    if (lvgl_port_lock(CFG_APP_INIT_LOCK_MS)) {
-        ui_styles_init();
-        ui_main_create();
-        lvgl_port_unlock();
+    // Write test pattern BEFORE panel init — so DMA starts with clean data
+    void *fb1 = NULL;
+    ESP_ERROR_CHECK(esp_lcd_rgb_panel_get_frame_buffer(g_panel, 1, &fb1));
+    ESP_LOGI(TAG_MAIN, "FB addr: %p", fb1);
+    memset(fb1, 0, CFG_LCD_H_RES * CFG_LCD_V_RES * 2);
+
+    uint16_t *buf = (uint16_t *)fb1;
+    for (int y = 0; y < CFG_LCD_V_RES; y++) {
+        for (int x = 0; x < CFG_LCD_H_RES; x++) {
+            int stripe = x / 160;
+            uint16_t color = 0;
+            switch (stripe % 5) {
+                case 0: color = 0xF800; break;
+                case 1: color = 0x07E0; break;
+                case 2: color = 0x001F; break;
+                case 3: color = 0xFFFF; break;
+                case 4: color = 0x0000; break;
+            }
+            buf[y * CFG_LCD_H_RES + x] = color;
+        }
     }
+    ESP_LOGI(TAG_MAIN, "FB filled, now init panel...");
 
-    xTaskCreate(ui_task, "ui_task", CFG_APP_TASK_STACK, NULL, CFG_APP_TASK_PRIO, NULL);
-    ESP_LOGI(TAG_MAIN, "Startup complete. Main task exiting.");
-    vTaskDelete(NULL);
+    ESP_ERROR_CHECK(esp_lcd_panel_init(g_panel));
+
+    esp_lcd_rgb_panel_event_callbacks_t cbs = { .on_vsync = on_vsync };
+    ESP_ERROR_CHECK(esp_lcd_rgb_panel_register_event_callbacks(g_panel, &cbs, NULL));
+
+    ESP_LOGI(TAG_MAIN, "LCD panel ready, backlight on");
+
+    esp_lcd_panel_draw_bitmap(g_panel, 0, 0, CFG_LCD_H_RES, CFG_LCD_V_RES, fb1);
+    ESP_LOGI(TAG_MAIN, "Done. No LVGL task running.");
+
+    while (1) { vTaskDelay(pdMS_TO_TICKS(1000)); }
 }

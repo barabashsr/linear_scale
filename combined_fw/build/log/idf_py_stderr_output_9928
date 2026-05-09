@@ -1,0 +1,15 @@
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/aw9523.h:1,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:1:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c: In function 'app_main':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:29:33: warning: initialized field overwritten [-Woverride-init]
+   29 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:80:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   80 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:29:33: note: (near initialization for 'panel_config.<anonymous>.psram_trans_align')
+   29 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:80:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   80 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~

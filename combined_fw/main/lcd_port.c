@@ -44,7 +44,8 @@ esp_err_t lcd_port_init(void)
     ESP_ERROR_CHECK(ledc_channel_config(&ledc_ch));
 
     esp_lcd_rgb_panel_config_t panel_config = {
-        .clk_src = LCD_CLK_SRC_PLL240M,
+        .dma_burst_size = 64,
+        .clk_src = LCD_CLK_SRC_DEFAULT,
         .timings = {
             .pclk_hz = CFG_LCD_PCLK_HZ,
             .h_res = CFG_LCD_H_RES,
@@ -62,7 +63,7 @@ esp_err_t lcd_port_init(void)
         .data_width = CFG_LCD_DATA_WIDTH,
         .bits_per_pixel = CFG_LCD_BPP,
         .num_fbs = CFG_LCD_FB_COUNT,
-        .bounce_buffer_size_px = CFG_LCD_H_RES * CFG_LCD_BOUNCE_H,
+        .bounce_buffer_size_px = 0,
         .sram_trans_align = CFG_LCD_SRAM_ALIGN,
         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
         .hsync_gpio_num = CFG_LCD_HSYNC,
@@ -120,12 +121,17 @@ esp_err_t lcd_port_init(void)
     ESP_ERROR_CHECK(lvgl_port_init(g_panel, tp));
 
     esp_lcd_rgb_panel_event_callbacks_t cbs = {
-        .on_bounce_frame_finish = on_vsync,
+        .on_vsync = on_vsync,
     };
     ESP_ERROR_CHECK(esp_lcd_rgb_panel_register_event_callbacks(g_panel, &cbs, NULL));
 
     ESP_LOGI(TAG_LCD, "LCD port ready (%dx%d)", CFG_LCD_H_RES, CFG_LCD_V_RES);
     return ESP_OK;
+}
+
+void *lcd_port_get_panel_handle(void)
+{
+    return g_panel;
 }
 
 esp_err_t lcd_port_bl_on(void)

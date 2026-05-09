@@ -302,10 +302,6 @@ static void flush_callback(lv_disp_drv_t *drv, const lv_area_t *area, lv_color_t
     /* Switch the current RGB frame buffer to `color_map` */
     esp_lcd_panel_draw_bitmap(panel_handle, offsetx1, offsety1, offsetx2 + 1, offsety2 + 1, color_map);
 
-    /* Wait for the last frame buffer to complete transmission */
-    ulTaskNotifyValueClear(NULL, ULONG_MAX);
-    ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
-
     lv_disp_flush_ready(drv); // Mark the display flush as complete
 }
 
