@@ -1,0 +1,30 @@
+esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/revision.c.obj: \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/revision.c \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/build/config/sdkconfig.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_assert.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/newlib/platform_include/assert.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdlib.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/newlib/platform_include/sys/reent.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/reent.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_types.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_types.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/newlib/platform_include/sys/lock.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/lock.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/cdefs.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/stdlib.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h

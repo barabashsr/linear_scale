@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "config/sdkconfig.h"
+  "config/sdkconfig.cmake"
+  "bootloader/bootloader.elf"
+  "bootloader/bootloader.bin"
+  "bootloader/bootloader.map"
+  "linear_scale_display.bin"
+  "flash_project_args"
+  "linear_scale_display.map"
+  "project_elf_src_esp32s3.c"
+)

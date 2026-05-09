@@ -1,0 +1,163 @@
+[  0%] Built target _project_elf_src
+[  0%] Built target custom_bundle
+[  0%] Built target memory.ld
+[  0%] Built target partition_table_bin
+[  0%] Built target sections.ld.in
+[  0%] Performing build step for 'bootloader'
+[  0%] Built target __idf_esp_https_ota
+[  1%] Built target __idf_esp_http_server
+[  1%] Built target _project_elf_src
+[  5%] Built target __idf_log
+[  1%] Built target __idf_esp_http_client
+[ 13%] Built target __idf_esp_rom
+[  1%] Built target __idf_tcp_transport
+[ 15%] Built target __idf_esp_common
+[  1%] Built target __idf_esp_gdbstub
+[ 25%] Built target __idf_esp_hw_support
+[  2%] Built target __idf_esp_adc
+[ 26%] Built target __idf_esp_system
+[  3%] Built target __idf_esp-tls
+[ 34%] Built target __idf_efuse
+[  4%] Built target __idf_http_parser
+[ 55%] Built target __idf_bootloader_support
+[  5%] Built target __idf_esp_wifi
+[ 56%] Built target __idf_esp_bootloader_format
+[  6%] Built target __idf_esp_coex
+[ 58%] Built target __idf_spi_flash
+[ 65%] Built target __idf_hal
+[ 14%] Built target __idf_wpa_supplicant
+[ 67%] Built target __idf_micro-ecc
+[ 15%] Built target __idf_esp_netif
+[ 91%] Built target __idf_soc
+[ 93%] Built target __idf_xtensa
+[ 95%] Built target __idf_main
+[ 24%] Built target __idf_lwip
+[ 98%] Built target bootloader.elf
+[ 25%] Built target __idf_vfs
+[100%] Built target gen_project_binary
+[ 25%] Built target __idf_esp_vfs_console
+[ 26%] Built target __idf_esp_phy
+Bootloader binary size 0x6560 bytes. 0xaa0 bytes (9%) free.
+[100%] Built target bootloader_check_size
+[ 27%] Built target __idf_driver
+[100%] Built target app
+[ 27%] Built target __idf_esp_driver_ledc
+[ 28%] No install step for 'bootloader'
+[ 28%] Completed 'bootloader'
+[ 29%] Built target __idf_esp_driver_i2c
+[ 29%] Built target bootloader
+[ 29%] Built target __idf_esp_driver_sdm
+[ 29%] Built target __idf_esp_driver_rmt
+[ 30%] Built target __idf_esp_driver_dac
+[ 30%] Built target __idf_esp_driver_sdio
+[ 30%] Built target __idf_esp_driver_sdspi
+[ 31%] Built target __idf_esp_driver_sdmmc
+[ 32%] Built target __idf_sdmmc
+[ 32%] Built target __idf_esp_driver_i2s
+[ 33%] Built target __idf_esp_driver_mcpwm
+[ 34%] Built target __idf_esp_driver_spi
+[ 35%] Built target __idf_esp_driver_pcnt
+[ 36%] Built target __idf_nvs_flash
+[ 37%] Built target __idf_esp_event
+[ 37%] Built target __idf_esp_driver_uart
+[ 37%] Built target __idf_esp_ringbuf
+[ 37%] Built target __idf_esp_driver_gptimer
+[ 38%] Built target __idf_esp_timer
+[ 39%] Built target __idf_cxx
+[ 39%] Built target __idf_pthread
+[ 41%] Built target __idf_newlib
+[ 43%] Built target __idf_freertos
+[ 48%] Built target __idf_esp_hw_support
+[ 48%] Built target __idf_esp_security
+[ 51%] Built target __idf_soc
+[ 51%] Built target __idf_heap
+[ 52%] Built target __idf_log
+[ 57%] Built target __idf_hal
+[ 58%] Built target __idf_esp_rom
+[ 58%] Built target __idf_esp_common
+[ 62%] Built target __idf_esp_system
+[ 64%] Built target __idf_spi_flash
+[ 65%] Built target __idf_esp_mm
+[ 67%] Built target __idf_bootloader_support
+[ 68%] Built target __idf_efuse
+[ 68%] Built target __idf_esp_partition
+[ 68%] Built target __idf_app_update
+[ 68%] Built target __idf_esp_bootloader_format
+[ 68%] Built target __idf_esp_app_format
+[ 70%] Built target mbedtls
+[ 71%] Built target mbedx509
+[ 80%] Built target mbedcrypto
+[ 81%] Built target p256m
+[ 81%] Built target everest
+[ 81%] Built target __idf_mbedtls
+[ 81%] Built target __idf_esp_pm
+[ 81%] Built target __idf_esp_driver_gpio
+[ 82%] Built target __idf_xtensa
+[ 82%] Built target __idf_perfmon
+[ 82%] Built target __idf_json
+[ 83%] Built target __idf_esp_hid
+[ 84%] Built target __idf_nvs_sec_provider
+[ 84%] Built target __idf_protobuf-c
+[ 84%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[ 86%] Built target __idf_console
+[ 86%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.obj
+[ 87%] Built target __idf_mqtt
+[ 87%] Built target __idf_rt
+[ 88%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.obj
+[ 89%] Built target __idf_spiffs
+[ 89%] Building C object esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/src/https_server.c.obj
+[ 89%] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_init.c.obj
+[ 89%] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
+[ 89%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_common.c.obj
+[ 89%] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace.c.obj
+[ 89%] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity/src/unity.c.obj
+[ 89%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/i2c_slave.c.obj
+[ 89%] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_common.c.obj
+[ 89%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_io.c.obj
+[ 89%] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/app_trace_util.c.obj
+[ 89%] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/esp_cam_ctlr.c.obj
+[ 90%] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_compat.c.obj
+[ 90%] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
+[ 90%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_nt35510.c.obj
+[ 90%] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_flash.c.obj
+[ 90%] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_runner.c.obj
+[ 90%] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/host_file_io.c.obj
+[ 90%] Linking C static library libesp_https_server.a
+[ 90%] Building C object esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/dvp_share_ctrl.c.obj
+[ 91%] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_uart.c.obj
+[ 91%] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
+[ 91%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ssd1306.c.obj
+[ 91%] Built target __idf_esp_https_server
+[ 91%] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_freertos.c.obj
+[ 91%] Building C object esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/port/port_uart.c.obj
+[ 91%] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_elf.c.obj
+[ 91%] Linking C static library libesp_driver_cam.a
+[ 91%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_st7789.c.obj
+[ 91%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/src/esp_lcd_panel_ops.c.obj
+[ 91%] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
+[ 91%] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_cache.c.obj
+[ 91%] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_binary.c.obj
+[ 91%] Built target __idf_esp_driver_cam
+[ 91%] Linking C static library libapp_trace.a
+[ 91%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v1.c.obj
+[ 91%] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
+[ 91%] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_utils_memory.c.obj
+[ 91%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i2c/esp_lcd_panel_io_i2c_v2.c.obj
+[ 91%] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/unity_port_esp32.c.obj
+[ 91%] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_sha.c.obj
+[ 91%] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
+[ 91%] Built target __idf_app_trace
+[ 91%] Building C object esp-idf/unity/CMakeFiles/__idf_unity.dir/port/esp/unity_utils_memory_esp.c.obj
+[ 91%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/spi/esp_lcd_panel_io_spi.c.obj
+[ 91%] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/core_dump_crc.c.obj
+[ 91%] Building C object esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/i80/esp_lcd_panel_io_i2s.c.obj
+[ 91%] Building C object esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/src/port/xtensa/core_dump_port.c.obj
+[ 91%] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
+[ 91%] Linking C static library libunity.a
+[ 91%] Linking C static library libespcoredump.a
+[ 92%] Linking C static library libwear_levelling.a
+[ 92%] Built target __idf_unity
+[ 93%] Linking C static library libesp_lcd.a
+[ 93%] Built target __idf_espcoredump
+[ 93%] Built target __idf_wear_levelling
+[ 93%] Built target __idf_esp_lcd

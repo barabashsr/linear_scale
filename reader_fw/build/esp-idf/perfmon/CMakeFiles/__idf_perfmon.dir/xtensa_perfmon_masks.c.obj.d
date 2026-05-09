@@ -1,0 +1,24 @@
+esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj: \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/perfmon/xtensa_perfmon_masks.c \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/perfmon/include/xtensa_perfmon_masks.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/include/xtensa/xt_perf_consts.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/esp32/include/xtensa/config/core.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/include/xtensa/hal.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/include/xtensa/xtensa-versions.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/esp32/include/xtensa/config/core-isa.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/esp32/include/xtensa/config/core-matmap.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/esp32/include/xtensa/config/tie.h

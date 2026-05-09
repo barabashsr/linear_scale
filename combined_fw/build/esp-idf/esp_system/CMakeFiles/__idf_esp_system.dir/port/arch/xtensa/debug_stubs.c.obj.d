@@ -1,0 +1,28 @@
+esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_stubs.c.obj: \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/include/eri.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdint.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/features.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_intsup.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/include/xtensa-debug-module.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/esp32s3/include/xtensa/config/core-isa.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/newlib.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/config.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_ansi.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stddef.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_locale.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/build/config/sdkconfig.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_rom/include/esp_rom_sys.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_level.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_color.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_buffer.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_timestamp.h

@@ -1,0 +1,146 @@
+[  0%] Built target sections.ld.in
+[  0%] Built target memory.ld
+[  0%] Built target partition_table_bin
+[  0%] Built target custom_bundle
+[  0%] Built target _project_elf_src
+[  0%] Built target __idf_esp_https_ota
+[  0%] Performing build step for 'bootloader'
+[  1%] Built target __idf_esp_http_server
+[  2%] Built target _project_elf_src
+[  5%] Built target __idf_log
+[  1%] Built target __idf_esp_http_client
+[ 13%] Built target __idf_esp_rom
+[  1%] Built target __idf_tcp_transport
+[ 15%] Built target __idf_esp_common
+[  1%] Built target __idf_esp_gdbstub
+[ 25%] Built target __idf_esp_hw_support
+[  2%] Built target __idf_esp_adc
+[ 26%] Built target __idf_esp_system
+[  3%] Built target __idf_esp-tls
+[ 34%] Built target __idf_efuse
+[  4%] Built target __idf_http_parser
+[ 55%] Built target __idf_bootloader_support
+[  5%] Built target __idf_esp_wifi
+[ 56%] Built target __idf_esp_bootloader_format
+[  6%] Built target __idf_esp_coex
+[ 58%] Built target __idf_spi_flash
+[ 14%] Built target __idf_wpa_supplicant
+[ 65%] Built target __idf_hal
+[ 15%] Built target __idf_esp_netif
+[ 67%] Built target __idf_micro-ecc
+[ 91%] Built target __idf_soc
+[ 24%] Built target __idf_lwip
+[ 93%] Built target __idf_xtensa
+[ 25%] Built target __idf_vfs
+[ 95%] Built target __idf_main
+[ 25%] Built target __idf_esp_vfs_console
+[ 98%] Built target bootloader.elf
+[ 26%] Built target __idf_esp_phy
+[100%] Built target gen_project_binary
+[ 27%] Built target __idf_driver
+Bootloader binary size 0x6560 bytes. 0xaa0 bytes (9%) free.
+[ 27%] Built target __idf_esp_driver_ledc
+[100%] Built target bootloader_check_size
+[ 28%] Built target __idf_esp_driver_i2c
+[100%] Built target app
+[ 29%] No install step for 'bootloader'
+[ 29%] Built target __idf_esp_driver_sdm
+[ 29%] Completed 'bootloader'
+[ 29%] Built target __idf_esp_driver_rmt
+[ 29%] Built target bootloader
+[ 30%] Built target __idf_esp_driver_dac
+[ 30%] Built target __idf_esp_driver_sdio
+[ 30%] Built target __idf_esp_driver_sdspi
+[ 31%] Built target __idf_esp_driver_sdmmc
+[ 32%] Built target __idf_sdmmc
+[ 32%] Built target __idf_esp_driver_i2s
+[ 33%] Built target __idf_esp_driver_mcpwm
+[ 34%] Built target __idf_esp_driver_spi
+[ 35%] Built target __idf_esp_driver_pcnt
+[ 36%] Built target __idf_nvs_flash
+[ 37%] Built target __idf_esp_event
+[ 37%] Built target __idf_esp_driver_uart
+[ 37%] Built target __idf_esp_ringbuf
+[ 37%] Built target __idf_esp_driver_gptimer
+[ 38%] Built target __idf_esp_timer
+[ 39%] Built target __idf_cxx
+[ 39%] Built target __idf_pthread
+[ 41%] Built target __idf_newlib
+[ 43%] Built target __idf_freertos
+[ 48%] Built target __idf_esp_hw_support
+[ 48%] Built target __idf_esp_security
+[ 51%] Built target __idf_soc
+[ 51%] Built target __idf_heap
+[ 52%] Built target __idf_log
+[ 57%] Built target __idf_hal
+[ 58%] Built target __idf_esp_rom
+[ 58%] Built target __idf_esp_common
+[ 62%] Built target __idf_esp_system
+[ 64%] Built target __idf_spi_flash
+[ 65%] Built target __idf_esp_mm
+[ 67%] Built target __idf_bootloader_support
+[ 68%] Built target __idf_efuse
+[ 68%] Built target __idf_esp_partition
+[ 68%] Built target __idf_app_update
+[ 68%] Built target __idf_esp_bootloader_format
+[ 68%] Built target __idf_esp_app_format
+[ 70%] Built target mbedtls
+[ 71%] Built target mbedx509
+[ 80%] Built target mbedcrypto
+[ 81%] Built target p256m
+[ 81%] Built target everest
+[ 81%] Built target __idf_mbedtls
+[ 81%] Built target __idf_esp_pm
+[ 81%] Built target __idf_esp_driver_gpio
+[ 82%] Built target __idf_xtensa
+[ 83%] Built target __idf_spiffs
+[ 83%] Built target __idf_json
+[ 83%] Built target __idf_protobuf-c
+[ 83%] Built target __idf_rt
+[ 84%] Built target __idf_nvs_sec_provider
+[ 86%] Built target __idf_console
+[ 87%] Built target __idf_mqtt
+[ 87%] Built target __idf_perfmon
+[ 88%] Built target __idf_esp_hid
+[ 88%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[ 88%] Built target __idf_esp_https_server
+[ 88%] Built target __idf_esp_driver_cam
+[ 89%] Built target __idf_esp_lcd
+[ 89%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/common/protocomm.c.obj
+[ 89%] Built target __idf_app_trace
+[ 89%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
+[ 90%] Built target __idf_unity
+[ 91%] Built target __idf_wear_levelling
+[ 91%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/i2c_slave.c.obj
+[ 91%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec0.pb-c.c.obj
+[ 92%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec1.pb-c.c.obj
+[ 93%] Built target __idf_espcoredump
+[ 93%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_802_3.c.obj
+[ 94%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.obj
+[ 94%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/constants.pb-c.c.obj
+[ 94%] Building C object esp-idf/cmock/CMakeFiles/__idf_cmock.dir/CMock/src/cmock.c.obj
+[ 94%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
+[ 94%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/sec2.pb-c.c.obj
+[ 94%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp.c.obj
+[ 94%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/proto-c/session.pb-c.c.obj
+[ 94%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_console.c.obj
+[ 94%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_dma.c.obj
+[ 94%] Linking C static library libcmock.a
+[ 94%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/transports/protocomm_httpd.c.obj
+[ 95%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/mac/esp_eth_mac_esp_gpio.c.obj
+[ 95%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_generic.c.obj
+[ 95%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_dp83848.c.obj
+[ 95%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security0.c.obj
+[ 95%] Built target __idf_cmock
+[ 95%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_ip101.c.obj
+[ 95%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security1.c.obj
+[ 95%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_ksz80xx.c.obj
+[ 95%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/security/security2.c.obj
+[ 95%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp.c.obj
+[ 95%] Building C object esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/src/crypto/srp6a/esp_srp_mpi.c.obj
+[ 95%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_rtl8201.c.obj
+[ 95%] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/phy/esp_eth_phy_lan87xx.c.obj
+[ 96%] Linking C static library libprotocomm.a
+[ 96%] Linking C static library libesp_eth.a
+[ 96%] Built target __idf_protocomm
+[ 96%] Built target __idf_esp_eth

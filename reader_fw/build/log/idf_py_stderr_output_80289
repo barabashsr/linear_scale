@@ -1,0 +1,12 @@
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/i2c_slave.c:14:6: error: conflicting types for 'i2c_slave_init'; have 'void(void)'
+   14 | void i2c_slave_init(void)
+      |      ^~~~~~~~~~~~~~
+In file included from /Users/sergeybarabash/robo/linear_scale/reader_fw/main/i2c_slave.c:1:
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/i2c_slave.h:5:11: note: previous declaration of 'i2c_slave_init' with type 'esp_err_t(void)' {aka 'int(void)'}
+    5 | esp_err_t i2c_slave_init(void);
+      |           ^~~~~~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/i2c_slave.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

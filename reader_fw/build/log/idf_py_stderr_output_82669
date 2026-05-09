@@ -1,0 +1,10 @@
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/i2c_slave.c: In function 'i2c_slave_init':
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/i2c_slave.c:27:1: error: control reaches end of non-void function [-Werror=return-type]
+   27 | }
+      | ^
+cc1: some warnings being treated as errors
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/i2c_slave.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

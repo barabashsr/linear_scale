@@ -1,0 +1,19 @@
+/Users/sergeybarabash/robo/linear_scale/display_fw/main/lvgl_port.c: In function 'touchpad_read':
+/Users/sergeybarabash/robo/linear_scale/display_fw/main/lvgl_port.c:442:5: warning: 'esp_lcd_touch_get_coordinates' is deprecated: This API will be removed in version 2.0.0. Use esp_lcd_touch_get_data instead! [-Wdeprecated-declarations]
+  442 |     bool touchpad_pressed = esp_lcd_touch_get_coordinates(tp, &touchpad_x, &touchpad_y, NULL, &touchpad_cnt, 1); // Get touch coordinates
+      |     ^~~~
+/Users/sergeybarabash/robo/linear_scale/display_fw/main/main.c:12:20: error: redefinition of 'TAG'
+   12 | static const char *TAG = "main";
+      |                    ^~~
+In file included from /Users/sergeybarabash/robo/linear_scale/display_fw/main/lvgl_port.c:12:
+/Users/sergeybarabash/robo/linear_scale/display_fw/managed_components/espressif__esp_lcd_touch/include/esp_lcd_touch.h:317:6: note: declared here
+  317 | bool esp_lcd_touch_get_coordinates(esp_lcd_touch_handle_t tp, uint16_t *x, uint16_t *y, uint16_t *strength, uint8_t *point_num, uint8_t max_point_num);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/sergeybarabash/robo/linear_scale/display_fw/main/main.c:1:
+/Users/sergeybarabash/robo/linear_scale/display_fw/main/waveshare_rgb_lcd_port.h:67:20: note: previous definition of 'TAG' with type 'const char *'
+   67 | static const char *TAG = "example";
+      |                    ^~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

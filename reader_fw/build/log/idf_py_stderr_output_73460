@@ -1,0 +1,29 @@
+In file included from /Users/sergeybarabash/robo/linear_scale/reader_fw/main/scale.h:3,
+                 from /Users/sergeybarabash/robo/linear_scale/reader_fw/main/main.c:1:
+/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/deprecated/driver/pcnt.h:15:2: warning: #warning "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h" [-Wcpp]
+   15 | #warning "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h"
+      |  ^~~~~~~
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/main.c: In function 'reader_task':
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/main.c:16:13: warning: unused variable 'rx_buf' [-Wunused-variable]
+   16 |     uint8_t rx_buf[16];
+      |             ^~~~~~
+In file included from /Users/sergeybarabash/robo/linear_scale/reader_fw/main/scale.h:3,
+                 from /Users/sergeybarabash/robo/linear_scale/reader_fw/main/scale.c:1:
+/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/deprecated/driver/pcnt.h:15:2: warning: #warning "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h" [-Wcpp]
+   15 | #warning "legacy pcnt driver is deprecated, please migrate to use driver/pulse_cnt.h"
+      |  ^~~~~~~
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/scale.c:9:23: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'scale_pcnt_overflow_handler'
+    9 | static void IRAM_ATTR scale_pcnt_overflow_handler(void *arg)
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/scale.c: In function 'scale_init':
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/scale.c:39:26: error: 'PCNT_H_LIM_VAL' undeclared (first use in this function)
+   39 |         .counter_h_lim = PCNT_H_LIM_VAL,
+      |                          ^~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/scale.c:39:26: note: each undeclared identifier is reported only once for each function it appears in
+/Users/sergeybarabash/robo/linear_scale/reader_fw/main/scale.c:53:23: error: 'scale_pcnt_overflow_handler' undeclared (first use in this function)
+   53 |     pcnt_isr_register(scale_pcnt_overflow_handler, NULL, 0, NULL);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

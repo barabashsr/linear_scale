@@ -1,0 +1,20 @@
+In file included from /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/heap/include/esp_heap_caps.h:13,
+                 from /Users/sergeybarabash/robo/linear_scale/display_fw/main/waveshare_rgb_lcd_port.h:5,
+                 from /Users/sergeybarabash/robo/linear_scale/display_fw/main/main.c:1:
+/Users/sergeybarabash/robo/linear_scale/display_fw/main/main.c: In function 'app_main':
+/Users/sergeybarabash/robo/linear_scale/display_fw/main/main.c:47:21: error: implicit declaration of function 'waveshare_esp32_s3_rgb_lcd_init' [-Wimplicit-function-declaration]
+   47 |     ESP_ERROR_CHECK(waveshare_esp32_s3_rgb_lcd_init());
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_err.h:116:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/Users/sergeybarabash/robo/linear_scale/display_fw/main/main.c:48:21: error: implicit declaration of function 'wavesahre_rgb_lcd_bl_on' [-Wimplicit-function-declaration]
+   48 |     ESP_ERROR_CHECK(wavesahre_rgb_lcd_bl_on());
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_err.h:116:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2
