@@ -223,30 +223,6 @@ lcd_port.c.s:
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/lcd_port.c.s
 .PHONY : lcd_port.c.s
 
-lvgl_port.obj: lvgl_port.c.obj
-.PHONY : lvgl_port.obj
-
-# target to build an object file
-lvgl_port.c.obj:
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/lvgl_port.c.obj
-.PHONY : lvgl_port.c.obj
-
-lvgl_port.i: lvgl_port.c.i
-.PHONY : lvgl_port.i
-
-# target to preprocess a source file
-lvgl_port.c.i:
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/lvgl_port.c.i
-.PHONY : lvgl_port.c.i
-
-lvgl_port.s: lvgl_port.c.s
-.PHONY : lvgl_port.s
-
-# target to generate assembly for a file
-lvgl_port.c.s:
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/lvgl_port.c.s
-.PHONY : lvgl_port.c.s
-
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -290,9 +266,6 @@ help:
 	@echo "... lcd_port.obj"
 	@echo "... lcd_port.i"
 	@echo "... lcd_port.s"
-	@echo "... lvgl_port.obj"
-	@echo "... lvgl_port.i"
-	@echo "... lvgl_port.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

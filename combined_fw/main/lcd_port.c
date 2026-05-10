@@ -1,21 +1,23 @@
 #include "lcd_port.h"
 #include "aw9523.h"
-#include "lvgl_port.h"
 #include "esp_lcd_panel_ops.h"
 #include "esp_lcd_panel_rgb.h"
 #include "esp_lcd_touch_gt911.h"
 #include "driver/gpio.h"
 #include "driver/ledc.h"
 #include "esp_log.h"
+#include <string.h>
 
 static const char *TAG_LCD = "lcd_port";
 static esp_lcd_panel_handle_t g_panel = NULL;
+static void *g_fb0 = NULL, *g_fb1 = NULL;
+static esp_lcd_touch_handle_t g_tp = NULL;
 
 IRAM_ATTR static bool on_vsync(esp_lcd_panel_handle_t panel,
                                 const esp_lcd_rgb_panel_event_data_t *edata,
                                 void *user_ctx)
 {
-    return lvgl_port_notify_rgb_vsync();
+    return false;
 }
 
 esp_err_t lcd_port_init(void)
@@ -81,14 +83,13 @@ esp_err_t lcd_port_init(void)
     };
     ESP_ERROR_CHECK(esp_lcd_new_rgb_panel(&panel_config, &g_panel));
 
-    void *fb = NULL;
-    esp_lcd_rgb_panel_get_frame_buffer(g_panel, 1, &fb);
-    if (fb) memset(fb, 0, CFG_LCD_H_RES * CFG_LCD_V_RES * 2);
+    esp_lcd_rgb_panel_get_frame_buffer(g_panel, CFG_LCD_FB_COUNT, &g_fb0, &g_fb1);
+    if (g_fb0) memset(g_fb0, 0, CFG_LCD_H_RES * CFG_LCD_V_RES * 2);
+    if (g_fb1) memset(g_fb1, 0, CFG_LCD_H_RES * CFG_LCD_V_RES * 2);
 
     ESP_ERROR_CHECK(esp_lcd_panel_init(g_panel));
-    if (fb) esp_lcd_panel_draw_bitmap(g_panel, 0, 0, CFG_LCD_H_RES, CFG_LCD_V_RES, fb);
+    if (g_fb0) esp_lcd_panel_draw_bitmap(g_panel, 0, 0, CFG_LCD_H_RES, CFG_LCD_V_RES, g_fb0);
 
-    esp_lcd_touch_handle_t tp = NULL;
     esp_lcd_panel_io_handle_t tp_io = NULL;
     esp_lcd_panel_io_i2c_config_t tp_io_conf = ESP_LCD_TOUCH_IO_I2C_GT911_CONFIG();
     tp_io_conf.scl_speed_hz = 0;
@@ -106,35 +107,23 @@ esp_err_t lcd_port_init(void)
         .flags = { .swap_xy = 0, .mirror_x = 0, .mirror_y = 0 },
     };
     if (tp_io) {
-        ret = esp_lcd_touch_new_i2c_gt911(tp_io, &tp_cfg, &tp);
+        ret = esp_lcd_touch_new_i2c_gt911(tp_io, &tp_cfg, &g_tp);
         if (ret == ESP_OK) {
             ESP_LOGI(TAG_LCD, "Touch: GT911 detected at 0x5B");
         } else {
             ESP_LOGW(TAG_LCD, "Touch: GT911 not found (0x%x)", ret);
-            tp = NULL;
+            g_tp = NULL;
         }
     }
 
-    ESP_ERROR_CHECK(lvgl_port_init(g_panel, tp));
-
-    esp_lcd_rgb_panel_event_callbacks_t cbs = {
-        .on_bounce_frame_finish = on_vsync,
-    };
-    ESP_ERROR_CHECK(esp_lcd_rgb_panel_register_event_callbacks(g_panel, &cbs, NULL));
-
-    ESP_LOGI(TAG_LCD, "LCD ready %dx%d CLK=%dMHz HSYNC=%d/%d/%d VSYNC=%d/%d/%d POL=%d FBS=%d",
-             CFG_LCD_H_RES, CFG_LCD_V_RES,
-             CFG_LCD_PCLK_MHZ,
-             CFG_LCD_HSYNC_PW, CFG_LCD_HSYNC_BP, CFG_LCD_HSYNC_FP,
-             CFG_LCD_VSYNC_PW, CFG_LCD_VSYNC_BP, CFG_LCD_VSYNC_FP,
-             CFG_LCD_PCLK_NEG, CFG_LCD_FB_COUNT);
+    // Touch init done — main.c will init LVGL and indev separately
     return ESP_OK;
 }
 
-void *lcd_port_get_panel_handle(void)
-{
-    return g_panel;
-}
+void *lcd_port_get_panel_handle(void) { return g_panel; }
+void *lcd_port_get_fb0(void)           { return g_fb0; }
+void *lcd_port_get_fb1(void)           { return g_fb1; }
+void *lcd_port_get_touch_handle(void)  { return g_tp; }
 
 esp_err_t lcd_port_bl_on(void)
 {

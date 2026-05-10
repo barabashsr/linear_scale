@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_main.dir/aw9523.c.obj.d"
   "CMakeFiles/__idf_main.dir/lcd_port.c.obj"
   "CMakeFiles/__idf_main.dir/lcd_port.c.obj.d"
-  "CMakeFiles/__idf_main.dir/lvgl_port.c.obj"
-  "CMakeFiles/__idf_main.dir/lvgl_port.c.obj.d"
   "CMakeFiles/__idf_main.dir/main.c.obj"
   "CMakeFiles/__idf_main.dir/main.c.obj.d"
   "libmain.a"

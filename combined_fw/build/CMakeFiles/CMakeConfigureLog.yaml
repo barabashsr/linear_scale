@@ -32,9 +32,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -65,9 +65,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/git"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/git"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/git"
-      - "/usr/local/opt/python@3.13/bin/git"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/git"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/git"
+      - "/usr/local/opt/python@3.13/bin/git"
       - "/Users/sergeybarabash/.opencode/bin/git"
       - "/Users/sergeybarabash/.npm-global/bin/git"
       - "/usr/local/opt/binutils/bin/git"
@@ -78,16 +78,6 @@ events:
     found: "/usr/bin/git"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -154,9 +144,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -187,9 +177,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/uname"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/uname"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/uname"
-      - "/usr/local/opt/python@3.13/bin/uname"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/uname"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/uname"
+      - "/usr/local/opt/python@3.13/bin/uname"
       - "/Users/sergeybarabash/.opencode/bin/uname"
       - "/Users/sergeybarabash/.npm-global/bin/uname"
       - "/usr/local/opt/binutils/bin/uname"
@@ -200,16 +190,6 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -287,9 +267,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -320,9 +300,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/gmake"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/gmake"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/gmake"
-      - "/usr/local/opt/python@3.13/bin/gmake"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/gmake"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/gmake"
+      - "/usr/local/opt/python@3.13/bin/gmake"
       - "/Users/sergeybarabash/.opencode/bin/gmake"
       - "/Users/sergeybarabash/.npm-global/bin/gmake"
       - "/usr/local/opt/binutils/bin/gmake"
@@ -352,9 +332,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/make"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/make"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/make"
-      - "/usr/local/opt/python@3.13/bin/make"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/make"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/make"
+      - "/usr/local/opt/python@3.13/bin/make"
       - "/Users/sergeybarabash/.opencode/bin/make"
       - "/Users/sergeybarabash/.npm-global/bin/make"
       - "/usr/local/opt/binutils/bin/make"
@@ -365,16 +345,6 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -442,9 +412,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -474,16 +444,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -551,16 +511,6 @@ events:
     found: "/usr/local/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -652,9 +602,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -678,16 +628,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ar"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -756,9 +696,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -782,16 +722,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -860,9 +790,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -886,16 +816,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-strip"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -964,9 +884,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -990,16 +910,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-ld"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -1068,9 +978,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -1094,16 +1004,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-nm"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -1172,9 +1072,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -1198,16 +1098,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -1276,9 +1166,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -1302,16 +1192,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objcopy"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -1380,9 +1260,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -1406,16 +1286,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-readelf"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -1484,9 +1354,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -1517,9 +1387,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-dlltool"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-dlltool"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-dlltool"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-dlltool"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-dlltool"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-dlltool"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-dlltool"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-dlltool"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-dlltool"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-dlltool"
@@ -1549,24 +1419,14 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/dlltool"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/dlltool"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/dlltool"
-      - "/usr/local/opt/python@3.13/bin/dlltool"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/dlltool"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/dlltool"
+      - "/usr/local/opt/python@3.13/bin/dlltool"
       - "/Users/sergeybarabash/.opencode/bin/dlltool"
       - "/Users/sergeybarabash/.npm-global/bin/dlltool"
     found: "/usr/local/opt/binutils/bin/dlltool"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -1635,9 +1495,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -1661,16 +1521,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-addr2line"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -1739,9 +1589,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -1772,9 +1622,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-tapi"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-tapi"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-tapi"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-tapi"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-tapi"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-tapi"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-tapi"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-tapi"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-tapi"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-tapi"
@@ -1804,9 +1654,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/tapi"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/tapi"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/tapi"
-      - "/usr/local/opt/python@3.13/bin/tapi"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/tapi"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/tapi"
+      - "/usr/local/opt/python@3.13/bin/tapi"
       - "/Users/sergeybarabash/.opencode/bin/tapi"
       - "/Users/sergeybarabash/.npm-global/bin/tapi"
       - "/usr/local/opt/binutils/bin/tapi"
@@ -1830,16 +1680,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -1910,9 +1750,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -1943,9 +1783,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ar-14.2"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
@@ -1975,9 +1815,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ar-14"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ar-14"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ar-14"
@@ -2007,9 +1847,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ar14"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ar14"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ar14"
@@ -2033,16 +1873,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -2113,9 +1943,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -2146,9 +1976,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ranlib-14.2"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
@@ -2178,9 +2008,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ranlib-14"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
@@ -2210,9 +2040,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ranlib14"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ranlib14"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ranlib14"
@@ -2236,16 +2066,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -2313,9 +2133,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -2345,16 +2165,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -2422,16 +2232,6 @@ events:
     found: "/usr/local/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -2525,9 +2325,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -2558,9 +2358,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ar-14.2"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ar-14.2"
@@ -2590,9 +2390,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ar-14"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ar-14"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ar-14"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ar-14"
@@ -2622,9 +2422,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ar14"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ar14"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ar14"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ar14"
@@ -2648,16 +2448,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -2728,9 +2518,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -2761,9 +2551,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ranlib-14.2"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ranlib-14.2"
@@ -2793,9 +2583,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ranlib-14"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ranlib-14"
@@ -2825,9 +2615,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ranlib14"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ranlib14"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ranlib14"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ranlib14"
@@ -2851,16 +2641,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -2928,9 +2708,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -2960,16 +2740,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -3054,9 +2824,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -3087,9 +2857,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ar-"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ar-"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ar-"
@@ -3119,9 +2889,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ar-"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ar-"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ar-"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ar-"
@@ -3145,16 +2915,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -3225,9 +2985,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/"
-      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/"
+      - "/usr/local/opt/python@3.13/bin/"
       - "/Users/sergeybarabash/.opencode/bin/"
       - "/Users/sergeybarabash/.npm-global/bin/"
       - "/usr/local/opt/binutils/bin/"
@@ -3258,9 +3018,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ranlib-"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ranlib-"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ranlib-"
@@ -3290,9 +3050,9 @@ events:
       - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin/xtensa-esp32s3-elf-gcc-ranlib-"
-      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/tools/xtensa-esp32s3-elf-gcc-ranlib-"
+      - "/usr/local/opt/python@3.13/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.opencode/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/Users/sergeybarabash/.npm-global/bin/xtensa-esp32s3-elf-gcc-ranlib-"
       - "/usr/local/opt/binutils/bin/xtensa-esp32s3-elf-gcc-ranlib-"
@@ -3316,16 +3076,6 @@ events:
     found: "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
-        - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin"
-        - "/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20241119/riscv32-esp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/sergeybarabash/.espressif/tools/openocd-esp32/v0.12.0-esp32-20241016/openocd-esp32/bin"
-        - "/usr/local/opt/python@3.13/bin"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/espcoredump"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/partition_table"
         - "/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/app_update"
@@ -3373,8 +3123,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-Uma26d"
-      binary: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-Uma26d"
+      source: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-6jJds5"
+      binary: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-6jJds5"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3384,12 +3134,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-Uma26d'
+        Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-6jJds5'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3efd3/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3efd3.dir/build.make CMakeFiles/cmTC_3efd3.dir/build
-        Building C object CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10694/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_10694.dir/build.make CMakeFiles/cmTC_10694.dir/build
+        Building C object CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         Target: xtensa-esp-elf
@@ -3397,8 +3147,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_3efd3.dir/'
-         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32s3 -iprefix /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3efd3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccM2oRfx.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_10694.dir/'
+         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32s3 -iprefix /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_10694.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc2ffrli.s
         GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3415,13 +3165,13 @@ events:
          /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: 0939809de5f4e08794562fed3fed61bf
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_3efd3.dir/'
-         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccM2oRfx.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_10694.dir/'
+         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc2ffrli.s
         COMPILER_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_3efd3
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3efd3.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_10694
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10694.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -3432,10 +3182,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_3efd3' '-dumpdir' 'cmTC_3efd3.'
-         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccjEcOkZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_3efd3 /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -L/usr/local/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_3efd3' '-dumpdir' 'cmTC_3efd3.'
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib -v CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj -o cmTC_3efd3
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_10694' '-dumpdir' 'cmTC_10694.'
+         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc04EUf0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_10694 /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -L/usr/local/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_10694' '-dumpdir' 'cmTC_10694.'
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib -v CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj -o cmTC_10694
         
       exitCode: 0
   -
@@ -3470,12 +3220,12 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-Uma26d']
+        ignore line: [Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-6jJds5']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3efd3/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3efd3.dir/build.make CMakeFiles/cmTC_3efd3.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10694/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_10694.dir/build.make CMakeFiles/cmTC_10694.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [Target: xtensa-esp-elf]
@@ -3483,8 +3233,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_3efd3.dir/']
-        ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32s3 -iprefix /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3efd3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccM2oRfx.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_10694.dir/']
+        ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32s3 -iprefix /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/local/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_10694.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc2ffrli.s]
         ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3501,13 +3251,13 @@ events:
         ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0939809de5f4e08794562fed3fed61bf]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_3efd3.dir/']
-        ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccM2oRfx.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_10694.dir/']
+        ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc2ffrli.s]
         ignore line: [COMPILER_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_3efd3]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3efd3.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_10694]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10694.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -3518,13 +3268,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_3efd3' '-dumpdir' 'cmTC_3efd3.']
-        link line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccjEcOkZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_3efd3 /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -L/usr/local/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_10694' '-dumpdir' 'cmTC_10694.']
+        link line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc04EUf0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_10694 /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -L/usr/local/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccjEcOkZ.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc04EUf0.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3533,7 +3283,7 @@ events:
           arg [--sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32s3.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_3efd3] ==> ignore
+          arg [cmTC_10694] ==> ignore
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o]
@@ -3546,7 +3296,7 @@ events:
           arg [-L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -3554,8 +3304,8 @@ events:
           arg [-lgcc] ==> lib [gcc]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_3efd3' '-dumpdir' 'cmTC_3efd3.']
-        ignore line: [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib -v CMakeFiles/cmTC_3efd3.dir/CMakeCCompilerABI.c.obj -o cmTC_3efd3]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_10694' '-dumpdir' 'cmTC_10694.']
+        ignore line: [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib -v CMakeFiles/cmTC_10694.dir/CMakeCCompilerABI.c.obj -o cmTC_10694]
         ignore line: []
         ignore line: []
         collapse obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o]
@@ -3588,8 +3338,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-IHkdZu"
-      binary: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-IHkdZu"
+      source: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-pNEeYL"
+      binary: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-pNEeYL"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3600,12 +3350,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-IHkdZu'
+        Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-pNEeYL'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_54775/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_54775.dir/build.make CMakeFiles/cmTC_54775.dir/build
-        Building CXX object CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4dfce/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4dfce.dir/build.make CMakeFiles/cmTC_4dfce.dir/build
+        Building CXX object CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         Target: xtensa-esp-elf
@@ -3613,8 +3363,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_54775.dir/'
-         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32s3 -iprefix /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_54775.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccKmpnlv.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4dfce.dir/'
+         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32s3 -iprefix /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4dfce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccFKVQzn.s
         GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version 8.3.0, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3637,13 +3387,13 @@ events:
          /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: e15e2fd6ba0fc329de9e3e68b54cd450
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_54775.dir/'
-         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccKmpnlv.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4dfce.dir/'
+         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccFKVQzn.s
         COMPILER_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_54775
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54775.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_4dfce
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dfce.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         COLLECT_LTO_WRAPPER=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -3654,10 +3404,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) 
         COMPILER_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_54775' '-dumpdir' 'cmTC_54775.'
-         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc9OzHNR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_54775 /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -L/usr/local/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_54775' '-dumpdir' 'cmTC_54775.'
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib -v CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_54775
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_4dfce' '-dumpdir' 'cmTC_4dfce.'
+         /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccIaIM4P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_4dfce /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -L/usr/local/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_4dfce' '-dumpdir' 'cmTC_4dfce.'
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib -v CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_4dfce
         
       exitCode: 0
   -
@@ -3698,12 +3448,12 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-IHkdZu']
+        ignore line: [Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-pNEeYL']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_54775/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_54775.dir/build.make CMakeFiles/cmTC_54775.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4dfce/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4dfce.dir/build.make CMakeFiles/cmTC_4dfce.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++   -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [Target: xtensa-esp-elf]
@@ -3711,8 +3461,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_54775.dir/']
-        ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32s3 -iprefix /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_54775.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccKmpnlv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4dfce.dir/']
+        ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32s3 -iprefix /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4dfce.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32s3.so -mlongcalls -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccFKVQzn.s]
         ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20241119) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3735,13 +3485,13 @@ events:
         ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e15e2fd6ba0fc329de9e3e68b54cd450]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_54775.dir/']
-        ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccKmpnlv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4dfce.dir/']
+        ignore line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32s3.so -o CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccFKVQzn.s]
         ignore line: [COMPILER_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_54775]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54775.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_4dfce]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dfce.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -3752,13 +3502,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20241119) ]
         ignore line: [COMPILER_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_54775' '-dumpdir' 'cmTC_54775.']
-        link line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc9OzHNR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_54775 /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -L/usr/local/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_4dfce' '-dumpdir' 'cmTC_4dfce.']
+        link line: [ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccIaIM4P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32s3.so -o cmTC_4dfce /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o -L/usr/local/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32s3 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//cc9OzHNR.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/4n/2pqh4bjj09gfn5ch4lbtt3240000gn/T//ccIaIM4P.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3767,7 +3517,7 @@ events:
           arg [--sysroot=/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32s3.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_54775] ==> ignore
+          arg [cmTC_4dfce] ==> ignore
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crti.o]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtbegin.o]
@@ -3780,7 +3530,7 @@ events:
           arg [-L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -3790,8 +3540,8 @@ events:
           arg [-lgcc] ==> lib [gcc]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtend.o]
           arg [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o] ==> obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32s3/crtn.o]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_54775' '-dumpdir' 'cmTC_54775.']
-        ignore line: [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib -v CMakeFiles/cmTC_54775.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_54775]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32s3.so' '-mlongcalls' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-L/usr/local/lib' '-v' '-o' 'cmTC_4dfce' '-dumpdir' 'cmTC_4dfce.']
+        ignore line: [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++ -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib -v CMakeFiles/cmTC_4dfce.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_4dfce]
         ignore line: []
         ignore line: []
         collapse obj [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32s3/crt0.o] ==> [/Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3/crt0.o]
@@ -3825,8 +3575,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-u7NMx6"
-      binary: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-u7NMx6"
+      source: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-6QFims"
+      binary: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-6QFims"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3836,21 +3586,21 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-u7NMx6'
+        Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-6QFims'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1565c/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1565c.dir/build.make CMakeFiles/cmTC_1565c.dir/build
-        Building C object CMakeFiles/cmTC_1565c.dir/src.c.obj
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -o CMakeFiles/cmTC_1565c.dir/src.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-u7NMx6/src.c
-        Linking C executable cmTC_1565c
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1565c.dir/link.txt --verbose=1
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_1565c.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_1565c.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_1565c.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_1565c.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_1565c.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_1565c.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib  CMakeFiles/cmTC_1565c.dir/src.c.obj -o cmTC_1565c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_60bec/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_60bec.dir/build.make CMakeFiles/cmTC_60bec.dir/build
+        Building C object CMakeFiles/cmTC_60bec.dir/src.c.obj
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -o CMakeFiles/cmTC_60bec.dir/src.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-6QFims/src.c
+        Linking C executable cmTC_60bec
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60bec.dir/link.txt --verbose=1
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_60bec.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_60bec.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_60bec.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_60bec.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_60bec.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_60bec.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy  -L/usr/local/lib  CMakeFiles/cmTC_60bec.dir/src.c.obj -o cmTC_60bec
         
       exitCode: 0
   -
@@ -3863,8 +3613,8 @@ events:
     checks:
       - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
     directories:
-      source: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-GdI5us"
-      binary: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-GdI5us"
+      source: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-UeUebN"
+      binary: "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-UeUebN"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3874,15 +3624,15 @@ events:
       variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
       cached: true
       stdout: |
-        Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-GdI5us'
+        Change Dir: '/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-UeUebN'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7afa5/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7afa5.dir/build.make CMakeFiles/cmTC_7afa5.dir/build
-        Building C object CMakeFiles/cmTC_7afa5.dir/src.c.obj
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_7afa5.dir/src.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-GdI5us/src.c
-        Linking C executable cmTC_7afa5
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7afa5.dir/link.txt --verbose=1
-        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  -L/usr/local/lib  CMakeFiles/cmTC_7afa5.dir/src.c.obj -o cmTC_7afa5
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_293de/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_293de.dir/build.make CMakeFiles/cmTC_293de.dir/build
+        Building C object CMakeFiles/cmTC_293de.dir/src.c.obj
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_293de.dir/src.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles/CMakeScratch/TryCompile-UeUebN/src.c
+        Linking C executable cmTC_293de
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_293de.dir/link.txt --verbose=1
+        /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  -L/usr/local/lib  CMakeFiles/cmTC_293de.dir/src.c.obj -o cmTC_293de
         
       exitCode: 0
 ...

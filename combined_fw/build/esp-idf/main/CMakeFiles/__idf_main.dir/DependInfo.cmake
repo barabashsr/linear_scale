@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/aw9523.c" "esp-idf/main/CMakeFiles/__idf_main.dir/aw9523.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/aw9523.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c" "esp-idf/main/CMakeFiles/__idf_main.dir/lcd_port.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/lcd_port.c.obj.d"
-  "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lvgl_port.c" "esp-idf/main/CMakeFiles/__idf_main.dir/lvgl_port.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/lvgl_port.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c" "esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d"
   )
 

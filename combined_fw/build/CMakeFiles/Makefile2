@@ -3169,9 +3169,9 @@ CMakeFiles/monitor.dir/clean:
 # Target rules for target CMakeFiles/flash.dir
 
 # All Build rule for target.
+CMakeFiles/flash.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 CMakeFiles/flash.dir/all: CMakeFiles/bootloader.dir/all
 CMakeFiles/flash.dir/all: CMakeFiles/app.dir/all
-CMakeFiles/flash.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target flash"
@@ -3189,9 +3189,9 @@ flash: CMakeFiles/flash.dir/rule
 .PHONY : flash
 
 # codegen rule for target.
+CMakeFiles/flash.dir/codegen: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 CMakeFiles/flash.dir/codegen: CMakeFiles/bootloader.dir/all
 CMakeFiles/flash.dir/codegen: CMakeFiles/app.dir/all
-CMakeFiles/flash.dir/codegen: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flash.dir/build.make CMakeFiles/flash.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target flash"
 .PHONY : CMakeFiles/flash.dir/codegen
@@ -3269,12 +3269,10 @@ CMakeFiles/_project_elf_src.dir/clean:
 # Target rules for target CMakeFiles/linear_scale_combined.elf.dir
 
 # All Build rule for target.
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
@@ -3299,6 +3297,8 @@ CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/touch_element/CMakeFiles/_
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/usb/CMakeFiles/__idf_usb.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_scale_combined.elf.dir/build.make CMakeFiles/linear_scale_combined.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_scale_combined.elf.dir/build.make CMakeFiles/linear_scale_combined.elf.dir/build
@@ -4101,8 +4101,8 @@ esp-idf/esptool_py/CMakeFiles/encrypted-app-flash.dir/clean:
 # Target rules for target esp-idf/esptool_py/CMakeFiles/app_check_size.dir
 
 # All Build rule for target.
-esp-idf/esptool_py/CMakeFiles/app_check_size.dir/all: CMakeFiles/gen_project_binary.dir/all
 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/all: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
+esp-idf/esptool_py/CMakeFiles/app_check_size.dir/all: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/app_check_size.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target app_check_size"
@@ -4120,8 +4120,8 @@ app_check_size: esp-idf/esptool_py/CMakeFiles/app_check_size.dir/rule
 .PHONY : app_check_size
 
 # codegen rule for target.
-esp-idf/esptool_py/CMakeFiles/app_check_size.dir/codegen: CMakeFiles/gen_project_binary.dir/all
 esp-idf/esptool_py/CMakeFiles/app_check_size.dir/codegen: esp-idf/partition_table/CMakeFiles/partition_table_bin.dir/all
+esp-idf/esptool_py/CMakeFiles/app_check_size.dir/codegen: CMakeFiles/gen_project_binary.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esptool_py/CMakeFiles/app_check_size.dir/build.make esp-idf/esptool_py/CMakeFiles/app_check_size.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target app_check_size"
 .PHONY : esp-idf/esptool_py/CMakeFiles/app_check_size.dir/codegen
@@ -4903,10 +4903,8 @@ esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/clean:
 # Target rules for target esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir
 
 # All Build rule for target.
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
@@ -4931,6 +4929,8 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/touch_
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/usb/CMakeFiles/__idf_usb.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build
@@ -4949,10 +4949,8 @@ __ldgen_output_sections.ld: esp-idf/esp_system/CMakeFiles/__ldgen_output_section
 .PHONY : __ldgen_output_sections.ld
 
 # codegen rule for target.
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/console/CMakeFiles/__idf_console.dir/all
@@ -4977,6 +4975,8 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/to
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/usb/CMakeFiles/__idf_usb.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/main/CMakeFiles/__idf_main.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target __ldgen_output_sections.ld"
@@ -6784,9 +6784,9 @@ esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/clean:
 # Target rules for target esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir
 
 # All Build rule for target.
-esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all: esp-idf/esp_system/CMakeFiles/memory.ld.dir/all
 esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all: esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/all
+esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/all: esp-idf/mbedtls/CMakeFiles/custom_bundle.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build.make esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_esp_psram"
@@ -7406,9 +7406,9 @@ esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/c
 # Target rules for target esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir
 
 # All Build rule for target.
-esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
+esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/build.make esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/build.make esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_espressif__esp_lcd_touch_gt911"
@@ -7440,11 +7440,11 @@ esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch
 # Target rules for target esp-idf/main/CMakeFiles/__idf_main.dir
 
 # All Build rule for target.
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=68 "Built target __idf_main"

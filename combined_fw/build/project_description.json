@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "linear_scale_combined",
-    "project_version":    "9a98f04-dirty",
+    "project_version":    "1a347df-dirty",
     "project_path":       "/Users/sergeybarabash/robo/linear_scale/combined_fw",
     "idf_path":           "/Users/sergeybarabash/robo/esp/v5.4/esp-idf",
     "build_dir":          "/Users/sergeybarabash/robo/linear_scale/combined_fw/build",
@@ -1240,7 +1240,7 @@
             "managed_reqs": [ "lvgl__lvgl" ],
             "managed_priv_reqs": [ "espressif__esp_lcd_touch_gt911" ],
             "file": "/Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main/libmain.a",
-            "sources": [ "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c", "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c", "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lvgl_port.c", "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/aw9523.c" ],
+            "sources": [ "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c", "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c", "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/aw9523.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

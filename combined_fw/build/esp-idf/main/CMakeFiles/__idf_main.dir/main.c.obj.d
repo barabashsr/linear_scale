@@ -47,22 +47,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/include/esp_etm.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lvgl_port.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_types.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_assert.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/lcd_types.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/color_types.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/mipi_dsi_types.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/espressif__esp_lcd_touch/include/esp_lcd_touch.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_panel_io.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_io_i80.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_io_i2c.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_i2c/include/driver/i2c_types.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/i2c_types.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/hal_utils.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_io_spi.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_spi/include/driver/spi_master.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/include/driver/i2c.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_types.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/config/include/freertos/FreeRTOSConfig.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/config/xtensa/include/freertos/FreeRTOSConfig_arch.h \
@@ -97,6 +83,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/include/esp_memory_utils.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/soc.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_assert.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/register/soc/reg_base.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/newlib/platform_include/esp_newlib.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/heap/include/esp_heap_caps.h \
@@ -125,9 +112,15 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/spi_types.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_spi/include/driver/spi_common.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_system/include/esp_ipc.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/i2c_types.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/clk_tree_defs.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/hal_utils.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_level.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_color.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_buffer.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_timestamp.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_timer/include/esp_timer.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/lvgl.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/misc/lv_log.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/misc/../lv_conf_internal.h \
@@ -356,10 +349,18 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/imgbtn/../../../lvgl.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/span/lv_span.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/span/../../../lvgl.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/include/driver/i2c.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_types.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_level.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_color.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_buffer.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_timestamp.h
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_panel_ops.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_types.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/lcd_types.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/color_types.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/mipi_dsi_types.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/espressif__esp_lcd_touch/include/esp_lcd_touch.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_panel_io.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_io_i80.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_io_i2c.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_i2c/include/driver/i2c_types.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_io_spi.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_spi/include/driver/spi_master.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/spi_types.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_spi/include/driver/spi_common.h \
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_system/include/esp_ipc.h

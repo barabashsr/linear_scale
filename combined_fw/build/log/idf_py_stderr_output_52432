@@ -1,0 +1,56 @@
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/mbedtls/mbedtls/CMakeLists.txt:21 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.h:3,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:1:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c: In function 'lcd_port_init':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:32:33: warning: initialized field overwritten [-Woverride-init]
+   32 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:69:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   69 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:32:33: note: (near initialization for 'panel_config.<anonymous>.psram_trans_align')
+   32 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:69:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   69 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:86:16: error: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+   86 |     if (g_fb0) memset(g_fb0, 0, CFG_LCD_H_RES * CFG_LCD_V_RES * 2);
+      |                ^~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:9:1: note: 'memset' is defined in header '<string.h>'; this is probably fixable by adding '#include <string.h>'
+    8 | #include "esp_log.h"
+  +++ |+#include <string.h>
+    9 | 
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c: At top level:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:15:23: warning: 'on_vsync' defined but not used [-Wunused-function]
+   15 | IRAM_ATTR static bool on_vsync(esp_lcd_panel_handle_t panel,
+      |                       ^~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/lcd_port.c.obj] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c: In function 'touch_read':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:25:5: error: implicit declaration of function 'esp_lcd_touch_read_data' [-Wimplicit-function-declaration]
+   25 |     esp_lcd_touch_read_data(g_tp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:26:9: error: implicit declaration of function 'esp_lcd_touch_get_coordinates' [-Wimplicit-function-declaration]
+   26 |     if (esp_lcd_touch_get_coordinates(g_tp, &x, &y, NULL, &cnt, 1) && cnt > 0) {
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

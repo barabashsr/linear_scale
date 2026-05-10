@@ -23,7 +23,7 @@
 #define CFG_LCD_DATA_WIDTH      16
 #define CFG_LCD_BPP             16
 #define CFG_LCD_BOUNCE_H        30
-#define CFG_LCD_FB_COUNT        1
+#define CFG_LCD_FB_COUNT        2
 
 /* ── Screen position offset (calibrated) ──────── */
 #define CFG_UI_X_OFFSET          15

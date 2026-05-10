@@ -1,7 +1,6 @@
 idf_component_register(
     SRCS "main.c"
          "lcd_port.c"
-         "lvgl_port.c"
          "aw9523.c"
     INCLUDE_DIRS "."
     REQUIRES driver freertos esp_timer esp_lcd
