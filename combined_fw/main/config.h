@@ -24,9 +24,6 @@
 #define CFG_LCD_BPP             16
 #define CFG_LCD_BOUNCE_H        30
 #define CFG_LCD_FB_COUNT        2
-
-/* ── Screen position offset (calibrated) ──────── */
-#define CFG_UI_X_OFFSET          15
 #define CFG_LCD_FB_IN_PSRAM     1
 #define CFG_LCD_SRAM_ALIGN      4
 #define CFG_LCD_PSRAM_ALIGN     64
@@ -66,78 +63,45 @@
 #define CFG_AW9523_RST_LOW_MS   10
 #define CFG_AW9523_RST_DELAY_MS 50
 
+/* ── AW9523 button inputs (port0) ────────────── */
+#define CFG_BTN_AW_RADIAL_T1    0
+#define CFG_BTN_AW_RADIAL_T2    1
+#define CFG_BTN_AW_AXIAL_T1     2
+#define CFG_BTN_AW_AXIAL_T2     3
+#define CFG_BTN_AW_RD_TOGGLE    4
+#define CFG_BTN_AW_ZERO         5
+
 /* ── Linear scales (PCNT quadrature) ─────────── */
 #define CFG_SCALE_AXIAL_A       GPIO_NUM_20
 #define CFG_SCALE_AXIAL_B       GPIO_NUM_19
 #define CFG_SCALE_RADIAL_A      GPIO_NUM_41
 #define CFG_SCALE_RADIAL_B      GPIO_NUM_40
-
 #define CFG_SCALE_MM_PER_COUNT  0.005f
+#define CFG_SCALE_AXIAL_MM      0.005f
+#define CFG_SCALE_RADIAL_MM     0.005f
 #define CFG_PCNT_LIMIT          20000
 #define CFG_PCNT_GLITCH_NS      5000
 
 /* ── Spindle encoder ─────────────────────────── */
 #define CFG_SPINDLE_A           GPIO_NUM_4
 #define CFG_SPINDLE_B           GPIO_NUM_1
+#define CFG_SPINDLE_Z           GPIO_NUM_2
 #define CFG_SPINDLE_CPR         400.0f
+#define CFG_SPINDLE_GEAR_NUM    1
+#define CFG_SPINDLE_GEAR_DEN    1
+#define CFG_SPINDLE_RPM_MS      500
 
-/* ── Physical buttons ────────────────────────── */
-#define CFG_BTN_RD_TOGGLE_GPIO  GPIO_NUM_42
-#define CFG_BTN_SPARE_GPIO      GPIO_NUM_2
+/* ── Physical buttons (debounce) ─────────────── */
 #define CFG_BTN_DEBOUNCE_TICKS  3
-#define CFG_BTN_POLL_US         10000
-#define CFG_BTN_SPARE_COUNT     2
+
+/* ── Screen position offset ──────────────────── */
+#define CFG_UI_X_OFFSET          20
 
 /* ── UI layout ───────────────────────────────── */
-#define CFG_UI_HALF_W           390
-#define CFG_UI_FULL_H           480
-#define CFG_UI_PAD              8
-#define CFG_UI_AXIAL_XOFF       6
-#define CFG_UI_MARGIN           16
-
-/* ── UI widget sizes ─────────────────────────── */
-#define CFG_UI_CONN_H           20
-#define CFG_UI_GAP_TITLE        22
-#define CFG_UI_TITLE_H          24
-#define CFG_UI_GAP_VALUE        28
-#define CFG_UI_MAIN_VALUE_H     52
-#define CFG_UI_MAIN_LABEL_H     20
-#define CFG_UI_GAP_LABEL        24
-#define CFG_UI_BTN_ZERO_H       36
-#define CFG_UI_GAP_SP           44
-#define CFG_UI_SP_ROW_H         44
-#define CFG_UI_SP_BTN_SIZE      32
-#define CFG_UI_SP_ROW_GAP       48
-#define CFG_UI_ENTRY_H          40
-#define CFG_UI_ENTRY_TA_W       80
-#define CFG_UI_ENTRY_TA_H       28
-#define CFG_UI_ENTRY_TA_MAXLEN  8
-#define CFG_UI_ENTRY_OK_W       36
-#define CFG_UI_ENTRY_OK_H       28
-#define CFG_UI_SPINDLE_H        36
-#define CFG_UI_SPINDLE_BTN_W    32
-#define CFG_UI_SPINDLE_BTN_H    28
-#define CFG_UI_SPINDLE_YOFF     44
-
-/* ── UI dialog ───────────────────────────────── */
-#define CFG_UI_DLG_W            280
-#define CFG_UI_DLG_H            120
-#define CFG_UI_DLG_BORDER       2
-#define CFG_UI_DLG_RADIUS       8
-#define CFG_UI_DLG_TITLE_Y      12
-#define CFG_UI_DLG_BTN_W        100
-#define CFG_UI_DLG_BTN_H        36
-#define CFG_UI_DLG_BTN_XOFF     20
-#define CFG_UI_DLG_BTN_YOFF     (-12)
-
-/* ── UI styles ───────────────────────────────── */
-#define CFG_UI_PANEL_BORDER     1
-#define CFG_UI_PANEL_RADIUS     8
-#define CFG_UI_PANEL_PAD        6
-#define CFG_UI_BTN_RADIUS       4
-#define CFG_UI_BTN_PAD          4
-#define CFG_UI_DANGER_RADIUS    4
-#define CFG_UI_DANGER_PAD       4
+#define CFG_UI_HALF_W           380
+#define CFG_UI_PAD              10
+#define CFG_UI_MARGIN           10
+#define CFG_UI_SP_V_GAP         8
 
 /* ── UI colors ───────────────────────────────── */
 #define CFG_COLOR_BG            0x1A1A2E
@@ -151,7 +115,6 @@
 #define CFG_COLOR_CONFIRM_BG    0xC0392B
 #define CFG_COLOR_CANCEL_BG     0x7F8C8D
 
-/* ── UI colors as lv_color_t ─────────────────── */
 #define CFG_LV_BG               lv_color_hex(CFG_COLOR_BG)
 #define CFG_LV_PANEL_BG         lv_color_hex(CFG_COLOR_PANEL_BG)
 #define CFG_LV_ACCENT           lv_color_hex(CFG_COLOR_ACCENT)
@@ -165,25 +128,39 @@
 
 /* ── UI fonts ────────────────────────────────── */
 #define CFG_FONT_CONN           &lv_font_montserrat_14
-#define CFG_FONT_SMALL          &lv_font_montserrat_12
-#define CFG_FONT_BTN            &lv_font_montserrat_16
-#define CFG_FONT_SP_VALUE       &lv_font_montserrat_20
-#define CFG_FONT_SPINDLE        &lv_font_montserrat_20
-#define CFG_FONT_MAIN_VALUE     &lv_font_montserrat_48
-#define CFG_FONT_MAIN_LABEL     &lv_font_montserrat_24
-#define CFG_FONT_TITLE          &lv_font_montserrat_20
+#define CFG_FONT_SMALL          UI_FONT_SMALL
+#define CFG_FONT_BTN            UI_FONT_LABEL
+#define CFG_FONT_SP_VALUE       UI_FONT_SETPOINT
+#define CFG_FONT_MAIN_VALUE     UI_FONT_MAIN
+#define CFG_FONT_MAIN_LABEL     UI_FONT_LABEL
+#define CFG_FONT_TITLE          UI_FONT_TITLE
+
+/* ── UI styles ───────────────────────────────── */
+#define CFG_UI_PANEL_BORDER     1
+#define CFG_UI_PANEL_RADIUS     8
+#define CFG_UI_PANEL_PAD        8
+#define CFG_UI_BTN_RADIUS       6
+#define CFG_UI_BTN_PAD          6
+#define CFG_UI_DANGER_RADIUS    6
+#define CFG_UI_DANGER_PAD       6
+
+/* ── Setpoints ───────────────────────────────── */
+#define CFG_MAX_SETPOINTS       2
+
+/* ── Numpad modal ────────────────────────────── */
+#define CFG_NUMPAD_COLS         4
+#define CFG_NUMPAD_BTN_W        60
+#define CFG_NUMPAD_BTN_H        50
+
+/* ── Diameter modal ──────────────────────────── */
+#define CFG_DIAM_MIN_MM         0.0f
+#define CFG_DIAM_MAX_MM         500.0f
+#define CFG_DIAM_SLIDER_RES     5000
+#define CFG_DIAM_DEFAULT_MM      25.0f
 
 /* ── Application ─────────────────────────────── */
-#define CFG_APP_POLL_MS         25
-#define CFG_APP_LVGL_LOCK_MS    50
-#define CFG_APP_INIT_LOCK_MS    5000
-#define CFG_APP_TASK_STACK      4096
-#define CFG_APP_TASK_PRIO       5
+#define CFG_APP_POLL_MS         1
 #define CFG_APP_POS_BUF_LEN     32
-#define CFG_APP_ZERO_THRESHOLD  0.0005f
-
-/* ── Number of setpoints per axis ────────────── */
-#define CFG_MAX_SETPOINTS       4
 
 /* ── I2C timeouts (ms) ───────────────────────── */
 #define CFG_I2C_TOUT_SHORT      10

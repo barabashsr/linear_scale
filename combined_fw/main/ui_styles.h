@@ -1,20 +1,8 @@
 #pragma once
 
-#include "config.h"
 #include "lvgl.h"
 
-extern lv_style_t style_bg;
-extern lv_style_t style_panel;
-extern lv_style_t style_title;
-extern lv_style_t style_value_large;
-extern lv_style_t style_value_medium;
-extern lv_style_t style_sp_value;
-extern lv_style_t style_sp_active;
-extern lv_style_t style_btn;
-extern lv_style_t style_btn_danger;
-extern lv_style_t style_btn_active;
-extern lv_style_t style_label_small;
-extern lv_style_t style_conn_ok;
-extern lv_style_t style_conn_err;
+extern lv_style_t s_bg, s_panel, s_title, s_val_big, s_val_med, s_val_sp, s_val_act;
+extern lv_style_t s_btn, s_btn_danger, s_small, s_green, s_red;
 
-void ui_styles_init(void);
+void styles_init(void);

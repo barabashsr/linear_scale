@@ -19,6 +19,7 @@ static bool IRAM_ATTR on_reach(pcnt_unit_handle_t unit,
     int32_t *pos = (int32_t *)user_ctx;
     if (edata->watch_point_value > 0) *pos += CFG_PCNT_LIMIT;
     else                              *pos -= CFG_PCNT_LIMIT;
+    pcnt_unit_clear_count(unit);
     return false;
 }
 

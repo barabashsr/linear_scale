@@ -1,0 +1,4 @@
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_main.c: In function 'ui_main_update':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_main.c:349:14: warning: unused variable 'st' [-Wunused-variable]
+  349 |     state_t *st = logic_get();
+      |              ^~

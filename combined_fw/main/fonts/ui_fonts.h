@@ -21,13 +21,16 @@ LV_FONT_DECLARE(ui_font_roboto_bold_36);
 LV_FONT_DECLARE(ui_font_roboto_bold_48);
 LV_FONT_DECLARE(ui_font_roboto_bold_56);
 LV_FONT_DECLARE(ui_font_roboto_bold_60);
+LV_FONT_DECLARE(ui_font_roboto_bold_72);
 
 /* Font aliases for semantic usage */
-#define UI_FONT_LABEL       &ui_font_roboto_20     /* Parameter labels, info text */
-#define UI_FONT_TITLE       &ui_font_roboto_24     /* Section titles */
-#define UI_FONT_HEADER      &ui_font_roboto_28     /* Screen headers */
-#define UI_FONT_VALUE       &ui_font_roboto_bold_48 /* Parameter values - 48px bold */
-#define UI_FONT_LARGE       &ui_font_roboto_bold_48 /* Large values, numpad */
+#define UI_FONT_SMALL        &ui_font_roboto_20
+#define UI_FONT_LABEL        &ui_font_roboto_24
+#define UI_FONT_TITLE        &ui_font_roboto_28
+#define UI_FONT_SETPOINT     &ui_font_roboto_bold_48
+#define UI_FONT_MAIN         &ui_font_roboto_bold_72
+#define UI_FONT_LARGE        &ui_font_roboto_bold_60
+#define UI_FONT_HUGE         &ui_font_roboto_bold_72
 
 #ifdef __cplusplus
 }

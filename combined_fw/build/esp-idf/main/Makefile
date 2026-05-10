@@ -199,6 +199,222 @@ aw9523.c.s:
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/aw9523.c.s
 .PHONY : aw9523.c.s
 
+buttons.obj: buttons.c.obj
+.PHONY : buttons.obj
+
+# target to build an object file
+buttons.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.obj
+.PHONY : buttons.c.obj
+
+buttons.i: buttons.c.i
+.PHONY : buttons.i
+
+# target to preprocess a source file
+buttons.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.i
+.PHONY : buttons.c.i
+
+buttons.s: buttons.c.s
+.PHONY : buttons.s
+
+# target to generate assembly for a file
+buttons.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.s
+.PHONY : buttons.c.s
+
+fonts/ui_font_roboto_20.obj: fonts/ui_font_roboto_20.c.obj
+.PHONY : fonts/ui_font_roboto_20.obj
+
+# target to build an object file
+fonts/ui_font_roboto_20.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj
+.PHONY : fonts/ui_font_roboto_20.c.obj
+
+fonts/ui_font_roboto_20.i: fonts/ui_font_roboto_20.c.i
+.PHONY : fonts/ui_font_roboto_20.i
+
+# target to preprocess a source file
+fonts/ui_font_roboto_20.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.i
+.PHONY : fonts/ui_font_roboto_20.c.i
+
+fonts/ui_font_roboto_20.s: fonts/ui_font_roboto_20.c.s
+.PHONY : fonts/ui_font_roboto_20.s
+
+# target to generate assembly for a file
+fonts/ui_font_roboto_20.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.s
+.PHONY : fonts/ui_font_roboto_20.c.s
+
+fonts/ui_font_roboto_24.obj: fonts/ui_font_roboto_24.c.obj
+.PHONY : fonts/ui_font_roboto_24.obj
+
+# target to build an object file
+fonts/ui_font_roboto_24.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj
+.PHONY : fonts/ui_font_roboto_24.c.obj
+
+fonts/ui_font_roboto_24.i: fonts/ui_font_roboto_24.c.i
+.PHONY : fonts/ui_font_roboto_24.i
+
+# target to preprocess a source file
+fonts/ui_font_roboto_24.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.i
+.PHONY : fonts/ui_font_roboto_24.c.i
+
+fonts/ui_font_roboto_24.s: fonts/ui_font_roboto_24.c.s
+.PHONY : fonts/ui_font_roboto_24.s
+
+# target to generate assembly for a file
+fonts/ui_font_roboto_24.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.s
+.PHONY : fonts/ui_font_roboto_24.c.s
+
+fonts/ui_font_roboto_28.obj: fonts/ui_font_roboto_28.c.obj
+.PHONY : fonts/ui_font_roboto_28.obj
+
+# target to build an object file
+fonts/ui_font_roboto_28.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj
+.PHONY : fonts/ui_font_roboto_28.c.obj
+
+fonts/ui_font_roboto_28.i: fonts/ui_font_roboto_28.c.i
+.PHONY : fonts/ui_font_roboto_28.i
+
+# target to preprocess a source file
+fonts/ui_font_roboto_28.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.i
+.PHONY : fonts/ui_font_roboto_28.c.i
+
+fonts/ui_font_roboto_28.s: fonts/ui_font_roboto_28.c.s
+.PHONY : fonts/ui_font_roboto_28.s
+
+# target to generate assembly for a file
+fonts/ui_font_roboto_28.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.s
+.PHONY : fonts/ui_font_roboto_28.c.s
+
+fonts/ui_font_roboto_bold_36.obj: fonts/ui_font_roboto_bold_36.c.obj
+.PHONY : fonts/ui_font_roboto_bold_36.obj
+
+# target to build an object file
+fonts/ui_font_roboto_bold_36.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj
+.PHONY : fonts/ui_font_roboto_bold_36.c.obj
+
+fonts/ui_font_roboto_bold_36.i: fonts/ui_font_roboto_bold_36.c.i
+.PHONY : fonts/ui_font_roboto_bold_36.i
+
+# target to preprocess a source file
+fonts/ui_font_roboto_bold_36.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.i
+.PHONY : fonts/ui_font_roboto_bold_36.c.i
+
+fonts/ui_font_roboto_bold_36.s: fonts/ui_font_roboto_bold_36.c.s
+.PHONY : fonts/ui_font_roboto_bold_36.s
+
+# target to generate assembly for a file
+fonts/ui_font_roboto_bold_36.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.s
+.PHONY : fonts/ui_font_roboto_bold_36.c.s
+
+fonts/ui_font_roboto_bold_48.obj: fonts/ui_font_roboto_bold_48.c.obj
+.PHONY : fonts/ui_font_roboto_bold_48.obj
+
+# target to build an object file
+fonts/ui_font_roboto_bold_48.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj
+.PHONY : fonts/ui_font_roboto_bold_48.c.obj
+
+fonts/ui_font_roboto_bold_48.i: fonts/ui_font_roboto_bold_48.c.i
+.PHONY : fonts/ui_font_roboto_bold_48.i
+
+# target to preprocess a source file
+fonts/ui_font_roboto_bold_48.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.i
+.PHONY : fonts/ui_font_roboto_bold_48.c.i
+
+fonts/ui_font_roboto_bold_48.s: fonts/ui_font_roboto_bold_48.c.s
+.PHONY : fonts/ui_font_roboto_bold_48.s
+
+# target to generate assembly for a file
+fonts/ui_font_roboto_bold_48.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.s
+.PHONY : fonts/ui_font_roboto_bold_48.c.s
+
+fonts/ui_font_roboto_bold_56.obj: fonts/ui_font_roboto_bold_56.c.obj
+.PHONY : fonts/ui_font_roboto_bold_56.obj
+
+# target to build an object file
+fonts/ui_font_roboto_bold_56.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj
+.PHONY : fonts/ui_font_roboto_bold_56.c.obj
+
+fonts/ui_font_roboto_bold_56.i: fonts/ui_font_roboto_bold_56.c.i
+.PHONY : fonts/ui_font_roboto_bold_56.i
+
+# target to preprocess a source file
+fonts/ui_font_roboto_bold_56.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.i
+.PHONY : fonts/ui_font_roboto_bold_56.c.i
+
+fonts/ui_font_roboto_bold_56.s: fonts/ui_font_roboto_bold_56.c.s
+.PHONY : fonts/ui_font_roboto_bold_56.s
+
+# target to generate assembly for a file
+fonts/ui_font_roboto_bold_56.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.s
+.PHONY : fonts/ui_font_roboto_bold_56.c.s
+
+fonts/ui_font_roboto_bold_60.obj: fonts/ui_font_roboto_bold_60.c.obj
+.PHONY : fonts/ui_font_roboto_bold_60.obj
+
+# target to build an object file
+fonts/ui_font_roboto_bold_60.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj
+.PHONY : fonts/ui_font_roboto_bold_60.c.obj
+
+fonts/ui_font_roboto_bold_60.i: fonts/ui_font_roboto_bold_60.c.i
+.PHONY : fonts/ui_font_roboto_bold_60.i
+
+# target to preprocess a source file
+fonts/ui_font_roboto_bold_60.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.i
+.PHONY : fonts/ui_font_roboto_bold_60.c.i
+
+fonts/ui_font_roboto_bold_60.s: fonts/ui_font_roboto_bold_60.c.s
+.PHONY : fonts/ui_font_roboto_bold_60.s
+
+# target to generate assembly for a file
+fonts/ui_font_roboto_bold_60.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.s
+.PHONY : fonts/ui_font_roboto_bold_60.c.s
+
+fonts/ui_font_roboto_bold_72.obj: fonts/ui_font_roboto_bold_72.c.obj
+.PHONY : fonts/ui_font_roboto_bold_72.obj
+
+# target to build an object file
+fonts/ui_font_roboto_bold_72.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj
+.PHONY : fonts/ui_font_roboto_bold_72.c.obj
+
+fonts/ui_font_roboto_bold_72.i: fonts/ui_font_roboto_bold_72.c.i
+.PHONY : fonts/ui_font_roboto_bold_72.i
+
+# target to preprocess a source file
+fonts/ui_font_roboto_bold_72.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.i
+.PHONY : fonts/ui_font_roboto_bold_72.c.i
+
+fonts/ui_font_roboto_bold_72.s: fonts/ui_font_roboto_bold_72.c.s
+.PHONY : fonts/ui_font_roboto_bold_72.s
+
+# target to generate assembly for a file
+fonts/ui_font_roboto_bold_72.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.s
+.PHONY : fonts/ui_font_roboto_bold_72.c.s
+
 lcd_port.obj: lcd_port.c.obj
 .PHONY : lcd_port.obj
 
@@ -247,6 +463,126 @@ main.c.s:
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.c.s
 .PHONY : main.c.s
 
+scale.obj: scale.c.obj
+.PHONY : scale.obj
+
+# target to build an object file
+scale.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.obj
+.PHONY : scale.c.obj
+
+scale.i: scale.c.i
+.PHONY : scale.i
+
+# target to preprocess a source file
+scale.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.i
+.PHONY : scale.c.i
+
+scale.s: scale.c.s
+.PHONY : scale.s
+
+# target to generate assembly for a file
+scale.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.s
+.PHONY : scale.c.s
+
+spindle_enc.obj: spindle_enc.c.obj
+.PHONY : spindle_enc.obj
+
+# target to build an object file
+spindle_enc.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.obj
+.PHONY : spindle_enc.c.obj
+
+spindle_enc.i: spindle_enc.c.i
+.PHONY : spindle_enc.i
+
+# target to preprocess a source file
+spindle_enc.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.i
+.PHONY : spindle_enc.c.i
+
+spindle_enc.s: spindle_enc.c.s
+.PHONY : spindle_enc.s
+
+# target to generate assembly for a file
+spindle_enc.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.s
+.PHONY : spindle_enc.c.s
+
+ui_logic.obj: ui_logic.c.obj
+.PHONY : ui_logic.obj
+
+# target to build an object file
+ui_logic.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.obj
+.PHONY : ui_logic.c.obj
+
+ui_logic.i: ui_logic.c.i
+.PHONY : ui_logic.i
+
+# target to preprocess a source file
+ui_logic.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.i
+.PHONY : ui_logic.c.i
+
+ui_logic.s: ui_logic.c.s
+.PHONY : ui_logic.s
+
+# target to generate assembly for a file
+ui_logic.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.s
+.PHONY : ui_logic.c.s
+
+ui_main.obj: ui_main.c.obj
+.PHONY : ui_main.obj
+
+# target to build an object file
+ui_main.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.obj
+.PHONY : ui_main.c.obj
+
+ui_main.i: ui_main.c.i
+.PHONY : ui_main.i
+
+# target to preprocess a source file
+ui_main.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.i
+.PHONY : ui_main.c.i
+
+ui_main.s: ui_main.c.s
+.PHONY : ui_main.s
+
+# target to generate assembly for a file
+ui_main.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.s
+.PHONY : ui_main.c.s
+
+ui_styles.obj: ui_styles.c.obj
+.PHONY : ui_styles.obj
+
+# target to build an object file
+ui_styles.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.obj
+.PHONY : ui_styles.c.obj
+
+ui_styles.i: ui_styles.c.i
+.PHONY : ui_styles.i
+
+# target to preprocess a source file
+ui_styles.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.i
+.PHONY : ui_styles.c.i
+
+ui_styles.s: ui_styles.c.s
+.PHONY : ui_styles.s
+
+# target to generate assembly for a file
+ui_styles.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.s
+.PHONY : ui_styles.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -263,12 +599,54 @@ help:
 	@echo "... aw9523.obj"
 	@echo "... aw9523.i"
 	@echo "... aw9523.s"
+	@echo "... buttons.obj"
+	@echo "... buttons.i"
+	@echo "... buttons.s"
+	@echo "... fonts/ui_font_roboto_20.obj"
+	@echo "... fonts/ui_font_roboto_20.i"
+	@echo "... fonts/ui_font_roboto_20.s"
+	@echo "... fonts/ui_font_roboto_24.obj"
+	@echo "... fonts/ui_font_roboto_24.i"
+	@echo "... fonts/ui_font_roboto_24.s"
+	@echo "... fonts/ui_font_roboto_28.obj"
+	@echo "... fonts/ui_font_roboto_28.i"
+	@echo "... fonts/ui_font_roboto_28.s"
+	@echo "... fonts/ui_font_roboto_bold_36.obj"
+	@echo "... fonts/ui_font_roboto_bold_36.i"
+	@echo "... fonts/ui_font_roboto_bold_36.s"
+	@echo "... fonts/ui_font_roboto_bold_48.obj"
+	@echo "... fonts/ui_font_roboto_bold_48.i"
+	@echo "... fonts/ui_font_roboto_bold_48.s"
+	@echo "... fonts/ui_font_roboto_bold_56.obj"
+	@echo "... fonts/ui_font_roboto_bold_56.i"
+	@echo "... fonts/ui_font_roboto_bold_56.s"
+	@echo "... fonts/ui_font_roboto_bold_60.obj"
+	@echo "... fonts/ui_font_roboto_bold_60.i"
+	@echo "... fonts/ui_font_roboto_bold_60.s"
+	@echo "... fonts/ui_font_roboto_bold_72.obj"
+	@echo "... fonts/ui_font_roboto_bold_72.i"
+	@echo "... fonts/ui_font_roboto_bold_72.s"
 	@echo "... lcd_port.obj"
 	@echo "... lcd_port.i"
 	@echo "... lcd_port.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... scale.obj"
+	@echo "... scale.i"
+	@echo "... scale.s"
+	@echo "... spindle_enc.obj"
+	@echo "... spindle_enc.i"
+	@echo "... spindle_enc.s"
+	@echo "... ui_logic.obj"
+	@echo "... ui_logic.i"
+	@echo "... ui_logic.s"
+	@echo "... ui_main.obj"
+	@echo "... ui_main.i"
+	@echo "... ui_main.s"
+	@echo "... ui_styles.obj"
+	@echo "... ui_styles.i"
+	@echo "... ui_styles.s"
 .PHONY : help
 
 

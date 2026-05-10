@@ -1,0 +1,26 @@
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/aw9523.h:1,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.c:2:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:86:33: warning: excess elements in array initializer
+   86 | #define CFG_BTN_ZERO_GPIO       GPIO_NUM_2
+      |                                 ^~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.c:10:29: note: in expansion of macro 'CFG_BTN_ZERO_GPIO'
+   10 |     CFG_BTN_RD_TOGGLE_GPIO, CFG_BTN_ZERO_GPIO
+      |                             ^~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:86:33: note: (near initialization for 'spare_gpios')
+   86 | #define CFG_BTN_ZERO_GPIO       GPIO_NUM_2
+      |                                 ^~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.c:10:29: note: in expansion of macro 'CFG_BTN_ZERO_GPIO'
+   10 |     CFG_BTN_RD_TOGGLE_GPIO, CFG_BTN_ZERO_GPIO
+      |                             ^~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.c:12:75: warning: excess elements in array initializer
+   12 | static const uint16_t spare_masks[CFG_BTN_SPARE_COUNT] = { BTN_RD_TOGGLE, 0 };
+      |                                                                           ^
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.c:12:75: note: (near initialization for 'spare_masks')
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c: In function 'touch_read':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:31:5: warning: 'esp_lcd_touch_get_coordinates' is deprecated: This API will be removed in version 2.0.0. Use esp_lcd_touch_get_data instead! [-Wdeprecated-declarations]
+   31 |     if (esp_lcd_touch_get_coordinates(g_tp, &x, &y, NULL, &cnt, 1) && cnt > 0) {
+      |     ^~
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:9:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/espressif__esp_lcd_touch/include/esp_lcd_touch.h:317:6: note: declared here
+  317 | bool esp_lcd_touch_get_coordinates(esp_lcd_touch_handle_t tp, uint16_t *x, uint16_t *y, uint16_t *strength, uint8_t *point_num, uint8_t max_point_num);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~

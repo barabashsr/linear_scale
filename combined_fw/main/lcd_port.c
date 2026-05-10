@@ -13,13 +13,6 @@ static esp_lcd_panel_handle_t g_panel = NULL;
 static void *g_fb0 = NULL, *g_fb1 = NULL;
 static esp_lcd_touch_handle_t g_tp = NULL;
 
-IRAM_ATTR static bool on_vsync(esp_lcd_panel_handle_t panel,
-                                const esp_lcd_rgb_panel_event_data_t *edata,
-                                void *user_ctx)
-{
-    return false;
-}
-
 esp_err_t lcd_port_init(void)
 {
     esp_err_t ret = aw9523_init();

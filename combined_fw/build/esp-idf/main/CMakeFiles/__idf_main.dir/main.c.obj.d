@@ -363,4 +363,10 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_spi/include/driver/spi_master.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/spi_types.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_spi/include/driver/spi_common.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_system/include/esp_ipc.h
+ /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_system/include/esp_ipc.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/scale.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/spindle_enc.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_logic.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_styles.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_main.h

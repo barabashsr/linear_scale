@@ -2,92 +2,101 @@
 #include "i2c_protocol.h"
 #include <string.h>
 
-static app_state_t g_state;
+static state_t g_st;
 
-void ui_logic_init(void)
+void logic_init(void)
 {
-    memset(&g_state, 0, sizeof(g_state));
-    g_state.axes[AXIS_RADIAL].radius_mode = true;
+    memset(&g_st, 0, sizeof(g_st));
+    g_st.axes[AXIS_RADIAL].radius_mode = true;
+    g_st.diam_value = CFG_DIAM_DEFAULT_MM;
 }
 
-app_state_t *ui_logic_get_state(void) { return &g_state; }
+state_t *logic_get(void) { return &g_st; }
 
-float sp_get_mm(axis_t axis, int idx)
+float logic_get_mm(axis_t a, int idx)
 {
-    int32_t delta = (idx == -1) ? g_state.axes[axis].main.delta_005mm
-                                : g_state.axes[axis].sp[idx].delta_005mm;
-    return position_to_mm(delta);
+    int32_t d = (idx == -1) ? g_st.axes[a].main.delta_005mm : g_st.axes[a].sp[idx].delta_005mm;
+    return position_to_mm_axis(d, (int)a);
 }
 
-void ui_logic_zero_main(axis_t axis)
+float logic_get_display_mm(axis_t a, int idx)
 {
-    axis_data_t *ax = &g_state.axes[axis];
-    int32_t cur = ax->raw_pos_005mm;
-    int32_t shift = cur - ax->main.ref_pos_005mm;
-    ax->main.ref_pos_005mm = cur;
+    float v = logic_get_mm(a, idx);
+    if (a == AXIS_RADIAL && g_st.axes[AXIS_RADIAL].radius_mode) v *= 2.0f;
+    return v;
+}
+
+void logic_update(int32_t axial, int32_t radial)
+{
+    for (int i = 0; i < AXIS_COUNT; i++) {
+        axis_data_t *ax = &g_st.axes[i];
+        ax->raw_005mm = (i == AXIS_AXIAL) ? axial : radial;
+        int32_t cur = ax->raw_005mm;
+        ax->main.delta_005mm = cur - ax->main.ref_005mm;
+        for (int j = 0; j < CFG_MAX_SETPOINTS; j++)
+            if (ax->sp[j].active) ax->sp[j].delta_005mm = cur - ax->sp[j].ref_005mm;
+    }
+}
+
+void logic_zero_main(axis_t a)
+{
+    axis_data_t *ax = &g_st.axes[a];
+    int32_t cur = ax->raw_005mm;
+    int32_t shift = cur - ax->main.ref_005mm;
+    ax->main.ref_005mm = cur;
     ax->main.delta_005mm = 0;
     for (int i = 0; i < CFG_MAX_SETPOINTS; i++) {
         if (ax->sp[i].active) {
-            ax->sp[i].ref_pos_005mm += shift;
-            ax->sp[i].delta_005mm = cur - ax->sp[i].ref_pos_005mm;
+            ax->sp[i].ref_005mm += shift;
+            ax->sp[i].delta_005mm = cur - ax->sp[i].ref_005mm;
         }
     }
 }
 
-void ui_logic_zero_setpoint(axis_t axis, int idx)
+void logic_zero_sp(axis_t a, int idx)
 {
     if (idx < 0 || idx >= CFG_MAX_SETPOINTS) return;
-    setpoint_t *sp = &g_state.axes[axis].sp[idx];
-    sp->ref_pos_005mm = g_state.axes[axis].raw_pos_005mm;
+    sp_t *sp = &g_st.axes[a].sp[idx];
+    sp->ref_005mm = g_st.axes[a].raw_005mm;
     sp->delta_005mm = 0;
     sp->active = true;
 }
 
-void ui_logic_set_radial_main(int32_t pos)
+void logic_toggle_rd(void)
 {
-    axis_data_t *ax = &g_state.axes[AXIS_RADIAL];
-    int32_t shift = pos - ax->main.ref_pos_005mm;
-    ax->main.ref_pos_005mm = pos;
+    g_st.axes[AXIS_RADIAL].radius_mode = !g_st.axes[AXIS_RADIAL].radius_mode;
+}
+
+void logic_set_diameter(float mm)
+{
+    g_st.diam_value = mm;
+    axis_data_t *ax = &g_st.axes[AXIS_RADIAL];
+    int32_t pos = (int32_t)((mm / (ax->radius_mode ? 2.0f : 1.0f)) / CFG_SCALE_RADIAL_MM);
+    int32_t shift = pos - ax->main.ref_005mm;
+    ax->main.ref_005mm = pos;
     ax->main.delta_005mm = 0;
+    for (int i = 0; i < CFG_MAX_SETPOINTS; i++)
+        if (ax->sp[i].active) ax->sp[i].ref_005mm += shift;
+}
+
+float logic_get_angle_deg(void)
+{
+    float ratio = (float)CFG_SPINDLE_GEAR_NUM / (float)CFG_SPINDLE_GEAR_DEN;
+    return (g_st.spindle_raw - g_st.spindle_z_ref) * 360.0f / CFG_SPINDLE_CPR * ratio;
+}
+
+void logic_handle_btn(uint16_t btns)
+{
+    uint16_t chg = btns & ~g_st.btn_state;
+    g_st.btn_state = btns;
+    if (!chg) return;
     for (int i = 0; i < CFG_MAX_SETPOINTS; i++) {
-        if (ax->sp[i].active) ax->sp[i].ref_pos_005mm += shift;
+        if (chg & (BTN_RADIAL_T1 << i)) logic_zero_sp(AXIS_RADIAL, i);
+        if (chg & (BTN_AXIAL_T1 << i))  logic_zero_sp(AXIS_AXIAL, i);
     }
+    if (chg & BTN_RD_TOGGLE) logic_toggle_rd();
 }
 
-void ui_logic_toggle_rd_mode(void)
-{
-    g_state.axes[AXIS_RADIAL].radius_mode = !g_state.axes[AXIS_RADIAL].radius_mode;
-}
-
-void ui_logic_update_positions(int32_t axial_pos, int32_t radial_pos)
-{
-    g_state.axes[AXIS_AXIAL].raw_pos_005mm = axial_pos;
-    g_state.axes[AXIS_RADIAL].raw_pos_005mm = radial_pos;
-    for (int a = 0; a < AXIS_COUNT; a++) {
-        axis_data_t *ax = &g_state.axes[a];
-        int32_t cur = ax->raw_pos_005mm;
-        ax->main.delta_005mm = cur - ax->main.ref_pos_005mm;
-        for (int i = 0; i < CFG_MAX_SETPOINTS; i++) {
-            if (ax->sp[i].active) ax->sp[i].delta_005mm = cur - ax->sp[i].ref_pos_005mm;
-        }
-    }
-}
-
-void ui_logic_handle_button(uint16_t btn_state)
-{
-    uint16_t changed = btn_state & ~g_state.btn_state;
-    g_state.btn_state = btn_state;
-    if (!changed) return;
-    for (int i = 0; i < CFG_MAX_SETPOINTS; i++) {
-        if (changed & (BTN_RADIAL_T1 << i)) ui_logic_zero_setpoint(AXIS_RADIAL, i);
-        if (changed & (BTN_AXIAL_T1 << i))  ui_logic_zero_setpoint(AXIS_AXIAL, i);
-    }
-    if (changed & BTN_RD_TOGGLE) ui_logic_toggle_rd_mode();
-}
-
-void ui_logic_zero_spindle(void) { g_state.spindle_ref = g_state.spindle_count; }
-
-float sp_get_angle_deg(void)
-{
-    return (g_state.spindle_count - g_state.spindle_ref) * 360.0f / CFG_SPINDLE_CPR;
-}
+void logic_set_rpm(float rpm) { g_st.spindle_rpm = rpm; }
+float logic_get_rpm(void) { return g_st.spindle_rpm; }
+void logic_zero_spindle(void) { g_st.spindle_z_ref = g_st.spindle_raw; }

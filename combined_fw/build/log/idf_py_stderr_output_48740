@@ -1,0 +1,27 @@
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.h:3,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:1:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c: In function 'lcd_port_init':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:29:33: warning: initialized field overwritten [-Woverride-init]
+   29 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:70:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   70 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:29:33: note: (near initialization for 'panel_config.<anonymous>.psram_trans_align')
+   29 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:70:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   70 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c: At top level:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:16:23: warning: 'on_vsync' defined but not used [-Wunused-function]
+   16 | IRAM_ATTR static bool on_vsync(esp_lcd_panel_handle_t panel,
+      |                       ^~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c: In function 'touch_read':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:31:5: warning: 'esp_lcd_touch_get_coordinates' is deprecated: This API will be removed in version 2.0.0. Use esp_lcd_touch_get_data instead! [-Wdeprecated-declarations]
+   31 |     if (esp_lcd_touch_get_coordinates(g_tp, &x, &y, NULL, &cnt, 1) && cnt > 0) {
+      |     ^~
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:9:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/espressif__esp_lcd_touch/include/esp_lcd_touch.h:317:6: note: declared here
+  317 | bool esp_lcd_touch_get_coordinates(esp_lcd_touch_handle_t tp, uint16_t *x, uint16_t *y, uint16_t *strength, uint8_t *point_num, uint8_t max_point_num);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
