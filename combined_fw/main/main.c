@@ -69,6 +69,8 @@ void app_main(void)
     if (lvgl_port_lock(5000)) {
         lv_obj_t *scr = lv_scr_act();
         lv_obj_set_style_bg_color(scr, lv_color_hex(0x000000), 0);
+        lv_obj_clear_flag(scr, LV_OBJ_FLAG_SCROLLABLE);
+        lv_obj_set_scrollbar_mode(scr, LV_SCROLLBAR_MODE_OFF);
 
         int ox = CFG_UI_X_OFFSET;
 

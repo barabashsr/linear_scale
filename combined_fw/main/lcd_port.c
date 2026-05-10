@@ -45,7 +45,7 @@ esp_err_t lcd_port_init(void)
 
     esp_lcd_rgb_panel_config_t panel_config = {
         .dma_burst_size = 64,
-        .clk_src = LCD_CLK_SRC_DEFAULT,
+        .clk_src = LCD_CLK_SRC_PLL240M,
         .timings = {
             .pclk_hz = CFG_LCD_PCLK_HZ,
             .h_res = CFG_LCD_H_RES,
@@ -118,7 +118,7 @@ esp_err_t lcd_port_init(void)
     ESP_ERROR_CHECK(lvgl_port_init(g_panel, tp));
 
     esp_lcd_rgb_panel_event_callbacks_t cbs = {
-        .on_vsync = on_vsync,
+        .on_bounce_frame_finish = on_vsync,
     };
     ESP_ERROR_CHECK(esp_lcd_rgb_panel_register_event_callbacks(g_panel, &cbs, NULL));
 
