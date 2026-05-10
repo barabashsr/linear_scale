@@ -422,6 +422,7 @@ static lv_disp_t *display_init(esp_lcd_panel_handle_t panel_handle)
     return lv_disp_drv_register(&disp_drv); // Register the display driver
 }
 
+static int touch_dbg = 0;
 static void touchpad_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data)
 {
     esp_lcd_touch_handle_t tp = (esp_lcd_touch_handle_t)indev_drv->user_data; // Get touchpad handle from user data
@@ -440,9 +441,10 @@ static void touchpad_read(lv_indev_drv_t *indev_drv, lv_indev_data_t *data)
         data->point.x = touchpad_x; // Set the X coordinate
         data->point.y = touchpad_y; // Set the Y coordinate
         data->state = LV_INDEV_STATE_PRESSED; // Set state to pressed
-        ESP_LOGD(TAG, "Touch position: %d,%d", touchpad_x, touchpad_y); // Log touch position
+        if (++touch_dbg % 30 == 0) ESP_LOGI(TAG, "Touch: x=%d y=%d", touchpad_x, touchpad_y);
     } else {
         data->state = LV_INDEV_STATE_RELEASED; // Set state to released
+        if (touch_dbg > 0) { touch_dbg = 0; ESP_LOGI(TAG, "Touch: released"); }
     }
 }
 

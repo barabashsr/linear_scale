@@ -90,17 +90,8 @@ esp_err_t lcd_port_init(void)
 
     esp_lcd_touch_handle_t tp = NULL;
     esp_lcd_panel_io_handle_t tp_io = NULL;
-    esp_lcd_panel_io_i2c_config_t tp_io_conf = {
-        .dev_addr = 0x5B,
-        .control_phase_bytes = 1,
-        .dc_bit_offset = 0,
-        .lcd_cmd_bits = 8,
-        .lcd_param_bits = 8,
-        .flags = {
-            .dc_low_on_data = 0,
-            .disable_control_phase = 1,
-        },
-    };
+    esp_lcd_panel_io_i2c_config_t tp_io_conf = ESP_LCD_TOUCH_IO_I2C_GT911_CONFIG();
+    tp_io_conf.scl_speed_hz = 0;
     ret = esp_lcd_new_panel_io_i2c((esp_lcd_i2c_bus_handle_t)CFG_I2C_BUS,
         &tp_io_conf, &tp_io);
     if (ret != ESP_OK) {
@@ -131,7 +122,12 @@ esp_err_t lcd_port_init(void)
     };
     ESP_ERROR_CHECK(esp_lcd_rgb_panel_register_event_callbacks(g_panel, &cbs, NULL));
 
-    ESP_LOGI(TAG_LCD, "LCD port ready (%dx%d)", CFG_LCD_H_RES, CFG_LCD_V_RES);
+    ESP_LOGI(TAG_LCD, "LCD ready %dx%d CLK=%dMHz HSYNC=%d/%d/%d VSYNC=%d/%d/%d POL=%d FBS=%d",
+             CFG_LCD_H_RES, CFG_LCD_V_RES,
+             CFG_LCD_PCLK_MHZ,
+             CFG_LCD_HSYNC_PW, CFG_LCD_HSYNC_BP, CFG_LCD_HSYNC_FP,
+             CFG_LCD_VSYNC_PW, CFG_LCD_VSYNC_BP, CFG_LCD_VSYNC_FP,
+             CFG_LCD_PCLK_NEG, CFG_LCD_FB_COUNT);
     return ESP_OK;
 }
 

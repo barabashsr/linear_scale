@@ -1,0 +1,179 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (30) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time May 10 2026 10:15:17[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (37) boot.esp32s3: Boot SPI Speed : 40MHz[0m
+[0;32mI (41) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 4MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (62) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (85) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=1c2dch (115420) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0002c304 vaddr=3fc95c00 size=0324ch ( 12876) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0002f558 vaddr=40374000 size=00ac0h (  2752) load[0m
+[0;32mI (125) esp_image: segment 3: paddr=00030020 vaddr=42000020 size=4fb78h (326520) map[0m
+[0;32mI (212) esp_image: segment 4: paddr=0007fba0 vaddr=40374ac0 size=110d0h ( 69840) load[0m
+[0;32mI (232) esp_image: segment 5: paddr=00090c78 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (239) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (239) boot: Disabling RNG early entropy source...[0m
+[0;32mI (250) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (250) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (250) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (252) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (257) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (261) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (265) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (270) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (275) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (279) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (285) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (289) MSPI Timing: PSRAM timing tuning index: 5[0m
+[0;32mI (293) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (297) esp_psram: Speed: 80MHz[0m
+[0;32mI (300) cpu_start: Multicore app[0m
+[0;32mI (735) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (745) cpu_start: Pro cpu start user code[0m
+[0;32mI (745) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (745) app_init: Application information:[0m
+[0;32mI (745) app_init: Project name:     linear_scale_combined[0m
+[0;32mI (750) app_init: App version:      64b5878-dirty[0m
+[0;32mI (755) app_init: Compile time:     May 10 2026 10:17:46[0m
+[0;32mI (760) app_init: ELF file SHA256:  365e8dde8...[0m
+[0;32mI (764) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (768) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (772) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (776) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (780) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (786) heap_init: At 3FC99D38 len 0004F9D8 (318 KiB): RAM[0m
+[0;32mI (791) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (796) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (802) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (807) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (815) spi_flash: detected chip: generic[0m
+[0;32mI (817) spi_flash: flash io: dio[0m
+[0;33mW (820) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.[0m
+[0;33mW (832) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (842) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (849) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (855) main_task: Started on CPU0[0m
+[0;32mI (858) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (866) main_task: Calling app_main()[0m
+[0;32mI (869) main: Position calibrator[0m
+[0;32mI (873) aw9523: AW9523 found at 0x5B, ID=0x23[0m
+[0;32mI (876) aw9523: AW9523 ready (all inputs)[0m
+[0;32mI (928) GT911: I2C address initialization procedure skipped - using default GT9xx setup[0m
+[0;32mI (930) GT911: TouchPad_ID:0x39,0x31,0x31[0m
+[0;32mI (930) GT911: TouchPad_Config_Version:130[0m
+[0;32mI (934) lcd_port: Touch: GT911 detected at 0x5B[0m
+[0;32mI (938) lv_port: LVGL buffer size: 156KB[0m
+[0;32mI (949) lv_port: Create LVGL task[0m
+[0;32mI (951) lcd_port: LCD ready 800x480 CLK=24MHz HSYNC=1/160/20 VSYNC=1/35/5 POL=0 FBS=1[0m
+[0;32mI (1028) main: Use slider to adjust X offset.[0m
+[0;32mI (4552) lv_port: Touch: released[0m
+[0;32mI (5809) lv_port: Touch: released[0m
+[0;32mI (7632) lv_port: Touch: released[0m
+[0;32mI (8800) lv_port: Touch: released[0m
+[0;32mI (10018) lv_port: Touch: released[0m
+[0;32mI (11940) lv_port: Touch: released[0m
+[0;32mI (13319) lv_port: Touch: released[0m
+[0;32mI (14639) lv_port: Touch: released[0m
+[0;32mI (25584) lv_port: Touch: released[0m
+[0;32mI (29801) lv_port: Touch: released[0m
+[0;32mI (31649) lv_port: Touch: released[0m
+[0;32mI (32908) lv_port: Touch: released[0m
+[0;32mI (35948) lv_port: Touch: released[0m
+[0;32mI (37599) lv_port: Touch: released[0m
+[0;32mI (38690) lv_port: Touch: released[0m
+[0;32mI (39478) lv_port: Touch: released[0m
+[0;32mI (40325) lv_port: Touch: released[0m
+[0;32mI (41143) lv_port: Touch: released[0m
+[0;32mI (42009) lv_port: Touch: released[0m
+[0;32mI (43523) lv_port: Touch: released[0m
+[0;32mI (45956) lv_port: Touch: released[0m
+[0;32mI (49069) lv_port: Touch: released[0m
+[0;32mI (51072) lv_port: Touch: released[0m
+[0;32mI (51884) lv_port: Touch: released[0m
+[0;32mI (52980) lv_port: Touch: released[0m
+[0;32mI (54732) lv_port: Touch: released[0m
+[0;32mI (56025) lv_port: Touch: released[0m
+[0;32mI (57127) lv_port: Touch: released[0m
+[0;32mI (59032) lv_port: Touch: released[0m
+[0;32mI (60059) lv_port: Touch: released[0m
+[0;32mI (61227) lv_port: Touch: released[0m
+[0;32mI (64276) lv_port: Touch: released[0m
+[0;32mI (65749) lv_port: Touch: released[0m
+[0;32mI (66810) lv_port: Touch: released[0m
+[0;32mI (67570) lv_port: Touch: released[0m
+[0;32mI (71514) lv_port: Touch: released[0m
+[0;32mI (193631) lv_port: Touch: released[0m
+[0;32mI (195000) lv_port: Touch: released[0m
+[0;32mI (197363) lv_port: Touch: released[0m
+[0;32mI (199602) lv_port: Touch: released[0m
+[0;32mI (201645) lv_port: Touch: released[0m
+[0;32mI (204062) lv_port: Touch: released[0m
+[0;32mI (206265) lv_port: Touch: released[0m
+[0;32mI (207151) lv_port: Touch: released[0m
+[0;32mI (208063) lv_port: Touch: released[0m
+[0;32mI (209274) lv_port: Touch: released[0m
+[0;32mI (210409) lv_port: Touch: released[0m
+[0;32mI (216956) lv_port: Touch: released[0m
+[0;32mI (218779) lv_port: Touch: released[0m
+[0;32mI (220129) lv_port: Touch: released[0m
+[0;32mI (221152) lv_port: Touch: released[0m
+[0;32mI (222160) lv_port: Touch: released[0m
+[0;32mI (222627) lv_port: Touch: released[0m
+[0;32mI (223421) lv_port: Touch: released[0m
+[0;32mI (224912) lv_port: Touch: released[0m
+[0;32mI (225515) lv_port: Touch: released[0m
+[0;32mI (225972) lv_port: Touch: released[0m
+[0;32mI (226320) lv_port: Touch: released[0m
+[0;32mI (226979) lv_port: Touch: released[0m
+[0;32mI (228153) lv_port: Touch: released[0m
+[0;32mI (229124) lv_port: Touch: released[0m
+[0;32mI (233356) lv_port: Touch: released[0m
+[0;32mI (234345) lv_port: Touch: released[0m
+[0;32mI (235691) lv_port: Touch: released[0m
+[0;32mI (236716) lv_port: Touch: released[0m
+[0;32mI (237687) lv_port: Touch: released[0m
+[0;32mI (238751) lv_port: Touch: released[0m
+[0;32mI (239675) lv_port: Touch: released[0m
+[0;32mI (240488) lv_port: Touch: released[0m
+[0;32mI (240806) lv_port: Touch: released[0m
+[0;32mI (241398) lv_port: Touch: released[0m
+[0;32mI (242392) lv_port: Touch: released[0m
+[0;32mI (243365) lv_port: Touch: released[0m
+[0;32mI (244172) lv_port: Touch: released[0m
+[0;32mI (244892) lv_port: Touch: released[0m
+[0;32mI (246107) lv_port: Touch: released[0m
+[0;32mI (246905) lv_port: Touch: released[0m
+[0;32mI (250185) lv_port: Touch: x=634 y=249[0m
+[0;32mI (251298) lv_port: Touch: released[0m
+[0;32mI (253194) lv_port: Touch: released[0m
+[0;32mI (254979) lv_port: Touch: released[0m
+[0;32mI (256620) lv_port: Touch: released[0m
+[0;32mI (258474) lv_port: Touch: released[0m
+[0;32mI (260130) lv_port: Touch: released[0m
+[0;32mI (263308) lv_port: Touch: released[0m
+[0;32mI (265418) lv_port: Touch: released[0m
+[0;32mI (266673) lv_port: Touch: released[0m
+[0;32mI (267754) lv_port: Touch: released[0m
+[0;32mI (291022) lv_port: Touch: released[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x0 (DOWNLOAD(USB/UART0))
+waiting for download

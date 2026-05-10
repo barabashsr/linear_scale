@@ -14,16 +14,19 @@
 #define CFG_LCD_PCLK_MHZ        24
 #define CFG_LCD_PCLK_HZ         (CFG_LCD_PCLK_MHZ * 1000 * 1000)
 #define CFG_LCD_HSYNC_PW        1
-#define CFG_LCD_HSYNC_BP        87
+#define CFG_LCD_HSYNC_BP        160
 #define CFG_LCD_HSYNC_FP        20
 #define CFG_LCD_VSYNC_PW        1
-#define CFG_LCD_VSYNC_BP        31
+#define CFG_LCD_VSYNC_BP        35
 #define CFG_LCD_VSYNC_FP        5
 #define CFG_LCD_PCLK_NEG        0
 #define CFG_LCD_DATA_WIDTH      16
 #define CFG_LCD_BPP             16
 #define CFG_LCD_BOUNCE_H        30
 #define CFG_LCD_FB_COUNT        1
+
+/* ── Screen position offset (calibrated) ──────── */
+#define CFG_UI_X_OFFSET          15
 #define CFG_LCD_FB_IN_PSRAM     1
 #define CFG_LCD_SRAM_ALIGN      4
 #define CFG_LCD_PSRAM_ALIGN     64
@@ -57,7 +60,7 @@
 #define CFG_BL_DUTY_OFF         0
 
 /* ── AW9523B IO expander ─────────────────────── */
-#define CFG_AW9523_ADDR         0x5D
+#define CFG_AW9523_ADDR         0x5B
 #define CFG_AW9523_PIN_LCD_RST  10
 #define CFG_AW9523_PIN_TP_RST   11
 #define CFG_AW9523_RST_LOW_MS   10
