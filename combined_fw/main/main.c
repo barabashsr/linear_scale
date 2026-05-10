@@ -14,7 +14,6 @@ static const char *TAG = "main";
 enum { W = 800, H = 480, S = 40, OX = 16, STRIPES = 480 / 30 };
 
 static void *g_fb0, *g_fb1, *g_panel, *g_tp;
-static int g_cur_fb = 0;
 static lv_color_t *g_lv_buf;
 
 // ── Touch read ──
@@ -36,17 +35,28 @@ static void touch_read(lv_indev_drv_t *drv, lv_indev_data_t *data)
     }
 }
 
-// ── Custom flush to inactive FB ──
+// ── Custom flush — all stripes to ONE buffer per frame ──
 static void flush_cb(lv_disp_drv_t *drv, const lv_area_t *area, lv_color_t *color_map)
 {
-    void *dst = (g_cur_fb == 0) ? g_fb1 : g_fb0;
+    static int render_fb = 0;
+    static bool prev_was_last = true;
+
+    if (prev_was_last) {
+        render_fb = (render_fb == 0) ? 1 : 0; // new frame → switch buffer
+        prev_was_last = false;
+    }
+
+    void *dst = (render_fb == 0) ? g_fb0 : g_fb1;
     uint16_t *d = (uint16_t *)dst;
     uint16_t *s = (uint16_t *)color_map;
     uint16_t pw = area->x2 - area->x1 + 1;
     for (int y = 0; y <= (area->y2 - area->y1); y++)
         memcpy(&d[(area->y1 + y) * W + area->x1], &s[y * pw], pw * 2);
-    esp_lcd_panel_draw_bitmap(g_panel, 0, 0, W, H, dst);
-    g_cur_fb = !g_cur_fb;
+
+    if (lv_disp_flush_is_last(drv)) {
+        esp_lcd_panel_draw_bitmap(g_panel, 0, 0, W, H, dst);
+        prev_was_last = true;
+    }
     lv_disp_flush_ready(drv);
 }
 
@@ -132,5 +142,7 @@ void app_main(void)
 
     ESP_LOGI(TAG, "Ready.");
 
-    while (1) { vTaskDelay(pdMS_TO_TICKS(5)); lv_timer_handler(); }
+    while (1) {
+        vTaskDelay(pdMS_TO_TICKS(lv_timer_handler()));
+    }
 }
