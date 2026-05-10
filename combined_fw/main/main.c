@@ -42,7 +42,10 @@ static void flush_cb(lv_disp_drv_t *drv, const lv_area_t *area, lv_color_t *colo
     static bool prev_was_last = true;
 
     if (prev_was_last) {
-        render_fb = (render_fb == 0) ? 1 : 0; // new frame → switch buffer
+        render_fb = (render_fb == 0) ? 1 : 0;
+        void *prev = (render_fb == 0) ? g_fb1 : g_fb0;
+        void *next = (render_fb == 0) ? g_fb0 : g_fb1;
+        memcpy(next, prev, W * H * 2);
         prev_was_last = false;
     }
 
@@ -56,6 +59,7 @@ static void flush_cb(lv_disp_drv_t *drv, const lv_area_t *area, lv_color_t *colo
     if (lv_disp_flush_is_last(drv)) {
         esp_lcd_panel_draw_bitmap(g_panel, 0, 0, W, H, dst);
         prev_was_last = true;
+        vTaskDelay(pdMS_TO_TICKS(1));
     }
     lv_disp_flush_ready(drv);
 }
@@ -140,9 +144,13 @@ void app_main(void)
     lv_obj_t *bl = lv_label_create(btn); lv_label_set_text(bl, "BTN"); lv_obj_center(bl);
     lv_obj_add_event_cb(btn, btn_cb, LV_EVENT_CLICKED, NULL);
 
+    lv_refr_now(NULL);  // force full screen refresh after UI creation
+
     ESP_LOGI(TAG, "Ready.");
 
     while (1) {
-        vTaskDelay(pdMS_TO_TICKS(lv_timer_handler()));
+        uint32_t ms = lv_timer_handler();
+        if (ms < 5) ms = 5;
+        vTaskDelay(pdMS_TO_TICKS(ms));
     }
 }
