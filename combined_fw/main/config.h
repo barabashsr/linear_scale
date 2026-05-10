@@ -14,15 +14,15 @@
 #define CFG_LCD_PCLK_MHZ        24
 #define CFG_LCD_PCLK_HZ         (CFG_LCD_PCLK_MHZ * 1000 * 1000)
 #define CFG_LCD_HSYNC_PW        1
-#define CFG_LCD_HSYNC_BP        200
+#define CFG_LCD_HSYNC_BP        87
 #define CFG_LCD_HSYNC_FP        20
 #define CFG_LCD_VSYNC_PW        1
-#define CFG_LCD_VSYNC_BP        23
+#define CFG_LCD_VSYNC_BP        31
 #define CFG_LCD_VSYNC_FP        5
-#define CFG_LCD_PCLK_NEG        1
+#define CFG_LCD_PCLK_NEG        0
 #define CFG_LCD_DATA_WIDTH      16
 #define CFG_LCD_BPP             16
-#define CFG_LCD_BOUNCE_H        10
+#define CFG_LCD_BOUNCE_H        30
 #define CFG_LCD_FB_COUNT        1
 #define CFG_LCD_FB_IN_PSRAM     1
 #define CFG_LCD_SRAM_ALIGN      4

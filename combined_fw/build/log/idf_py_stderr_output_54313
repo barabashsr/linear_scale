@@ -1,0 +1,15 @@
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.h:3,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:1:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c: In function 'lcd_port_init':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:29:33: warning: initialized field overwritten [-Woverride-init]
+   29 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:68:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   68 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:29:33: note: (near initialization for 'panel_config.<anonymous>.psram_trans_align')
+   29 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:68:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   68 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~

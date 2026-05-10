@@ -1,6 +1,6 @@
 esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/main/aw9523.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
  /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
@@ -356,13 +356,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/imgbtn/../../../lvgl.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/span/lv_span.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/span/../../../lvgl.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/include/esp_lcd_panel_ops.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/rgb/include/esp_lcd_panel_rgb.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/espressif__esp_lcd_touch_gt911/include/esp_lcd_touch_gt911.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/include/driver/i2c.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_types.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_ledc/include/driver/ledc.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/ledc_types.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_level.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_color.h \

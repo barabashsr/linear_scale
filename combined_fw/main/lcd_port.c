@@ -63,7 +63,7 @@ esp_err_t lcd_port_init(void)
         .data_width = CFG_LCD_DATA_WIDTH,
         .bits_per_pixel = CFG_LCD_BPP,
         .num_fbs = CFG_LCD_FB_COUNT,
-        .bounce_buffer_size_px = 0,
+        .bounce_buffer_size_px = CFG_LCD_H_RES * CFG_LCD_BOUNCE_H,
         .sram_trans_align = CFG_LCD_SRAM_ALIGN,
         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
         .hsync_gpio_num = CFG_LCD_HSYNC,
@@ -80,7 +80,13 @@ esp_err_t lcd_port_init(void)
         .flags = { .fb_in_psram = CFG_LCD_FB_IN_PSRAM },
     };
     ESP_ERROR_CHECK(esp_lcd_new_rgb_panel(&panel_config, &g_panel));
+
+    void *fb = NULL;
+    esp_lcd_rgb_panel_get_frame_buffer(g_panel, 1, &fb);
+    if (fb) memset(fb, 0, CFG_LCD_H_RES * CFG_LCD_V_RES * 2);
+
     ESP_ERROR_CHECK(esp_lcd_panel_init(g_panel));
+    if (fb) esp_lcd_panel_draw_bitmap(g_panel, 0, 0, CFG_LCD_H_RES, CFG_LCD_V_RES, fb);
 
     esp_lcd_touch_handle_t tp = NULL;
     esp_lcd_panel_io_handle_t tp_io = NULL;
