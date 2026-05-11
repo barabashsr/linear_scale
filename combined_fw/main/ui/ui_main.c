@@ -227,24 +227,29 @@ static void show_confirm(axis_t a) {
     g_underlay = underlay_create(dlg_close_cb);
 
     g_dlg = lv_obj_create(lv_scr_act());
-    lv_obj_set_size(g_dlg, 260, 110); lv_obj_center(g_dlg);
+    lv_obj_set_size(g_dlg, 360, 150); lv_obj_center(g_dlg);
     lv_obj_add_style(g_dlg, &s_panel, 0);
+    lv_obj_set_style_pad_all(g_dlg, 12, 0);
     lv_obj_set_style_border_color(g_dlg, CFG_LV_HIGHLIGHT, 0);
     lv_obj_set_style_border_width(g_dlg, 2, 0);
+    lv_obj_set_scrollbar_mode(g_dlg, LV_SCROLLBAR_MODE_OFF);
+    lv_obj_clear_flag(g_dlg, LV_OBJ_FLAG_SCROLLABLE);
 
     lv_obj_t *t = lv_label_create(g_dlg);
     lv_label_set_text(t, "\u041E\u0411\u041D\u0423\u041B\u0418\u0422\u042C?");
-    lv_obj_add_style(t, &s_val_sp, 0); lv_obj_align(t, LV_ALIGN_TOP_MID, 0, 10);
+    lv_obj_add_style(t, &s_title, 0);
+    lv_obj_set_style_text_color(t, CFG_LV_TEXT, 0);
+    lv_obj_set_pos(t, 2, 2);
 
     lv_obj_t *y = lv_btn_create(g_dlg);
-    lv_obj_set_size(y, 90, 38); lv_obj_align(y, LV_ALIGN_BOTTOM_LEFT, 20, -12);
+    lv_obj_set_size(y, 120, 46); lv_obj_align(y, LV_ALIGN_BOTTOM_LEFT, 16, -16);
     lv_obj_add_style(y, &s_btn_danger, 0);
     lv_obj_t *yl = lv_label_create(y); lv_label_set_text(yl, "\u0414\u0410"); lv_obj_center(yl);
     lv_obj_add_style(yl, &s_title, 0);
     lv_obj_add_event_cb(y, dlg_yes, LV_EVENT_CLICKED, NULL);
 
     lv_obj_t *n = lv_btn_create(g_dlg);
-    lv_obj_set_size(n, 90, 38); lv_obj_align(n, LV_ALIGN_BOTTOM_RIGHT, -20, -12);
+    lv_obj_set_size(n, 120, 46); lv_obj_align(n, LV_ALIGN_BOTTOM_RIGHT, -16, -16);
     lv_obj_add_style(n, &s_btn, 0);
     lv_obj_t *nl = lv_label_create(n); lv_label_set_text(nl, "\u041D\u0415\u0422"); lv_obj_center(nl);
     lv_obj_add_style(nl, &s_title, 0);

@@ -3270,11 +3270,6 @@ CMakeFiles/_project_elf_src.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/linear_scale_combined.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/rt/CMakeFiles/__idf_rt.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
@@ -3294,9 +3289,14 @@ CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/wear_levelling/CMakeFiles/
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/rt/CMakeFiles/__idf_rt.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/usb/CMakeFiles/__idf_usb.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
@@ -4903,11 +4903,6 @@ esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/clean:
 # Target rules for target esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir
 
 # All Build rule for target.
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/rt/CMakeFiles/__idf_rt.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
@@ -4926,9 +4921,14 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/wear_l
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/rt/CMakeFiles/__idf_rt.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/usb/CMakeFiles/__idf_usb.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
@@ -4949,11 +4949,6 @@ __ldgen_output_sections.ld: esp-idf/esp_system/CMakeFiles/__ldgen_output_section
 .PHONY : __ldgen_output_sections.ld
 
 # codegen rule for target.
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/rt/CMakeFiles/__idf_rt.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
@@ -4972,9 +4967,14 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/we
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/json/CMakeFiles/__idf_json.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/rt/CMakeFiles/__idf_rt.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/usb/CMakeFiles/__idf_usb.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/main/CMakeFiles/__idf_main.dir/all
