@@ -22,6 +22,7 @@ LV_FONT_DECLARE(ui_font_roboto_bold_48);
 LV_FONT_DECLARE(ui_font_roboto_bold_56);
 LV_FONT_DECLARE(ui_font_roboto_bold_60);
 LV_FONT_DECLARE(ui_font_roboto_bold_72);
+LV_FONT_DECLARE(ui_font_roboto_bold_diam_32);
 
 /* Font aliases for semantic usage */
 #define UI_FONT_SMALL        &ui_font_roboto_20
@@ -31,6 +32,7 @@ LV_FONT_DECLARE(ui_font_roboto_bold_72);
 #define UI_FONT_MAIN         &ui_font_roboto_bold_72
 #define UI_FONT_LARGE        &ui_font_roboto_bold_60
 #define UI_FONT_HUGE         &ui_font_roboto_bold_72
+#define UI_FONT_DIAM         &ui_font_roboto_bold_diam_32
 
 #ifdef __cplusplus
 }

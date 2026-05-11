@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj.d"
   "CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj"
   "CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj.d"
+  "CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj"
+  "CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj.d"
   "CMakeFiles/__idf_main.dir/lcd_port.c.obj"
   "CMakeFiles/__idf_main.dir/lcd_port.c.obj.d"
   "CMakeFiles/__idf_main.dir/main.c.obj"

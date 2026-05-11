@@ -3269,15 +3269,9 @@ CMakeFiles/_project_elf_src.dir/clean:
 # Target rules for target CMakeFiles/linear_scale_combined.elf.dir
 
 # All Build rule for target.
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
@@ -3299,7 +3293,13 @@ CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__id
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_scale_combined.elf.dir/build.make CMakeFiles/linear_scale_combined.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_scale_combined.elf.dir/build.make CMakeFiles/linear_scale_combined.elf.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=90 "Built target linear_scale_combined.elf"
@@ -4903,14 +4903,8 @@ esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/clean:
 # Target rules for target esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir
 
 # All Build rule for target.
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
@@ -4932,6 +4926,12 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/lvgl__
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __ldgen_output_sections.ld"
@@ -4949,14 +4949,8 @@ __ldgen_output_sections.ld: esp-idf/esp_system/CMakeFiles/__ldgen_output_section
 .PHONY : __ldgen_output_sections.ld
 
 # codegen rule for target.
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/console/CMakeFiles/__idf_console.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
@@ -4978,6 +4972,12 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/lv
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/main/CMakeFiles/__idf_main.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_driver_cam/CMakeFiles/__idf_esp_driver_cam.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/console/CMakeFiles/__idf_console.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/build.make esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target __ldgen_output_sections.ld"
 .PHONY : esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen
@@ -6883,8 +6883,8 @@ esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/clean:
 
 # All Build rule for target.
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
-esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
+esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=73 "Built target __idf_protocomm"
@@ -6917,10 +6917,10 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/clean:
 
 # All Build rule for target.
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
-esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_esp_local_ctrl"
@@ -7306,10 +7306,10 @@ esp-idf/usb/CMakeFiles/__idf_usb.dir/clean:
 
 # All Build rule for target.
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
-esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
+esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=82 "Built target __idf_wifi_provisioning"

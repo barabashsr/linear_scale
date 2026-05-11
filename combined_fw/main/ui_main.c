@@ -8,23 +8,33 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define W    800
-#define H    480
-#define HW   380
-#define OX   CFG_UI_X_OFFSET
-#define PAD  10
-#define SP_C CFG_MAX_SETPOINTS
-
-#define PLATE_W (HW - 16 - 54)
-#define BTN0_W  48
+#define SP_C     CFG_MAX_SETPOINTS
+#define ROW_H    148
+#define ROW_GAP  6
+#define ROW_X    4
+#define ROW_W    792
+#define ROW_PAD  8
+#define BTN_SQ   56
+#define SP_W     200
+#define SP_H     BTN_SQ
+#define SP_GAP   6
+#define CNT_X    (ROW_PAD + BTN_SQ + 8)
+#define SP_BTN_X (ROW_W - ROW_PAD - BTN_SQ)
+#define SP_X     (SP_BTN_X - SP_GAP - SP_W)
+#define SP_Y1    ((ROW_H - 2*SP_H - SP_GAP) / 2)
+#define SP_Y2    (SP_Y1 + SP_H + SP_GAP)
 
 typedef struct {
-    lv_obj_t *title, *val, *btn_main, *btn_rd;
+    lv_obj_t *row, *title, *val;
+    lv_obj_t *btn_left[2];
+    int       n_btn_left;
     lv_obj_t *sp_p[SP_C], *sp_v[SP_C], *sp_b[SP_C];
 } ax_ui_t;
 
 static ax_ui_t g_ax[2];
-static lv_obj_t *g_sp_panel, *g_sp_lbl, *g_sp_ang, *g_sp_rpm, *g_sp_btn;
+static lv_obj_t *g_sp_row, *g_sp_title, *g_sp_val;
+static lv_obj_t *g_sp_ang_v, *g_sp_ang_b;
+static lv_obj_t *g_sp_rpm_v;
 static lv_obj_t *g_dlg, *g_modal;
 static int g_dlg_axis;
 static float g_numpad_val;
@@ -44,19 +54,16 @@ static void np_add_char(char c)
     int len = strlen(g_numpad_buf);
     if (len < 14) { g_numpad_buf[len] = c; g_numpad_buf[len+1] = 0; }
 }
-
 static void np_backspace(void)
 {
     int len = strlen(g_numpad_buf);
     if (len > 0) g_numpad_buf[len-1] = 0;
 }
-
 static void np_toggle_sign(void)
 {
     if (g_numpad_buf[0] == '-') memmove(g_numpad_buf, g_numpad_buf+1, strlen(g_numpad_buf));
     else if (g_numpad_buf[0] != 0) { memmove(g_numpad_buf+1, g_numpad_buf, strlen(g_numpad_buf)+1); g_numpad_buf[0] = '-'; }
 }
-
 static void np_update_label(void)
 {
     if (g_np_label) {
@@ -65,7 +72,6 @@ static void np_update_label(void)
         lv_label_set_text(g_np_label, buf);
     }
 }
-
 static void np_btn_cb(lv_event_t *e)
 {
     const char *c = lv_event_get_user_data(e);
@@ -81,7 +87,6 @@ static void np_btn_cb(lv_event_t *e)
     np_update_label();
     logic_set_diameter(atof(g_numpad_buf));
 }
-
 static void np_slider_cb(lv_event_t *e)
 {
     lv_obj_t *s = lv_event_get_target(e);
@@ -90,7 +95,6 @@ static void np_slider_cb(lv_event_t *e)
     np_update_label();
     logic_set_diameter(g_numpad_val);
 }
-
 static lv_obj_t *np_make_btn(lv_obj_t *p, const char *text, int x, int y, int w, int h)
 {
     lv_obj_t *b = lv_btn_create(p);
@@ -101,7 +105,6 @@ static lv_obj_t *np_make_btn(lv_obj_t *p, const char *text, int x, int y, int w,
     lv_obj_add_event_cb(b, np_btn_cb, LV_EVENT_CLICKED, (void *)text);
     return b;
 }
-
 static void show_numpad(void)
 {
     g_modal = lv_obj_create(lv_scr_act());
@@ -137,7 +140,6 @@ static void show_numpad(void)
         np_make_btn(g_modal, keys[i], bx+col*(bw+gap), by+row*(bh+gap), kw, bh);
     }
 }
-
 static void diam_btn_cb(lv_event_t *e) { show_numpad(); }
 
 /* ── CONFIRM DIALOG ── */
@@ -177,97 +179,76 @@ static void rd_cb(lv_event_t *e) { logic_toggle_rd(); }
 static void sp_zero_cb(lv_event_t *e) { uint32_t ia = (uint32_t)(uintptr_t)e->user_data; logic_zero_sp((axis_t)(ia>>8), ia&0xFF); }
 static void spindle_zero_cb(lv_event_t *e) { logic_zero_spindle(); }
 
-static lv_obj_t *make_zero_btn(lv_obj_t *p, axis_t a, int idx)
+static lv_obj_t *make_sq_btn(lv_obj_t *p, const char *text, int x, int y,
+                              lv_event_cb_t cb, void *ud, const lv_font_t *font)
 {
     lv_obj_t *b = lv_btn_create(p);
-    lv_obj_set_size(b, BTN0_W, 70);
+    lv_obj_set_pos(b, x, y); lv_obj_set_size(b, BTN_SQ, BTN_SQ);
     lv_obj_add_style(b, &s_btn, 0);
     lv_obj_add_flag(b, LV_OBJ_FLAG_CLICKABLE);
-    lv_obj_t *l = lv_label_create(b); lv_label_set_text(l, "0"); lv_obj_center(l);
+    lv_obj_t *l = lv_label_create(b); lv_label_set_text(l, text); lv_obj_center(l);
     lv_obj_add_style(l, &s_title, 0);
-    lv_obj_add_event_cb(b, sp_zero_cb, LV_EVENT_CLICKED,
-                        (void*)(uintptr_t)(((uint32_t)a<<8)|(uint32_t)idx));
+    if (font) lv_obj_set_style_text_font(l, font, 0);
+    if (cb) lv_obj_add_event_cb(b, cb, LV_EVENT_CLICKED, ud);
     return b;
 }
 
-/* ── BUILD AXIS ── */
-static void build_axis(lv_obj_t *p, axis_t a, int xo)
+static lv_obj_t *make_sp_plate(lv_obj_t *p, int x, int y, int w, int h)
+{
+    lv_obj_t *pl = lv_obj_create(p);
+    lv_obj_set_pos(pl, x, y); lv_obj_set_size(pl, w, h);
+    lv_obj_add_style(pl, &s_panel, 0);
+    lv_obj_set_style_pad_all(pl, 6, 0);
+    lv_obj_set_style_border_width(pl, 1, 0);
+    lv_obj_set_scrollbar_mode(pl, LV_SCROLLBAR_MODE_OFF);
+    return pl;
+}
+
+/* ── BUILD AXIS ROW ── */
+static void build_axis(axis_t a, int y)
 {
     ax_ui_t *u = &g_ax[a];
-    int y = PAD;
-    int cx = xo + PAD;
+    lv_obj_t *scr = lv_scr_act();
 
-    u->title = lv_label_create(p);
-    lv_obj_set_pos(u->title, cx, y);
-    lv_obj_set_size(u->title, HW-16, 30);
+    u->row = lv_obj_create(scr);
+    lv_obj_set_pos(u->row, ROW_X, y); lv_obj_set_size(u->row, ROW_W, ROW_H);
+    lv_obj_add_style(u->row, &s_panel, 0);
+    lv_obj_set_style_pad_all(u->row, ROW_PAD, 0);
+    lv_obj_set_style_border_width(u->row, 1, 0);
+    lv_obj_set_scrollbar_mode(u->row, LV_SCROLLBAR_MODE_OFF);
+
+    u->title = lv_label_create(u->row);
+    lv_obj_set_pos(u->title, CNT_X, 12);
     lv_obj_add_style(u->title, &s_title, 0);
-    y += 32;
 
-    u->val = lv_label_create(p);
-    lv_obj_set_pos(u->val, cx, y);
-    lv_obj_set_size(u->val, HW-16, 80);
+    u->val = lv_label_create(u->row);
+    lv_obj_set_pos(u->val, CNT_X, 46);
     lv_obj_add_style(u->val, &s_val_big, 0);
-    y += 88;
 
-    /* ── main action button row ── */
     if (a == AXIS_RADIAL) {
-        u->btn_main = lv_btn_create(p);
-        lv_obj_set_pos(u->btn_main, cx, y);
-        lv_obj_set_size(u->btn_main, 240, 52);
-        lv_obj_add_style(u->btn_main, &s_btn, 0);
-        lv_obj_t *l = lv_label_create(u->btn_main);
-        lv_label_set_text(l, "\u0414\u0418\u0410\u041C\u0415\u0422\u0420");
-        lv_obj_center(l);
-        lv_obj_add_style(l, &s_title, 0);
-        lv_obj_add_event_cb(u->btn_main, diam_btn_cb, LV_EVENT_CLICKED, NULL);
-
-        u->btn_rd = lv_btn_create(p);
-        lv_obj_set_pos(u->btn_rd, cx + 248, y);
-        lv_obj_set_size(u->btn_rd, 112, 52);
-        lv_obj_add_style(u->btn_rd, &s_btn, 0);
-        lv_obj_t *rl = lv_label_create(u->btn_rd);
-        lv_label_set_text(rl, "D/R");
-        lv_obj_center(rl);
-        lv_obj_add_style(rl, &s_title, 0);
-        lv_obj_add_event_cb(u->btn_rd, rd_cb, LV_EVENT_CLICKED, NULL);
+        int b1y = (ROW_H - 2*BTN_SQ - 4) / 2;
+        u->btn_left[0] = make_sq_btn(u->row, "\u00D8", ROW_PAD, b1y,
+                                       diam_btn_cb, NULL, UI_FONT_DIAM);
+        u->btn_left[1] = make_sq_btn(u->row, "D/R", ROW_PAD, b1y + BTN_SQ + 4,
+                                       rd_cb, NULL, NULL);
+        u->n_btn_left = 2;
     } else {
-        u->btn_main = lv_btn_create(p);
-        lv_obj_set_pos(u->btn_main, cx, y);
-        lv_obj_set_size(u->btn_main, HW-16, 52);
-        lv_obj_add_style(u->btn_main, &s_btn, 0);
-        lv_obj_t *l = lv_label_create(u->btn_main);
-        lv_label_set_text(l, "\u041E\u0411\u041D\u0423\u041B\u0418\u0422\u042C");
-        lv_obj_center(l);
-        lv_obj_add_style(l, &s_title, 0);
-        lv_obj_add_event_cb(u->btn_main, main_zero_cb, LV_EVENT_CLICKED, (void*)(uintptr_t)a);
-        u->btn_rd = NULL;
+        u->btn_left[0] = make_sq_btn(u->row, "0", ROW_PAD, (ROW_H - BTN_SQ)/2,
+                                       main_zero_cb, (void*)(uintptr_t)a, NULL);
+        u->n_btn_left = 1;
     }
-    y += 62;
 
-    /* ── setpoint rows ── */
     for (int i = 0; i < SP_C; i++) {
-        u->sp_p[i] = lv_obj_create(p);
-        lv_obj_add_style(u->sp_p[i], &s_panel, 0);
-        lv_obj_set_size(u->sp_p[i], PLATE_W, 70);
-        lv_obj_set_style_pad_all(u->sp_p[i], 6, 0);
-        lv_obj_set_style_border_width(u->sp_p[i], 1, 0);
-        lv_obj_set_scrollbar_mode(u->sp_p[i], LV_SCROLLBAR_MODE_OFF);
-
+        int sy = (i == 0) ? SP_Y1 : SP_Y2;
+        u->sp_p[i] = make_sp_plate(u->row, SP_X, sy, SP_W, SP_H);
         u->sp_v[i] = lv_label_create(u->sp_p[i]);
-        lv_obj_align(u->sp_v[i], LV_ALIGN_LEFT_MID, 8, 0);
-        lv_obj_set_width(u->sp_v[i], PLATE_W - 16);
+        lv_obj_align(u->sp_v[i], LV_ALIGN_LEFT_MID, 4, 0);
+        lv_obj_set_width(u->sp_v[i], SP_W - 12);
         lv_obj_add_style(u->sp_v[i], &s_val_sp, 0);
-
-        u->sp_b[i] = make_zero_btn(p, a, i);
-
-        if (a == AXIS_RADIAL) {
-            lv_obj_set_pos(u->sp_b[i], cx, y);
-            lv_obj_set_pos(u->sp_p[i], cx + BTN0_W + 6, y);
-        } else {
-            lv_obj_set_pos(u->sp_p[i], cx, y);
-            lv_obj_set_pos(u->sp_b[i], cx + PLATE_W + 6, y);
-        }
-        y += 80;
+        u->sp_b[i] = make_sq_btn(u->row, "0", SP_BTN_X, sy,
+                                   sp_zero_cb,
+                                   (void*)(uintptr_t)(((uint32_t)a<<8)|(uint32_t)i),
+                                   NULL);
     }
 }
 
@@ -279,51 +260,44 @@ void ui_main_create(void)
     lv_obj_clear_flag(scr, LV_OBJ_FLAG_SCROLLABLE);
     lv_obj_set_scrollbar_mode(scr, LV_SCROLLBAR_MODE_OFF);
 
-    lv_obj_t *div = lv_obj_create(scr);
-    lv_obj_set_pos(div, OX+HW+2, 0); lv_obj_set_size(div, 2, H);
-    lv_obj_set_style_bg_color(div, CFG_LV_ACCENT, 0);
-    lv_obj_set_style_bg_opa(div, LV_OPA_COVER, 0);
-    lv_obj_set_style_border_width(div, 0, 0);
+    int y = 8;
+    build_axis(AXIS_RADIAL, y);
+    y += ROW_H + ROW_GAP;
+    build_axis(AXIS_AXIAL, y);
+    y += ROW_H + ROW_GAP;
 
-    build_axis(scr, AXIS_RADIAL, OX);
-    build_axis(scr, AXIS_AXIAL, OX + HW + 4);
+    /* spindle row */
+    g_sp_row = lv_obj_create(scr);
+    lv_obj_set_pos(g_sp_row, ROW_X, y); lv_obj_set_size(g_sp_row, ROW_W, ROW_H);
+    lv_obj_add_style(g_sp_row, &s_panel, 0);
+    lv_obj_set_style_pad_all(g_sp_row, ROW_PAD, 0);
+    lv_obj_set_style_border_width(g_sp_row, 1, 0);
+    lv_obj_set_scrollbar_mode(g_sp_row, LV_SCROLLBAR_MODE_OFF);
 
-    /* ── spindle panel ── */
-    int sy = H - 80;
+    g_sp_title = lv_label_create(g_sp_row);
+    lv_label_set_text(g_sp_title, "\u0428\u041F\u0418\u041D\u0414\u0415\u041B\u042C");
+    lv_obj_set_pos(g_sp_title, CNT_X, 12);
+    lv_obj_add_style(g_sp_title, &s_title, 0);
 
-    g_sp_btn = lv_btn_create(scr);
-    lv_obj_set_pos(g_sp_btn, OX+PAD, sy);
-    lv_obj_set_size(g_sp_btn, BTN0_W, 70);
-    lv_obj_add_style(g_sp_btn, &s_btn, 0);
-    lv_obj_add_flag(g_sp_btn, LV_OBJ_FLAG_CLICKABLE);
-    lv_obj_t *bl = lv_label_create(g_sp_btn); lv_label_set_text(bl, "0"); lv_obj_center(bl);
-    lv_obj_add_style(bl, &s_title, 0);
-    lv_obj_add_event_cb(g_sp_btn, spindle_zero_cb, LV_EVENT_CLICKED, NULL);
+    g_sp_val = lv_label_create(g_sp_row);
+    lv_obj_set_pos(g_sp_val, CNT_X, 46);
+    lv_obj_add_style(g_sp_val, &s_val_big, 0);
 
-    int spw = W - OX*2 - PAD*2 + 8 - BTN0_W - 6;
-    g_sp_panel = lv_obj_create(scr);
-    lv_obj_set_pos(g_sp_panel, OX+PAD+BTN0_W+6, sy);
-    lv_obj_set_size(g_sp_panel, spw, 70);
-    lv_obj_add_style(g_sp_panel, &s_panel, 0);
-    lv_obj_set_style_pad_all(g_sp_panel, 6, 0);
-    lv_obj_set_style_border_width(g_sp_panel, 1, 0);
-    lv_obj_set_scrollbar_mode(g_sp_panel, LV_SCROLLBAR_MODE_OFF);
+    g_sp_ang_b = make_sq_btn(g_sp_row, "0", SP_BTN_X, SP_Y1,
+                               spindle_zero_cb, NULL, NULL);
+    lv_obj_t *ang_p = make_sp_plate(g_sp_row, SP_X, SP_Y1, SP_W, SP_H);
+    g_sp_ang_v = lv_label_create(ang_p);
+    lv_obj_align(g_sp_ang_v, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_add_style(g_sp_ang_v, &s_val_act, 0);
 
-    g_sp_lbl = lv_label_create(g_sp_panel);
-    lv_label_set_text(g_sp_lbl, "\u0428\u041F\u0418\u041D\u0414\u0415\u041B\u042C");
-    lv_obj_add_style(g_sp_lbl, &s_small, 0);
-    lv_obj_align(g_sp_lbl, LV_ALIGN_LEFT_MID, 8, 0);
+    lv_obj_t *rpm_p = make_sp_plate(g_sp_row, SP_X, SP_Y2, SP_W, SP_H);
+    g_sp_rpm_v = lv_label_create(rpm_p);
+    lv_obj_align(g_sp_rpm_v, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_add_style(g_sp_rpm_v, &s_val_act, 0);
 
-    g_sp_ang = lv_label_create(g_sp_panel);
-    lv_obj_align(g_sp_ang, LV_ALIGN_CENTER, -50, 0);
-    lv_obj_add_style(g_sp_ang, &s_val_act, 0);
-
-    g_sp_rpm = lv_label_create(g_sp_panel);
-    lv_obj_align(g_sp_rpm, LV_ALIGN_CENTER, 80, 0);
-    lv_obj_add_style(g_sp_rpm, &s_val_act, 0);
-
-    lv_label_set_text(g_sp_ang, "0.0\u00B0");
-    lv_label_set_text(g_sp_rpm, "0 \u041E\u0411/\u041C\u0418\u041D");
+    lv_label_set_text(g_sp_val, "0.0\u00B0");
+    lv_label_set_text(g_sp_ang_v, "0.0\u00B0");
+    lv_label_set_text(g_sp_rpm_v, "0 \u041E\u0411/\u041C\u0418\u041D");
 }
 
 /* ── UPDATE ── */
@@ -336,8 +310,9 @@ static void upd_axis(ax_ui_t *u, axis_t a)
         ? "\u0420\u0410\u0414\u0418\u0410\u041B\u042C\u041D\u0410\u042F"
         : "\u041E\u0421\u0415\u0412\u0410\u042F");
 
-    char buf[32];
+    char buf[40];
     fpos(buf, sizeof(buf), logic_get_display_mm(a, -1));
+    strcat(buf, " mm");
     lv_label_set_text(u->val, buf);
 
     for (int i = 0; i < SP_C; i++) {
@@ -361,7 +336,9 @@ void ui_main_update(void)
     float ang = logic_get_angle_deg();
     if (ang < 0) ang += 360.0f;
     snprintf(buf, sizeof(buf), "%.1f\u00B0", (double)ang);
-    lv_label_set_text(g_sp_ang, buf);
+    lv_label_set_text(g_sp_val, buf);
+    lv_label_set_text(g_sp_ang_v, buf);
+
     snprintf(buf, sizeof(buf), "%.0f \u041E\u0411/\u041C\u0418\u041D", (double)logic_get_rpm());
-    lv_label_set_text(g_sp_rpm, buf);
+    lv_label_set_text(g_sp_rpm_v, buf);
 }

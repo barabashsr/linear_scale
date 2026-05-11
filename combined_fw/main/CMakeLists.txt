@@ -16,6 +16,7 @@ idf_component_register(
          "fonts/ui_font_roboto_bold_56.c"
          "fonts/ui_font_roboto_bold_60.c"
          "fonts/ui_font_roboto_bold_72.c"
+         "fonts/ui_font_roboto_bold_diam_32.c"
     INCLUDE_DIRS "."
                   "fonts"
     REQUIRES driver freertos esp_timer esp_lcd

@@ -415,6 +415,30 @@ fonts/ui_font_roboto_bold_72.c.s:
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.s
 .PHONY : fonts/ui_font_roboto_bold_72.c.s
 
+fonts/ui_font_roboto_bold_diam_32.obj: fonts/ui_font_roboto_bold_diam_32.c.obj
+.PHONY : fonts/ui_font_roboto_bold_diam_32.obj
+
+# target to build an object file
+fonts/ui_font_roboto_bold_diam_32.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj
+.PHONY : fonts/ui_font_roboto_bold_diam_32.c.obj
+
+fonts/ui_font_roboto_bold_diam_32.i: fonts/ui_font_roboto_bold_diam_32.c.i
+.PHONY : fonts/ui_font_roboto_bold_diam_32.i
+
+# target to preprocess a source file
+fonts/ui_font_roboto_bold_diam_32.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.i
+.PHONY : fonts/ui_font_roboto_bold_diam_32.c.i
+
+fonts/ui_font_roboto_bold_diam_32.s: fonts/ui_font_roboto_bold_diam_32.c.s
+.PHONY : fonts/ui_font_roboto_bold_diam_32.s
+
+# target to generate assembly for a file
+fonts/ui_font_roboto_bold_diam_32.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.s
+.PHONY : fonts/ui_font_roboto_bold_diam_32.c.s
+
 lcd_port.obj: lcd_port.c.obj
 .PHONY : lcd_port.obj
 
@@ -626,6 +650,9 @@ help:
 	@echo "... fonts/ui_font_roboto_bold_72.obj"
 	@echo "... fonts/ui_font_roboto_bold_72.i"
 	@echo "... fonts/ui_font_roboto_bold_72.s"
+	@echo "... fonts/ui_font_roboto_bold_diam_32.obj"
+	@echo "... fonts/ui_font_roboto_bold_diam_32.i"
+	@echo "... fonts/ui_font_roboto_bold_diam_32.s"
 	@echo "... lcd_port.obj"
 	@echo "... lcd_port.i"
 	@echo "... lcd_port.s"
