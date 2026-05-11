@@ -111,6 +111,7 @@
 #define CFG_COLOR_TEXT          0xEEEEEE
 #define CFG_COLOR_TEXT_DIM      0x888888
 #define CFG_COLOR_GREEN         0x2ECC71
+#define CFG_COLOR_SCARLET      0xFF2400
 #define CFG_COLOR_BTN_BG        0x1A3A5C
 #define CFG_COLOR_CONFIRM_BG    0xC0392B
 #define CFG_COLOR_CANCEL_BG     0x7F8C8D
@@ -125,6 +126,7 @@
 #define CFG_LV_BTN_BG           lv_color_hex(CFG_COLOR_BTN_BG)
 #define CFG_LV_CONFIRM_BG       lv_color_hex(CFG_COLOR_CONFIRM_BG)
 #define CFG_LV_CANCEL_BG        lv_color_hex(CFG_COLOR_CANCEL_BG)
+#define CFG_LV_SCARLET          lv_color_hex(CFG_COLOR_SCARLET)
 
 /* ── UI fonts ────────────────────────────────── */
 #define CFG_FONT_CONN           &lv_font_montserrat_14

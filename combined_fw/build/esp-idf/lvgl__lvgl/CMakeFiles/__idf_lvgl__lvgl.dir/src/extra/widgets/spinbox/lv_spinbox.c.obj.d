@@ -258,5 +258,4 @@ esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/src/extra/widgets/spinbox/lv_
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/spinbox/../../../../src/extra/widgets/imgbtn/lv_imgbtn.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/spinbox/../../../../src/extra/widgets/imgbtn/../../../lvgl.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/spinbox/../../../../src/extra/widgets/span/lv_span.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/spinbox/../../../../src/extra/widgets/span/../../../lvgl.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/spinbox/../../../misc/lv_assert.h
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/spinbox/../../../../src/extra/widgets/span/../../../lvgl.h

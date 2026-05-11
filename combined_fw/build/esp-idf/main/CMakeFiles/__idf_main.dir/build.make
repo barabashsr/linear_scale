@@ -156,173 +156,145 @@ esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/buttons.c.s"
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.c -o CMakeFiles/__idf_main.dir/buttons.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_logic.c
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.obj -MF CMakeFiles/__idf_main.dir/ui_logic.c.obj.d -o CMakeFiles/__idf_main.dir/ui_logic.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_logic.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_logic.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj -MF CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj.d -o CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_logic.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui_logic.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_logic.c > CMakeFiles/__idf_main.dir/ui_logic.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/ui_logic.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_logic.c > CMakeFiles/__idf_main.dir/ui/ui_logic.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui_logic.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_logic.c -o CMakeFiles/__idf_main.dir/ui_logic.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/ui_logic.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_logic.c -o CMakeFiles/__idf_main.dir/ui/ui_logic.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_styles.c
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.obj -MF CMakeFiles/__idf_main.dir/ui_styles.c.obj.d -o CMakeFiles/__idf_main.dir/ui_styles.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_styles.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_styles.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj -MF CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj.d -o CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_styles.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui_styles.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_styles.c > CMakeFiles/__idf_main.dir/ui_styles.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_styles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/ui_styles.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_styles.c > CMakeFiles/__idf_main.dir/ui/ui_styles.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui_styles.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_styles.c -o CMakeFiles/__idf_main.dir/ui_styles.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_styles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/ui_styles.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_styles.c -o CMakeFiles/__idf_main.dir/ui/ui_styles.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_main.c
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.obj -MF CMakeFiles/__idf_main.dir/ui_main.c.obj.d -o CMakeFiles/__idf_main.dir/ui_main.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_main.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.obj -MF CMakeFiles/__idf_main.dir/ui/ui_main.c.obj.d -o CMakeFiles/__idf_main.dir/ui/ui_main.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui_main.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_main.c > CMakeFiles/__idf_main.dir/ui_main.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/ui_main.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c > CMakeFiles/__idf_main.dir/ui/ui_main.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui_main.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_main.c -o CMakeFiles/__idf_main.dir/ui_main.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/ui_main.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c -o CMakeFiles/__idf_main.dir/ui/ui_main.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_20.c
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj -MF CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj.d -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_20.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_20.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj -MF CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj.d -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_20.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_20.c > CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_20.c > CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_20.c -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_20.c -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_24.c
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj -MF CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj.d -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_24.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_24.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj -MF CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj.d -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_24.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_24.c > CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_24.c > CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_24.c -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_24.c -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_28.c
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj -MF CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj.d -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_28.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_28.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj -MF CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj.d -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_28.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_28.c > CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_28.c > CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_28.c -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_28.c -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_36.c
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj -MF CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj.d -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_36.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_48.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.obj -MF CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.obj.d -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_48.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_36.c > CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_48.c > CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_36.c -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_48.c -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_48.c
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj -MF CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj.d -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_48.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_60.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.obj -MF CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.obj.d -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_60.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_48.c > CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_60.c > CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_48.c -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_60.c -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_56.c
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj -MF CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj.d -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_56.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_72.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.obj -MF CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.obj.d -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_72.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_56.c > CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_72.c > CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_56.c -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_72.c -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.s
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_60.c
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj -MF CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj.d -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_60.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_diam_32.c
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.obj"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.obj -MF CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.obj.d -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_diam_32.c
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_60.c > CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.i
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.i"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_diam_32.c > CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.i
 
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_60.c -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.s
-
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_72.c
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj -MF CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj.d -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_72.c
-
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_72.c > CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.i
-
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_72.c -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.s
-
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_diam_32.c
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj -MF CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj.d -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj -c /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_diam_32.c
-
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.i"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_diam_32.c > CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.i
-
-esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.s"
-	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/fonts/ui_font_roboto_bold_diam_32.c -o CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.s
+esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.s"
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_bold_diam_32.c -o CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.s
 
 # Object files for target __idf_main
 __idf_main_OBJECTS = \
@@ -332,18 +304,16 @@ __idf_main_OBJECTS = \
 "CMakeFiles/__idf_main.dir/scale.c.obj" \
 "CMakeFiles/__idf_main.dir/spindle_enc.c.obj" \
 "CMakeFiles/__idf_main.dir/buttons.c.obj" \
-"CMakeFiles/__idf_main.dir/ui_logic.c.obj" \
-"CMakeFiles/__idf_main.dir/ui_styles.c.obj" \
-"CMakeFiles/__idf_main.dir/ui_main.c.obj" \
-"CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj" \
-"CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj" \
-"CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj" \
-"CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj" \
-"CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj" \
-"CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj" \
-"CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj" \
-"CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj" \
-"CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj"
+"CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj" \
+"CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj" \
+"CMakeFiles/__idf_main.dir/ui/ui_main.c.obj" \
+"CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj" \
+"CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj" \
+"CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj" \
+"CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.obj" \
+"CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.obj" \
+"CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.obj" \
+"CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.obj"
 
 # External object files for target __idf_main
 __idf_main_EXTERNAL_OBJECTS =
@@ -354,21 +324,19 @@ esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/aw9523.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui_logic.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui_styles.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui_main.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_20.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_24.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_28.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_36.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_48.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_56.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_60.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_72.c.obj
-esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/fonts/ui_font_roboto_bold_diam_32.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_48.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_60.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_72.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_bold_diam_32.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/build.make
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C static library libmain.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library libmain.a"
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean_target.cmake
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build/esp-idf/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_main.dir/link.txt --verbose=$(VERBOSE)
 

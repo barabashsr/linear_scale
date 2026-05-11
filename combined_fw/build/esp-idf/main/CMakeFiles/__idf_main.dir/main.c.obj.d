@@ -367,6 +367,6 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj: \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/scale.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/spindle_enc.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_logic.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_styles.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui_main.h
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_logic.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_styles.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.h
