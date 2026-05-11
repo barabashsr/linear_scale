@@ -319,6 +319,30 @@ spindle_enc.c.s:
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.s
 .PHONY : spindle_enc.c.s
 
+ui/fonts/ui_font_bs_24.obj: ui/fonts/ui_font_bs_24.c.obj
+.PHONY : ui/fonts/ui_font_bs_24.obj
+
+# target to build an object file
+ui/fonts/ui_font_bs_24.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_bs_24.c.obj
+.PHONY : ui/fonts/ui_font_bs_24.c.obj
+
+ui/fonts/ui_font_bs_24.i: ui/fonts/ui_font_bs_24.c.i
+.PHONY : ui/fonts/ui_font_bs_24.i
+
+# target to preprocess a source file
+ui/fonts/ui_font_bs_24.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_bs_24.c.i
+.PHONY : ui/fonts/ui_font_bs_24.c.i
+
+ui/fonts/ui_font_bs_24.s: ui/fonts/ui_font_bs_24.c.s
+.PHONY : ui/fonts/ui_font_bs_24.s
+
+# target to generate assembly for a file
+ui/fonts/ui_font_bs_24.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_bs_24.c.s
+.PHONY : ui/fonts/ui_font_bs_24.c.s
+
 ui/fonts/ui_font_roboto_20.obj: ui/fonts/ui_font_roboto_20.c.obj
 .PHONY : ui/fonts/ui_font_roboto_20.obj
 
@@ -590,6 +614,9 @@ help:
 	@echo "... spindle_enc.obj"
 	@echo "... spindle_enc.i"
 	@echo "... spindle_enc.s"
+	@echo "... ui/fonts/ui_font_bs_24.obj"
+	@echo "... ui/fonts/ui_font_bs_24.i"
+	@echo "... ui/fonts/ui_font_bs_24.s"
 	@echo "... ui/fonts/ui_font_roboto_20.obj"
 	@echo "... ui/fonts/ui_font_roboto_20.i"
 	@echo "... ui/fonts/ui_font_roboto_20.s"

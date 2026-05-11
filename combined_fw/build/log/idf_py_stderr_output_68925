@@ -1,0 +1,107 @@
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:217:5: error: expected identifier or '(' before '}' token
+  217 |     }
+      |     ^
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:218:5: warning: data definition has no type or storage class
+  218 |     np_set_display();
+      |     ^~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:218:5: error: type defaults to 'int' in declaration of 'np_set_display' [-Wimplicit-int]
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:218:5: error: conflicting types for 'np_set_display'; have 'int()'
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:79:13: note: previous definition of 'np_set_display' with type 'void(void)'
+   79 | static void np_set_display(void) {
+      |             ^~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:220:20: error: initializer element is not constant
+  220 |     lv_obj_t *sl = lv_slider_create(g_modal);
+      |                    ^~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:221:24: error: expected ')' before numeric constant
+  221 |     lv_obj_set_size(sl, 430, 10);
+      |                        ^~~~
+      |                        )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:222:23: error: expected ')' before numeric constant
+  222 |     lv_obj_set_pos(sl, 14, 102);
+      |                       ^~~
+      |                       )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:223:28: error: expected ')' before numeric constant
+  223 |     lv_slider_set_range(sl, 0, 3000);
+      |                            ^~
+      |                            )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:224:28: error: expected ')' before '(' token
+  224 |     lv_slider_set_value(sl, (int32_t)(fabsf(g_numpad_val) * 10.0f + 0.5f), LV_ANIM_OFF);
+      |                            ^~
+      |                            )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:225:66: error: expected ')' before '(' token
+  225 |     lv_obj_add_event_cb(sl, np_slider_cb, LV_EVENT_VALUE_CHANGED, NULL);
+      |                                                                  ^
+      |                                                                  )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:228:25: error: expected ')' before string constant
+  228 |     np_make_btn(g_modal, "1", NULL, bx, by, bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:229:25: error: expected ')' before string constant
+  229 |     np_make_btn(g_modal, "2", NULL, bx+bw+gap, by, bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:230:25: error: expected ')' before string constant
+  230 |     np_make_btn(g_modal, "3", NULL, bx+2*(bw+gap), by, bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:231:25: error: expected ')' before string constant
+  231 |     np_make_btn(g_modal, "OK", NULL, bx+3*(bw+gap), by, bw*2+gap, bh, NULL);
+      |                         ^~~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:233:25: error: expected ')' before string constant
+  233 |     np_make_btn(g_modal, "4", NULL, bx, by+bh+gap, bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:234:25: error: expected ')' before string constant
+  234 |     np_make_btn(g_modal, "5", NULL, bx+bw+gap, by+bh+gap, bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:235:25: error: expected ')' before string constant
+  235 |     np_make_btn(g_modal, "6", NULL, bx+2*(bw+gap), by+bh+gap, bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:236:25: error: expected ')' before string constant
+  236 |     np_make_btn(g_modal, "\u041E\u0442\u043C\u0435\u043D\u0430", "Cancel",
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:239:25: error: expected ')' before string constant
+  239 |     np_make_btn(g_modal, "7", NULL, bx, by+2*(bh+gap), bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:240:25: error: expected ')' before string constant
+  240 |     np_make_btn(g_modal, "8", NULL, bx+bw+gap, by+2*(bh+gap), bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:241:25: error: expected ')' before string constant
+  241 |     np_make_btn(g_modal, "9", NULL, bx+2*(bw+gap), by+2*(bh+gap), bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:242:25: error: expected ')' before string constant
+  242 |     np_make_btn(g_modal, "C", NULL, bx+3*(bw+gap), by+2*(bh+gap), bw*2+gap, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:244:25: error: expected ')' before string constant
+  244 |     np_make_btn(g_modal, ".",  NULL, bx, by+3*(bh+gap), bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:245:25: error: expected ')' before string constant
+  245 |     np_make_btn(g_modal, "0",  NULL, bx+bw+gap, by+3*(bh+gap), bw, bh, NULL);
+      |                         ^~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:246:25: error: expected ')' before string constant
+  246 |     np_make_btn(g_modal, "+-", NULL, bx+2*(bw+gap), by+3*(bh+gap), bw, bh, NULL);
+      |                         ^~~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:247:25: error: expected ')' before string constant
+  247 |     np_make_btn(g_modal, "\uF55A", "BS", bx+3*(bw+gap), by+3*(bh+gap), bw*2+gap, bh, UI_FONT_BS);
+      |                         ^~~~~~~~~
+      |                         )
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:248:1: error: expected identifier or '(' before '}' token
+  248 | }
+      | ^
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:63:13: warning: 'underlay_dlg_close_cb' defined but not used [-Wunused-function]
+   63 | static void underlay_dlg_close_cb(lv_event_t *e) {
+      |             ^~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

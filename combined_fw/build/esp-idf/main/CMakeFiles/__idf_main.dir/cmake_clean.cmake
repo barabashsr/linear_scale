@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/__idf_main.dir/scale.c.obj.d"
   "CMakeFiles/__idf_main.dir/spindle_enc.c.obj"
   "CMakeFiles/__idf_main.dir/spindle_enc.c.obj.d"
+  "CMakeFiles/__idf_main.dir/ui/fonts/ui_font_bs_24.c.obj"
+  "CMakeFiles/__idf_main.dir/ui/fonts/ui_font_bs_24.c.obj.d"
   "CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj"
   "CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj.d"
   "CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj"

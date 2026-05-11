@@ -101,24 +101,26 @@ Base address: `0b0100 000 = 0x20`
 
 ### 2.3 Pin Assignment
 
+All keypad signals on GPIOA — rows on lower nibble, columns on upper nibble. All GPIOB pins are spare.
+
 | MCP23017 Pin | Name   | Connected To         | Direction | Role       |
 |-------------|--------|----------------------|-----------|------------|
-| 21          | GPA0   | Keypad Column 0 (C0) | Input     | Column 0   |
-| 22          | GPA1   | Keypad Column 1 (C1) | Input     | Column 1   |
-| 23          | GPA2   | Keypad Column 2 (C2) | Input     | Column 2   |
-| 24          | GPA3   | Keypad Column 3 (C3) | Input     | Column 3   |
-| 25          | GPA4   | —                    | —         | Unused     |
-| 26          | GPA5   | —                    | —         | Unused     |
-| 27          | GPA6   | —                    | —         | Unused     |
-| 28          | GPA7   | —                    | —         | Unused     |
-| 1           | GPB0   | Keypad Row 0 (R0)    | Output    | Row 0      |
-| 2           | GPB1   | Keypad Row 1 (R1)    | Output    | Row 1      |
-| 3           | GPB2   | Keypad Row 2 (R2)    | Output    | Row 2      |
-| 4           | GPB3   | Keypad Row 3 (R3)    | Output    | Row 3      |
-| 5           | GPB4   | —                    | —         | Unused     |
-| 6           | GPB5   | —                    | —         | Unused     |
-| 7           | GPB6   | —                    | —         | Unused     |
-| 8           | GPB7   | —                    | —         | Unused     |
+| 21          | GPA0   | Keypad Row 0 (R0)    | Output    | Row 0      |
+| 22          | GPA1   | Keypad Row 1 (R1)    | Output    | Row 1      |
+| 23          | GPA2   | Keypad Row 2 (R2)    | Output    | Row 2      |
+| 24          | GPA3   | Keypad Row 3 (R3)    | Output    | Row 3      |
+| 25          | GPA4   | Keypad Column 0 (C0) | Input     | Column 0   |
+| 26          | GPA5   | Keypad Column 1 (C1) | Input     | Column 1   |
+| 27          | GPA6   | Keypad Column 2 (C2) | Input     | Column 2   |
+| 28          | GPA7   | Keypad Column 3 (C3) | Input     | Column 3   |
+| 1           | GPB0   | —                    | —         | Spare      |
+| 2           | GPB1   | —                    | —         | Spare      |
+| 3           | GPB2   | —                    | —         | Spare      |
+| 4           | GPB3   | —                    | —         | Spare      |
+| 5           | GPB4   | —                    | —         | Spare      |
+| 6           | GPB5   | —                    | —         | Spare      |
+| 7           | GPB6   | —                    | —         | Spare      |
+| 8           | GPB7   | —                    | —         | Spare      |
 | 12          | SCL    | ESP32-S3 GPIO 47     | —         | I2C Clock  |
 | 13          | SDA    | ESP32-S3 GPIO 48     | —         | I2C Data   |
 | 9           | VDD    | +3.3V                | —         | Power      |
@@ -127,11 +129,11 @@ Base address: `0b0100 000 = 0x20`
 | 20          | INTA   | — (unused)           | —         | Floating   |
 | 19          | INTB   | — (unused)           | —         | Floating   |
 
-**Design rationale for port separation (GPIOA=columns, GPIOB=rows)**:
-- Separate I/O direction per port: GPIOA is entirely inputs, GPIOB is entirely outputs
-- No per-pin direction mixing within a port — cleaner register setup
-- Column reads from GPIOA register (0x12) do not affect GPIOB output state
-- Row writes to GPIOB/OLATB register (0x13/0x15) are independent
+**Design rationale — all on GPIOA**:
+- Lower nibble (GPA0–GPA3) = row outputs. Upper nibble (GPA4–GPA7) = column inputs with pull-ups.
+- Single port operation: write OLATA to drive rows, read GPIOA to sample columns — no cross-port register switching.
+- Scan cycle: write OLATA with one bit set in [0:3] (active row HIGH), read GPIOA[4:7] for column state.
+- Entire GPIOB (8 pins) free for future expansion — buttons, LEDs, encoder.
 
 ### 2.4 Register Map (BANK=0)
 
@@ -170,11 +172,11 @@ Step 1: IOCONA ← 0x00
         - SEQOP=0 (sequential addressing enabled — multi-byte writes auto-increment)
         - MIRROR=0 (INTA and INTB independent — not used but set for clarity)
 
-Step 2: IODIRA ← 0xFF     All GPIOA pins = inputs
-        IODIRB ← 0x00     All GPIOB pins = outputs
+Step 2: IODIRA ← 0xF0     GPA7-4 = inputs (columns), GPA3-0 = outputs (rows)
+        IODIRB ← 0xFF     All GPIOB pins = inputs (spare, safe default)
 
-Step 3: GPPUA  ← 0x0F     Pull-ups on GPA0-GPA3 (columns only)
-        GPPUB  ← 0x00     No pull-ups on GPIOB (outputs don't need them)
+Step 3: GPPUA  ← 0xF0     Pull-ups on GPA4-GPA7 (columns only)
+        GPPUB  ← 0x00     No pull-ups on GPIOB (not used)
 
 Step 4: IPOLA  ← 0x00     No polarity inversion
         IPOLB  ← 0x00
@@ -182,7 +184,7 @@ Step 4: IPOLA  ← 0x00     No polarity inversion
 Step 5: GPINTENA ← 0x00   No interrupt-on-change (timer-based scanning)
         GPINTENB ← 0x00
 
-Step 6: OLATB  ← 0x00     All rows LOW (idle state)
+Step 6: OLATA  ← 0x00     All rows LOW (idle state)
 ```
 
 **Important**: Port pins have undefined state after power-up. The MCP23017 must be explicitly configured before any GPIO interaction. On ZX7D00CE01S, the I2C bus is already initialized in `main.c:77–83` before `keypad_init()` is called.
@@ -227,14 +229,14 @@ The Panlee board exposes I2C and power on the 40-pin Extended IO Interface:
 
 | MCP23017 | Direction | Keypad Connector Pin (typical) |
 |----------|-----------|-------------------------------|
-| GPB0     | Output    | Row 0 (R0)                    |
-| GPB1     | Output    | Row 1 (R1)                    |
-| GPB2     | Output    | Row 2 (R2)                    |
-| GPB3     | Output    | Row 3 (R3)                    |
-| GPA0     | Input     | Column 0 (C0)                 |
-| GPA1     | Input     | Column 1 (C1)                 |
-| GPA2     | Input     | Column 2 (C2)                 |
-| GPA3     | Input     | Column 3 (C3)                 |
+| GPA0     | Output    | Row 0 (R0)                    |
+| GPA1     | Output    | Row 1 (R1)                    |
+| GPA2     | Output    | Row 2 (R2)                    |
+| GPA3     | Output    | Row 3 (R3)                    |
+| GPA4     | Input     | Column 0 (C0)                 |
+| GPA5     | Input     | Column 1 (C1)                 |
+| GPA6     | Input     | Column 2 (C2)                 |
+| GPA7     | Input     | Column 3 (C3)                 |
 
 ### 3.3 BOM
 
@@ -277,7 +279,7 @@ esp_err_t mcp23017_write(uint8_t addr, uint8_t reg, uint8_t val);
 esp_err_t mcp23017_read(uint8_t addr, uint8_t reg, uint8_t *val);
 ```
 
-- `mcp23017_init(addr)` — probe the device (read IODIRA, expect ACK), configure GPIOA/B directions, enable pull-ups on GPA0-3, set all rows LOW
+- `mcp23017_init(addr)` — probe the device (read IODIRA, expect ACK), configure GPIOA directions (lower nibble outputs, upper nibble inputs), enable pull-ups on GPA4-7, set all rows LOW
 - `mcp23017_write(addr, reg, val)` — single-byte I2C write to register
 - `mcp23017_read(addr, reg, *val)` — single-byte I2C read from register
 
@@ -343,13 +345,13 @@ static volatile char      kp_char;       // the new character
 1. Read raw key bitmap:
    raw = 0
    for row = 0 to 3:
-       mcp23017_write(ADDR, OLATB, 1 << row)     // drive one row HIGH
-       delay_us(10)                                // I2C + pin settling
-       cols = mcp23017_read(ADDR, GPIOA) & 0x0F   // read column inputs
+       mcp23017_write(ADDR, OLATA, 1 << row)          // drive one row HIGH (lower nibble)
+       delay_us(10)                                      // I2C + pin settling
+       cols = mcp23017_read(ADDR, GPIOA) >> 4           // read upper nibble = column inputs
        for col = 0 to 3:
-           if (cols & (1 << col)) == 0:            // column LOW = key pressed
+           if (cols & (1 << col)) == 0:                  // column LOW = key pressed
                raw |= (1 << (row * 4 + col))
-   mcp23017_write(ADDR, OLATB, 0x00)              // restore: all rows LOW
+   mcp23017_write(ADDR, OLATA, 0x00)                    // restore: all rows LOW
 
 2. Debounce:
    static uint16_t prev_raw = 0, candidate = 0
@@ -381,8 +383,8 @@ static const char kp_map[KP_ROWS][KP_COLS] = {
 };
 ```
 
-Row 0 = GPB0 drives HIGH, Row 1 = GPB1, etc.
-Column 0 = GPA0 reads, Column 1 = GPA1, etc.
+Row 0 = GPA0 drives HIGH, Row 1 = GPA1, etc.
+Column 0 = GPA4 reads, Column 1 = GPA5, etc.
 
 #### keypad_get_char Implementation
 
@@ -543,7 +545,7 @@ The I2C bus (I2C_NUM_0, 400 kHz) is shared by:
 | MCP23017    | 0x20    | Every 10 ms when numpad is open        | ~0.3 ms per scan |
 
 **Keypad scan I2C transaction budget per 10 ms tick**:
-- 4 × (write OLATB: 3 bytes) = 12 bytes written
+- 4 × (write OLATA: 3 bytes) = 12 bytes written
 - 4 × (read GPIOA: 2 + 1 bytes) = 12 bytes read
 - Total: ~24 bytes @ 400 kHz ≈ **0.5 ms** per scan pass
 - 10 ms period → ~5% I2C bus utilization during numpad-open
@@ -596,8 +598,8 @@ If the MCP23017 resets or loses power:
 ## 8. Test Checklist
 
 1. **I2C probe**: Verify MCP23017 responds at 0x20
-2. **Idle state**: After `mcp23017_init()`, read GPIOA → expect 0x0F (all columns HIGH due to pull-ups, no keys pressed)
-3. **Single key**: Press key `1` (row 0, col 0) → read OLATB=0x01 (row 0 HIGH), read GPIOA → bit 0 should be LOW
+2. **Idle state**: After `mcp23017_init()`, read GPIOA → expect 0xF0 (all columns HIGH due to pull-ups, no keys pressed, lower nibble 0)
+3. **Single key**: Press key `1` (row 0, col 0) → write OLATA=0x01 (row 0 HIGH), read GPIOA → upper nibble should have bit 4 LOW
 4. **All keys**: Press each of 16 keys, verify correct character reported
 5. **Multiple keys**: Press 2 keys on same column → verify correct detection (no ghosting)
 6. **Debounce**: Rapid tap → verify only one character reported per press
@@ -626,12 +628,13 @@ If the MCP23017 resets or loses power:
 
 ## 10. Future Considerations
 
-### 10.1 GPIOA4–A7, GPIOB4–B7 Expansion
+### 10.1 GPIOB0–B7 Expansion
 
-8 spare MCP23017 pins are available. Possibilities:
-- 4 additional direct GPIO buttons for DRO functions (zero, D/R toggle)
+All 8 GPIOB pins are available as spares. Possibilities:
+- Up to 8 additional direct GPIO buttons for DRO functions (zero, D/R toggle)
 - Rotary encoder quadrature input (2 pins)
 - LED indicators for status
+- Second I2C bus device daisy-chaining
 
 ### 10.2 Interrupt-Driven Alternative
 

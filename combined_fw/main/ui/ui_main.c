@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 #define SP_C     CFG_MAX_SETPOINTS
 #define ROW_H    152
@@ -41,9 +42,8 @@ static ax_ui_t g_ax[2];
 static lv_obj_t *g_sp_row, *g_sp_title, *g_sp_val;
 static lv_obj_t *g_sp_ang_v, *g_sp_rpm_v, *g_sp_rpm_u;
 
-static lv_obj_t *g_dlg, *g_modal;
+static lv_obj_t *g_dlg, *g_modal, *g_underlay;
 static int g_dlg_axis;
-static float g_numpad_val;
 static char g_numpad_buf[16];
 static lv_obj_t *g_np_label;
 
@@ -54,96 +54,178 @@ static void fpos(char *b, int sz, float mm)
     else snprintf(b, sz, "+%.3f", (double)mm);
 }
 
-/* ── NUMPAD MODAL ── */
-static void np_add_char(char c) {
-    int len = strlen(g_numpad_buf);
-    if (len < 14) { g_numpad_buf[len] = c; g_numpad_buf[len+1] = 0; }
+/* ── UNDERLAY ── */
+static void underlay_close_cb(lv_event_t *e) {
+    if (g_modal) { lv_obj_del(g_modal); g_modal = NULL; }
+    if (g_underlay) { lv_obj_del(g_underlay); g_underlay = NULL; }
+    g_np_label = NULL;
 }
+static void underlay_dlg_close_cb(lv_event_t *e) {
+    if (g_dlg) { lv_obj_del(g_dlg); g_dlg = NULL; }
+    if (g_underlay) { lv_obj_del(g_underlay); g_underlay = NULL; }
+}
+static lv_obj_t *underlay_create(lv_event_cb_t cb) {
+    lv_obj_t *u = lv_obj_create(lv_scr_act());
+    lv_obj_set_size(u, 800, 480); lv_obj_set_pos(u, 0, 0);
+    lv_obj_set_style_bg_color(u, lv_color_black(), 0);
+    lv_obj_set_style_bg_opa(u, LV_OPA_40, 0);
+    lv_obj_set_style_border_width(u, 0, 0);
+    lv_obj_add_flag(u, LV_OBJ_FLAG_CLICKABLE);
+    lv_obj_add_event_cb(u, cb, LV_EVENT_CLICKED, NULL);
+    return u;
+}
+
+/* ── NUMPAD MODAL ── */
+static void np_set_display(void) {
+    if (g_np_label) lv_label_set_text(g_np_label, g_numpad_buf);
+}
+
+static void np_place_digit(char c) {
+    int len = strlen(g_numpad_buf);
+    if (len == 2 && g_numpad_buf[1] == '0') {
+        g_numpad_buf[1] = c;
+    } else {
+        if (!strchr(g_numpad_buf, '.') && len >= 4) {
+            g_numpad_buf[len] = '.'; len++;
+        }
+        char *dot = strchr(g_numpad_buf, '.');
+        if (dot && strlen(dot + 1) >= 3) {
+            if (len < 15) { memmove(dot + 2, dot + 3, strlen(dot + 3) + 1); }
+        }
+        if (len < 15) { g_numpad_buf[len] = c; g_numpad_buf[len + 1] = 0; }
+    }
+    np_set_display();
+}
+
 static void np_backspace(void) {
     int len = strlen(g_numpad_buf);
-    if (len > 0) g_numpad_buf[len-1] = 0;
+    if (len <= 2) { g_numpad_buf[1] = '0'; g_numpad_buf[2] = 0; np_set_display(); return; }
+    g_numpad_buf[len - 1] = 0;
+    if (len >= 3 && g_numpad_buf[len - 2] == '.') g_numpad_buf[len - 2] = 0;
+    np_set_display();
 }
+
+static void np_clear(void) {
+    strcpy(g_numpad_buf, "+0");
+    np_set_display();
+}
+
 static void np_toggle_sign(void) {
-    if (g_numpad_buf[0] == '-') memmove(g_numpad_buf, g_numpad_buf+1, strlen(g_numpad_buf));
-    else if (g_numpad_buf[0] != 0) { memmove(g_numpad_buf+1, g_numpad_buf, strlen(g_numpad_buf)+1); g_numpad_buf[0] = '-'; }
+    g_numpad_buf[0] = (g_numpad_buf[0] == '-') ? '+' : '-';
+    np_set_display();
 }
-static void np_update_label(void) {
-    if (g_np_label) {
-        char buf[32];
-        snprintf(buf, sizeof(buf), "%s mm", g_numpad_buf[0] ? g_numpad_buf : "0");
-        lv_label_set_text(g_np_label, buf);
-    }
-}
+
 static void np_btn_cb(lv_event_t *e) {
     const char *c = lv_event_get_user_data(e);
     if (strcmp(c, "OK") == 0) {
-        float v = atof(g_numpad_buf);
-        logic_set_diameter(v);
-        if (g_modal) { lv_obj_del(g_modal); g_modal = NULL; g_np_label = NULL; }
+        logic_set_diameter(atof(g_numpad_buf));
+        if (g_modal) { lv_obj_del(g_modal); g_modal = NULL; }
+        if (g_underlay) { lv_obj_del(g_underlay); g_underlay = NULL; }
+        g_np_label = NULL;
         return;
     }
-    if (strcmp(c, "BS") == 0) { np_backspace(); }
-    else if (strcmp(c, "+-") == 0) { np_toggle_sign(); }
-    else { np_add_char(c[0]); }
-    np_update_label();
-    logic_set_diameter(atof(g_numpad_buf));
+    if (strcmp(c, "C") == 0) { np_clear(); return; }
+    if (strcmp(c, "Cancel") == 0) {
+        if (g_modal) { lv_obj_del(g_modal); g_modal = NULL; }
+        if (g_underlay) { lv_obj_del(g_underlay); g_underlay = NULL; }
+        g_np_label = NULL;
+        return;
+    }
+    if (strcmp(c, "BS") == 0) { np_backspace(); return; }
+    if (strcmp(c, "+-") == 0) { np_toggle_sign(); return; }
+    if (strcmp(c, ".") == 0) {
+        if (!strchr(g_numpad_buf, '.')) {
+            int len = strlen(g_numpad_buf);
+            if (len < 15) { g_numpad_buf[len] = '.'; g_numpad_buf[len + 1] = '0'; g_numpad_buf[len + 2] = 0; }
+        }
+        np_set_display();
+        return;
+    }
+    np_place_digit(c[0]);
 }
-static void np_slider_cb(lv_event_t *e) {
-    lv_obj_t *s = lv_event_get_target(e);
-    g_numpad_val = lv_slider_get_value(s) * CFG_DIAM_MAX_MM / CFG_DIAM_SLIDER_RES;
-    snprintf(g_numpad_buf, sizeof(g_numpad_buf), "%.3f", (double)g_numpad_val);
-    np_update_label();
-    logic_set_diameter(g_numpad_val);
-}
-static lv_obj_t *np_make_btn(lv_obj_t *p, const char *t, int x, int y, int w, int h) {
+
+static lv_obj_t *np_make_btn(lv_obj_t *p, const char *t, const char *ev, int x, int y, int w, int h,
+                              const lv_font_t *font) {
     lv_obj_t *b = lv_btn_create(p);
     lv_obj_set_pos(b, x, y); lv_obj_set_size(b, w, h);
     lv_obj_add_style(b, &s_btn, 0);
     lv_obj_t *l = lv_label_create(b); lv_label_set_text(l, t); lv_obj_center(l);
     lv_obj_add_style(l, &s_title, 0);
-    lv_obj_add_event_cb(b, np_btn_cb, LV_EVENT_CLICKED, (void *)t);
+    if (font) lv_obj_set_style_text_font(l, font, 0);
+    lv_obj_add_event_cb(b, np_btn_cb, LV_EVENT_CLICKED, (void *)(ev ? ev : t));
     return b;
 }
+
 static void show_numpad(void) {
+    g_underlay = underlay_create(underlay_close_cb);
+
     g_modal = lv_obj_create(lv_scr_act());
-    lv_obj_set_size(g_modal, 360, 340); lv_obj_center(g_modal);
+    lv_obj_set_size(g_modal, 460, 340); lv_obj_center(g_modal);
     lv_obj_add_style(g_modal, &s_panel, 0);
+    lv_obj_set_style_pad_all(g_modal, 12, 0);
     lv_obj_set_style_border_color(g_modal, CFG_LV_HIGHLIGHT, 0);
     lv_obj_set_style_border_width(g_modal, 2, 0);
+    lv_obj_set_scrollbar_mode(g_modal, LV_SCROLLBAR_MODE_OFF);
+    lv_obj_clear_flag(g_modal, LV_OBJ_FLAG_SCROLLABLE);
 
-    lv_obj_t *t = lv_label_create(g_modal);
-    lv_label_set_text(t, "\u0414\u0418\u0410\u041C\u0415\u0422\u0420, mm");
-    lv_obj_add_style(t, &s_title, 0); lv_obj_align(t, LV_ALIGN_TOP_MID, 0, 8);
+    lv_obj_t *ttl = lv_label_create(g_modal);
+    lv_label_set_text(ttl, "\u0414\u0418\u0410\u041C\u0415\u0422\u0420, mm");
+    lv_obj_add_style(ttl, &s_title, 0);
+    lv_obj_set_pos(ttl, 2, 2);
 
-    g_numpad_val = logic_get()->diam_value;
-    snprintf(g_numpad_buf, sizeof(g_numpad_buf), "%.3f", (double)g_numpad_val);
     g_np_label = lv_label_create(g_modal);
-    lv_label_set_text(g_np_label, "-");
-    lv_obj_add_style(g_np_label, &s_val_big, 0);
-    lv_obj_align(g_np_label, LV_ALIGN_TOP_MID, 0, 36);
-    np_update_label();
+    lv_obj_add_style(g_np_label, &s_val_sp, 0);
+    lv_obj_set_style_text_color(g_np_label, CFG_LV_TEXT, 0);
+    lv_obj_set_pos(g_np_label, 2, 40);
+    lv_obj_set_width(g_np_label, 432);
+    lv_obj_set_style_text_align(g_np_label, LV_TEXT_ALIGN_RIGHT, 0);
 
-    lv_obj_t *sl = lv_slider_create(g_modal);
-    lv_obj_set_size(sl, 320, 10); lv_obj_align(sl, LV_ALIGN_TOP_MID, 0, 80);
-    lv_slider_set_range(sl, 0, CFG_DIAM_SLIDER_RES);
-    lv_slider_set_value(sl, (int32_t)(g_numpad_val / CFG_DIAM_MAX_MM * CFG_DIAM_SLIDER_RES), LV_ANIM_OFF);
-    lv_obj_add_event_cb(sl, np_slider_cb, LV_EVENT_VALUE_CHANGED, NULL);
-
-    int bx = 14, by = 100, bw = 78, bh = 44, gap = 4;
-    const char *keys[] = {"7","8","9","BS", "4","5","6","+-", "1","2","3",".", "0","OK",NULL};
-    for (int i = 0; keys[i]; i++) {
-        int col = i % 4, row = i / 4;
-        int kw = (strcmp(keys[i],"OK")==0) ? bw*2+gap : bw;
-        np_make_btn(g_modal, keys[i], bx+col*(bw+gap), by+row*(bh+gap), kw, bh);
+    float v = logic_get_display_mm(AXIS_RADIAL, -1);
+    snprintf(g_numpad_buf, sizeof(g_numpad_buf), "%+.3f", (double)v);
+    {
+        char *dot = strchr(g_numpad_buf, '.');
+        if (dot) {
+            int e = strlen(g_numpad_buf) - 1;
+            while (e > 0 && g_numpad_buf[e] == '0') e--;
+            if (g_numpad_buf[e] == '.') e--;
+            g_numpad_buf[e + 1] = 0;
+        }
     }
+    np_set_display();
+
+    int bx = 2, by = 107, bw = 82, bh = 46, gap = 6;
+    np_make_btn(g_modal, "1", NULL, bx, by, bw, bh, NULL);
+    np_make_btn(g_modal, "2", NULL, bx+bw+gap, by, bw, bh, NULL);
+    np_make_btn(g_modal, "3", NULL, bx+2*(bw+gap), by, bw, bh, NULL);
+    np_make_btn(g_modal, "OK", NULL, bx+3*(bw+gap), by, bw*2+gap, bh, NULL);
+
+    np_make_btn(g_modal, "4", NULL, bx, by+bh+gap, bw, bh, NULL);
+    np_make_btn(g_modal, "5", NULL, bx+bw+gap, by+bh+gap, bw, bh, NULL);
+    np_make_btn(g_modal, "6", NULL, bx+2*(bw+gap), by+bh+gap, bw, bh, NULL);
+    np_make_btn(g_modal, "\u041E\u0442\u043C\u0435\u043D\u0430", "Cancel",
+                bx+3*(bw+gap), by+bh+gap, bw*2+gap, bh, NULL);
+
+    np_make_btn(g_modal, "7", NULL, bx, by+2*(bh+gap), bw, bh, NULL);
+    np_make_btn(g_modal, "8", NULL, bx+bw+gap, by+2*(bh+gap), bw, bh, NULL);
+    np_make_btn(g_modal, "9", NULL, bx+2*(bw+gap), by+2*(bh+gap), bw, bh, NULL);
+    np_make_btn(g_modal, "C", NULL, bx+3*(bw+gap), by+2*(bh+gap), bw*2+gap, bh, NULL);
+
+    np_make_btn(g_modal, ".",  NULL, bx, by+3*(bh+gap), bw, bh, NULL);
+    np_make_btn(g_modal, "0",  NULL, bx+bw+gap, by+3*(bh+gap), bw, bh, NULL);
+    np_make_btn(g_modal, "+-", NULL, bx+2*(bw+gap), by+3*(bh+gap), bw, bh, NULL);
+    np_make_btn(g_modal, "\uF55A", "BS", bx+3*(bw+gap), by+3*(bh+gap), bw*2+gap, bh, UI_FONT_BS);
 }
+
 static void diam_btn_cb(lv_event_t *e) { show_numpad(); }
 
 /* ── CONFIRM DIALOG ── */
-static void dlg_yes(lv_event_t *e) { logic_zero_main((axis_t)g_dlg_axis); if(g_dlg){lv_obj_del(g_dlg);g_dlg=NULL;} }
-static void dlg_no(lv_event_t *e)  { if(g_dlg){lv_obj_del(g_dlg);g_dlg=NULL;} }
+static void dlg_yes(lv_event_t *e) { logic_zero_main((axis_t)g_dlg_axis); if(g_dlg){lv_obj_del(g_dlg);g_dlg=NULL;} if(g_underlay){lv_obj_del(g_underlay);g_underlay=NULL;} }
+static void dlg_no(lv_event_t *e)  { if(g_dlg){lv_obj_del(g_dlg);g_dlg=NULL;} if(g_underlay){lv_obj_del(g_underlay);g_underlay=NULL;} }
+static void dlg_close_cb(lv_event_t *e) { dlg_no(e); }
 static void show_confirm(axis_t a) {
     g_dlg_axis = a;
+    g_underlay = underlay_create(dlg_close_cb);
+
     g_dlg = lv_obj_create(lv_scr_act());
     lv_obj_set_size(g_dlg, 260, 110); lv_obj_center(g_dlg);
     lv_obj_add_style(g_dlg, &s_panel, 0);

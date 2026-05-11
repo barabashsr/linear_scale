@@ -71,10 +71,10 @@ void logic_set_diameter(float mm)
 {
     g_st.diam_value = mm;
     axis_data_t *ax = &g_st.axes[AXIS_RADIAL];
-    int32_t pos = (int32_t)((mm / (ax->radius_mode ? 2.0f : 1.0f)) / CFG_SCALE_RADIAL_MM);
-    int32_t shift = pos - ax->main.ref_005mm;
-    ax->main.ref_005mm = pos;
-    ax->main.delta_005mm = 0;
+    int32_t target = mm_to_position(mm / (ax->radius_mode ? 2.0f : 1.0f));
+    int32_t shift = target - ax->main.delta_005mm;
+    ax->main.ref_005mm = ax->raw_005mm - target;
+    ax->main.delta_005mm = target;
     for (int i = 0; i < CFG_MAX_SETPOINTS; i++)
         if (ax->sp[i].active) ax->sp[i].ref_005mm += shift;
 }

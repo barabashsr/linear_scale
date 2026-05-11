@@ -15,6 +15,7 @@ idf_component_register(
          "ui/fonts/ui_font_roboto_bold_60.c"
          "ui/fonts/ui_font_roboto_bold_72.c"
          "ui/fonts/ui_font_roboto_bold_diam_32.c"
+         "ui/fonts/ui_font_bs_24.c"
     INCLUDE_DIRS "."
                   "ui"
                   "ui/fonts"

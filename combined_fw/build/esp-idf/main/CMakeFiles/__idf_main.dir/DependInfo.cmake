@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c" "esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/scale.c" "esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/spindle_enc.c" "esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.obj.d"
+  "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_bs_24.c" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_bs_24.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_bs_24.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_20.c" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_20.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_24.c" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_24.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_roboto_28.c" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_roboto_28.c.obj.d"

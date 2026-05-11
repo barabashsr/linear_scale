@@ -280,4 +280,5 @@ esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.obj: \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/span/lv_span.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/span/../../../lvgl.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/i2c_protocol.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_fonts.h
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_fonts.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/math.h
