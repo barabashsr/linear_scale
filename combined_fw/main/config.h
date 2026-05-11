@@ -71,6 +71,11 @@
 #define CFG_BTN_AW_RD_TOGGLE    4
 #define CFG_BTN_AW_ZERO         5
 
+/* ── MCP23017 keypad ─────────────────────────── */
+#define CFG_MCP23017_ADDR       0x20
+#define CFG_KP_POLL_MS          10
+#define CFG_KP_DEBOUNCE         3
+
 /* ── Linear scales (PCNT quadrature) ─────────── */
 #define CFG_SCALE_AXIAL_A       GPIO_NUM_20
 #define CFG_SCALE_AXIAL_B       GPIO_NUM_19

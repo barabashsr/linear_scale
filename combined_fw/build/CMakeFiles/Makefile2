@@ -3269,10 +3269,6 @@ CMakeFiles/_project_elf_src.dir/clean:
 # Target rules for target CMakeFiles/linear_scale_combined.elf.dir
 
 # All Build rule for target.
-CMakeFiles/linear_scale_combined.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
@@ -3284,6 +3280,10 @@ CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_e
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: CMakeFiles/_project_elf_src.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
@@ -3295,8 +3295,8 @@ CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/rt/CMakeFiles/__idf_rt.dir
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/usb/CMakeFiles/__idf_usb.dir/all
-CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
+CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 CMakeFiles/linear_scale_combined.elf.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
@@ -4522,12 +4522,12 @@ esp-idf/efuse/CMakeFiles/efuse-common-table.dir/clean:
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/all: esp-idf/efuse/CMakeFiles/efuse-common-table.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build.make esp-idf/efuse/CMakeFiles/efuse_common_table.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build.make esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target efuse_common_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=88 "Built target efuse_common_table"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule
@@ -4539,7 +4539,7 @@ efuse_common_table: esp-idf/efuse/CMakeFiles/efuse_common_table.dir/rule
 # codegen rule for target.
 esp-idf/efuse/CMakeFiles/efuse_common_table.dir/codegen: esp-idf/efuse/CMakeFiles/efuse-common-table.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/efuse_common_table.dir/build.make esp-idf/efuse/CMakeFiles/efuse_common_table.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target efuse_common_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=88 "Finished codegen for target efuse_common_table"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_common_table.dir/codegen
 
 # clean rule for target.
@@ -4586,12 +4586,12 @@ esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/clean:
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/all: esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build.make esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build.make esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=88 "Built target efuse_custom_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target efuse_custom_table"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule
@@ -4603,7 +4603,7 @@ efuse_custom_table: esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/rule
 # codegen rule for target.
 esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/codegen: esp-idf/efuse/CMakeFiles/efuse-custom-table.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/build.make esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=88 "Finished codegen for target efuse_custom_table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target efuse_custom_table"
 .PHONY : esp-idf/efuse/CMakeFiles/efuse_custom_table.dir/codegen
 
 # clean rule for target.
@@ -4903,8 +4903,6 @@ esp-idf/esp_system/CMakeFiles/sections.ld.in.dir/clean:
 # Target rules for target esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir
 
 # All Build rule for target.
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
@@ -4916,6 +4914,8 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_lc
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
@@ -4927,8 +4927,8 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/rt/CMa
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/usb/CMakeFiles/__idf_usb.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/all: esp-idf/main/CMakeFiles/__idf_main.dir/all
@@ -4949,8 +4949,6 @@ __ldgen_output_sections.ld: esp-idf/esp_system/CMakeFiles/__ldgen_output_section
 .PHONY : __ldgen_output_sections.ld
 
 # codegen rule for target.
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/console/CMakeFiles/__idf_console.dir/all
@@ -4962,6 +4960,8 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/es
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/app_trace/CMakeFiles/__idf_app_trace.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espcoredump/CMakeFiles/__idf_espcoredump.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/all
@@ -4973,8 +4973,8 @@ esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/rt
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/usb/CMakeFiles/__idf_usb.dir/all
-esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all
+esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all
 esp-idf/esp_system/CMakeFiles/__ldgen_output_sections.ld.dir/codegen: esp-idf/main/CMakeFiles/__idf_main.dir/all
@@ -5154,7 +5154,7 @@ esp-idf/heap/CMakeFiles/__idf_heap.dir/clean:
 esp-idf/soc/CMakeFiles/__idf_soc.dir/all: esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=71,72,73 "Built target __idf_soc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=72,73 "Built target __idf_soc"
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5171,7 +5171,7 @@ __idf_soc: esp-idf/soc/CMakeFiles/__idf_soc.dir/rule
 # codegen rule for target.
 esp-idf/soc/CMakeFiles/__idf_soc.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/soc/CMakeFiles/__idf_soc.dir/build.make esp-idf/soc/CMakeFiles/__idf_soc.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=71,72,73 "Finished codegen for target __idf_soc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=72,73 "Finished codegen for target __idf_soc"
 .PHONY : esp-idf/soc/CMakeFiles/__idf_soc.dir/codegen
 
 # clean rule for target.
@@ -5191,7 +5191,7 @@ esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/all: esp-idf/esp_hw_suppo
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/rule
@@ -5223,7 +5223,7 @@ esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all: esp-idf/freertos
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rule
@@ -5255,7 +5255,7 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/all: esp-idf/newlib/CMakeFiles/__
 
 # Build rule for subdir invocation for target.
 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/freertos/CMakeFiles/__idf_freertos.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/freertos/CMakeFiles/__idf_freertos.dir/rule
@@ -5282,12 +5282,12 @@ esp-idf/freertos/CMakeFiles/__idf_freertos.dir/clean:
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/all: esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=65,66 "Built target __idf_newlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=66 "Built target __idf_newlib"
 .PHONY : esp-idf/newlib/CMakeFiles/__idf_newlib.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/newlib/CMakeFiles/__idf_newlib.dir/rule
@@ -5299,7 +5299,7 @@ __idf_newlib: esp-idf/newlib/CMakeFiles/__idf_newlib.dir/rule
 # codegen rule for target.
 esp-idf/newlib/CMakeFiles/__idf_newlib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/newlib/CMakeFiles/__idf_newlib.dir/build.make esp-idf/newlib/CMakeFiles/__idf_newlib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=65,66 "Finished codegen for target __idf_newlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=66 "Finished codegen for target __idf_newlib"
 .PHONY : esp-idf/newlib/CMakeFiles/__idf_newlib.dir/codegen
 
 # clean rule for target.
@@ -5319,7 +5319,7 @@ esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all: esp-idf/cxx/CMakeFiles/__idf_c
 
 # Build rule for subdir invocation for target.
 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/pthread/CMakeFiles/__idf_pthread.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/pthread/CMakeFiles/__idf_pthread.dir/rule
@@ -5351,7 +5351,7 @@ esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all: esp-idf/esp_timer/CMakeFiles/__idf_esp
 
 # Build rule for subdir invocation for target.
 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/cxx/CMakeFiles/__idf_cxx.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/cxx/CMakeFiles/__idf_cxx.dir/rule
@@ -5383,7 +5383,7 @@ esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all: esp-idf/esp_driver_gptimer
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/rule
@@ -5415,7 +5415,7 @@ esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/all: esp-idf/
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/rule
@@ -5447,7 +5447,7 @@ esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all: esp-idf/esp_driver_uar
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/rule
@@ -5479,7 +5479,7 @@ esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/all: esp-idf/esp_ev
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/rule
@@ -5543,7 +5543,7 @@ esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/all: esp-idf/nvs_flash/CMakeFil
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/rule
@@ -5575,7 +5575,7 @@ esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/all: esp-idf/esp_driver_pcnt/CM
 
 # Build rule for subdir invocation for target.
 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/rule
@@ -5607,7 +5607,7 @@ esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/all: esp-idf/esp_dr
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/rule
@@ -5639,7 +5639,7 @@ esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/all: esp-idf/esp_driv
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/rule
@@ -5671,7 +5671,7 @@ esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/all: esp-idf/esp_
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/rule
@@ -5703,7 +5703,7 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/all: esp-idf/sdmmc/CM
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/rule
@@ -5730,12 +5730,12 @@ esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/clean:
 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/all: esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_sdmmc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=71 "Built target __idf_sdmmc"
 .PHONY : esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule
@@ -5747,7 +5747,7 @@ __idf_sdmmc: esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/rule
 # codegen rule for target.
 esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target __idf_sdmmc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=71 "Finished codegen for target __idf_sdmmc"
 .PHONY : esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/codegen
 
 # clean rule for target.
@@ -5767,7 +5767,7 @@ esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/all: esp-idf/esp_
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/rule
@@ -5799,7 +5799,7 @@ esp-idf/esp_driver_sdspi/CMakeFiles/__idf_esp_driver_sdspi.dir/all: esp-idf/esp_
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_sdspi/CMakeFiles/__idf_esp_driver_sdspi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdspi/CMakeFiles/__idf_esp_driver_sdspi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_sdspi/CMakeFiles/__idf_esp_driver_sdspi.dir/rule
@@ -5831,7 +5831,7 @@ esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/all: esp-idf/esp_driv
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/rule
@@ -5863,7 +5863,7 @@ esp-idf/esp_driver_tsens/CMakeFiles/__idf_esp_driver_tsens.dir/all: esp-idf/esp_
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_tsens/CMakeFiles/__idf_esp_driver_tsens.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_tsens/CMakeFiles/__idf_esp_driver_tsens.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_tsens/CMakeFiles/__idf_esp_driver_tsens.dir/rule
@@ -5895,7 +5895,7 @@ esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/all: esp-idf/esp_driv
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/rule
@@ -5927,7 +5927,7 @@ esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all: esp-idf/esp_driv
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/rule
@@ -5959,7 +5959,7 @@ esp-idf/esp_driver_ledc/CMakeFiles/__idf_esp_driver_ledc.dir/all: esp-idf/esp_dr
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_ledc/CMakeFiles/__idf_esp_driver_ledc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_ledc/CMakeFiles/__idf_esp_driver_ledc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_ledc/CMakeFiles/__idf_esp_driver_ledc.dir/rule
@@ -5991,7 +5991,7 @@ esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.d
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_driver_usb_serial_jtag/CMakeFiles/__idf_esp_driver_usb_serial_jtag.dir/rule
@@ -6023,7 +6023,7 @@ esp-idf/driver/CMakeFiles/__idf_driver.dir/all: esp-idf/esp_phy/CMakeFiles/__idf
 
 # Build rule for subdir invocation for target.
 esp-idf/driver/CMakeFiles/__idf_driver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/driver/CMakeFiles/__idf_driver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/driver/CMakeFiles/__idf_driver.dir/rule
@@ -6055,7 +6055,7 @@ esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/all: esp-idf/esp_vfs_console/CMakeF
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/rule
@@ -6087,7 +6087,7 @@ esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/all: esp-idf/vfs/CM
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/rule
@@ -6119,7 +6119,7 @@ esp-idf/vfs/CMakeFiles/__idf_vfs.dir/all: esp-idf/lwip/CMakeFiles/__idf_lwip.dir
 
 # Build rule for subdir invocation for target.
 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/vfs/CMakeFiles/__idf_vfs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/vfs/CMakeFiles/__idf_vfs.dir/rule
@@ -6151,7 +6151,7 @@ esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all: esp-idf/esp_netif/CMakeFiles/__idf_e
 
 # Build rule for subdir invocation for target.
 esp-idf/lwip/CMakeFiles/__idf_lwip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/lwip/CMakeFiles/__idf_lwip.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/lwip/CMakeFiles/__idf_lwip.dir/rule
@@ -6183,7 +6183,7 @@ esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/all: esp-idf/wpa_supplicant/CMa
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/rule
@@ -6215,7 +6215,7 @@ esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/all: esp-idf/esp_coex
 
 # Build rule for subdir invocation for target.
 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/rule
@@ -6247,7 +6247,7 @@ esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/all: esp-idf/esp_wifi/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/rule
@@ -6279,7 +6279,7 @@ esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/all: esp-idf/http_parser/CMakeFil
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/rule
@@ -6335,8 +6335,8 @@ esp-idf/unity/CMakeFiles/__idf_unity.dir/clean:
 # Target rules for target esp-idf/cmock/CMakeFiles/__idf_cmock.dir
 
 # All Build rule for target.
-esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all: esp-idf/unity/CMakeFiles/__idf_unity.dir/all
+esp-idf/cmock/CMakeFiles/__idf_cmock.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/cmock/CMakeFiles/__idf_cmock.dir/build.make esp-idf/cmock/CMakeFiles/__idf_cmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/cmock/CMakeFiles/__idf_cmock.dir/build.make esp-idf/cmock/CMakeFiles/__idf_cmock.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_cmock"
@@ -6408,7 +6408,7 @@ esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/all: esp-idf/esp-tls/CMakeF
 
 # Build rule for subdir invocation for target.
 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/rule
@@ -6440,7 +6440,7 @@ esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/all: esp-idf/esp_adc/CMakeFiles/__i
 
 # Build rule for subdir invocation for target.
 esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/rule
@@ -6472,7 +6472,7 @@ esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/all: esp-idf/esp_gdbstub/CMakeFiles
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/rule
@@ -6568,7 +6568,7 @@ esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/all: esp-idf/tcp_transport/
 
 # Build rule for subdir invocation for target.
 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/rule
@@ -6627,12 +6627,12 @@ esp-idf/esp_hid/CMakeFiles/__idf_esp_hid.dir/clean:
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all: esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_tcp_transport"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=76 "Built target __idf_tcp_transport"
 .PHONY : esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/rule
@@ -6644,7 +6644,7 @@ __idf_tcp_transport: esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/ru
 # codegen rule for target.
 esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/build.make esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target __idf_tcp_transport"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=76 "Finished codegen for target __idf_tcp_transport"
 .PHONY : esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/codegen
 
 # clean rule for target.
@@ -6882,9 +6882,9 @@ esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/clean:
 # Target rules for target esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir
 
 # All Build rule for target.
-esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
+esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build.make esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=69 "Built target __idf_protocomm"
@@ -6916,11 +6916,11 @@ esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/clean:
 # Target rules for target esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir
 
 # All Build rule for target.
-esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/esp_https_server/CMakeFiles/__idf_esp_https_server.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build.make esp-idf/esp_local_ctrl/CMakeFiles/__idf_esp_local_ctrl.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_esp_local_ctrl"
@@ -7084,12 +7084,12 @@ esp-idf/json/CMakeFiles/__idf_json.dir/clean:
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build.make esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build.make esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_mqtt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=65 "Built target __idf_mqtt"
 .PHONY : esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 70
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/rule
@@ -7101,7 +7101,7 @@ __idf_mqtt: esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/rule
 # codegen rule for target.
 esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/build.make esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target __idf_mqtt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=65 "Finished codegen for target __idf_mqtt"
 .PHONY : esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/codegen
 
 # clean rule for target.
@@ -7244,12 +7244,12 @@ esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/clean:
 esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/build.make esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/build.make esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=76 "Built target __idf_touch_element"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_touch_element"
 .PHONY : esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 
 # Build rule for subdir invocation for target.
 esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles 0
 .PHONY : esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/rule
@@ -7261,7 +7261,7 @@ __idf_touch_element: esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/ru
 # codegen rule for target.
 esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/build.make esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=76 "Finished codegen for target __idf_touch_element"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Finished codegen for target __idf_touch_element"
 .PHONY : esp-idf/touch_element/CMakeFiles/__idf_touch_element.dir/codegen
 
 # clean rule for target.
@@ -7305,10 +7305,10 @@ esp-idf/usb/CMakeFiles/__idf_usb.dir/clean:
 # Target rules for target esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir
 
 # All Build rule for target.
-esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/console/CMakeFiles/__idf_console.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/protocomm/CMakeFiles/__idf_protocomm.dir/all
+esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/all: esp-idf/json/CMakeFiles/__idf_json.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build.make esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/build
@@ -7373,8 +7373,8 @@ esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/clean:
 # Target rules for target esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir
 
 # All Build rule for target.
-esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
+esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/build.make esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/build.make esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num= "Built target __idf_espressif__esp_lcd_touch"
@@ -7406,8 +7406,8 @@ esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/c
 # Target rules for target esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir
 
 # All Build rule for target.
-esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
+esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 	$(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/build.make esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/depend
 	$(MAKE) $(MAKESILENT) -f esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/build.make esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/build
@@ -7440,8 +7440,8 @@ esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch
 # Target rules for target esp-idf/main/CMakeFiles/__idf_main.dir
 
 # All Build rule for target.
-esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/esp_lcd/CMakeFiles/__idf_esp_lcd.dir/all
+esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/espressif__esp_lcd_touch/CMakeFiles/__idf_espressif__esp_lcd_touch.dir/all
 esp-idf/main/CMakeFiles/__idf_main.dir/all: esp-idf/espressif__esp_lcd_touch_gt911/CMakeFiles/__idf_espressif__esp_lcd_touch_gt911.dir/all

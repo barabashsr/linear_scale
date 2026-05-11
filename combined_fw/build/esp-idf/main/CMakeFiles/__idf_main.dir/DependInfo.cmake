@@ -10,8 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/aw9523.c" "esp-idf/main/CMakeFiles/__idf_main.dir/aw9523.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/aw9523.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.c" "esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.obj.d"
+  "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c" "esp-idf/main/CMakeFiles/__idf_main.dir/keypad.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/keypad.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c" "esp-idf/main/CMakeFiles/__idf_main.dir/lcd_port.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/lcd_port.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c" "esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d"
+  "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.c" "esp-idf/main/CMakeFiles/__idf_main.dir/mcp23017.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/mcp23017.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/scale.c" "esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/scale.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/spindle_enc.c" "esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.obj.d"
   "/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/fonts/ui_font_bs_24.c" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_bs_24.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/ui/fonts/ui_font_bs_24.c.obj.d"

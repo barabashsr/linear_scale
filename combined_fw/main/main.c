@@ -10,6 +10,7 @@
 #include "scale.h"
 #include "spindle_enc.h"
 #include "buttons.h"
+#include "keypad.h"
 #include "ui_logic.h"
 #include "ui_styles.h"
 #include "ui_main.h"
@@ -94,6 +95,7 @@ void app_main(void)
     ESP_ERROR_CHECK(scale_init(SCALE_RADIAL, CFG_SCALE_RADIAL_A, CFG_SCALE_RADIAL_B));
     ESP_ERROR_CHECK(spindle_enc_init());
     ESP_ERROR_CHECK(buttons_init());
+    keypad_init();
     logic_init();
 
     lv_init();
@@ -141,6 +143,10 @@ void app_main(void)
         }
 
         ui_main_update();
+        {
+            char kp;
+            if (keypad_get_char(&kp)) ui_main_handle_keypad(kp);
+        }
         lvgl_flush_all();
         vTaskDelay(pdMS_TO_TICKS(1));
     }

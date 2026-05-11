@@ -3,6 +3,7 @@
 #include "ui_styles.h"
 #include "config.h"
 #include "i2c_protocol.h"
+#include "keypad.h"
 #include "ui_fonts.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -56,6 +57,7 @@ static void fpos(char *b, int sz, float mm)
 
 /* ── UNDERLAY ── */
 static void underlay_close_cb(lv_event_t *e) {
+    keypad_enable(false);
     if (g_modal) { lv_obj_del(g_modal); g_modal = NULL; }
     if (g_underlay) { lv_obj_del(g_underlay); g_underlay = NULL; }
     g_np_label = NULL;
@@ -118,6 +120,7 @@ static void np_toggle_sign(void) {
 static void np_btn_cb(lv_event_t *e) {
     const char *c = lv_event_get_user_data(e);
     if (strcmp(c, "OK") == 0) {
+        keypad_enable(false);
         logic_set_diameter(atof(g_numpad_buf));
         if (g_modal) { lv_obj_del(g_modal); g_modal = NULL; }
         if (g_underlay) { lv_obj_del(g_underlay); g_underlay = NULL; }
@@ -126,6 +129,7 @@ static void np_btn_cb(lv_event_t *e) {
     }
     if (strcmp(c, "C") == 0) { np_clear(); return; }
     if (strcmp(c, "Cancel") == 0) {
+        keypad_enable(false);
         if (g_modal) { lv_obj_del(g_modal); g_modal = NULL; }
         if (g_underlay) { lv_obj_del(g_underlay); g_underlay = NULL; }
         g_np_label = NULL;
@@ -157,6 +161,7 @@ static lv_obj_t *np_make_btn(lv_obj_t *p, const char *t, const char *ev, int x, 
 }
 
 static void show_numpad(void) {
+    keypad_enable(true);
     g_underlay = underlay_create(underlay_close_cb);
 
     g_modal = lv_obj_create(lv_scr_act());
@@ -217,6 +222,42 @@ static void show_numpad(void) {
 }
 
 static void diam_btn_cb(lv_event_t *e) { show_numpad(); }
+
+void ui_main_handle_keypad(char c)
+{
+    switch (c) {
+    case 'A':   /* OK */
+        keypad_enable(false);
+        logic_set_diameter(atof(g_numpad_buf));
+        if (g_modal) { lv_obj_del(g_modal); g_modal = NULL; g_np_label = NULL; }
+        if (g_underlay) { lv_obj_del(g_underlay); g_underlay = NULL; }
+        break;
+    case 'B':   /* Cancel */
+        keypad_enable(false);
+        if (g_modal) { lv_obj_del(g_modal); g_modal = NULL; g_np_label = NULL; }
+        if (g_underlay) { lv_obj_del(g_underlay); g_underlay = NULL; }
+        break;
+    case 'C':   /* Clear */
+        np_clear();
+        break;
+    case 'D':   /* Backspace */
+        np_backspace();
+        break;
+    case '*':   /* Decimal point */
+        if (!strchr(g_numpad_buf, '.')) {
+            int len = strlen(g_numpad_buf);
+            if (len < 15) { g_numpad_buf[len] = '.'; g_numpad_buf[len+1] = '0'; g_numpad_buf[len+2] = 0; }
+        }
+        np_set_display();
+        break;
+    case '#':   /* Toggle sign */
+        np_toggle_sign();
+        break;
+    default:
+        if (c >= '0' && c <= '9') np_place_digit(c);
+        break;
+    }
+}
 
 /* ── CONFIRM DIALOG ── */
 static void dlg_yes(lv_event_t *e) { logic_zero_main((axis_t)g_dlg_axis); if(g_dlg){lv_obj_del(g_dlg);g_dlg=NULL;} if(g_underlay){lv_obj_del(g_underlay);g_underlay=NULL;} }

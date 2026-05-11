@@ -223,6 +223,30 @@ buttons.c.s:
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.s
 .PHONY : buttons.c.s
 
+keypad.obj: keypad.c.obj
+.PHONY : keypad.obj
+
+# target to build an object file
+keypad.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/keypad.c.obj
+.PHONY : keypad.c.obj
+
+keypad.i: keypad.c.i
+.PHONY : keypad.i
+
+# target to preprocess a source file
+keypad.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/keypad.c.i
+.PHONY : keypad.c.i
+
+keypad.s: keypad.c.s
+.PHONY : keypad.s
+
+# target to generate assembly for a file
+keypad.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/keypad.c.s
+.PHONY : keypad.c.s
+
 lcd_port.obj: lcd_port.c.obj
 .PHONY : lcd_port.obj
 
@@ -270,6 +294,30 @@ main.s: main.c.s
 main.c.s:
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main.c.s
 .PHONY : main.c.s
+
+mcp23017.obj: mcp23017.c.obj
+.PHONY : mcp23017.obj
+
+# target to build an object file
+mcp23017.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/mcp23017.c.obj
+.PHONY : mcp23017.c.obj
+
+mcp23017.i: mcp23017.c.i
+.PHONY : mcp23017.i
+
+# target to preprocess a source file
+mcp23017.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/mcp23017.c.i
+.PHONY : mcp23017.c.i
+
+mcp23017.s: mcp23017.c.s
+.PHONY : mcp23017.s
+
+# target to generate assembly for a file
+mcp23017.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/mcp23017.c.s
+.PHONY : mcp23017.c.s
 
 scale.obj: scale.c.obj
 .PHONY : scale.obj
@@ -602,12 +650,18 @@ help:
 	@echo "... buttons.obj"
 	@echo "... buttons.i"
 	@echo "... buttons.s"
+	@echo "... keypad.obj"
+	@echo "... keypad.i"
+	@echo "... keypad.s"
 	@echo "... lcd_port.obj"
 	@echo "... lcd_port.i"
 	@echo "... lcd_port.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mcp23017.obj"
+	@echo "... mcp23017.i"
+	@echo "... mcp23017.s"
 	@echo "... scale.obj"
 	@echo "... scale.i"
 	@echo "... scale.s"

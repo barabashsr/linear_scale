@@ -5,6 +5,8 @@ idf_component_register(
          "scale.c"
          "spindle_enc.c"
          "buttons.c"
+         "mcp23017.c"
+         "keypad.c"
          "ui/ui_logic.c"
          "ui/ui_styles.c"
          "ui/ui_main.c"
