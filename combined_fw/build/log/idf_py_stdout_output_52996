@@ -1,0 +1,567 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x3fce2810,len:0x15a0
+load:0x403c8700,len:0x4
+load:0x403c8704,len:0xd20
+load:0x403cb700,len:0x2ee4
+entry 0x403c8928
+[0;32mI (30) boot: ESP-IDF v5.4-dirty 2nd stage bootloader[0m
+[0;32mI (30) boot: compile time May 11 2026 09:06:22[0m
+[0;32mI (30) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v0.2[0m
+[0;32mI (33) boot: efuse block revision: v1.3[0m
+[0;32mI (37) boot.esp32s3: Boot SPI Speed : 40MHz[0m
+[0;32mI (41) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 4MB[0m
+[0;32mI (48) boot: Enabling RNG early entropy source...[0m
+[0;32mI (53) boot: Partition Table:[0m
+[0;32mI (55) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (62) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (68) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (75) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (81) boot: End of partition table[0m
+[0;32mI (85) esp_image: segment 0: paddr=00010020 vaddr=3c050020 size=72a3ch (469564) map[0m
+[0;32mI (207) esp_image: segment 1: paddr=00082a64 vaddr=3fc95e00 size=031fch ( 12796) load[0m
+[0;32mI (211) esp_image: segment 2: paddr=00085c68 vaddr=40374000 size=0a3b0h ( 41904) load[0m
+[0;32mI (223) esp_image: segment 3: paddr=00090020 vaddr=42000020 size=4b884h (309380) map[0m
+[0;32mI (299) esp_image: segment 4: paddr=000db8ac vaddr=4037e3b0 size=07a10h ( 31248) load[0m
+[0;32mI (309) esp_image: segment 5: paddr=000e32c4 vaddr=600fe100 size=0001ch (    28) load[0m
+[0;32mI (316) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (316) boot: Disabling RNG early entropy source...[0m
+[0;32mI (327) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (327) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (327) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (329) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (333) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (338) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (342) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (347) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (352) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (356) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (361) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (366) MSPI Timing: PSRAM timing tuning index: 5[0m
+[0;32mI (370) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (374) esp_psram: Speed: 80MHz[0m
+[0;32mI (377) cpu_start: Multicore app[0m
+[0;32mI (812) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (822) cpu_start: Pro cpu start user code[0m
+[0;32mI (822) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (822) app_init: Application information:[0m
+[0;32mI (822) app_init: Project name:     linear_scale_combined[0m
+[0;32mI (827) app_init: App version:      a1a7738-dirty[0m
+[0;32mI (831) app_init: Compile time:     May 11 2026 19:53:18[0m
+[0;32mI (836) app_init: ELF file SHA256:  8c02c6997...[0m
+[0;32mI (841) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (845) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (849) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (853) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (857) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (863) heap_init: At 3FC9A088 len 0004F688 (317 KiB): RAM[0m
+[0;32mI (868) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (873) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (878) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (884) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (891) spi_flash: detected chip: generic[0m
+[0;32mI (894) spi_flash: flash io: dio[0m
+[0;33mW (897) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.[0m
+[0;33mW (909) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (919) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (925) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (932) main_task: Started on CPU0[0m
+[0;32mI (935) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (943) main_task: Calling app_main()[0m
+[0;32mI (946) main: DRO firmware starting[0m
+[0;32mI (950) aw9523: AW9523 found at 0x5B, ID=0x23[0m
+[0;32mI (954) aw9523: AW9523 ready (all inputs)[0m
+[0;32mI (1050) GT911: I2C address initialization procedure skipped - using default GT9xx setup[0m
+[0;32mI (1052) GT911: TouchPad_ID:0x39,0x31,0x31[0m
+[0;32mI (1052) GT911: TouchPad_Config_Version:130[0m
+[0;32mI (1055) lcd_port: Touch: GT911 detected at 0x5B[0m
+[0;32mI (1062) scale: Axial scale ready (A=20 B=19)[0m
+[0;32mI (1064) scale: Radial scale ready (A=41 B=40)[0m
+[0;32mI (1068) gpio: GPIO[2]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+[0;32mI (1077) spindle: Spindle ready A=4 B=1 Z=2 CPR=400 gear=1:1[0m
+[0;32mI (1082) buttons: Buttons ready (6 via AW9523)[0m
+[0;32mI (1087) mcp23017: MCP23017 found at 0x20[0m
+[0;32mI (1091) mcp23017: MCP23017 ready (rows=A0-3 out, cols=A4-7 in pu)[0m
+[0;32mI (1096) keypad: Keypad ready[0m
+[0;32mI (1264) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (2032) buttons: AW9523 port0 raw=0x7F[0m
+[0;32mI (2044) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (2053) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (2583) buttons: AW9523 port0 raw=0xEA[0m
+[0;32mI (3112) buttons: AW9523 port0 raw=0x7F[0m
+[0;32mI (3642) buttons: AW9523 port0 raw=0xEB[0m
+[0;32mI (4168) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (4695) buttons: AW9523 port0 raw=0xFB[0m
+[0;32mI (5224) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (5753) buttons: AW9523 port0 raw=0xFB[0m
+[0;32mI (6803) buttons: AW9523 port0 raw=0xEB[0m
+[0;32mI (7331) buttons: AW9523 port0 raw=0x14[0m
+[0;32mI (7860) buttons: AW9523 port0 raw=0xFB[0m
+[0;32mI (8385) buttons: AW9523 port0 raw=0x02[0m
+[0;32mI (8914) buttons: AW9523 port0 raw=0xFB[0m
+[0;32mI (9440) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (9968) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (10498) buttons: AW9523 port0 raw=0xFB[0m
+[0;32mI (11026) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (11553) buttons: AW9523 port0 raw=0x11[0m
+[0;32mI (12083) buttons: AW9523 port0 raw=0xFB[0m
+[0;32mI (12610) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (13139) buttons: AW9523 port0 raw=0xFB[0m
+[0;32mI (13665) buttons: AW9523 port0 raw=0x0A[0m
+[0;32mI (14192) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (14720) buttons: AW9523 port0 raw=0xFB[0m
+[0;32mI (15247) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (15775) buttons: AW9523 port0 raw=0xFB[0m
+[0;32mI (16828) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (17358) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (17887) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (18412) buttons: AW9523 port0 raw=0x01[0m
+[0;32mI (18938) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (19466) buttons: AW9523 port0 raw=0x15[0m
+[0;32mI (19995) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (21049) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (21577) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (22106) buttons: AW9523 port0 raw=0xBF[0m
+[0;32mI (22632) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (23160) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (23688) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (24216) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (25269) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (25797) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (26851) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (27379) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (27907) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (28438) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (29493) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (30019) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (30547) buttons: AW9523 port0 raw=0x3C[0m
+[0;32mI (31075) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (31602) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (32130) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (32657) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (33187) buttons: AW9523 port0 raw=0xBE[0m
+[0;32mI (33714) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (34243) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (34770) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (35296) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (35823) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (36350) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (36878) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (37933) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (38462) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (38988) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (39515) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (40042) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (40570) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (41097) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (41623) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (42152) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (42681) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (43210) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (43737) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (44263) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (44793) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (45321) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (46371) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (46901) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (47429) buttons: AW9523 port0 raw=0xBE[0m
+[0;32mI (47956) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (48484) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (49011) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (49542) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (50070) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (50598) buttons: AW9523 port0 raw=0x54[0m
+[0;32mI (51126) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (51652) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (52183) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (52711) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (53240) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (54291) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (54820) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (55350) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (56403) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (56932) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (57461) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (58513) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (59041) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (59569) buttons: AW9523 port0 raw=0xBE[0m
+[0;32mI (60098) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (60625) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (61151) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (61680) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (62732) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (63258) buttons: AW9523 port0 raw=0xFE[0m
+[0;32mI (63788) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (64317) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (64844) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (65371) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (65899) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (66430) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (66960) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (68013) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (68539) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (69592) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (70119) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (71174) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (71703) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (72230) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (73282) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (74332) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (74862) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (75390) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (75919) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (76970) buttons: AW9523 port0 raw=0x10[0m
+[0;32mI (77499) buttons: AW9523 port0 raw=0xFE[0m
+[0;32mI (78026) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (78553) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (79080) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (79609) buttons: AW9523 port0 raw=0x3C[0m
+[0;32mI (80138) buttons: AW9523 port0 raw=0x50[0m
+[0;32mI (80665) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (81191) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (81721) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (82771) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (83824) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (84352) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (84880) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (85932) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (86461) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (87514) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (88044) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (88573) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (89103) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (89631) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (90160) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (91215) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (91743) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (92795) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (93322) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (93851) buttons: AW9523 port0 raw=0x1C[0m
+[0;32mI (94378) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (94904) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (95434) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (95961) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (96490) buttons: AW9523 port0 raw=0x1F[0m
+[0;32mI (97016) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (97544) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (98071) buttons: AW9523 port0 raw=0x01[0m
+[0;32mI (98599) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (99126) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (99653) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (100181) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (101235) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (101762) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (102816) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (103343) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (104397) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (104924) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (105452) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (106504) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (107034) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (107561) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (108612) buttons: AW9523 port0 raw=0x05[0m
+[0;32mI (109142) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (110194) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (110724) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (111253) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (112303) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (112832) buttons: AW9523 port0 raw=0xBF[0m
+[0;32mI (113360) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (113886) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (114413) buttons: AW9523 port0 raw=0xBF[0m
+[0;32mI (114939) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (115467) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (115993) buttons: AW9523 port0 raw=0xBF[0m
+[0;32mI (116523) buttons: AW9523 port0 raw=0xFE[0m
+[0;32mI (117051) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (117578) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (118106) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (118634) buttons: AW9523 port0 raw=0xBF[0m
+[0;32mI (119160) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (119690) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (120218) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (120747) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (121798) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (122326) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (123376) buttons: AW9523 port0 raw=0x1F[0m
+[0;32mI (123907) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (124959) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (126012) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (126541) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (127069) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (128121) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (128650) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (129703) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (130233) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (130760) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (131288) buttons: AW9523 port0 raw=0xE0[0m
+[0;32mI (131814) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (132342) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (132873) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (133401) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (134456) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (134983) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (135514) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (136042) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (136572) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (137101) buttons: AW9523 port0 raw=0x17[0m
+[0;32mI (137628) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (138155) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (138683) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (139213) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (140263) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (141317) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (141845) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (142898) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (143427) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (143955) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (145008) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (145538) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (146068) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (146595) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (147649) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (148176) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (149229) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (149756) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (150808) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (151336) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (152388) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (152914) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (153971) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (154500) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (155026) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (155554) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (156608) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (157135) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (158189) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (158716) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (159244) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (160299) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (160828) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (161357) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (161884) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (162938) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (163465) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (163994) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (165046) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (165573) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (166101) buttons: AW9523 port0 raw=0x05[0m
+[0;32mI (166628) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (167159) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (167687) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (168214) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (168740) buttons: AW9523 port0 raw=0x17[0m
+[0;32mI (169268) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (169797) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (170326) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (170853) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (171380) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (171909) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (172441) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (172968) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (173498) buttons: AW9523 port0 raw=0x07[0m
+[0;32mI (174024) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (174550) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (175080) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (175609) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (176659) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (177188) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (178241) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (178767) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (179819) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (180346) buttons: AW9523 port0 raw=0xFE[0m
+[0;32mI (180875) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (181402) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (181932) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (182460) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (182985) buttons: AW9523 port0 raw=0xFE[0m
+[0;32mI (183513) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (184042) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (184570) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (185097) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (185624) buttons: AW9523 port0 raw=0xFE[0m
+[0;32mI (186152) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (186681) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (187207) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (188259) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (188789) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (189317) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (189847) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (190375) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (191428) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (191956) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (192482) buttons: AW9523 port0 raw=0xF8[0m
+[0;32mI (193010) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (193539) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (194066) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (194594) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (195649) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (196177) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (196704) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (197758) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (198288) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (198815) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (199344) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (199871) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (200927) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (201453) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (202506) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (203035) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (203562) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (204615) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (205144) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (205670) buttons: AW9523 port0 raw=0x01[0m
+[0;32mI (206198) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (206726) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (207255) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (207783) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (208310) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (209363) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (209889) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (210942) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (211470) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (212521) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (213049) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (213578) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (214629) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (215161) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (215689) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (216218) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (217269) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (217797) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (218851) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (219378) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (220432) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (220958) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (221486) buttons: AW9523 port0 raw=0x1F[0m
+[0;32mI (222016) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (223070) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (223595) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (224126) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (225179) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (225705) buttons: AW9523 port0 raw=0x07[0m
+[0;32mI (226234) buttons: AW9523 port0 raw=0xC0[0m
+[0;32mI (226762) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (227290) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (227818) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (228345) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (228873) buttons: AW9523 port0 raw=0xFE[0m
+[0;32mI (229401) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (229926) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (230454) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (231508) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (232034) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (233088) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (233617) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (234143) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (235196) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (235726) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (236252) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (237305) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (237834) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (238359) buttons: AW9523 port0 raw=0xBF[0m
+[0;32mI (238885) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (239414) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (239942) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (240469) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (241521) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (242049) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (243101) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (243628) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (244158) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (245210) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (245740) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (246266) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (247318) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (247846) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (248374) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (249426) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (249954) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (250483) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (251535) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (252065) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (252593) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (253122) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (254175) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (254703) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (255232) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (255762) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (256814) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (257342) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (257871) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (258398) buttons: AW9523 port0 raw=0xE0[0m
+[0;32mI (258925) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (259454) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (259982) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (260510) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (261561) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (262090) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (262618) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (263669) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (264198) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (265249) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (265776) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (266828) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (267357) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (267884) buttons: AW9523 port0 raw=0x1F[0m
+[0;32mI (268412) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (268939) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (269466) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (269996) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (270524) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (271053) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (272106) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (272634) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (273164) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (274212) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (274741) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (275791) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (276321) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (276849) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (277901) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (278431) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (278959) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (279488) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (280540) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (281070) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (281598) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (282648) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (283176) buttons: AW9523 port0 raw=0x05[0m
+[0;32mI (283705) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (284756) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (285284) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (286335) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (286863) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (287392) buttons: AW9523 port0 raw=0x1F[0m
+[0;32mI (287920) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (288447) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (288974) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (289502) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (290552) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (291604) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (292131) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (293186) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (293715) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (294241) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (294768) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (295297) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (296349) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (296878) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (297931) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (298458) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (299509) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (300037) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (300563) buttons: AW9523 port0 raw=0x00[0m
+[0;32mI (301090) buttons: AW9523 port0 raw=0x15[0m
+[0;32mI (301618) buttons: AW9523 port0 raw=0xFF[0m
+[0;32mI (302148) buttons: AW9523 port0 raw=0x01[0m
+[0;32mI (302675) buttons: AW9523 port0 raw=0xFF[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x3 (DOWNLOAD(USB/UART0))
+waiting for download

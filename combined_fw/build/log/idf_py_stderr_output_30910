@@ -1,0 +1,9 @@
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.c:59:6: error: redefinition of 'mcp23017_set_led'
+   59 | void mcp23017_set_led(uint8_t addr, uint8_t pin, bool on)
+      |      ^~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.c:50:6: note: previous definition of 'mcp23017_set_led' with type 'void(uint8_t,  uint8_t,  _Bool)' {aka 'void(unsigned char,  unsigned char,  _Bool)'}
+   50 | void mcp23017_set_led(uint8_t addr, uint8_t pin, bool on)
+      |      ^~~~~~~~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/mcp23017.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "linear_scale_combined",
-    "project_version":    "68c36ce-dirty",
+    "project_version":    "a1a7738-dirty",
     "project_path":       "/Users/sergeybarabash/robo/linear_scale/combined_fw",
     "idf_path":           "/Users/sergeybarabash/robo/esp/v5.4/esp-idf",
     "build_dir":          "/Users/sergeybarabash/robo/linear_scale/combined_fw/build",

@@ -1,0 +1,5 @@
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/cu.wchusbserial5AE60199971 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is bf7a47674795cc61df793f910310cd2001384b0306fcdc0fc8710e8a8edef0d2[0m
+[0;33m--- Warning: Checksum mismatch between flashed and built applications. Checksum of built application is bf7a47674795cc61df793f910310cd2001384b0306fcdc0fc8710e8a8edef0d2[0m
+[0m

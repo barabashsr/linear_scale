@@ -1,5 +1,7 @@
 #include "ui_logic.h"
 #include "i2c_protocol.h"
+#include "mcp23017.h"
+#include "esp_log.h"
 #include <string.h>
 
 static state_t g_st;
@@ -65,6 +67,8 @@ void logic_zero_sp(axis_t a, int idx)
 void logic_toggle_rd(void)
 {
     g_st.axes[AXIS_RADIAL].radius_mode = !g_st.axes[AXIS_RADIAL].radius_mode;
+    mcp23017_set_led(CFG_MCP23017_ADDR, CFG_MCP_LED_RD,
+                     g_st.axes[AXIS_RADIAL].radius_mode);
 }
 
 void logic_set_diameter(float mm)
@@ -85,9 +89,13 @@ float logic_get_angle_deg(void)
     return (g_st.spindle_raw - g_st.spindle_z_ref) * 360.0f / CFG_SPINDLE_CPR * ratio;
 }
 
+void (*g_on_diameter_btn)(void);
+void (*g_on_axial_zero_btn)(void);
+
 void logic_handle_btn(uint16_t btns)
 {
     uint16_t chg = btns & ~g_st.btn_state;
+    if (chg) ESP_LOGI("btn", "btns=0x%04X chg=0x%04X", btns, chg);
     g_st.btn_state = btns;
     if (!chg) return;
     for (int i = 0; i < CFG_MAX_SETPOINTS; i++) {
@@ -95,6 +103,11 @@ void logic_handle_btn(uint16_t btns)
         if (chg & (BTN_AXIAL_T1 << i))  logic_zero_sp(AXIS_AXIAL, i);
     }
     if (chg & BTN_RD_TOGGLE) logic_toggle_rd();
+    if (chg & BTN_DIAMETER && g_on_diameter_btn) g_on_diameter_btn();
+    if (chg & BTN_AXIAL_ZERO && g_on_axial_zero_btn) g_on_axial_zero_btn();
+    if (chg & BTN_DIAM_ZERO) logic_zero_main(AXIS_RADIAL);
+    if (chg & BTN_DIAM_T1) logic_zero_sp(AXIS_RADIAL, 0);
+    if (chg & BTN_DIAM_T2) logic_zero_sp(AXIS_RADIAL, 1);
 }
 
 void logic_set_rpm(float rpm) { g_st.spindle_rpm = rpm; }

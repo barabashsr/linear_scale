@@ -64,17 +64,37 @@
 #define CFG_AW9523_RST_DELAY_MS 50
 
 /* ── AW9523 button inputs (port0) ────────────── */
+#define CFG_BTN_AW_DIAMETER     1
 #define CFG_BTN_AW_RADIAL_T1    0
-#define CFG_BTN_AW_RADIAL_T2    1
-#define CFG_BTN_AW_AXIAL_T1     2
-#define CFG_BTN_AW_AXIAL_T2     3
-#define CFG_BTN_AW_RD_TOGGLE    4
-#define CFG_BTN_AW_ZERO         5
+#define CFG_BTN_AW_RD_TOGGLE    3
+#define CFG_BTN_AW_RADIAL_T2    2
+#define CFG_BTN_AW_AXIAL_ZERO   5
+#define CFG_BTN_AW_AXIAL_T1     4
+
+#define CFG_BTN_AW_AXIAL_T2     6
+#define CFG_BTN_AW_DIAM_ZERO    7
+
+
+
+
 
 /* ── MCP23017 keypad ─────────────────────────── */
 #define CFG_MCP23017_ADDR       0x20
 #define CFG_KP_POLL_MS          10
 #define CFG_KP_DEBOUNCE         3
+
+#define CFG_MCP_PORTA_DIR       0xF0
+#define CFG_MCP_PORTA_PU        0xF0
+#define CFG_MCP_PORTA_OLAT      0x0F
+
+#define CFG_MCP_PORTB_DIR       0x03
+#define CFG_MCP_PORTB_PU        0x03
+#define CFG_MCP_PORTB_OLAT      0x00
+#define CFG_MCP_LED_RD          2
+#define CFG_MCP_BTN_DIAM_T1     0
+#define CFG_MCP_BTN_DIAM_T2     1
+
+
 
 /* ── Linear scales (PCNT quadrature) ─────────── */
 #define CFG_SCALE_AXIAL_A       GPIO_NUM_20

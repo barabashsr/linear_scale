@@ -9,7 +9,11 @@
 #define BTN_AXIAL_T1            (1 << 2)
 #define BTN_AXIAL_T2            (1 << 3)
 #define BTN_RD_TOGGLE           (1 << 4)
-#define BTN_ZERO                (1 << 5)
+#define BTN_AXIAL_ZERO          (1 << 5)
+#define BTN_DIAMETER            (1 << 6)
+#define BTN_DIAM_ZERO           (1 << 7)
+#define BTN_DIAM_T1             (1 << 8)
+#define BTN_DIAM_T2             (1 << 9)
 
 static inline float position_to_mm(int32_t pos)
 {

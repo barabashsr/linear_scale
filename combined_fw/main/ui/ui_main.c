@@ -35,13 +35,14 @@
 
 typedef struct {
     lv_obj_t *row, *title, *val;
+    lv_obj_t *rd_label;
     lv_obj_t *sp_p[SP_C], *sp_v[SP_C];
 } ax_ui_t;
 
 static ax_ui_t g_ax[2];
 
 static lv_obj_t *g_sp_row, *g_sp_title, *g_sp_val;
-static lv_obj_t *g_sp_ang_v, *g_sp_rpm_v, *g_sp_rpm_u;
+static lv_obj_t *g_sp_ang_v, *g_sp_diam_v;
 
 static lv_obj_t *g_dlg, *g_modal, *g_underlay;
 static int g_dlg_axis;
@@ -223,6 +224,9 @@ static void show_numpad(void) {
 
 static void diam_btn_cb(lv_event_t *e) { show_numpad(); }
 
+static void phys_diam_cb(void)  { show_numpad(); }
+static void phys_axial_cb(void) { logic_zero_main(AXIS_AXIAL); }
+
 void ui_main_handle_keypad(char c)
 {
     switch (c) {
@@ -358,8 +362,9 @@ static void build_row(axis_t a, int row_y)
     if (a == AXIS_RADIAL) {
         make_sq_btn(scr, "\u00D8", COL1_X, row_y + SP_Y1,
                     diam_btn_cb, NULL, UI_FONT_DIAM);
-        make_sq_btn(scr, "D/R", COL1_X, row_y + SP_Y2,
+        lv_obj_t *db = make_sq_btn(scr, "D/R", COL1_X, row_y + SP_Y2,
                     rd_cb, NULL, NULL);
+        u->rd_label = lv_obj_get_child(db, 0);  /* first child = label */
     } else {
         make_sq_btn(scr, "0", COL1_X, row_y + SP_Y1,
                     main_zero_cb, (void*)(uintptr_t)a, NULL);
@@ -416,6 +421,9 @@ void ui_main_create(void)
     lv_obj_set_style_text_align(g_sp_val, LV_TEXT_ALIGN_RIGHT, 0);
     lv_obj_add_style(g_sp_val, &s_val_big, 0);
 
+    make_sq_btn(scr, "0", COL1_X, y + SP_Y1,
+                spindle_zero_cb, NULL, NULL);
+
     /* angle setpoint */
     lv_obj_t *ang_p = make_sp_plate(g_sp_row, SP_LOCX, SP_Y1, SP_W, SP_H);
     g_sp_ang_v = lv_label_create(ang_p);
@@ -429,19 +437,23 @@ void ui_main_create(void)
     make_sq_btn(scr, "0", COL3_X, y + SP_Y1,
                 spindle_zero_cb, NULL, NULL);
 
-    /* RPM */
-    lv_obj_t *rpm_p = make_sp_plate(g_sp_row, SP_LOCX, SP_Y2, SP_W, SP_H);
-    g_sp_rpm_v = lv_label_create(rpm_p);
-    lv_label_set_text(g_sp_rpm_v, "0");
-    lv_obj_set_style_text_color(g_sp_rpm_v, CFG_LV_SCARLET, 0);
-    lv_obj_set_style_text_font(g_sp_rpm_v, UI_FONT_LARGE, 0);
-    lv_obj_align(g_sp_rpm_v, LV_ALIGN_RIGHT_MID, -8, 0);
+    /* diam T2 setpoint */
+    lv_obj_t *dp = make_sp_plate(g_sp_row, SP_LOCX, SP_Y2, SP_W, SP_H);
+    g_sp_diam_v = lv_label_create(dp);
+    lv_label_set_text(g_sp_diam_v, "---.---");
+    lv_obj_set_style_text_color(g_sp_diam_v, CFG_LV_TEXT_DIM, 0);
+    lv_obj_set_style_text_font(g_sp_diam_v, UI_FONT_LARGE, 0);
+    lv_obj_set_style_text_align(g_sp_diam_v, LV_TEXT_ALIGN_RIGHT, 0);
+    lv_obj_set_width(g_sp_diam_v, SP_W - 40);
+    lv_obj_align(g_sp_diam_v, LV_ALIGN_RIGHT_MID, -2, 0);
 
-    g_sp_rpm_u = lv_label_create(rpm_p);
-    lv_label_set_text(g_sp_rpm_u, "RPM");
-    lv_obj_set_style_text_color(g_sp_rpm_u, CFG_LV_SCARLET, 0);
-    lv_obj_set_style_text_font(g_sp_rpm_u, UI_FONT_TITLE, 0);
-    lv_obj_align_to(g_sp_rpm_u, g_sp_rpm_v, LV_ALIGN_OUT_LEFT_MID, -4, 0);
+    make_sq_btn(scr, "0", COL3_X, y + SP_Y2,
+                sp_zero_cb,
+                (void*)(uintptr_t)(((uint32_t)AXIS_RADIAL << 8) | 1),
+                NULL);
+
+    g_on_diameter_btn = phys_diam_cb;
+    g_on_axial_zero_btn = phys_axial_cb;
 }
 
 /* ── UPDATE ── */
@@ -482,6 +494,25 @@ void ui_main_update(void)
     lv_label_set_text(g_sp_val, buf);
     lv_label_set_text(g_sp_ang_v, buf);
 
-    snprintf(buf, sizeof(buf), "%.0f", (double)logic_get_rpm());
-    lv_label_set_text(g_sp_rpm_v, buf);
+    /* D/R button label toggle */
+    {
+        state_t *st = logic_get();
+        bool rm = st->axes[AXIS_RADIAL].radius_mode;
+        if (g_ax[0].rd_label) {
+            lv_label_set_text(g_ax[0].rd_label, rm ? "R" : "D");
+            lv_obj_set_style_text_color(g_ax[0].rd_label,
+                rm ? CFG_LV_SCARLET : CFG_LV_TEXT, 0);
+        }
+    }
+
+    /* diam T2 */
+    state_t *st = logic_get();
+    if (st->axes[AXIS_RADIAL].sp[1].active) {
+        fpos(buf, sizeof(buf), logic_get_display_mm(AXIS_RADIAL, 1));
+        lv_obj_set_style_text_color(g_sp_diam_v, CFG_LV_SCARLET, 0);
+    } else {
+        snprintf(buf, sizeof(buf), "---.---");
+        lv_obj_set_style_text_color(g_sp_diam_v, CFG_LV_TEXT_DIM, 0);
+    }
+    lv_label_set_text(g_sp_diam_v, buf);
 }

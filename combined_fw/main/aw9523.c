@@ -21,7 +21,22 @@ esp_err_t aw9523_init(void)
     }
     ESP_LOGI(TAG_AW, "AW9523 found at 0x%02X, ID=0x%02X", CFG_AW9523_ADDR, data[0]);
 
+    data[0] = 0x12; data[1] = 0xFF;              /* MODE0: all pins GPIO mode (not LED) */
+    ret = i2c_master_write_to_device(CFG_I2C_BUS, CFG_AW9523_ADDR,
+        data, 2, pdMS_TO_TICKS(CFG_I2C_TOUT_NORMAL));
+    if (ret != ESP_OK) return ret;
+
+    data[0] = 0x11; data[1] = (1 << 4);          /* GCR: open-drain (bit4) → pull-ups via OUT reg */
+    ret = i2c_master_write_to_device(CFG_I2C_BUS, CFG_AW9523_ADDR,
+        data, 2, pdMS_TO_TICKS(CFG_I2C_TOUT_NORMAL));
+    if (ret != ESP_OK) return ret;
+
     data[0] = REG_CFG_PORT0; data[1] = 0xFF;
+    ret = i2c_master_write_to_device(CFG_I2C_BUS, CFG_AW9523_ADDR,
+        data, 2, pdMS_TO_TICKS(CFG_I2C_TOUT_NORMAL));
+    if (ret != ESP_OK) return ret;
+
+    data[0] = REG_OUT_PORT0; data[1] = 0xFF;  /* pull-ups on port0 inputs */
     ret = i2c_master_write_to_device(CFG_I2C_BUS, CFG_AW9523_ADDR,
         data, 2, pdMS_TO_TICKS(CFG_I2C_TOUT_NORMAL));
     if (ret != ESP_OK) return ret;
@@ -49,11 +64,13 @@ void aw9523_set_output(uint8_t pin, uint8_t level)
     uint8_t bit  = (pin < 8) ? pin : (pin - 8);
     uint8_t reg  = (port == 0) ? REG_OUT_PORT0 : REG_OUT_PORT1;
 
-    static uint8_t state[2] = {0, 0};
-    if (level) state[port] |= (1 << bit);
-    else       state[port] &= ~(1 << bit);
+    uint8_t cur;
+    i2c_master_write_read_device(CFG_I2C_BUS, CFG_AW9523_ADDR,
+        &reg, 1, &cur, 1, pdMS_TO_TICKS(CFG_I2C_TOUT_SHORT));
+    if (level) cur |=  (1 << bit);
+    else       cur &= ~(1 << bit);
 
-    uint8_t data[2] = {reg, state[port]};
+    uint8_t data[2] = {reg, cur};
     i2c_master_write_to_device(CFG_I2C_BUS, CFG_AW9523_ADDR,
         data, 2, pdMS_TO_TICKS(CFG_I2C_TOUT_SHORT));
 }

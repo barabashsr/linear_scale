@@ -43,3 +43,6 @@ void   logic_handle_btn(uint16_t btns);
 void   logic_set_rpm(float rpm);
 void   logic_zero_spindle(void);
 float  logic_get_rpm(void);
+
+extern void (*g_on_diameter_btn)(void);
+extern void (*g_on_axial_zero_btn)(void);

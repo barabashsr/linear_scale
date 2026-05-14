@@ -48,6 +48,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.obj: \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/include/esp_etm.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/i2c_protocol.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log.h \
  /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \

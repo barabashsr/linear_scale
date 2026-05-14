@@ -65,6 +65,7 @@ static void kp_timer_cb(void *arg)
 esp_err_t keypad_init(void)
 {
     if (mcp23017_init(CFG_MCP23017_ADDR) != ESP_OK) {
+        mcp23017_init_gpiob(CFG_MCP23017_ADDR);
         kp_inited = false;
         return ESP_ERR_NOT_FOUND;
     }

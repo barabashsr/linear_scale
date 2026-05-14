@@ -173,7 +173,8 @@ esp-idf/main/CMakeFiles/__idf_main.dir/buttons.c.obj: /Users/sergeybarabash/robo
   /Users/sergeybarabash/robo/linear_scale/combined_fw/main/aw9523.h \
   /Users/sergeybarabash/robo/linear_scale/combined_fw/main/buttons.h \
   /Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h \
-  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/i2c_protocol.h
+  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/i2c_protocol.h \
+  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.h
 
 esp-idf/main/CMakeFiles/__idf_main.dir/keypad.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c \
   /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdarg.h \
@@ -2935,6 +2936,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj: /Users/sergeybarabash/
   /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/_newlib_version.h \
   /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/alloca.h \
   /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
+  /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
   /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_default_types.h \
   /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/_types.h \
   /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/machine/ieeefp.h \
@@ -2965,17 +2967,25 @@ esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_logic.c.obj: /Users/sergeybarabash/
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_rom/include/esp_rom_gpio.h \
+  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_rom/include/esp_rom_sys.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/include/hal/gpio_types.h \
+  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log.h \
+  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_buffer.h \
+  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_color.h \
+  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_level.h \
+  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_timestamp.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/newlib/platform_include/assert.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/newlib/platform_include/sys/lock.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/newlib/platform_include/sys/reent.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/gpio_num.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/mpu_caps.h \
+  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
   /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \
   config/sdkconfig.h \
   /Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h \
   /Users/sergeybarabash/robo/linear_scale/combined_fw/main/i2c_protocol.h \
+  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.h \
   /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_logic.h
 
 esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_main.c.obj: /Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c \
@@ -3748,11 +3758,11 @@ esp-idf/main/CMakeFiles/__idf_main.dir/ui/ui_styles.c.obj: /Users/sergeybarabash
 
 /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h:
 
-/Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.h:
-
 /Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.h:
 
 /Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c:
+
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.h:
 
 /Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:
 

@@ -33,9 +33,9 @@ esp-idf/main/CMakeFiles/__idf_main.dir/mcp23017.c.obj: \
  /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
  /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_compiler.h \
+ /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
- /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/include/esp_intr_alloc.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/include/esp_intr_types.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/soc_caps.h \

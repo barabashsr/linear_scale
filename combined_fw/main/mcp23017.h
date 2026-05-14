@@ -1,6 +1,7 @@
 #pragma once
 #include "esp_err.h"
 #include <stdint.h>
+#include <stdbool.h>
 
 #define MCP23017_ADDR_BASE  0x20
 
@@ -15,5 +16,7 @@
 #define MCP_OLATB    0x15
 
 esp_err_t mcp23017_init(uint8_t addr);
+void     mcp23017_init_gpiob(uint8_t addr);
 esp_err_t mcp23017_write(uint8_t addr, uint8_t reg, uint8_t val);
 esp_err_t mcp23017_read(uint8_t addr, uint8_t reg, uint8_t *val);
+void     mcp23017_set_led(uint8_t addr, uint8_t pin, bool on);
