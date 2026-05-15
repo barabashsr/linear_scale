@@ -1,6 +1,0 @@
-/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:27:9: warning: "SP_W" redefined
-   27 | #define SP_W     (COL2_W - SP_LOCX - 4)
-      |         ^~~~
-/Users/sergeybarabash/robo/linear_scale/combined_fw/main/ui/ui_main.c:22:9: note: this is the location of the previous definition
-   22 | #define SP_W     240
-      |         ^~~~

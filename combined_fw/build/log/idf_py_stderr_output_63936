@@ -1,0 +1,14 @@
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c: In function 'kp_timer_cb':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c:14:29: error: 'KP_ROWS' undeclared (first use in this function)
+   14 |     for (int row = 0; row < KP_ROWS; row++) {
+      |                             ^~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c:14:29: note: each undeclared identifier is reported only once for each function it appears in
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c:22:33: error: 'KP_COLS' undeclared (first use in this function)
+   22 |         for (int col = 0; col < KP_COLS; col++) {
+      |                                 ^~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c:43:27: error: 'kp_map' undeclared (first use in this function)
+   43 |                 kp_char = kp_map[i / KP_COLS][i % KP_COLS];
+      |                           ^~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/keypad.c.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

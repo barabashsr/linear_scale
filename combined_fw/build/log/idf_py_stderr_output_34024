@@ -1,0 +1,86 @@
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/cu.wchusbserial5AE60199971 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[1;31m--- Error: read failed: [Errno 6] Device not configured[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m.[0m[0;33m[0m
+[0m--- 0x40056f5c: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x40056f5c: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x40056f72: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x4203f4c7: [0;33muart_hal_write_txfifo[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/uart_hal_iram.c[0m[0m:[1;31m27[0m
+[0m--- 0x40056f5c: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x40056f59: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x40376fee: [0;33mlcd_rgb_panel_fill_bounce_buffer[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c[0m[0m:[1;31m821[0m
+[0m--- 0x403771d7: [0;33mlcd_rgb_panel_eof_handler[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c[0m[0m:[1;31m868[0m
+[0m--- 0x40378f7e: [0;33mgdma_default_tx_isr[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/dma/gdma.c[0m[0m:[1;31m856[0m
+[0m--- 0x40377669: [0;33m_xt_lowint1[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400559dd: [0;33m_xtos_set_intlevel[0m[0m in [0;32mROM[0m
+[0m--- 0x4037ca27: [0;33mvPortClearInterruptMaskFromISR[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h[0m[0m:[1;31m560[0m
+[0m--- (inlined by) [0;33mvPortExitCritical[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m514[0m
+[0m--- 0x4202ef4e: [0;33mi2c_hw_disable[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/i2c.c[0m[0m:[1;31m263[0m
+[0m--- 0x4202ef78: [0;33mi2c_hw_fsm_reset[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/i2c.c[0m[0m:[1;31m711[0m
+[0m--- 0x4202febc: [0;33mi2c_master_cmd_begin[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/i2c.c[0m[0m:[1;31m1609[0m
+[0m--- 0x4202ff5d: [0;33mi2c_master_write_to_device[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/i2c.c[0m[0m:[1;31m1053[0m
+[0m--- 0x42009d2f: [0;33mmcp23017_write[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.c[0m[0m:[1;31m12[0m
+[0m--- 0x42009eb5: [0;33mkp_timer_cb[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c[0m[0m:[1;31m29[0m
+[0m--- 0x4202cdea: [0;33mtimer_process_alarm[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_timer/src/esp_timer.c[0m[0m:[1;31m435[0m
+[0m--- (inlined by) [0;33mtimer_task[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_timer/src/esp_timer.c[0m[0m:[1;31m461[0m
+[0m--- 0x4201a2cf: [0;33mfill_normal[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/draw/sw/lv_draw_sw_blend.c[0m[0m:[1;31m371[0m
+[0m--- (inlined by) [0;33mlv_draw_sw_blend_basic[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/draw/sw/lv_draw_sw_blend.c[0m[0m:[1;31m188[0m
+[0m--- 0x400570e8: [0;33mmemset[0m[0m in [0;32mROM[0m
+[0m--- 0x400570f3: [0;33mmemset[0m[0m in [0;32mROM[0m
+[0m--- 0x4201a2cc: [0;33mfill_normal[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/draw/sw/lv_draw_sw_blend.c[0m[0m:[1;31m370[0m
+[0m--- (inlined by) [0;33mlv_draw_sw_blend_basic[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/draw/sw/lv_draw_sw_blend.c[0m[0m:[1;31m188[0m
+[0m--- 0x42019997: [0;33mlv_draw_sw_blend[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/draw/sw/lv_draw_sw_blend.c[0m[0m:[1;31m105[0m
+[0m--- 0x4201d7f3: [0;33mdraw_shadow[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/draw/sw/lv_draw_sw_rect.c[0m[0m:[1;31m814[0m
+[0m--- (inlined by) [0;33mlv_draw_sw_rect[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/draw/sw/lv_draw_sw_rect.c[0m[0m:[1;31m70[0m
+[0m--- 0x4203fc75: [0;33mlv_draw_rect[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/draw/lv_draw_rect.c[0m[0m:[1;31m66[0m
+[0m--- 0x4200d216: [0;33mlv_obj_draw[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_obj.c[0m[0m:[1;31m561[0m
+[0m--- 0x4200d91b: [0;33mlv_obj_event[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_obj.c[0m[0m:[1;31m873[0m
+[0m--- 0x4203f685: [0;33mlv_obj_event_base[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_event.c[0m[0m:[1;31m96[0m
+[0m--- 0x4200b383: [0;33mevent_send_core[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_event.c[0m[0m:[1;31m452[0m
+[0m--- 0x4200b4a7: [0;33mlv_event_send[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_event.c[0m[0m:[1;31m74[0m
+[0m--- 0x42011dc9: [0;33mlv_obj_redraw[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m148[0m
+[0m--- 0x42011e83: [0;33mrefr_obj[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m970[0m
+[0m--- (inlined by) [0;33mrefr_obj[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m964[0m
+[0m--- 0x42011e1b: [0;33mlv_obj_redraw[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m182[0m
+[0m--- 0x42011e83: [0;33mrefr_obj[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m970[0m
+[0m--- (inlined by) [0;33mrefr_obj[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m964[0m
+[0m--- 0x42011e1b: [0;33mlv_obj_redraw[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m182[0m
+[0m--- 0x42011e83: [0;33mrefr_obj[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m970[0m
+[0m--- (inlined by) [0;33mrefr_obj[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m964[0m
+[0m--- 0x4201216e: [0;33mrefr_obj_and_children[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m854[0m
+[0m--- 0x420122bf: [0;33mrefr_area_part[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m789[0m
+[0m--- 0x42012ec1: [0;33mrefr_area[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m678[0m
+[0m--- (inlined by) [0;33mrefr_invalid_areas[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m616[0m
+[0m--- (inlined by) [0;33m_lv_disp_refr_timer[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m324[0m
+[0m--- 0x420170ba: [0;33mlv_timer_exec[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/misc/lv_timer.c[0m[0m:[1;31m313[0m
+[0m--- (inlined by) [0;33mlv_timer_handler[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/misc/lv_timer.c[0m[0m:[1;31m109[0m
+[0m--- 0x42008fc3: [0;33mlvgl_task_cb[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c[0m[0m:[1;31m74[0m
+[0m--- 0x40375bc1: [0;33mesp_restart_noos[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c[0m[0m:[1;31m160[0m
+[0m--- 0x40056f5c: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x40056f5c: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x40056f72: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x4203f4c7: [0;33muart_hal_write_txfifo[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/hal/uart_hal_iram.c[0m[0m:[1;31m27[0m
+[0m--- 0x40056f5c: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x40056f59: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x40376fee: [0;33mlcd_rgb_panel_fill_bounce_buffer[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c[0m[0m:[1;31m821[0m
+[0m--- 0x403771d7: [0;33mlcd_rgb_panel_eof_handler[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c[0m[0m:[1;31m868[0m
+[0m--- 0x40378f7e: [0;33mgdma_default_tx_isr[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/dma/gdma.c[0m[0m:[1;31m856[0m
+[0m--- 0x40377669: [0;33m_xt_lowint1[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400559dd: [0;33m_xtos_set_intlevel[0m[0m in [0;32mROM[0m
+[0m--- 0x4037ca27: [0;33mvPortClearInterruptMaskFromISR[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h[0m[0m:[1;31m560[0m
+[0m--- (inlined by) [0;33mvPortExitCritical[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m514[0m
+[0m--- 0x4202ef4e: [0;33mi2c_hw_disable[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/i2c.c[0m[0m:[1;31m263[0m
+[0m--- 0x4202ef78: [0;33mi2c_hw_fsm_reset[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/i2c.c[0m[0m:[1;31m711[0m
+[0m--- 0x4202febc: [0;33mi2c_master_cmd_begin[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/i2c.c[0m[0m:[1;31m1609[0m
+[0m--- 0x4202ff5d: [0;33mi2c_master_write_to_device[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/driver/i2c/i2c.c[0m[0m:[1;31m1053[0m
+[0m--- 0x42009d2f: [0;33mmcp23017_write[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/main/mcp23017.c[0m[0m:[1;31m12[0m
+[0m--- 0x42009efa: [0;33mkp_timer_cb[0m[0m at [0;32m/Users/sergeybarabash/robo/linear_scale/combined_fw/main/keypad.c[0m[0m:[1;31m40[0m
+[0m--- 0x4202cdea: [0;33mtimer_process_alarm[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_timer/src/esp_timer.c[0m[0m:[1;31m435[0m
+[0m--- (inlined by) [0;33mtimer_task[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_timer/src/esp_timer.c[0m[0m:[1;31m461[0m
+[0m--- 0x40378ed6: [0;33mesp_cpu_wait_for_intr[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/cpu.c[0m[0m:[1;31m64[0m
+[0m--- 0x40378ed3: [0;33mxt_utils_wait_for_intr[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/xtensa/include/xt_utils.h[0m[0m:[1;31m82[0m
+[0m--- (inlined by) [0;33mesp_cpu_wait_for_intr[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/cpu.c[0m[0m:[1;31m55[0m
+[0m--- 0x42003409: [0;33mesp_vApplicationIdleHook[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_system/freertos_hooks.c[0m[0m:[1;31m58[0m
+[0m--- 0x4037d56b: [0;33mprvIdleTask[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c[0m[0m:[1;31m4353[0m
+[0m--- 0x40375bc1: [0;33mesp_restart_noos[0m[0m at [0;32m/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c[0m[0m:[1;31m160[0m
+[0m

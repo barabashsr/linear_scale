@@ -1,0 +1,67 @@
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/spindle_enc.h:3,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/spindle_enc.c:1:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/spindle_enc.c: In function 'spindle_enc_init':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:113:33: error: 'GPIO_NUM_04' undeclared (first use in this function); did you mean 'GPIO_NUM_44'?
+  113 | #define CFG_SPINDLE_Z           GPIO_NUM_04
+      |                                 ^~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/spindle_enc.c:68:34: note: in expansion of macro 'CFG_SPINDLE_Z'
+   68 |         .pin_bit_mask = (1ULL << CFG_SPINDLE_Z),
+      |                                  ^~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:113:33: note: each undeclared identifier is reported only once for each function it appears in
+  113 | #define CFG_SPINDLE_Z           GPIO_NUM_04
+      |                                 ^~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/spindle_enc.c:68:34: note: in expansion of macro 'CFG_SPINDLE_Z'
+   68 |         .pin_bit_mask = (1ULL << CFG_SPINDLE_Z),
+      |                                  ^~~~~~~~~~~~~
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/spindle_enc.c.obj] Error 1
+make[3]: *** Waiting for unfinished jobs....
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c: In function 'touch_read':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:30:5: warning: 'esp_lcd_touch_get_coordinates' is deprecated: This API will be removed in version 2.0.0. Use esp_lcd_touch_get_data instead! [-Wdeprecated-declarations]
+   30 |     if (esp_lcd_touch_get_coordinates(g_tp, &x, &y, NULL, &cnt, 1) && cnt > 0) {
+      |     ^~
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:9:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/espressif__esp_lcd_touch/include/esp_lcd_touch.h:317:6: note: declared here
+  317 | bool esp_lcd_touch_get_coordinates(esp_lcd_touch_handle_t tp, uint16_t *x, uint16_t *y, uint16_t *strength, uint8_t *point_num, uint8_t max_point_num);
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_gpio/include/driver/gpio.h:12,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:3,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.h:3,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:1:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c: In function 'app_main':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:103:33: error: 'GPIO_NUM_02' undeclared (first use in this function); did you mean 'GPIO_NUM_42'?
+  103 | #define CFG_SCALE_RADIAL_B      GPIO_NUM_02
+      |                                 ^~~~~~~~~~~
+/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_err.h:116:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:89:66: note: in expansion of macro 'CFG_SCALE_RADIAL_B'
+   89 |     ESP_ERROR_CHECK(scale_init(SCALE_RADIAL, CFG_SCALE_RADIAL_A, CFG_SCALE_RADIAL_B));
+      |                                                                  ^~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:103:33: note: each undeclared identifier is reported only once for each function it appears in
+  103 | #define CFG_SCALE_RADIAL_B      GPIO_NUM_02
+      |                                 ^~~~~~~~~~~
+/Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_common/include/esp_err.h:116:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/main.c:89:66: note: in expansion of macro 'CFG_SCALE_RADIAL_B'
+   89 |     ESP_ERROR_CHECK(scale_init(SCALE_RADIAL, CFG_SCALE_RADIAL_A, CFG_SCALE_RADIAL_B));
+      |                                                                  ^~~~~~~~~~~~~~~~~~
+make[3]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj] Error 1
+In file included from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.h:3,
+                 from /Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:1:
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c: In function 'lcd_port_init':
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:29:33: warning: initialized field overwritten [-Woverride-init]
+   29 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:63:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   63 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/config.h:29:33: note: (near initialization for 'panel_config.<anonymous>.psram_trans_align')
+   29 | #define CFG_LCD_PSRAM_ALIGN     64
+      |                                 ^~
+/Users/sergeybarabash/robo/linear_scale/combined_fw/main/lcd_port.c:63:30: note: in expansion of macro 'CFG_LCD_PSRAM_ALIGN'
+   63 |         .psram_trans_align = CFG_LCD_PSRAM_ALIGN,
+      |                              ^~~~~~~~~~~~~~~~~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[1]: *** [CMakeFiles/flash.dir/rule] Error 2
+make: *** [flash] Error 2

@@ -97,10 +97,10 @@
 
 
 /* ── Linear scales (PCNT quadrature) ─────────── */
-#define CFG_SCALE_AXIAL_A       GPIO_NUM_20
-#define CFG_SCALE_AXIAL_B       GPIO_NUM_19
-#define CFG_SCALE_RADIAL_A      GPIO_NUM_41
-#define CFG_SCALE_RADIAL_B      GPIO_NUM_40
+#define CFG_SCALE_AXIAL_A       GPIO_NUM_19
+#define CFG_SCALE_AXIAL_B       GPIO_NUM_40
+#define CFG_SCALE_RADIAL_A      GPIO_NUM_42
+#define CFG_SCALE_RADIAL_B      GPIO_NUM_2
 #define CFG_SCALE_MM_PER_COUNT  0.005f
 #define CFG_SCALE_AXIAL_MM      0.005f
 #define CFG_SCALE_RADIAL_MM     0.005f
@@ -108,16 +108,16 @@
 #define CFG_PCNT_GLITCH_NS      5000
 
 /* ── Spindle encoder ─────────────────────────── */
-#define CFG_SPINDLE_A           GPIO_NUM_4
-#define CFG_SPINDLE_B           GPIO_NUM_1
-#define CFG_SPINDLE_Z           GPIO_NUM_2
+#define CFG_SPINDLE_A           GPIO_NUM_20
+#define CFG_SPINDLE_B           GPIO_NUM_41
+#define CFG_SPINDLE_Z           GPIO_NUM_4
 #define CFG_SPINDLE_CPR         400.0f
 #define CFG_SPINDLE_GEAR_NUM    1
 #define CFG_SPINDLE_GEAR_DEN    1
 #define CFG_SPINDLE_RPM_MS      500
 
 /* ── Physical buttons (debounce) ─────────────── */
-#define CFG_BTN_DEBOUNCE_TICKS  3
+#define CFG_BTN_DEBOUNCE_TICKS  8
 
 /* ── Screen position offset ──────────────────── */
 #define CFG_UI_X_OFFSET          20

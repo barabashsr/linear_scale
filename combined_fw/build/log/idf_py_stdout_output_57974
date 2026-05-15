@@ -1,0 +1,354 @@
+[0;32mI (792) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (801) cpu_start: Pro cpu start user code[0m
+[0;32mI (801) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (801) app_init: Application information:[0m
+[0;32mI (802) app_init: Project name:     linear_scale_combined[0m
+[0;32mI (807) app_init: App version:      4a5dec7-dirty[0m
+[0;32mI (811) app_init: Compile time:     May 14 2026 08:46:24[0m
+[0;32mI (816) app_init: ELF file SHA256:  2be99891b...[0m
+[0;32mI (820) app_init: ESP-IDF:          v5.4-dirty[0m
+[0;32mI (825) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (828) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (832) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (836) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (843) heap_init: At 3FC97D20 len 000519F0 (326 KiB): RAM[0m
+[0;32mI (848) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (853) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (858) heap_init: At 600FE11C len 00001ECC (7 KiB): RTCRAM[0m
+[0;32mI (864) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (871) spi_flash: detected chip: generic[0m
+[0;32mI (874) spi_flash: flash io: dio[0m
+[0;33mW (876) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.[0m
+[0;33mW (889) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (899) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (905) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (912) main_task: Started on CPU0[0m
+[0;32mI (915) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (923) main_task: Calling app_main()[0m
+[0;32mI (926) main: DRO firmware starting[0m
+[0;32mI (930) aw9523: AW9523 found at 0x5B, ID=0x23[0m
+[0;32mI (934) aw9523: AW9523 ready (all inputs)[0m
+[0;32mI (1029) GT911: I2C address initialization procedure skipped - using default GT9xx setup[0m
+[0;32mI (1031) GT911: TouchPad_ID:0x39,0x31,0x31[0m
+[0;32mI (1031) GT911: TouchPad_Config_Version:130[0m
+[0;32mI (1035) lcd_port: Touch: GT911 detected at 0x5B[0m
+[0;32mI (1041) scale: Axial scale ready (A=20 B=19)[0m
+[0;32mI (1044) scale: Radial scale ready (A=41 B=40)[0m
+[0;32mI (1048) gpio: GPIO[2]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+[0;32mI (1056) spindle: Spindle ready A=4 B=1 Z=2 CPR=400 gear=1:1[0m
+[0;32mI (1061) buttons: Buttons ready (8 AW9523 + 2 MCP23017)[0m
+[0;32mI (1067) mcp23017: MCP23017 found at 0x20[0m
+[0;32mI (1071) mcp23017: MCP23017 GPIOB ready (LED=0)[0m
+[0;32mI (1074) mcp23017: MCP23017 ready[0m
+[0;32mI (1077) keypad: Keypad ready[0m
+[0;32mI (1157) buttons: #1 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (1854) buttons: #2 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (1861) buttons: #3 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (1864) buttons: #4 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (1868) buttons: #5 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (1873) buttons: #6 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (1878) buttons: #7 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (2010) buttons: #8 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (2138) buttons: #9 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (2267) buttons: #10 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (2397) buttons: #11 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (2526) buttons: #12 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (2654) buttons: #13 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (2782) buttons: #14 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (2909) buttons: #15 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (3037) buttons: #16 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (3165) buttons: #17 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (3293) buttons: #18 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (3421) buttons: #19 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (3548) buttons: #20 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (3676) buttons: #21 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (3804) buttons: #22 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (3932) buttons: #23 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (4059) buttons: #24 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (4187) buttons: #25 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (4315) buttons: #26 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (4443) buttons: #27 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (4570) buttons: #28 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (4698) buttons: #29 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (4826) buttons: #30 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (4954) buttons: #31 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (5082) buttons: #32 AW=0x7F GB=0x03 aw=0x0080 mcp=0x0000 st=0x0000[0m
+[0;32mI (5209) buttons: #33 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (5337) buttons: #34 AW=0x5F GB=0x03 aw=0x00A0 mcp=0x0000 st=0x0000[0m
+[0;32mI (5465) buttons: #35 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (5593) buttons: #36 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (5720) buttons: #37 AW=0x40 GB=0x03 aw=0x00F7 mcp=0x0000 st=0x0000[0m
+[0;32mI (5848) buttons: #38 AW=0xE8 GB=0x03 aw=0x0047 mcp=0x0000 st=0x0000[0m
+[0;32mI (5976) buttons: #39 AW=0x40 GB=0x03 aw=0x00F7 mcp=0x0000 st=0x0000[0m
+[0;32mI (6104) buttons: #40 AW=0x40 GB=0x03 aw=0x00F7 mcp=0x0000 st=0x0000[0m
+[0;32mI (6232) buttons: #41 AW=0xEA GB=0x03 aw=0x0007 mcp=0x0000 st=0x0000[0m
+[0;32mI (6359) buttons: #42 AW=0x40 GB=0x03 aw=0x00F7 mcp=0x0000 st=0x0000[0m
+[0;32mI (6487) buttons: #43 AW=0xEA GB=0x03 aw=0x0007 mcp=0x0000 st=0x0000[0m
+[0;32mI (6615) buttons: #44 AW=0x40 GB=0x03 aw=0x00F7 mcp=0x0000 st=0x0000[0m
+[0;32mI (8619) buttons: #45 AW=0x40 GB=0x03 aw=0x00F7 mcp=0x0000 st=0x0000[0m
+[0;32mI (8782) buttons: #46 AW=0x40 GB=0x03 aw=0x00F7 mcp=0x0000 st=0x0000[0m
+[0;32mI (8941) buttons: #47 AW=0x40 GB=0x03 aw=0x00F7 mcp=0x0000 st=0x00F7[0m
+[0;32mI (8943) btn: btns=0x00F7 chg=0x00F7[0m
+[0;32mI (8947) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (10970) buttons: #48 AW=0xFE GB=0x03 aw=0x0001 mcp=0x0000 st=0x00F7[0m
+[0;32mI (10974) buttons: #49 AW=0x50 GB=0x03 aw=0x00F3 mcp=0x0000 st=0x00F7[0m
+[0;32mI (10977) buttons: #50 AW=0x50 GB=0x03 aw=0x00F3 mcp=0x0000 st=0x00F7[0m
+[0;32mI (10981) buttons: #51 AW=0x50 GB=0x03 aw=0x00F3 mcp=0x0000 st=0x00F7[0m
+[0;32mI (10988) buttons: #52 AW=0xFE GB=0x03 aw=0x0001 mcp=0x0000 st=0x00F7[0m
+[0;32mI (10994) buttons: #53 AW=0x50 GB=0x03 aw=0x00F3 mcp=0x0000 st=0x00F7[0m
+[0;32mI (11001) buttons: #54 AW=0x50 GB=0x03 aw=0x00F3 mcp=0x0000 st=0x00F7[0m
+[0;32mI (11007) buttons: #55 AW=0xFE GB=0x03 aw=0x0001 mcp=0x0000 st=0x00F7[0m
+[0;32mI (11012) buttons: #56 AW=0x7E GB=0x03 aw=0x0081 mcp=0x0000 st=0x00F7[0m
+[0;32mI (11019) buttons: #57 AW=0x50 GB=0x03 aw=0x00F3 mcp=0x0000 st=0x00F7[0m
+[0;32mI (11024) buttons: #58 AW=0xFE GB=0x03 aw=0x0001 mcp=0x0000 st=0x00F7[0m
+[0;32mI (11031) buttons: #59 AW=0xFE GB=0x03 aw=0x0001 mcp=0x0000 st=0x00F7[0m
+[0;32mI (11041) buttons: #63 AW=0x50 GB=0x03 aw=0x00F3 mcp=0x0000 st=0x00F3[0m
+[0;32mI (11049) buttons: #68 AW=0xFE GB=0x03 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (11058) buttons: #74 AW=0x50 GB=0x03 aw=0x00F3 mcp=0x0000 st=0x00F3[0m
+[0;32mI (11059) btn: btns=0x00F3 chg=0x00F2[0m
+[0;32mI (11059) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (14438) buttons: #78 AW=0x54 GB=0x07 aw=0x00F1 mcp=0x0000 st=0x00F1[0m
+[0;32mI (14729) buttons: #296 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (14737) buttons: #300 AW=0x54 GB=0x07 aw=0x00F1 mcp=0x0000 st=0x00F1[0m
+[0;32mI (14738) btn: btns=0x00F1 chg=0x00F1[0m
+[0;32mI (14739) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (18808) buttons: #338 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (18818) buttons: #342 AW=0x54 GB=0x03 aw=0x00F1 mcp=0x0000 st=0x00F1[0m
+[0;32mI (18820) btn: btns=0x00F1 chg=0x00F1[0m
+[0;32mI (18821) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (23487) buttons: #352 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (23494) buttons: #357 AW=0x54 GB=0x07 aw=0x00F1 mcp=0x0000 st=0x00F1[0m
+[0;32mI (23496) btn: btns=0x00F1 chg=0x00F1[0m
+[0;32mI (23497) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (27608) buttons: #371 AW=0xFF GB=0x03 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (27614) buttons: #376 AW=0x54 GB=0x03 aw=0x00F1 mcp=0x0000 st=0x00F1[0m
+[0;32mI (27615) btn: btns=0x00F1 chg=0x00F1[0m
+[0;32mI (27617) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (32244) buttons: #380 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (36829) buttons: #1958 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (36830) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (36834) buttons: #1962 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (36849) buttons: #1976 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (36850) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (36855) buttons: #1980 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37029) buttons: #2150 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37030) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37036) buttons: #2154 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37049) buttons: #2165 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37050) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37054) buttons: #2169 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37069) buttons: #2182 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37070) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37074) buttons: #2186 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37089) buttons: #2200 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37090) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37095) buttons: #2204 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37109) buttons: #2216 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37110) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37114) buttons: #2220 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37149) buttons: #2253 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37149) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37155) buttons: #2257 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37169) buttons: #2269 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37169) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37174) buttons: #2273 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37189) buttons: #2286 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37190) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37194) buttons: #2290 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37209) buttons: #2303 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37210) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37215) buttons: #2307 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37229) buttons: #2319 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37230) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37234) buttons: #2323 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37249) buttons: #2336 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37250) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37255) buttons: #2340 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37269) buttons: #2354 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37270) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37276) buttons: #2358 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37329) buttons: #2410 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37331) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37336) buttons: #2414 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37349) buttons: #2426 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37350) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37355) buttons: #2430 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37369) buttons: #2443 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37370) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37375) buttons: #2447 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37389) buttons: #2460 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37390) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37395) buttons: #2464 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37409) buttons: #2477 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37410) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37414) buttons: #2481 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37429) buttons: #2494 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37430) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37434) buttons: #2498 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37449) buttons: #2512 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37450) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37455) buttons: #2516 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37469) buttons: #2529 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37470) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37474) buttons: #2533 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37489) buttons: #2546 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37489) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37494) buttons: #2550 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37509) buttons: #2564 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37510) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37515) buttons: #2568 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37529) buttons: #2580 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37530) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37534) buttons: #2584 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37549) buttons: #2597 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37550) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37555) buttons: #2601 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37569) buttons: #2614 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37570) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37575) buttons: #2618 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37589) buttons: #2632 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37590) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37594) buttons: #2636 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37609) buttons: #2649 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37610) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37614) buttons: #2653 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37629) buttons: #2667 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37630) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37635) buttons: #2671 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37649) buttons: #2683 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37650) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37654) buttons: #2687 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37669) buttons: #2700 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37670) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37675) buttons: #2704 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37689) buttons: #2717 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37690) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37695) buttons: #2721 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37709) buttons: #2733 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37710) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37714) buttons: #2737 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37729) buttons: #2750 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37730) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37735) buttons: #2754 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37749) buttons: #2767 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37750) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37756) buttons: #2771 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37769) buttons: #2782 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37770) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37775) buttons: #2786 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37789) buttons: #2797 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37791) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37795) buttons: #2801 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37809) buttons: #2814 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37809) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37814) buttons: #2818 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37829) buttons: #2831 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37830) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37834) buttons: #2835 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37849) buttons: #2848 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37850) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37855) buttons: #2852 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37869) buttons: #2865 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37870) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37875) buttons: #2869 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37889) buttons: #2882 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37890) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37895) buttons: #2886 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37909) buttons: #2898 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37911) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37915) buttons: #2902 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37929) buttons: #2916 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37930) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37936) buttons: #2920 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37949) buttons: #2933 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37950) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37955) buttons: #2937 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37969) buttons: #2949 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37970) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37975) buttons: #2953 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (37989) buttons: #2966 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (37990) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (37995) buttons: #2970 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38009) buttons: #2983 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38010) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38014) buttons: #2987 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38029) buttons: #3001 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38030) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38035) buttons: #3005 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38049) buttons: #3018 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38050) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38055) buttons: #3022 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38069) buttons: #3035 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38070) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38074) buttons: #3039 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38089) buttons: #3052 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38090) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38094) buttons: #3056 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38109) buttons: #3070 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38110) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38115) buttons: #3074 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38129) buttons: #3086 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38129) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38134) buttons: #3090 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38149) buttons: #3103 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38149) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38155) buttons: #3107 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38169) buttons: #3120 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38170) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38175) buttons: #3124 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38189) buttons: #3136 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38190) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38194) buttons: #3140 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38209) buttons: #3153 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38210) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38214) buttons: #3157 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38229) buttons: #3171 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38230) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38235) buttons: #3175 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38249) buttons: #3189 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38250) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38254) buttons: #3193 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38269) buttons: #3206 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38270) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38275) buttons: #3210 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38289) buttons: #3223 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38290) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38295) buttons: #3227 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38309) buttons: #3239 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38310) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38315) buttons: #3243 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38329) buttons: #3254 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38330) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38335) buttons: #3258 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38470) buttons: #3390 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38471) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38477) buttons: #3394 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38490) buttons: #3406 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38490) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38494) buttons: #3410 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38810) buttons: #3718 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38810) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38814) buttons: #3722 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38969) buttons: #3872 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38970) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38975) buttons: #3876 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (38989) buttons: #3888 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (38991) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (38995) buttons: #3892 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (39009) buttons: #3904 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (39010) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (39016) buttons: #3908 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (39029) buttons: #3920 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (39030) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (39035) buttons: #3924 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (39049) buttons: #3936 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (39050) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (39055) buttons: #3940 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (39069) buttons: #3953 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (39070) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (39075) buttons: #3957 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (39089) buttons: #3970 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (39090) btn: btns=0x0001 chg=0x0001[0m
+[0;32mI (39094) buttons: #3974 AW=0xFF GB=0x07 aw=0x0000 mcp=0x0000 st=0x0000[0m
+[0;32mI (39109) buttons: #3987 AW=0xFE GB=0x07 aw=0x0001 mcp=0x0000 st=0x0001[0m
+[0;32mI (39110) btn: btns=0x0001 chg=0x0001[0m

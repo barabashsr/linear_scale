@@ -48,12 +48,4 @@ esp-idf/main/CMakeFiles/__idf_main.dir/keypad.c.obj: \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/gpio_pins.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_driver_gpio/include/driver/gpio_etm.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_hw_support/include/esp_etm.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log.h \
- /Users/sergeybarabash/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/inttypes.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_rom/include/esp_rom_sys.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/soc/esp32s3/include/soc/reset_reasons.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_level.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_color.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_buffer.h \
- /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/log/include/esp_log_timestamp.h \
  /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esp_timer/include/esp_timer.h

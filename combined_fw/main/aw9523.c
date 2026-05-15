@@ -50,12 +50,12 @@ esp_err_t aw9523_init(void)
     return ESP_OK;
 }
 
-uint8_t aw9523_read_port0(void)
+esp_err_t aw9523_read_port0(uint8_t *val)
 {
-    uint8_t reg = REG_IN_PORT0, val = 0;
-    i2c_master_write_read_device(CFG_I2C_BUS, CFG_AW9523_ADDR,
-        &reg, 1, &val, 1, pdMS_TO_TICKS(CFG_I2C_TOUT_SHORT));
-    return val;
+    *val = 0xFF;
+    uint8_t reg = REG_IN_PORT0;
+    return i2c_master_write_read_device(CFG_I2C_BUS, CFG_AW9523_ADDR,
+        &reg, 1, val, 1, pdMS_TO_TICKS(CFG_I2C_TOUT_SHORT));
 }
 
 void aw9523_set_output(uint8_t pin, uint8_t level)

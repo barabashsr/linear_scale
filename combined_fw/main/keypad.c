@@ -1,10 +1,7 @@
 #include "keypad.h"
 #include "mcp23017.h"
 #include "config.h"
-#include "esp_log.h"
 #include "esp_timer.h"
-
-static const char *TAG_KP = "keypad";
 
 #define KP_ROWS 4
 #define KP_COLS 4
@@ -72,7 +69,6 @@ esp_err_t keypad_init(void)
     kp_inited = true;
     esp_timer_create_args_t ta = { .callback = kp_timer_cb, .name = "keypad" };
     esp_timer_create(&ta, &kp_timer);
-    ESP_LOGI(TAG_KP, "Keypad ready");
     return ESP_OK;
 }
 

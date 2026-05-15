@@ -65,12 +65,6 @@ static void flush_cb(lv_disp_drv_t *drv, const lv_area_t *area, lv_color_t *colo
 
 static void tick_cb(void *arg) { lv_tick_inc(2); }
 
-static void lvgl_flush_all(void)
-{
-    int iter = 0;
-    while (lv_timer_handler() == 0 && ++iter < 64) {}
-}
-
 void app_main(void)
 {
     ESP_LOGI(TAG, "DRO firmware starting");
@@ -99,11 +93,11 @@ void app_main(void)
     logic_init();
 
     lv_init();
-    g_lv_buf = heap_caps_malloc(CFG_LCD_H_RES * 30 * 2, MALLOC_CAP_SPIRAM | MALLOC_CAP_8BIT);
+    g_lv_buf = heap_caps_malloc(CFG_LCD_H_RES * 240 * 2, MALLOC_CAP_SPIRAM | MALLOC_CAP_8BIT);
     assert(g_lv_buf);
 
     static lv_disp_draw_buf_t dbuf;
-    lv_disp_draw_buf_init(&dbuf, g_lv_buf, NULL, CFG_LCD_H_RES * 30);
+    lv_disp_draw_buf_init(&dbuf, g_lv_buf, NULL, CFG_LCD_H_RES * 240);
 
     static lv_disp_drv_t dd;
     lv_disp_drv_init(&dd);
@@ -147,7 +141,7 @@ void app_main(void)
             char kp;
             if (keypad_get_char(&kp)) ui_main_handle_keypad(kp);
         }
-        lvgl_flush_all();
+        lv_timer_handler();
         vTaskDelay(pdMS_TO_TICKS(1));
     }
 }

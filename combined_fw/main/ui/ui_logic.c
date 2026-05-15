@@ -9,8 +9,9 @@ static state_t g_st;
 void logic_init(void)
 {
     memset(&g_st, 0, sizeof(g_st));
-    g_st.axes[AXIS_RADIAL].radius_mode = true;
+    g_st.axes[AXIS_RADIAL].radius_mode = false;
     g_st.diam_value = CFG_DIAM_DEFAULT_MM;
+    g_st.btn_state = 0xFFFF; /* absorb startup noise — no edges fire until all released */
 }
 
 state_t *logic_get(void) { return &g_st; }
@@ -24,7 +25,7 @@ float logic_get_mm(axis_t a, int idx)
 float logic_get_display_mm(axis_t a, int idx)
 {
     float v = logic_get_mm(a, idx);
-    if (a == AXIS_RADIAL && g_st.axes[AXIS_RADIAL].radius_mode) v *= 2.0f;
+    if (a == AXIS_RADIAL && !g_st.axes[AXIS_RADIAL].radius_mode) v *= 2.0f;
     return v;
 }
 
@@ -38,6 +39,9 @@ void logic_update(int32_t axial, int32_t radial)
         for (int j = 0; j < CFG_MAX_SETPOINTS; j++)
             if (ax->sp[j].active) ax->sp[j].delta_005mm = cur - ax->sp[j].ref_005mm;
     }
+    for (int j = 0; j < CFG_MAX_SETPOINTS; j++)
+        if (g_st.spindle_sp[j].active)
+            g_st.spindle_sp[j].delta_005mm = g_st.spindle_raw - g_st.spindle_sp[j].ref_005mm;
 }
 
 void logic_zero_main(axis_t a)
@@ -75,7 +79,7 @@ void logic_set_diameter(float mm)
 {
     g_st.diam_value = mm;
     axis_data_t *ax = &g_st.axes[AXIS_RADIAL];
-    int32_t target = mm_to_position(mm / (ax->radius_mode ? 2.0f : 1.0f));
+    int32_t target = mm_to_position(mm / (ax->radius_mode ? 1.0f : 2.0f));
     int32_t shift = target - ax->main.delta_005mm;
     ax->main.ref_005mm = ax->raw_005mm - target;
     ax->main.delta_005mm = target;
@@ -106,10 +110,28 @@ void logic_handle_btn(uint16_t btns)
     if (chg & BTN_DIAMETER && g_on_diameter_btn) g_on_diameter_btn();
     if (chg & BTN_AXIAL_ZERO && g_on_axial_zero_btn) g_on_axial_zero_btn();
     if (chg & BTN_DIAM_ZERO) logic_zero_main(AXIS_RADIAL);
-    if (chg & BTN_DIAM_T1) logic_zero_sp(AXIS_RADIAL, 0);
-    if (chg & BTN_DIAM_T2) logic_zero_sp(AXIS_RADIAL, 1);
+    if (chg & BTN_DIAM_T1) logic_zero_spindle_sp(0);
+    if (chg & BTN_DIAM_T2) logic_zero_spindle_sp(1);
 }
 
 void logic_set_rpm(float rpm) { g_st.spindle_rpm = rpm; }
 float logic_get_rpm(void) { return g_st.spindle_rpm; }
 void logic_zero_spindle(void) { g_st.spindle_z_ref = g_st.spindle_raw; }
+
+void logic_zero_spindle_sp(int idx)
+{
+    if (idx < 0 || idx >= CFG_MAX_SETPOINTS) return;
+    sp_t *sp = &g_st.spindle_sp[idx];
+    sp->ref_005mm = g_st.spindle_raw;
+    sp->delta_005mm = 0;
+    sp->active = true;
+}
+
+float logic_get_spindle_sp_deg(int idx)
+{
+    if (idx < 0 || idx >= CFG_MAX_SETPOINTS) return 0;
+    sp_t *sp = &g_st.spindle_sp[idx];
+    if (!sp->active) return 0;
+    float ratio = (float)CFG_SPINDLE_GEAR_NUM / (float)CFG_SPINDLE_GEAR_DEN;
+    return sp->delta_005mm * 360.0f / CFG_SPINDLE_CPR * ratio;
+}

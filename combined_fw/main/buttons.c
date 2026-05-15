@@ -31,19 +31,33 @@ uint16_t buttons_read(void)
     uint16_t raw = 0;
 
     /* AW9523 port0 */
-    uint8_t aw_raw = aw9523_read_port0();
+    static int aw_fail_cnt;
+    uint8_t aw_raw = 0xFF;
     uint16_t aw_bits = 0;
+    if (aw_fail_cnt < 50) {
+        if (aw9523_read_port0(&aw_raw) != ESP_OK) {
+            aw_fail_cnt++;
+        } else {
+            aw_fail_cnt = 0;
+        }
+    }
     for (int i = 0; i < aw_count; i++) {
         if (!((aw_raw >> aw_pins[i]) & 1)) aw_bits |= aw_masks[i];
     }
 
     /* MCP23017 GPIOB */
+    static int mcp_fail_cnt;
     uint8_t gb = 0xFF;
     uint16_t mcp_bits = 0;
-    esp_err_t mret = mcp23017_read(CFG_MCP23017_ADDR, MCP_GPIOB, &gb);
-    if (mret == ESP_OK) {
-        if (!((gb >> CFG_MCP_BTN_DIAM_T1) & 1)) mcp_bits |= BTN_DIAM_T1;
-        if (!((gb >> CFG_MCP_BTN_DIAM_T2) & 1)) mcp_bits |= BTN_DIAM_T2;
+    if (mcp_fail_cnt < 50) {
+        esp_err_t mret = mcp23017_read(CFG_MCP23017_ADDR, MCP_GPIOB, &gb);
+        if (mret == ESP_OK) {
+            mcp_fail_cnt = 0;
+            if (!((gb >> CFG_MCP_BTN_DIAM_T1) & 1)) mcp_bits |= BTN_DIAM_T1;
+            if (!((gb >> CFG_MCP_BTN_DIAM_T2) & 1)) mcp_bits |= BTN_DIAM_T2;
+        } else {
+            mcp_fail_cnt++;
+        }
     }
 
     /* separate debounce: AW + MCP */
@@ -62,7 +76,7 @@ uint16_t buttons_read(void)
 
     static int call_cnt;
     static uint16_t last_log;
-    if (++call_cnt < 60 || raw != last_log) {
+    if (++call_cnt < 5 || raw != last_log) {
         ESP_LOGI(TAG_BT, "#%d AW=0x%02X GB=0x%02X aw=0x%04X mcp=0x%04X st=0x%04X",
                  call_cnt, aw_raw, gb, aw_bits, mcp_bits, raw);
         last_log = raw;

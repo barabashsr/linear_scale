@@ -21,6 +21,7 @@ typedef struct {
 
 typedef struct {
     axis_data_t axes[AXIS_COUNT];
+    sp_t     spindle_sp[CFG_MAX_SETPOINTS];
     int32_t  spindle_raw;
     int32_t  spindle_z_ref;
     float    spindle_rpm;
@@ -42,6 +43,8 @@ void   logic_set_diameter(float mm);
 void   logic_handle_btn(uint16_t btns);
 void   logic_set_rpm(float rpm);
 void   logic_zero_spindle(void);
+void   logic_zero_spindle_sp(int idx);
+float  logic_get_spindle_sp_deg(int idx);
 float  logic_get_rpm(void);
 
 extern void (*g_on_diameter_btn)(void);
