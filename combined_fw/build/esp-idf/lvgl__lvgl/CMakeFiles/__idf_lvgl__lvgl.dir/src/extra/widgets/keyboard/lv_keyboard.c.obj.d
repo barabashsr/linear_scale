@@ -117,4 +117,11 @@ esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/src/extra/widgets/keyboard/lv
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/../core/lv_obj_class.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/../core/lv_event.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/../core/lv_group.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/../core/../misc/lv_ll.h
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/../core/../misc/lv_ll.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/lv_textarea.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/lv_label.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/../font/lv_font.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/../font/lv_symbol_def.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/../misc/lv_txt.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../widgets/../draw/lv_draw.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/keyboard/../../../misc/lv_assert.h

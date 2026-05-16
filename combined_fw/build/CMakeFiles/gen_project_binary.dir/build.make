@@ -70,7 +70,7 @@ CMakeFiles/gen_project_binary: .bin_timestamp
 
 .bin_timestamp: linear_scale_combined.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 40m --flash_size 4MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 99 -o /Users/sergeybarabash/robo/linear_scale/combined_fw/build/linear_scale_combined.bin /Users/sergeybarabash/robo/linear_scale/combined_fw/build/linear_scale_combined.elf
+	/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 80m --flash_size 4MB --elf-sha256-offset 0xb0 --min-rev-full 0 --max-rev-full 99 -o /Users/sergeybarabash/robo/linear_scale/combined_fw/build/linear_scale_combined.bin /Users/sergeybarabash/robo/linear_scale/combined_fw/build/linear_scale_combined.elf
 	/usr/local/bin/cmake -E echo "Generated /Users/sergeybarabash/robo/linear_scale/combined_fw/build/linear_scale_combined.bin"
 	/usr/local/bin/cmake -E md5sum /Users/sergeybarabash/robo/linear_scale/combined_fw/build/linear_scale_combined.bin > /Users/sergeybarabash/robo/linear_scale/combined_fw/build/.bin_timestamp
 

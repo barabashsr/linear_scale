@@ -11,7 +11,7 @@ void logic_init(void)
     memset(&g_st, 0, sizeof(g_st));
     g_st.axes[AXIS_RADIAL].radius_mode = false;
     g_st.diam_value = CFG_DIAM_DEFAULT_MM;
-    g_st.btn_state = 0xFFFF; /* absorb startup noise — no edges fire until all released */
+    //g_st.btn_state = 0xFFFF; /* absorb startup noise — no edges fire until all released */
 }
 
 state_t *logic_get(void) { return &g_st; }
@@ -98,8 +98,15 @@ void (*g_on_axial_zero_btn)(void);
 
 void logic_handle_btn(uint16_t btns)
 {
+    static int call_cnt;
+    call_cnt++;
     uint16_t chg = btns & ~g_st.btn_state;
-    if (chg) ESP_LOGI("btn", "btns=0x%04X chg=0x%04X", btns, chg);
+
+    if (call_cnt % 500 == 0 || chg) {
+        ESP_LOGI("btn", "#%d btns=0x%04X prev=0x%04X chg=0x%04X",
+                 call_cnt, btns, g_st.btn_state, chg);
+    }
+
     g_st.btn_state = btns;
     if (!chg) return;
     for (int i = 0; i < CFG_MAX_SETPOINTS; i++) {

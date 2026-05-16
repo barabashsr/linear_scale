@@ -22,45 +22,48 @@ static const int aw_count = sizeof(aw_pins) / sizeof(aw_pins[0]);
 
 esp_err_t buttons_init(void)
 {
+    esp_err_t ret = ESP_OK;
+
+    uint8_t dummy;
+    if (aw9523_read_port0(&dummy) == ESP_OK) {
+        ESP_LOGI(TAG_BT, "AW9523 port0 ok (0x%02X)", dummy);
+    } else {
+        ESP_LOGE(TAG_BT, "AW9523 port0 NOT accessible");
+        ret = ESP_FAIL;
+    }
+
+    if (mcp23017_read(CFG_MCP23017_ADDR, MCP_GPIOB, &dummy) == ESP_OK) {
+        ESP_LOGI(TAG_BT, "MCP23017 GPIOB ok (0x%02X)", dummy);
+    } else {
+        ESP_LOGE(TAG_BT, "MCP23017 GPIOB NOT accessible");
+        ret = ESP_FAIL;
+    }
+
     ESP_LOGI(TAG_BT, "Buttons ready (%d AW9523 + 2 MCP23017)", aw_count);
-    return ESP_OK;
+    return ret;
 }
 
 uint16_t buttons_read(void)
 {
     uint16_t raw = 0;
 
-    /* AW9523 port0 */
-    static int aw_fail_cnt;
+    /* ── AW9523 port0 ── */
     uint8_t aw_raw = 0xFF;
     uint16_t aw_bits = 0;
-    if (aw_fail_cnt < 50) {
-        if (aw9523_read_port0(&aw_raw) != ESP_OK) {
-            aw_fail_cnt++;
-        } else {
-            aw_fail_cnt = 0;
-        }
-    }
+    aw9523_read_port0(&aw_raw);
     for (int i = 0; i < aw_count; i++) {
         if (!((aw_raw >> aw_pins[i]) & 1)) aw_bits |= aw_masks[i];
     }
 
-    /* MCP23017 GPIOB */
-    static int mcp_fail_cnt;
+    /* ── MCP23017 GPIOB ── */
     uint8_t gb = 0xFF;
     uint16_t mcp_bits = 0;
-    if (mcp_fail_cnt < 50) {
-        esp_err_t mret = mcp23017_read(CFG_MCP23017_ADDR, MCP_GPIOB, &gb);
-        if (mret == ESP_OK) {
-            mcp_fail_cnt = 0;
-            if (!((gb >> CFG_MCP_BTN_DIAM_T1) & 1)) mcp_bits |= BTN_DIAM_T1;
-            if (!((gb >> CFG_MCP_BTN_DIAM_T2) & 1)) mcp_bits |= BTN_DIAM_T2;
-        } else {
-            mcp_fail_cnt++;
-        }
+    if (mcp23017_read(CFG_MCP23017_ADDR, MCP_GPIOB, &gb) == ESP_OK) {
+        if (!((gb >> CFG_MCP_BTN_DIAM_T1) & 1)) mcp_bits |= BTN_DIAM_T1;
+        if (!((gb >> CFG_MCP_BTN_DIAM_T2) & 1)) mcp_bits |= BTN_DIAM_T2;
     }
 
-    /* separate debounce: AW + MCP */
+    /* ── separate debounce: AW + MCP ── */
     static uint16_t aw_prev, mcp_prev, aw_stable, mcp_stable;
     static int aw_cnt, mcp_cnt;
 
@@ -74,12 +77,18 @@ uint16_t buttons_read(void)
 
     raw = aw_stable | mcp_stable;
 
+    /* ── logging: every ~500ms + on raw changes ── */
     static int call_cnt;
+    call_cnt++;
+    bool periodic = (call_cnt % 500 == 0);
     static uint16_t last_log;
-    if (++call_cnt < 5 || raw != last_log) {
-        ESP_LOGI(TAG_BT, "#%d AW=0x%02X GB=0x%02X aw=0x%04X mcp=0x%04X st=0x%04X",
-                 call_cnt, aw_raw, gb, aw_bits, mcp_bits, raw);
-        last_log = raw;
+    bool changed = (raw != last_log);
+
+    if (periodic || changed) {
+        ESP_LOGI(TAG_BT, "#%d AW=0x%02X GB=0x%02X aw_b=0x%04X mcp_b=0x%04X "
+                 "aw_c=%d mcp_c=%d st=0x%04X",
+                 call_cnt, aw_raw, gb, aw_bits, mcp_bits, aw_cnt, mcp_cnt, raw);
+        if (changed) last_log = raw;
     }
 
     return raw;

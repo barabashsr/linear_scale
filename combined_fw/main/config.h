@@ -117,6 +117,7 @@
 #define CFG_SPINDLE_RPM_MS      500
 
 /* ── Physical buttons (debounce) ─────────────── */
+#define CFG_BTN_POLL_MS          20
 #define CFG_BTN_DEBOUNCE_TICKS  8
 
 /* ── Screen position offset ──────────────────── */

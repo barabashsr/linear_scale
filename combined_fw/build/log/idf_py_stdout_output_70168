@@ -1,0 +1,202 @@
++k�driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+[0;32mI (863) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (869) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (876) main_task: Started on CPU0[0m
+[0;32mI (879) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (887) main_task: Calling app_main()[0m
+[0;32mI (890) main: DRO firmware starting[0m
+[0;32mI (894) aw9523: AW9523 found at 0x5B, ID=0x23[0m
+[0;32mI (898) aw9523: AW9523 ready (all inputs)[0m
+[0;32mI (993) lcd_port: Touch: GT911 detected at 0x5B[0m
+[0;32mI (994) scale: Axial scale ready (A=19 B=40)[0m
+[0;32mI (995) scale: Radial scale ready (A=42 B=2)[0m
+[0;32mI (996) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+[0;32mI (1004) spindle: Spindle ready A=20 B=41 Z=4 CPR=400 gear=1:1[0m
+[0;32mI (1010) buttons: AW9523 port0 ok (0xFF)[0m
+[0;32mI (1013) buttons: MCP23017 GPIOB ok (0x03)[0m
+[0;32mI (1016) buttons: Buttons ready (8 AW9523 + 2 MCP23017)[0m
+[0;32mI (1021) mcp23017: MCP23017 found at 0x20[0m
+[0;32mI (1026) mcp23017: MCP23017 GPIOB ready (LED=0)[0m
+[0;32mI (1029) mcp23017: MCP23017 ready[0m
+[0;32mI (6972) buttons: #245 AW=0xFB GB=0x03 aw_b=0x0002 mcp_b=0x0000 aw_c=8 mcp_c=245 st=0x0002[0m
+[0;32mI (6974) btn: #245 btns=0x0002 prev=0x0000 chg=0x0002[0m
+[0;32mI (7153) buttons: #254 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=254 st=0x0000[0m
+[0;32mI (8801) buttons: #336 AW=0xF7 GB=0x03 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=336 st=0x0010[0m
+[0;32mI (8803) btn: #336 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (8805) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (9073) buttons: #345 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=345 st=0x0000[0m
+[0;32mI (12184) buttons: #500 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=72 mcp_c=500 st=0x0000[0m
+[0;32mI (12185) btn: #500 btns=0x0000 prev=0x0000 chg=0x0000[0m
+[0;32mI (12687) buttons: #525 AW=0xF7 GB=0x07 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=525 st=0x0010[0m
+[0;32mI (12689) btn: #525 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (12690) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (13056) buttons: #539 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=539 st=0x0000[0m
+[0;32mI (13740) buttons: #573 AW=0xFD GB=0x03 aw_b=0x0040 mcp_b=0x0000 aw_c=8 mcp_c=573 st=0x0040[0m
+[0;32mI (13741) btn: #573 btns=0x0040 prev=0x0000 chg=0x0040[0m
+[0;32mI (14876) buttons: #582 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=582 st=0x0000[0m
+[0;32mI (16882) buttons: #659 AW=0xF7 GB=0x03 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=659 st=0x0010[0m
+[0;32mI (16884) btn: #659 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (16885) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (17295) buttons: #675 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=675 st=0x0000[0m
+[0;32mI (20727) buttons: #846 AW=0xDF GB=0x07 aw_b=0x0020 mcp_b=0x0000 aw_c=8 mcp_c=846 st=0x0020[0m
+[0;32mI (20728) btn: #846 btns=0x0020 prev=0x0000 chg=0x0020[0m
+[0;32mI (20988) buttons: #859 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=859 st=0x0000[0m
+[0;32mI (21992) buttons: #909 AW=0xF7 GB=0x07 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=909 st=0x0010[0m
+[0;32mI (21992) btn: #909 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (21995) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (22260) buttons: #918 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=918 st=0x0000[0m
+[0;32mI (22864) buttons: #948 AW=0xF7 GB=0x03 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=948 st=0x0010[0m
+[0;32mI (22865) btn: #948 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (22867) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (23213) buttons: #961 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=961 st=0x0000[0m
+[0;32mI (23894) buttons: #995 AW=0xF7 GB=0x07 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=995 st=0x0010[0m
+[0;32mI (23895) btn: #995 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (23897) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (24085) buttons: #1000 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=2 mcp_c=1000 st=0x0010[0m
+[0;32mI (24087) btn: #1000 btns=0x0010 prev=0x0010 chg=0x0000[0m
+[0;32mI (24205) buttons: #1006 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1006 st=0x0000[0m
+[0;32mI (24766) buttons: #1034 AW=0xFD GB=0x03 aw_b=0x0040 mcp_b=0x0000 aw_c=8 mcp_c=1034 st=0x0040[0m
+[0;32mI (24767) btn: #1034 btns=0x0040 prev=0x0000 chg=0x0040[0m
+[0;32mI (25901) buttons: #1043 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1043 st=0x0000[0m
+[0;32mI (28136) buttons: #1132 AW=0xFD GB=0x03 aw_b=0x0040 mcp_b=0x0000 aw_c=8 mcp_c=1132 st=0x0040[0m
+[0;32mI (28137) btn: #1132 btns=0x0040 prev=0x0000 chg=0x0040[0m
+[0;32mI (29272) buttons: #1141 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1141 st=0x0000[0m
+[0;32mI (36569) buttons: #1322 AW=0xFB GB=0x03 aw_b=0x0002 mcp_b=0x0000 aw_c=8 mcp_c=1322 st=0x0002[0m
+[0;32mI (36570) btn: #1322 btns=0x0002 prev=0x0000 chg=0x0002[0m
+[0;32mI (36896) buttons: #1333 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1333 st=0x0000[0m
+[0;32mI (40252) buttons: #1500 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=175 mcp_c=1500 st=0x0000[0m
+[0;32mI (40253) btn: #1500 btns=0x0000 prev=0x0000 chg=0x0000[0m
+[0;32mI (50296) buttons: #2000 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=675 mcp_c=2000 st=0x0000[0m
+[0;32mI (50297) btn: #2000 btns=0x0000 prev=0x0000 chg=0x0000[0m
+[0;32mI (65943) buttons: #2500 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=1175 mcp_c=2500 st=0x0000[0m
+[0;32mI (65944) btn: #2500 btns=0x0000 prev=0x0000 chg=0x0000[0m
+[0;32mI (89428) buttons: #2947 AW=0xF7 GB=0x03 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=2947 st=0x0010[0m
+[0;32mI (89430) btn: #2947 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (89431) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (89809) buttons: #2956 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=2956 st=0x0000[0m
+[0;32mI (94451) buttons: #3000 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=52 mcp_c=3000 st=0x0000[0m
+[0;32mI (94453) btn: #3000 btns=0x0000 prev=0x0000 chg=0x0000[0m
+[0;32mI (122526) buttons: #3401 AW=0x7F GB=0x07 aw_b=0x0080 mcp_b=0x0000 aw_c=8 mcp_c=3401 st=0x0080[0m
+[0;32mI (122528) btn: #3401 btns=0x0080 prev=0x0000 chg=0x0080[0m
+[0;32mI (122893) buttons: #3410 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=3410 st=0x0000[0m
+[0;32mI (124702) buttons: #3500 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=98 mcp_c=3500 st=0x0000[0m
+[0;32mI (124702) btn: #3500 btns=0x0000 prev=0x0000 chg=0x0000[0m
+[0;32mI (125284) buttons: #3529 AW=0xFF GB=0x05 aw_b=0x0000 mcp_b=0x0200 aw_c=127 mcp_c=8 st=0x0200[0m
+[0;32mI (125285) btn: #3529 btns=0x0200 prev=0x0000 chg=0x0200[0m
+[0;32mI (125606) buttons: #3540 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=138 mcp_c=8 st=0x0000[0m
+[0;32mI (126290) buttons: #3574 AW=0xFF GB=0x06 aw_b=0x0000 mcp_b=0x0100 aw_c=172 mcp_c=8 st=0x0100[0m
+[0;32mI (126291) btn: #3574 btns=0x0100 prev=0x0000 chg=0x0100[0m
+[0;32mI (126591) buttons: #3584 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=182 mcp_c=8 st=0x0000[0m
+[0;32mI (129057) buttons: #3633 AW=0x7F GB=0x07 aw_b=0x0080 mcp_b=0x0000 aw_c=8 mcp_c=57 st=0x0080[0m
+[0;32mI (129058) btn: #3633 btns=0x0080 prev=0x0000 chg=0x0080[0m
+[0;32mI (129480) buttons: #3645 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=69 st=0x0000[0m
+[0;32mI (993) lcd_port: Touch: GT911 detected at 0x5B[0m
+[0;32mI (994) scale: Axial scale ready (A=19 B=40)[0m
+[0;32mI (995) scale: Radial scale ready (A=42 B=2)[0m
+[0;32mI (996) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+[0;32mI (1004) spindle: Spindle ready A=20 B=41 Z=4 CPR=400 gear=1:1[0m
+[0;32mI (1010) buttons: AW9523 port0 ok (0xFF)[0m
+[0;32mI (1013) buttons: MCP23017 GPIOB ok (0x03)[0m
+[0;32mI (1016) buttons: Buttons ready (8 AW9523 + 2 MCP23017)[0m
+[0;32mI (1021) mcp23017: MCP23017 found at 0x20[0m
+[0;32mI (1026) mcp23017: MCP23017 GPIOB ready (LED=0)[0m
+[0;32mI (1029) mcp23017: MCP23017 ready[0m
+[0;32mI (5302) buttons: #162 AW=0xF7 GB=0x03 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=162 st=0x0010[0m
+[0;32mI (5304) btn: #162 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (5305) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (5574) buttons: #171 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=171 st=0x0000[0m
+[0;32mI (6418) buttons: #213 AW=0xF7 GB=0x07 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=213 st=0x0010[0m
+[0;32mI (6419) btn: #213 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (6421) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (6687) buttons: #222 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=222 st=0x0000[0m
+[0;32mI (7268) buttons: #251 AW=0xFD GB=0x03 aw_b=0x0040 mcp_b=0x0000 aw_c=8 mcp_c=251 st=0x0040[0m
+[0;32mI (7269) btn: #251 btns=0x0040 prev=0x0000 chg=0x0040[0m
+[0;32mI (8401) buttons: #260 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=260 st=0x0000[0m
+[0;32mI (10583) buttons: #346 AW=0xFD GB=0x03 aw_b=0x0040 mcp_b=0x0000 aw_c=8 mcp_c=346 st=0x0040[0m
+[0;32mI (10584) btn: #346 btns=0x0040 prev=0x0000 chg=0x0040[0m
+[0;32mI (11721) buttons: #355 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=355 st=0x0000[0m
+[0;32mI (15535) buttons: #500 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=153 mcp_c=500 st=0x0000[0m
+[0;32mI (15536) btn: #500 btns=0x0000 prev=0x0000 chg=0x0000[0m
+SC�
+B�JB���}����� At 600FE11C len 00001ECC (7 KiB): RTCRAM
+[0;32mI (828) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (835) spi_flash: detected chip: generic[0m
+[0;32mI (838) spi_flash: flash io: dio[0m
+[0;33mW (841) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.[0m
+[0;33mW (853) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (863) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (869) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (876) main_task: Started on CPU0[0m
+[0;32mI (879) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (887) main_task: Calling app_main()[0m
+[0;32mI (890) main: DRO firmware starting[0m
+[0;32mI (894) aw9523: AW9523 found at 0x5B, ID=0x23[0m
+[0;32mI (898) aw9523: AW9523 ready (all inputs)[0m
+[0;32mI (993) lcd_port: Touch: GT911 detected at 0x5B[0m
+[0;32mI (994) scale: Axial scale ready (A=19 B=40)[0m
+[0;32mI (995) scale: Radial scale ready (A=42 B=2)[0m
+[0;32mI (996) gpio: GPIO[4]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:1 [0m
+[0;32mI (1004) spindle: Spindle ready A=20 B=41 Z=4 CPR=400 gear=1:1[0m
+[0;32mI (1010) buttons: AW9523 port0 ok (0xFF)[0m
+[0;32mI (1013) buttons: MCP23017 GPIOB ok (0x03)[0m
+[0;32mI (1016) buttons: Buttons ready (8 AW9523 + 2 MCP23017)[0m
+[0;32mI (1021) mcp23017: MCP23017 found at 0x20[0m
+[0;32mI (1026) mcp23017: MCP23017 GPIOB ready (LED=0)[0m
+[0;32mI (1029) mcp23017: MCP23017 ready[0m
+[0;32mI (14685) buttons: #500 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=500 mcp_c=500 st=0x0000[0m
+[0;32mI (14686) btn: #500 btns=0x0000 prev=0x0000 chg=0x0000[0m
+[0;32mI (24195) buttons: #906 AW=0xF7 GB=0x03 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=906 st=0x0010[0m
+[0;32mI (24196) btn: #906 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (24198) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (24468) buttons: #915 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=915 st=0x0000[0m
+[0;32mI (26037) buttons: #993 AW=0xF7 GB=0x07 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=993 st=0x0010[0m
+[0;32mI (26038) btn: #993 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (26040) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (26267) buttons: #1000 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=6 mcp_c=1000 st=0x0010[0m
+[0;32mI (26269) btn: #1000 btns=0x0010 prev=0x0010 chg=0x0000[0m
+[0;32mI (26307) buttons: #1002 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1002 st=0x0000[0m
+[0;32mI (27971) buttons: #1085 AW=0xFD GB=0x03 aw_b=0x0040 mcp_b=0x0000 aw_c=8 mcp_c=1085 st=0x0040[0m
+[0;32mI (27973) btn: #1085 btns=0x0040 prev=0x0000 chg=0x0040[0m
+[0;32mI (29107) buttons: #1094 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1094 st=0x0000[0m
+[0;32mI (33952) buttons: #1281 AW=0xF7 GB=0x03 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=1281 st=0x0010[0m
+[0;32mI (33953) btn: #1281 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (33956) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (34328) buttons: #1290 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1290 st=0x0000[0m
+[0;32mI (35012) buttons: #1324 AW=0xF7 GB=0x07 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=1324 st=0x0010[0m
+[0;32mI (35013) btn: #1324 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (35016) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (35389) buttons: #1333 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1333 st=0x0000[0m
+[0;32mI (36110) buttons: #1369 AW=0xF7 GB=0x03 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=1369 st=0x0010[0m
+[0;32mI (36111) btn: #1369 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (36113) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (36485) buttons: #1378 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1378 st=0x0000[0m
+[0;32mI (38936) buttons: #1500 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=130 mcp_c=1500 st=0x0000[0m
+[0;32mI (38937) btn: #1500 btns=0x0000 prev=0x0000 chg=0x0000[0m
+[0;32mI (42890) buttons: #1697 AW=0xF7 GB=0x07 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=1697 st=0x0010[0m
+[0;32mI (42891) btn: #1697 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (42893) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (43268) buttons: #1706 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1706 st=0x0000[0m
+[0;32mI (45217) buttons: #1803 AW=0xFB GB=0x03 aw_b=0x0002 mcp_b=0x0000 aw_c=8 mcp_c=1803 st=0x0002[0m
+[0;32mI (45218) btn: #1803 btns=0x0002 prev=0x0000 chg=0x0002[0m
+[0;32mI (45506) buttons: #1812 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1812 st=0x0000[0m
+[0;32mI (46047) buttons: #1839 AW=0xF7 GB=0x03 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=1839 st=0x0010[0m
+[0;32mI (46048) btn: #1839 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (46050) mcp23017: LED pin2=1 OLATB=0x04[0m
+[0;32mI (46399) buttons: #1848 AW=0xFF GB=0x07 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1848 st=0x0000[0m
+[0;32mI (47080) buttons: #1882 AW=0xF7 GB=0x07 aw_b=0x0010 mcp_b=0x0000 aw_c=8 mcp_c=1882 st=0x0010[0m
+[0;32mI (47082) btn: #1882 btns=0x0010 prev=0x0000 chg=0x0010[0m
+[0;32mI (47084) mcp23017: LED pin2=0 OLATB=0x00[0m
+[0;32mI (47433) buttons: #1891 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=1891 st=0x0000[0m
+[0;32mI (50569) buttons: #2000 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=117 mcp_c=2000 st=0x0000[0m
+[0;32mI (50570) btn: #2000 btns=0x0000 prev=0x0000 chg=0x0000[0m
+[0;32mI (51010) buttons: #2022 AW=0x7F GB=0x03 aw_b=0x0080 mcp_b=0x0000 aw_c=8 mcp_c=2022 st=0x0080[0m
+[0;32mI (51011) btn: #2022 btns=0x0080 prev=0x0000 chg=0x0080[0m
+[0;32mI (51374) buttons: #2031 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=8 mcp_c=2031 st=0x0000[0m
+[0;32mI (55110) buttons: #2217 AW=0xFF GB=0x01 aw_b=0x0000 mcp_b=0x0200 aw_c=194 mcp_c=8 st=0x0200[0m
+[0;32mI (55111) btn: #2217 btns=0x0200 prev=0x0000 chg=0x0200[0m
+[0;32mI (55372) buttons: #2230 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=207 mcp_c=8 st=0x0000[0m
+[0;32mI (56556) buttons: #2289 AW=0xFF GB=0x02 aw_b=0x0000 mcp_b=0x0100 aw_c=266 mcp_c=8 st=0x0100[0m
+[0;32mI (56557) btn: #2289 btns=0x0100 prev=0x0000 chg=0x0100[0m
+[0;32mI (56877) buttons: #2305 AW=0xFF GB=0x03 aw_b=0x0000 mcp_b=0x0000 aw_c=282 mcp_c=8 st=0x0000[0m
+[0;32mI (59256) buttons: #2375 AW=0x7F GB=0x03 aw_b=0x0080 mcp_b=0x0000 aw_c=8 mcp_c=78 st=0x0080[0m
+[0;32mI (59258) btn: #2375 btns=0x0080 prev=0x0000 chg=0x0080

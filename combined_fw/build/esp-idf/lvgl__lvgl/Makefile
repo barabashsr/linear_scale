@@ -175,6 +175,4110 @@ __idf_lvgl__lvgl/fast:
 	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build
 .PHONY : __idf_lvgl__lvgl/fast
 
+examples/anim/lv_example_anim_1.obj: examples/anim/lv_example_anim_1.c.obj
+.PHONY : examples/anim/lv_example_anim_1.obj
+
+# target to build an object file
+examples/anim/lv_example_anim_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_1.c.obj
+.PHONY : examples/anim/lv_example_anim_1.c.obj
+
+examples/anim/lv_example_anim_1.i: examples/anim/lv_example_anim_1.c.i
+.PHONY : examples/anim/lv_example_anim_1.i
+
+# target to preprocess a source file
+examples/anim/lv_example_anim_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_1.c.i
+.PHONY : examples/anim/lv_example_anim_1.c.i
+
+examples/anim/lv_example_anim_1.s: examples/anim/lv_example_anim_1.c.s
+.PHONY : examples/anim/lv_example_anim_1.s
+
+# target to generate assembly for a file
+examples/anim/lv_example_anim_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_1.c.s
+.PHONY : examples/anim/lv_example_anim_1.c.s
+
+examples/anim/lv_example_anim_2.obj: examples/anim/lv_example_anim_2.c.obj
+.PHONY : examples/anim/lv_example_anim_2.obj
+
+# target to build an object file
+examples/anim/lv_example_anim_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_2.c.obj
+.PHONY : examples/anim/lv_example_anim_2.c.obj
+
+examples/anim/lv_example_anim_2.i: examples/anim/lv_example_anim_2.c.i
+.PHONY : examples/anim/lv_example_anim_2.i
+
+# target to preprocess a source file
+examples/anim/lv_example_anim_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_2.c.i
+.PHONY : examples/anim/lv_example_anim_2.c.i
+
+examples/anim/lv_example_anim_2.s: examples/anim/lv_example_anim_2.c.s
+.PHONY : examples/anim/lv_example_anim_2.s
+
+# target to generate assembly for a file
+examples/anim/lv_example_anim_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_2.c.s
+.PHONY : examples/anim/lv_example_anim_2.c.s
+
+examples/anim/lv_example_anim_3.obj: examples/anim/lv_example_anim_3.c.obj
+.PHONY : examples/anim/lv_example_anim_3.obj
+
+# target to build an object file
+examples/anim/lv_example_anim_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_3.c.obj
+.PHONY : examples/anim/lv_example_anim_3.c.obj
+
+examples/anim/lv_example_anim_3.i: examples/anim/lv_example_anim_3.c.i
+.PHONY : examples/anim/lv_example_anim_3.i
+
+# target to preprocess a source file
+examples/anim/lv_example_anim_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_3.c.i
+.PHONY : examples/anim/lv_example_anim_3.c.i
+
+examples/anim/lv_example_anim_3.s: examples/anim/lv_example_anim_3.c.s
+.PHONY : examples/anim/lv_example_anim_3.s
+
+# target to generate assembly for a file
+examples/anim/lv_example_anim_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_3.c.s
+.PHONY : examples/anim/lv_example_anim_3.c.s
+
+examples/anim/lv_example_anim_timeline_1.obj: examples/anim/lv_example_anim_timeline_1.c.obj
+.PHONY : examples/anim/lv_example_anim_timeline_1.obj
+
+# target to build an object file
+examples/anim/lv_example_anim_timeline_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_timeline_1.c.obj
+.PHONY : examples/anim/lv_example_anim_timeline_1.c.obj
+
+examples/anim/lv_example_anim_timeline_1.i: examples/anim/lv_example_anim_timeline_1.c.i
+.PHONY : examples/anim/lv_example_anim_timeline_1.i
+
+# target to preprocess a source file
+examples/anim/lv_example_anim_timeline_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_timeline_1.c.i
+.PHONY : examples/anim/lv_example_anim_timeline_1.c.i
+
+examples/anim/lv_example_anim_timeline_1.s: examples/anim/lv_example_anim_timeline_1.c.s
+.PHONY : examples/anim/lv_example_anim_timeline_1.s
+
+# target to generate assembly for a file
+examples/anim/lv_example_anim_timeline_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/anim/lv_example_anim_timeline_1.c.s
+.PHONY : examples/anim/lv_example_anim_timeline_1.c.s
+
+examples/assets/animimg001.obj: examples/assets/animimg001.c.obj
+.PHONY : examples/assets/animimg001.obj
+
+# target to build an object file
+examples/assets/animimg001.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/animimg001.c.obj
+.PHONY : examples/assets/animimg001.c.obj
+
+examples/assets/animimg001.i: examples/assets/animimg001.c.i
+.PHONY : examples/assets/animimg001.i
+
+# target to preprocess a source file
+examples/assets/animimg001.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/animimg001.c.i
+.PHONY : examples/assets/animimg001.c.i
+
+examples/assets/animimg001.s: examples/assets/animimg001.c.s
+.PHONY : examples/assets/animimg001.s
+
+# target to generate assembly for a file
+examples/assets/animimg001.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/animimg001.c.s
+.PHONY : examples/assets/animimg001.c.s
+
+examples/assets/animimg002.obj: examples/assets/animimg002.c.obj
+.PHONY : examples/assets/animimg002.obj
+
+# target to build an object file
+examples/assets/animimg002.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/animimg002.c.obj
+.PHONY : examples/assets/animimg002.c.obj
+
+examples/assets/animimg002.i: examples/assets/animimg002.c.i
+.PHONY : examples/assets/animimg002.i
+
+# target to preprocess a source file
+examples/assets/animimg002.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/animimg002.c.i
+.PHONY : examples/assets/animimg002.c.i
+
+examples/assets/animimg002.s: examples/assets/animimg002.c.s
+.PHONY : examples/assets/animimg002.s
+
+# target to generate assembly for a file
+examples/assets/animimg002.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/animimg002.c.s
+.PHONY : examples/assets/animimg002.c.s
+
+examples/assets/animimg003.obj: examples/assets/animimg003.c.obj
+.PHONY : examples/assets/animimg003.obj
+
+# target to build an object file
+examples/assets/animimg003.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/animimg003.c.obj
+.PHONY : examples/assets/animimg003.c.obj
+
+examples/assets/animimg003.i: examples/assets/animimg003.c.i
+.PHONY : examples/assets/animimg003.i
+
+# target to preprocess a source file
+examples/assets/animimg003.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/animimg003.c.i
+.PHONY : examples/assets/animimg003.c.i
+
+examples/assets/animimg003.s: examples/assets/animimg003.c.s
+.PHONY : examples/assets/animimg003.s
+
+# target to generate assembly for a file
+examples/assets/animimg003.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/animimg003.c.s
+.PHONY : examples/assets/animimg003.c.s
+
+examples/assets/emoji/img_emoji_F617.obj: examples/assets/emoji/img_emoji_F617.c.obj
+.PHONY : examples/assets/emoji/img_emoji_F617.obj
+
+# target to build an object file
+examples/assets/emoji/img_emoji_F617.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/emoji/img_emoji_F617.c.obj
+.PHONY : examples/assets/emoji/img_emoji_F617.c.obj
+
+examples/assets/emoji/img_emoji_F617.i: examples/assets/emoji/img_emoji_F617.c.i
+.PHONY : examples/assets/emoji/img_emoji_F617.i
+
+# target to preprocess a source file
+examples/assets/emoji/img_emoji_F617.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/emoji/img_emoji_F617.c.i
+.PHONY : examples/assets/emoji/img_emoji_F617.c.i
+
+examples/assets/emoji/img_emoji_F617.s: examples/assets/emoji/img_emoji_F617.c.s
+.PHONY : examples/assets/emoji/img_emoji_F617.s
+
+# target to generate assembly for a file
+examples/assets/emoji/img_emoji_F617.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/emoji/img_emoji_F617.c.s
+.PHONY : examples/assets/emoji/img_emoji_F617.c.s
+
+examples/assets/img_caret_down.obj: examples/assets/img_caret_down.c.obj
+.PHONY : examples/assets/img_caret_down.obj
+
+# target to build an object file
+examples/assets/img_caret_down.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_caret_down.c.obj
+.PHONY : examples/assets/img_caret_down.c.obj
+
+examples/assets/img_caret_down.i: examples/assets/img_caret_down.c.i
+.PHONY : examples/assets/img_caret_down.i
+
+# target to preprocess a source file
+examples/assets/img_caret_down.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_caret_down.c.i
+.PHONY : examples/assets/img_caret_down.c.i
+
+examples/assets/img_caret_down.s: examples/assets/img_caret_down.c.s
+.PHONY : examples/assets/img_caret_down.s
+
+# target to generate assembly for a file
+examples/assets/img_caret_down.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_caret_down.c.s
+.PHONY : examples/assets/img_caret_down.c.s
+
+examples/assets/img_cogwheel_alpha16.obj: examples/assets/img_cogwheel_alpha16.c.obj
+.PHONY : examples/assets/img_cogwheel_alpha16.obj
+
+# target to build an object file
+examples/assets/img_cogwheel_alpha16.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_alpha16.c.obj
+.PHONY : examples/assets/img_cogwheel_alpha16.c.obj
+
+examples/assets/img_cogwheel_alpha16.i: examples/assets/img_cogwheel_alpha16.c.i
+.PHONY : examples/assets/img_cogwheel_alpha16.i
+
+# target to preprocess a source file
+examples/assets/img_cogwheel_alpha16.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_alpha16.c.i
+.PHONY : examples/assets/img_cogwheel_alpha16.c.i
+
+examples/assets/img_cogwheel_alpha16.s: examples/assets/img_cogwheel_alpha16.c.s
+.PHONY : examples/assets/img_cogwheel_alpha16.s
+
+# target to generate assembly for a file
+examples/assets/img_cogwheel_alpha16.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_alpha16.c.s
+.PHONY : examples/assets/img_cogwheel_alpha16.c.s
+
+examples/assets/img_cogwheel_argb.obj: examples/assets/img_cogwheel_argb.c.obj
+.PHONY : examples/assets/img_cogwheel_argb.obj
+
+# target to build an object file
+examples/assets/img_cogwheel_argb.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_argb.c.obj
+.PHONY : examples/assets/img_cogwheel_argb.c.obj
+
+examples/assets/img_cogwheel_argb.i: examples/assets/img_cogwheel_argb.c.i
+.PHONY : examples/assets/img_cogwheel_argb.i
+
+# target to preprocess a source file
+examples/assets/img_cogwheel_argb.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_argb.c.i
+.PHONY : examples/assets/img_cogwheel_argb.c.i
+
+examples/assets/img_cogwheel_argb.s: examples/assets/img_cogwheel_argb.c.s
+.PHONY : examples/assets/img_cogwheel_argb.s
+
+# target to generate assembly for a file
+examples/assets/img_cogwheel_argb.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_argb.c.s
+.PHONY : examples/assets/img_cogwheel_argb.c.s
+
+examples/assets/img_cogwheel_chroma_keyed.obj: examples/assets/img_cogwheel_chroma_keyed.c.obj
+.PHONY : examples/assets/img_cogwheel_chroma_keyed.obj
+
+# target to build an object file
+examples/assets/img_cogwheel_chroma_keyed.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_chroma_keyed.c.obj
+.PHONY : examples/assets/img_cogwheel_chroma_keyed.c.obj
+
+examples/assets/img_cogwheel_chroma_keyed.i: examples/assets/img_cogwheel_chroma_keyed.c.i
+.PHONY : examples/assets/img_cogwheel_chroma_keyed.i
+
+# target to preprocess a source file
+examples/assets/img_cogwheel_chroma_keyed.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_chroma_keyed.c.i
+.PHONY : examples/assets/img_cogwheel_chroma_keyed.c.i
+
+examples/assets/img_cogwheel_chroma_keyed.s: examples/assets/img_cogwheel_chroma_keyed.c.s
+.PHONY : examples/assets/img_cogwheel_chroma_keyed.s
+
+# target to generate assembly for a file
+examples/assets/img_cogwheel_chroma_keyed.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_chroma_keyed.c.s
+.PHONY : examples/assets/img_cogwheel_chroma_keyed.c.s
+
+examples/assets/img_cogwheel_indexed16.obj: examples/assets/img_cogwheel_indexed16.c.obj
+.PHONY : examples/assets/img_cogwheel_indexed16.obj
+
+# target to build an object file
+examples/assets/img_cogwheel_indexed16.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_indexed16.c.obj
+.PHONY : examples/assets/img_cogwheel_indexed16.c.obj
+
+examples/assets/img_cogwheel_indexed16.i: examples/assets/img_cogwheel_indexed16.c.i
+.PHONY : examples/assets/img_cogwheel_indexed16.i
+
+# target to preprocess a source file
+examples/assets/img_cogwheel_indexed16.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_indexed16.c.i
+.PHONY : examples/assets/img_cogwheel_indexed16.c.i
+
+examples/assets/img_cogwheel_indexed16.s: examples/assets/img_cogwheel_indexed16.c.s
+.PHONY : examples/assets/img_cogwheel_indexed16.s
+
+# target to generate assembly for a file
+examples/assets/img_cogwheel_indexed16.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_indexed16.c.s
+.PHONY : examples/assets/img_cogwheel_indexed16.c.s
+
+examples/assets/img_cogwheel_rgb.obj: examples/assets/img_cogwheel_rgb.c.obj
+.PHONY : examples/assets/img_cogwheel_rgb.obj
+
+# target to build an object file
+examples/assets/img_cogwheel_rgb.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_rgb.c.obj
+.PHONY : examples/assets/img_cogwheel_rgb.c.obj
+
+examples/assets/img_cogwheel_rgb.i: examples/assets/img_cogwheel_rgb.c.i
+.PHONY : examples/assets/img_cogwheel_rgb.i
+
+# target to preprocess a source file
+examples/assets/img_cogwheel_rgb.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_rgb.c.i
+.PHONY : examples/assets/img_cogwheel_rgb.c.i
+
+examples/assets/img_cogwheel_rgb.s: examples/assets/img_cogwheel_rgb.c.s
+.PHONY : examples/assets/img_cogwheel_rgb.s
+
+# target to generate assembly for a file
+examples/assets/img_cogwheel_rgb.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_cogwheel_rgb.c.s
+.PHONY : examples/assets/img_cogwheel_rgb.c.s
+
+examples/assets/img_hand.obj: examples/assets/img_hand.c.obj
+.PHONY : examples/assets/img_hand.obj
+
+# target to build an object file
+examples/assets/img_hand.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_hand.c.obj
+.PHONY : examples/assets/img_hand.c.obj
+
+examples/assets/img_hand.i: examples/assets/img_hand.c.i
+.PHONY : examples/assets/img_hand.i
+
+# target to preprocess a source file
+examples/assets/img_hand.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_hand.c.i
+.PHONY : examples/assets/img_hand.c.i
+
+examples/assets/img_hand.s: examples/assets/img_hand.c.s
+.PHONY : examples/assets/img_hand.s
+
+# target to generate assembly for a file
+examples/assets/img_hand.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_hand.c.s
+.PHONY : examples/assets/img_hand.c.s
+
+examples/assets/img_skew_strip.obj: examples/assets/img_skew_strip.c.obj
+.PHONY : examples/assets/img_skew_strip.obj
+
+# target to build an object file
+examples/assets/img_skew_strip.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_skew_strip.c.obj
+.PHONY : examples/assets/img_skew_strip.c.obj
+
+examples/assets/img_skew_strip.i: examples/assets/img_skew_strip.c.i
+.PHONY : examples/assets/img_skew_strip.i
+
+# target to preprocess a source file
+examples/assets/img_skew_strip.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_skew_strip.c.i
+.PHONY : examples/assets/img_skew_strip.c.i
+
+examples/assets/img_skew_strip.s: examples/assets/img_skew_strip.c.s
+.PHONY : examples/assets/img_skew_strip.s
+
+# target to generate assembly for a file
+examples/assets/img_skew_strip.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_skew_strip.c.s
+.PHONY : examples/assets/img_skew_strip.c.s
+
+examples/assets/img_star.obj: examples/assets/img_star.c.obj
+.PHONY : examples/assets/img_star.obj
+
+# target to build an object file
+examples/assets/img_star.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_star.c.obj
+.PHONY : examples/assets/img_star.c.obj
+
+examples/assets/img_star.i: examples/assets/img_star.c.i
+.PHONY : examples/assets/img_star.i
+
+# target to preprocess a source file
+examples/assets/img_star.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_star.c.i
+.PHONY : examples/assets/img_star.c.i
+
+examples/assets/img_star.s: examples/assets/img_star.c.s
+.PHONY : examples/assets/img_star.s
+
+# target to generate assembly for a file
+examples/assets/img_star.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/img_star.c.s
+.PHONY : examples/assets/img_star.c.s
+
+examples/assets/imgbtn_left.obj: examples/assets/imgbtn_left.c.obj
+.PHONY : examples/assets/imgbtn_left.obj
+
+# target to build an object file
+examples/assets/imgbtn_left.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/imgbtn_left.c.obj
+.PHONY : examples/assets/imgbtn_left.c.obj
+
+examples/assets/imgbtn_left.i: examples/assets/imgbtn_left.c.i
+.PHONY : examples/assets/imgbtn_left.i
+
+# target to preprocess a source file
+examples/assets/imgbtn_left.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/imgbtn_left.c.i
+.PHONY : examples/assets/imgbtn_left.c.i
+
+examples/assets/imgbtn_left.s: examples/assets/imgbtn_left.c.s
+.PHONY : examples/assets/imgbtn_left.s
+
+# target to generate assembly for a file
+examples/assets/imgbtn_left.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/imgbtn_left.c.s
+.PHONY : examples/assets/imgbtn_left.c.s
+
+examples/assets/imgbtn_mid.obj: examples/assets/imgbtn_mid.c.obj
+.PHONY : examples/assets/imgbtn_mid.obj
+
+# target to build an object file
+examples/assets/imgbtn_mid.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/imgbtn_mid.c.obj
+.PHONY : examples/assets/imgbtn_mid.c.obj
+
+examples/assets/imgbtn_mid.i: examples/assets/imgbtn_mid.c.i
+.PHONY : examples/assets/imgbtn_mid.i
+
+# target to preprocess a source file
+examples/assets/imgbtn_mid.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/imgbtn_mid.c.i
+.PHONY : examples/assets/imgbtn_mid.c.i
+
+examples/assets/imgbtn_mid.s: examples/assets/imgbtn_mid.c.s
+.PHONY : examples/assets/imgbtn_mid.s
+
+# target to generate assembly for a file
+examples/assets/imgbtn_mid.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/imgbtn_mid.c.s
+.PHONY : examples/assets/imgbtn_mid.c.s
+
+examples/assets/imgbtn_right.obj: examples/assets/imgbtn_right.c.obj
+.PHONY : examples/assets/imgbtn_right.obj
+
+# target to build an object file
+examples/assets/imgbtn_right.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/imgbtn_right.c.obj
+.PHONY : examples/assets/imgbtn_right.c.obj
+
+examples/assets/imgbtn_right.i: examples/assets/imgbtn_right.c.i
+.PHONY : examples/assets/imgbtn_right.i
+
+# target to preprocess a source file
+examples/assets/imgbtn_right.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/imgbtn_right.c.i
+.PHONY : examples/assets/imgbtn_right.c.i
+
+examples/assets/imgbtn_right.s: examples/assets/imgbtn_right.c.s
+.PHONY : examples/assets/imgbtn_right.s
+
+# target to generate assembly for a file
+examples/assets/imgbtn_right.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/assets/imgbtn_right.c.s
+.PHONY : examples/assets/imgbtn_right.c.s
+
+examples/event/lv_example_event_1.obj: examples/event/lv_example_event_1.c.obj
+.PHONY : examples/event/lv_example_event_1.obj
+
+# target to build an object file
+examples/event/lv_example_event_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_1.c.obj
+.PHONY : examples/event/lv_example_event_1.c.obj
+
+examples/event/lv_example_event_1.i: examples/event/lv_example_event_1.c.i
+.PHONY : examples/event/lv_example_event_1.i
+
+# target to preprocess a source file
+examples/event/lv_example_event_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_1.c.i
+.PHONY : examples/event/lv_example_event_1.c.i
+
+examples/event/lv_example_event_1.s: examples/event/lv_example_event_1.c.s
+.PHONY : examples/event/lv_example_event_1.s
+
+# target to generate assembly for a file
+examples/event/lv_example_event_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_1.c.s
+.PHONY : examples/event/lv_example_event_1.c.s
+
+examples/event/lv_example_event_2.obj: examples/event/lv_example_event_2.c.obj
+.PHONY : examples/event/lv_example_event_2.obj
+
+# target to build an object file
+examples/event/lv_example_event_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_2.c.obj
+.PHONY : examples/event/lv_example_event_2.c.obj
+
+examples/event/lv_example_event_2.i: examples/event/lv_example_event_2.c.i
+.PHONY : examples/event/lv_example_event_2.i
+
+# target to preprocess a source file
+examples/event/lv_example_event_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_2.c.i
+.PHONY : examples/event/lv_example_event_2.c.i
+
+examples/event/lv_example_event_2.s: examples/event/lv_example_event_2.c.s
+.PHONY : examples/event/lv_example_event_2.s
+
+# target to generate assembly for a file
+examples/event/lv_example_event_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_2.c.s
+.PHONY : examples/event/lv_example_event_2.c.s
+
+examples/event/lv_example_event_3.obj: examples/event/lv_example_event_3.c.obj
+.PHONY : examples/event/lv_example_event_3.obj
+
+# target to build an object file
+examples/event/lv_example_event_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_3.c.obj
+.PHONY : examples/event/lv_example_event_3.c.obj
+
+examples/event/lv_example_event_3.i: examples/event/lv_example_event_3.c.i
+.PHONY : examples/event/lv_example_event_3.i
+
+# target to preprocess a source file
+examples/event/lv_example_event_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_3.c.i
+.PHONY : examples/event/lv_example_event_3.c.i
+
+examples/event/lv_example_event_3.s: examples/event/lv_example_event_3.c.s
+.PHONY : examples/event/lv_example_event_3.s
+
+# target to generate assembly for a file
+examples/event/lv_example_event_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_3.c.s
+.PHONY : examples/event/lv_example_event_3.c.s
+
+examples/event/lv_example_event_4.obj: examples/event/lv_example_event_4.c.obj
+.PHONY : examples/event/lv_example_event_4.obj
+
+# target to build an object file
+examples/event/lv_example_event_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_4.c.obj
+.PHONY : examples/event/lv_example_event_4.c.obj
+
+examples/event/lv_example_event_4.i: examples/event/lv_example_event_4.c.i
+.PHONY : examples/event/lv_example_event_4.i
+
+# target to preprocess a source file
+examples/event/lv_example_event_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_4.c.i
+.PHONY : examples/event/lv_example_event_4.c.i
+
+examples/event/lv_example_event_4.s: examples/event/lv_example_event_4.c.s
+.PHONY : examples/event/lv_example_event_4.s
+
+# target to generate assembly for a file
+examples/event/lv_example_event_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/event/lv_example_event_4.c.s
+.PHONY : examples/event/lv_example_event_4.c.s
+
+examples/get_started/lv_example_get_started_1.obj: examples/get_started/lv_example_get_started_1.c.obj
+.PHONY : examples/get_started/lv_example_get_started_1.obj
+
+# target to build an object file
+examples/get_started/lv_example_get_started_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/get_started/lv_example_get_started_1.c.obj
+.PHONY : examples/get_started/lv_example_get_started_1.c.obj
+
+examples/get_started/lv_example_get_started_1.i: examples/get_started/lv_example_get_started_1.c.i
+.PHONY : examples/get_started/lv_example_get_started_1.i
+
+# target to preprocess a source file
+examples/get_started/lv_example_get_started_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/get_started/lv_example_get_started_1.c.i
+.PHONY : examples/get_started/lv_example_get_started_1.c.i
+
+examples/get_started/lv_example_get_started_1.s: examples/get_started/lv_example_get_started_1.c.s
+.PHONY : examples/get_started/lv_example_get_started_1.s
+
+# target to generate assembly for a file
+examples/get_started/lv_example_get_started_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/get_started/lv_example_get_started_1.c.s
+.PHONY : examples/get_started/lv_example_get_started_1.c.s
+
+examples/get_started/lv_example_get_started_2.obj: examples/get_started/lv_example_get_started_2.c.obj
+.PHONY : examples/get_started/lv_example_get_started_2.obj
+
+# target to build an object file
+examples/get_started/lv_example_get_started_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/get_started/lv_example_get_started_2.c.obj
+.PHONY : examples/get_started/lv_example_get_started_2.c.obj
+
+examples/get_started/lv_example_get_started_2.i: examples/get_started/lv_example_get_started_2.c.i
+.PHONY : examples/get_started/lv_example_get_started_2.i
+
+# target to preprocess a source file
+examples/get_started/lv_example_get_started_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/get_started/lv_example_get_started_2.c.i
+.PHONY : examples/get_started/lv_example_get_started_2.c.i
+
+examples/get_started/lv_example_get_started_2.s: examples/get_started/lv_example_get_started_2.c.s
+.PHONY : examples/get_started/lv_example_get_started_2.s
+
+# target to generate assembly for a file
+examples/get_started/lv_example_get_started_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/get_started/lv_example_get_started_2.c.s
+.PHONY : examples/get_started/lv_example_get_started_2.c.s
+
+examples/get_started/lv_example_get_started_3.obj: examples/get_started/lv_example_get_started_3.c.obj
+.PHONY : examples/get_started/lv_example_get_started_3.obj
+
+# target to build an object file
+examples/get_started/lv_example_get_started_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/get_started/lv_example_get_started_3.c.obj
+.PHONY : examples/get_started/lv_example_get_started_3.c.obj
+
+examples/get_started/lv_example_get_started_3.i: examples/get_started/lv_example_get_started_3.c.i
+.PHONY : examples/get_started/lv_example_get_started_3.i
+
+# target to preprocess a source file
+examples/get_started/lv_example_get_started_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/get_started/lv_example_get_started_3.c.i
+.PHONY : examples/get_started/lv_example_get_started_3.c.i
+
+examples/get_started/lv_example_get_started_3.s: examples/get_started/lv_example_get_started_3.c.s
+.PHONY : examples/get_started/lv_example_get_started_3.s
+
+# target to generate assembly for a file
+examples/get_started/lv_example_get_started_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/get_started/lv_example_get_started_3.c.s
+.PHONY : examples/get_started/lv_example_get_started_3.c.s
+
+examples/layouts/flex/lv_example_flex_1.obj: examples/layouts/flex/lv_example_flex_1.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_1.obj
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_1.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_1.c.obj
+
+examples/layouts/flex/lv_example_flex_1.i: examples/layouts/flex/lv_example_flex_1.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_1.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_1.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_1.c.i
+
+examples/layouts/flex/lv_example_flex_1.s: examples/layouts/flex/lv_example_flex_1.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_1.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_1.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_1.c.s
+
+examples/layouts/flex/lv_example_flex_2.obj: examples/layouts/flex/lv_example_flex_2.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_2.obj
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_2.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_2.c.obj
+
+examples/layouts/flex/lv_example_flex_2.i: examples/layouts/flex/lv_example_flex_2.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_2.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_2.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_2.c.i
+
+examples/layouts/flex/lv_example_flex_2.s: examples/layouts/flex/lv_example_flex_2.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_2.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_2.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_2.c.s
+
+examples/layouts/flex/lv_example_flex_3.obj: examples/layouts/flex/lv_example_flex_3.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_3.obj
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_3.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_3.c.obj
+
+examples/layouts/flex/lv_example_flex_3.i: examples/layouts/flex/lv_example_flex_3.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_3.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_3.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_3.c.i
+
+examples/layouts/flex/lv_example_flex_3.s: examples/layouts/flex/lv_example_flex_3.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_3.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_3.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_3.c.s
+
+examples/layouts/flex/lv_example_flex_4.obj: examples/layouts/flex/lv_example_flex_4.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_4.obj
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_4.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_4.c.obj
+
+examples/layouts/flex/lv_example_flex_4.i: examples/layouts/flex/lv_example_flex_4.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_4.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_4.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_4.c.i
+
+examples/layouts/flex/lv_example_flex_4.s: examples/layouts/flex/lv_example_flex_4.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_4.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_4.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_4.c.s
+
+examples/layouts/flex/lv_example_flex_5.obj: examples/layouts/flex/lv_example_flex_5.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_5.obj
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_5.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_5.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_5.c.obj
+
+examples/layouts/flex/lv_example_flex_5.i: examples/layouts/flex/lv_example_flex_5.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_5.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_5.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_5.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_5.c.i
+
+examples/layouts/flex/lv_example_flex_5.s: examples/layouts/flex/lv_example_flex_5.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_5.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_5.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_5.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_5.c.s
+
+examples/layouts/flex/lv_example_flex_6.obj: examples/layouts/flex/lv_example_flex_6.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_6.obj
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_6.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_6.c.obj
+.PHONY : examples/layouts/flex/lv_example_flex_6.c.obj
+
+examples/layouts/flex/lv_example_flex_6.i: examples/layouts/flex/lv_example_flex_6.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_6.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_6.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_6.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_6.c.i
+
+examples/layouts/flex/lv_example_flex_6.s: examples/layouts/flex/lv_example_flex_6.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_6.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_6.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/flex/lv_example_flex_6.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_6.c.s
+
+examples/layouts/grid/lv_example_grid_1.obj: examples/layouts/grid/lv_example_grid_1.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_1.obj
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_1.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_1.c.obj
+
+examples/layouts/grid/lv_example_grid_1.i: examples/layouts/grid/lv_example_grid_1.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_1.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_1.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_1.c.i
+
+examples/layouts/grid/lv_example_grid_1.s: examples/layouts/grid/lv_example_grid_1.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_1.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_1.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_1.c.s
+
+examples/layouts/grid/lv_example_grid_2.obj: examples/layouts/grid/lv_example_grid_2.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_2.obj
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_2.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_2.c.obj
+
+examples/layouts/grid/lv_example_grid_2.i: examples/layouts/grid/lv_example_grid_2.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_2.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_2.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_2.c.i
+
+examples/layouts/grid/lv_example_grid_2.s: examples/layouts/grid/lv_example_grid_2.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_2.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_2.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_2.c.s
+
+examples/layouts/grid/lv_example_grid_3.obj: examples/layouts/grid/lv_example_grid_3.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_3.obj
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_3.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_3.c.obj
+
+examples/layouts/grid/lv_example_grid_3.i: examples/layouts/grid/lv_example_grid_3.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_3.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_3.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_3.c.i
+
+examples/layouts/grid/lv_example_grid_3.s: examples/layouts/grid/lv_example_grid_3.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_3.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_3.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_3.c.s
+
+examples/layouts/grid/lv_example_grid_4.obj: examples/layouts/grid/lv_example_grid_4.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_4.obj
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_4.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_4.c.obj
+
+examples/layouts/grid/lv_example_grid_4.i: examples/layouts/grid/lv_example_grid_4.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_4.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_4.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_4.c.i
+
+examples/layouts/grid/lv_example_grid_4.s: examples/layouts/grid/lv_example_grid_4.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_4.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_4.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_4.c.s
+
+examples/layouts/grid/lv_example_grid_5.obj: examples/layouts/grid/lv_example_grid_5.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_5.obj
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_5.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_5.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_5.c.obj
+
+examples/layouts/grid/lv_example_grid_5.i: examples/layouts/grid/lv_example_grid_5.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_5.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_5.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_5.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_5.c.i
+
+examples/layouts/grid/lv_example_grid_5.s: examples/layouts/grid/lv_example_grid_5.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_5.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_5.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_5.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_5.c.s
+
+examples/layouts/grid/lv_example_grid_6.obj: examples/layouts/grid/lv_example_grid_6.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_6.obj
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_6.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_6.c.obj
+.PHONY : examples/layouts/grid/lv_example_grid_6.c.obj
+
+examples/layouts/grid/lv_example_grid_6.i: examples/layouts/grid/lv_example_grid_6.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_6.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_6.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_6.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_6.c.i
+
+examples/layouts/grid/lv_example_grid_6.s: examples/layouts/grid/lv_example_grid_6.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_6.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_6.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/layouts/grid/lv_example_grid_6.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_6.c.s
+
+examples/libs/bmp/lv_example_bmp_1.obj: examples/libs/bmp/lv_example_bmp_1.c.obj
+.PHONY : examples/libs/bmp/lv_example_bmp_1.obj
+
+# target to build an object file
+examples/libs/bmp/lv_example_bmp_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/bmp/lv_example_bmp_1.c.obj
+.PHONY : examples/libs/bmp/lv_example_bmp_1.c.obj
+
+examples/libs/bmp/lv_example_bmp_1.i: examples/libs/bmp/lv_example_bmp_1.c.i
+.PHONY : examples/libs/bmp/lv_example_bmp_1.i
+
+# target to preprocess a source file
+examples/libs/bmp/lv_example_bmp_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/bmp/lv_example_bmp_1.c.i
+.PHONY : examples/libs/bmp/lv_example_bmp_1.c.i
+
+examples/libs/bmp/lv_example_bmp_1.s: examples/libs/bmp/lv_example_bmp_1.c.s
+.PHONY : examples/libs/bmp/lv_example_bmp_1.s
+
+# target to generate assembly for a file
+examples/libs/bmp/lv_example_bmp_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/bmp/lv_example_bmp_1.c.s
+.PHONY : examples/libs/bmp/lv_example_bmp_1.c.s
+
+examples/libs/ffmpeg/lv_example_ffmpeg_1.obj: examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.obj
+
+# target to build an object file
+examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj
+
+examples/libs/ffmpeg/lv_example_ffmpeg_1.i: examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.i
+
+# target to preprocess a source file
+examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i
+
+examples/libs/ffmpeg/lv_example_ffmpeg_1.s: examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.s
+
+# target to generate assembly for a file
+examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s
+
+examples/libs/ffmpeg/lv_example_ffmpeg_2.obj: examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.obj
+
+# target to build an object file
+examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj
+
+examples/libs/ffmpeg/lv_example_ffmpeg_2.i: examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.i
+
+# target to preprocess a source file
+examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i
+
+examples/libs/ffmpeg/lv_example_ffmpeg_2.s: examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.s
+
+# target to generate assembly for a file
+examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s
+
+examples/libs/freetype/lv_example_freetype_1.obj: examples/libs/freetype/lv_example_freetype_1.c.obj
+.PHONY : examples/libs/freetype/lv_example_freetype_1.obj
+
+# target to build an object file
+examples/libs/freetype/lv_example_freetype_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/freetype/lv_example_freetype_1.c.obj
+.PHONY : examples/libs/freetype/lv_example_freetype_1.c.obj
+
+examples/libs/freetype/lv_example_freetype_1.i: examples/libs/freetype/lv_example_freetype_1.c.i
+.PHONY : examples/libs/freetype/lv_example_freetype_1.i
+
+# target to preprocess a source file
+examples/libs/freetype/lv_example_freetype_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/freetype/lv_example_freetype_1.c.i
+.PHONY : examples/libs/freetype/lv_example_freetype_1.c.i
+
+examples/libs/freetype/lv_example_freetype_1.s: examples/libs/freetype/lv_example_freetype_1.c.s
+.PHONY : examples/libs/freetype/lv_example_freetype_1.s
+
+# target to generate assembly for a file
+examples/libs/freetype/lv_example_freetype_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/freetype/lv_example_freetype_1.c.s
+.PHONY : examples/libs/freetype/lv_example_freetype_1.c.s
+
+examples/libs/gif/img_bulb_gif.obj: examples/libs/gif/img_bulb_gif.c.obj
+.PHONY : examples/libs/gif/img_bulb_gif.obj
+
+# target to build an object file
+examples/libs/gif/img_bulb_gif.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/gif/img_bulb_gif.c.obj
+.PHONY : examples/libs/gif/img_bulb_gif.c.obj
+
+examples/libs/gif/img_bulb_gif.i: examples/libs/gif/img_bulb_gif.c.i
+.PHONY : examples/libs/gif/img_bulb_gif.i
+
+# target to preprocess a source file
+examples/libs/gif/img_bulb_gif.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/gif/img_bulb_gif.c.i
+.PHONY : examples/libs/gif/img_bulb_gif.c.i
+
+examples/libs/gif/img_bulb_gif.s: examples/libs/gif/img_bulb_gif.c.s
+.PHONY : examples/libs/gif/img_bulb_gif.s
+
+# target to generate assembly for a file
+examples/libs/gif/img_bulb_gif.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/gif/img_bulb_gif.c.s
+.PHONY : examples/libs/gif/img_bulb_gif.c.s
+
+examples/libs/gif/lv_example_gif_1.obj: examples/libs/gif/lv_example_gif_1.c.obj
+.PHONY : examples/libs/gif/lv_example_gif_1.obj
+
+# target to build an object file
+examples/libs/gif/lv_example_gif_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/gif/lv_example_gif_1.c.obj
+.PHONY : examples/libs/gif/lv_example_gif_1.c.obj
+
+examples/libs/gif/lv_example_gif_1.i: examples/libs/gif/lv_example_gif_1.c.i
+.PHONY : examples/libs/gif/lv_example_gif_1.i
+
+# target to preprocess a source file
+examples/libs/gif/lv_example_gif_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/gif/lv_example_gif_1.c.i
+.PHONY : examples/libs/gif/lv_example_gif_1.c.i
+
+examples/libs/gif/lv_example_gif_1.s: examples/libs/gif/lv_example_gif_1.c.s
+.PHONY : examples/libs/gif/lv_example_gif_1.s
+
+# target to generate assembly for a file
+examples/libs/gif/lv_example_gif_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/gif/lv_example_gif_1.c.s
+.PHONY : examples/libs/gif/lv_example_gif_1.c.s
+
+examples/libs/png/img_wink_png.obj: examples/libs/png/img_wink_png.c.obj
+.PHONY : examples/libs/png/img_wink_png.obj
+
+# target to build an object file
+examples/libs/png/img_wink_png.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/png/img_wink_png.c.obj
+.PHONY : examples/libs/png/img_wink_png.c.obj
+
+examples/libs/png/img_wink_png.i: examples/libs/png/img_wink_png.c.i
+.PHONY : examples/libs/png/img_wink_png.i
+
+# target to preprocess a source file
+examples/libs/png/img_wink_png.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/png/img_wink_png.c.i
+.PHONY : examples/libs/png/img_wink_png.c.i
+
+examples/libs/png/img_wink_png.s: examples/libs/png/img_wink_png.c.s
+.PHONY : examples/libs/png/img_wink_png.s
+
+# target to generate assembly for a file
+examples/libs/png/img_wink_png.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/png/img_wink_png.c.s
+.PHONY : examples/libs/png/img_wink_png.c.s
+
+examples/libs/png/lv_example_png_1.obj: examples/libs/png/lv_example_png_1.c.obj
+.PHONY : examples/libs/png/lv_example_png_1.obj
+
+# target to build an object file
+examples/libs/png/lv_example_png_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/png/lv_example_png_1.c.obj
+.PHONY : examples/libs/png/lv_example_png_1.c.obj
+
+examples/libs/png/lv_example_png_1.i: examples/libs/png/lv_example_png_1.c.i
+.PHONY : examples/libs/png/lv_example_png_1.i
+
+# target to preprocess a source file
+examples/libs/png/lv_example_png_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/png/lv_example_png_1.c.i
+.PHONY : examples/libs/png/lv_example_png_1.c.i
+
+examples/libs/png/lv_example_png_1.s: examples/libs/png/lv_example_png_1.c.s
+.PHONY : examples/libs/png/lv_example_png_1.s
+
+# target to generate assembly for a file
+examples/libs/png/lv_example_png_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/png/lv_example_png_1.c.s
+.PHONY : examples/libs/png/lv_example_png_1.c.s
+
+examples/libs/qrcode/lv_example_qrcode_1.obj: examples/libs/qrcode/lv_example_qrcode_1.c.obj
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.obj
+
+# target to build an object file
+examples/libs/qrcode/lv_example_qrcode_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/qrcode/lv_example_qrcode_1.c.obj
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.c.obj
+
+examples/libs/qrcode/lv_example_qrcode_1.i: examples/libs/qrcode/lv_example_qrcode_1.c.i
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.i
+
+# target to preprocess a source file
+examples/libs/qrcode/lv_example_qrcode_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/qrcode/lv_example_qrcode_1.c.i
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.c.i
+
+examples/libs/qrcode/lv_example_qrcode_1.s: examples/libs/qrcode/lv_example_qrcode_1.c.s
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.s
+
+# target to generate assembly for a file
+examples/libs/qrcode/lv_example_qrcode_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/qrcode/lv_example_qrcode_1.c.s
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.c.s
+
+examples/libs/rlottie/lv_example_rlottie_1.obj: examples/libs/rlottie/lv_example_rlottie_1.c.obj
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.obj
+
+# target to build an object file
+examples/libs/rlottie/lv_example_rlottie_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/rlottie/lv_example_rlottie_1.c.obj
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.c.obj
+
+examples/libs/rlottie/lv_example_rlottie_1.i: examples/libs/rlottie/lv_example_rlottie_1.c.i
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.i
+
+# target to preprocess a source file
+examples/libs/rlottie/lv_example_rlottie_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/rlottie/lv_example_rlottie_1.c.i
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.c.i
+
+examples/libs/rlottie/lv_example_rlottie_1.s: examples/libs/rlottie/lv_example_rlottie_1.c.s
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.s
+
+# target to generate assembly for a file
+examples/libs/rlottie/lv_example_rlottie_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/rlottie/lv_example_rlottie_1.c.s
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.c.s
+
+examples/libs/rlottie/lv_example_rlottie_2.obj: examples/libs/rlottie/lv_example_rlottie_2.c.obj
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.obj
+
+# target to build an object file
+examples/libs/rlottie/lv_example_rlottie_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/rlottie/lv_example_rlottie_2.c.obj
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.c.obj
+
+examples/libs/rlottie/lv_example_rlottie_2.i: examples/libs/rlottie/lv_example_rlottie_2.c.i
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.i
+
+# target to preprocess a source file
+examples/libs/rlottie/lv_example_rlottie_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/rlottie/lv_example_rlottie_2.c.i
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.c.i
+
+examples/libs/rlottie/lv_example_rlottie_2.s: examples/libs/rlottie/lv_example_rlottie_2.c.s
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.s
+
+# target to generate assembly for a file
+examples/libs/rlottie/lv_example_rlottie_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/rlottie/lv_example_rlottie_2.c.s
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.c.s
+
+examples/libs/rlottie/lv_example_rlottie_approve.obj: examples/libs/rlottie/lv_example_rlottie_approve.c.obj
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.obj
+
+# target to build an object file
+examples/libs/rlottie/lv_example_rlottie_approve.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/rlottie/lv_example_rlottie_approve.c.obj
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.c.obj
+
+examples/libs/rlottie/lv_example_rlottie_approve.i: examples/libs/rlottie/lv_example_rlottie_approve.c.i
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.i
+
+# target to preprocess a source file
+examples/libs/rlottie/lv_example_rlottie_approve.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/rlottie/lv_example_rlottie_approve.c.i
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.c.i
+
+examples/libs/rlottie/lv_example_rlottie_approve.s: examples/libs/rlottie/lv_example_rlottie_approve.c.s
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.s
+
+# target to generate assembly for a file
+examples/libs/rlottie/lv_example_rlottie_approve.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/rlottie/lv_example_rlottie_approve.c.s
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.c.s
+
+examples/libs/sjpg/lv_example_sjpg_1.obj: examples/libs/sjpg/lv_example_sjpg_1.c.obj
+.PHONY : examples/libs/sjpg/lv_example_sjpg_1.obj
+
+# target to build an object file
+examples/libs/sjpg/lv_example_sjpg_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/sjpg/lv_example_sjpg_1.c.obj
+.PHONY : examples/libs/sjpg/lv_example_sjpg_1.c.obj
+
+examples/libs/sjpg/lv_example_sjpg_1.i: examples/libs/sjpg/lv_example_sjpg_1.c.i
+.PHONY : examples/libs/sjpg/lv_example_sjpg_1.i
+
+# target to preprocess a source file
+examples/libs/sjpg/lv_example_sjpg_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/sjpg/lv_example_sjpg_1.c.i
+.PHONY : examples/libs/sjpg/lv_example_sjpg_1.c.i
+
+examples/libs/sjpg/lv_example_sjpg_1.s: examples/libs/sjpg/lv_example_sjpg_1.c.s
+.PHONY : examples/libs/sjpg/lv_example_sjpg_1.s
+
+# target to generate assembly for a file
+examples/libs/sjpg/lv_example_sjpg_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/libs/sjpg/lv_example_sjpg_1.c.s
+.PHONY : examples/libs/sjpg/lv_example_sjpg_1.c.s
+
+examples/others/fragment/lv_example_fragment_1.obj: examples/others/fragment/lv_example_fragment_1.c.obj
+.PHONY : examples/others/fragment/lv_example_fragment_1.obj
+
+# target to build an object file
+examples/others/fragment/lv_example_fragment_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/fragment/lv_example_fragment_1.c.obj
+.PHONY : examples/others/fragment/lv_example_fragment_1.c.obj
+
+examples/others/fragment/lv_example_fragment_1.i: examples/others/fragment/lv_example_fragment_1.c.i
+.PHONY : examples/others/fragment/lv_example_fragment_1.i
+
+# target to preprocess a source file
+examples/others/fragment/lv_example_fragment_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/fragment/lv_example_fragment_1.c.i
+.PHONY : examples/others/fragment/lv_example_fragment_1.c.i
+
+examples/others/fragment/lv_example_fragment_1.s: examples/others/fragment/lv_example_fragment_1.c.s
+.PHONY : examples/others/fragment/lv_example_fragment_1.s
+
+# target to generate assembly for a file
+examples/others/fragment/lv_example_fragment_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/fragment/lv_example_fragment_1.c.s
+.PHONY : examples/others/fragment/lv_example_fragment_1.c.s
+
+examples/others/fragment/lv_example_fragment_2.obj: examples/others/fragment/lv_example_fragment_2.c.obj
+.PHONY : examples/others/fragment/lv_example_fragment_2.obj
+
+# target to build an object file
+examples/others/fragment/lv_example_fragment_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/fragment/lv_example_fragment_2.c.obj
+.PHONY : examples/others/fragment/lv_example_fragment_2.c.obj
+
+examples/others/fragment/lv_example_fragment_2.i: examples/others/fragment/lv_example_fragment_2.c.i
+.PHONY : examples/others/fragment/lv_example_fragment_2.i
+
+# target to preprocess a source file
+examples/others/fragment/lv_example_fragment_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/fragment/lv_example_fragment_2.c.i
+.PHONY : examples/others/fragment/lv_example_fragment_2.c.i
+
+examples/others/fragment/lv_example_fragment_2.s: examples/others/fragment/lv_example_fragment_2.c.s
+.PHONY : examples/others/fragment/lv_example_fragment_2.s
+
+# target to generate assembly for a file
+examples/others/fragment/lv_example_fragment_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/fragment/lv_example_fragment_2.c.s
+.PHONY : examples/others/fragment/lv_example_fragment_2.c.s
+
+examples/others/gridnav/lv_example_gridnav_1.obj: examples/others/gridnav/lv_example_gridnav_1.c.obj
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.obj
+
+# target to build an object file
+examples/others/gridnav/lv_example_gridnav_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_1.c.obj
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.c.obj
+
+examples/others/gridnav/lv_example_gridnav_1.i: examples/others/gridnav/lv_example_gridnav_1.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.i
+
+# target to preprocess a source file
+examples/others/gridnav/lv_example_gridnav_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_1.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.c.i
+
+examples/others/gridnav/lv_example_gridnav_1.s: examples/others/gridnav/lv_example_gridnav_1.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.s
+
+# target to generate assembly for a file
+examples/others/gridnav/lv_example_gridnav_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_1.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.c.s
+
+examples/others/gridnav/lv_example_gridnav_2.obj: examples/others/gridnav/lv_example_gridnav_2.c.obj
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.obj
+
+# target to build an object file
+examples/others/gridnav/lv_example_gridnav_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_2.c.obj
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.c.obj
+
+examples/others/gridnav/lv_example_gridnav_2.i: examples/others/gridnav/lv_example_gridnav_2.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.i
+
+# target to preprocess a source file
+examples/others/gridnav/lv_example_gridnav_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_2.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.c.i
+
+examples/others/gridnav/lv_example_gridnav_2.s: examples/others/gridnav/lv_example_gridnav_2.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.s
+
+# target to generate assembly for a file
+examples/others/gridnav/lv_example_gridnav_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_2.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.c.s
+
+examples/others/gridnav/lv_example_gridnav_3.obj: examples/others/gridnav/lv_example_gridnav_3.c.obj
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.obj
+
+# target to build an object file
+examples/others/gridnav/lv_example_gridnav_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_3.c.obj
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.c.obj
+
+examples/others/gridnav/lv_example_gridnav_3.i: examples/others/gridnav/lv_example_gridnav_3.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.i
+
+# target to preprocess a source file
+examples/others/gridnav/lv_example_gridnav_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_3.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.c.i
+
+examples/others/gridnav/lv_example_gridnav_3.s: examples/others/gridnav/lv_example_gridnav_3.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.s
+
+# target to generate assembly for a file
+examples/others/gridnav/lv_example_gridnav_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_3.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.c.s
+
+examples/others/gridnav/lv_example_gridnav_4.obj: examples/others/gridnav/lv_example_gridnav_4.c.obj
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.obj
+
+# target to build an object file
+examples/others/gridnav/lv_example_gridnav_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_4.c.obj
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.c.obj
+
+examples/others/gridnav/lv_example_gridnav_4.i: examples/others/gridnav/lv_example_gridnav_4.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.i
+
+# target to preprocess a source file
+examples/others/gridnav/lv_example_gridnav_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_4.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.c.i
+
+examples/others/gridnav/lv_example_gridnav_4.s: examples/others/gridnav/lv_example_gridnav_4.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.s
+
+# target to generate assembly for a file
+examples/others/gridnav/lv_example_gridnav_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/gridnav/lv_example_gridnav_4.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.c.s
+
+examples/others/ime/lv_example_ime_pinyin_1.obj: examples/others/ime/lv_example_ime_pinyin_1.c.obj
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.obj
+
+# target to build an object file
+examples/others/ime/lv_example_ime_pinyin_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/ime/lv_example_ime_pinyin_1.c.obj
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.c.obj
+
+examples/others/ime/lv_example_ime_pinyin_1.i: examples/others/ime/lv_example_ime_pinyin_1.c.i
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.i
+
+# target to preprocess a source file
+examples/others/ime/lv_example_ime_pinyin_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/ime/lv_example_ime_pinyin_1.c.i
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.c.i
+
+examples/others/ime/lv_example_ime_pinyin_1.s: examples/others/ime/lv_example_ime_pinyin_1.c.s
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.s
+
+# target to generate assembly for a file
+examples/others/ime/lv_example_ime_pinyin_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/ime/lv_example_ime_pinyin_1.c.s
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.c.s
+
+examples/others/ime/lv_example_ime_pinyin_2.obj: examples/others/ime/lv_example_ime_pinyin_2.c.obj
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.obj
+
+# target to build an object file
+examples/others/ime/lv_example_ime_pinyin_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/ime/lv_example_ime_pinyin_2.c.obj
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.c.obj
+
+examples/others/ime/lv_example_ime_pinyin_2.i: examples/others/ime/lv_example_ime_pinyin_2.c.i
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.i
+
+# target to preprocess a source file
+examples/others/ime/lv_example_ime_pinyin_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/ime/lv_example_ime_pinyin_2.c.i
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.c.i
+
+examples/others/ime/lv_example_ime_pinyin_2.s: examples/others/ime/lv_example_ime_pinyin_2.c.s
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.s
+
+# target to generate assembly for a file
+examples/others/ime/lv_example_ime_pinyin_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/ime/lv_example_ime_pinyin_2.c.s
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.c.s
+
+examples/others/imgfont/lv_example_imgfont_1.obj: examples/others/imgfont/lv_example_imgfont_1.c.obj
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.obj
+
+# target to build an object file
+examples/others/imgfont/lv_example_imgfont_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/imgfont/lv_example_imgfont_1.c.obj
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.c.obj
+
+examples/others/imgfont/lv_example_imgfont_1.i: examples/others/imgfont/lv_example_imgfont_1.c.i
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.i
+
+# target to preprocess a source file
+examples/others/imgfont/lv_example_imgfont_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/imgfont/lv_example_imgfont_1.c.i
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.c.i
+
+examples/others/imgfont/lv_example_imgfont_1.s: examples/others/imgfont/lv_example_imgfont_1.c.s
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.s
+
+# target to generate assembly for a file
+examples/others/imgfont/lv_example_imgfont_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/imgfont/lv_example_imgfont_1.c.s
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.c.s
+
+examples/others/monkey/lv_example_monkey_1.obj: examples/others/monkey/lv_example_monkey_1.c.obj
+.PHONY : examples/others/monkey/lv_example_monkey_1.obj
+
+# target to build an object file
+examples/others/monkey/lv_example_monkey_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/monkey/lv_example_monkey_1.c.obj
+.PHONY : examples/others/monkey/lv_example_monkey_1.c.obj
+
+examples/others/monkey/lv_example_monkey_1.i: examples/others/monkey/lv_example_monkey_1.c.i
+.PHONY : examples/others/monkey/lv_example_monkey_1.i
+
+# target to preprocess a source file
+examples/others/monkey/lv_example_monkey_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/monkey/lv_example_monkey_1.c.i
+.PHONY : examples/others/monkey/lv_example_monkey_1.c.i
+
+examples/others/monkey/lv_example_monkey_1.s: examples/others/monkey/lv_example_monkey_1.c.s
+.PHONY : examples/others/monkey/lv_example_monkey_1.s
+
+# target to generate assembly for a file
+examples/others/monkey/lv_example_monkey_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/monkey/lv_example_monkey_1.c.s
+.PHONY : examples/others/monkey/lv_example_monkey_1.c.s
+
+examples/others/monkey/lv_example_monkey_2.obj: examples/others/monkey/lv_example_monkey_2.c.obj
+.PHONY : examples/others/monkey/lv_example_monkey_2.obj
+
+# target to build an object file
+examples/others/monkey/lv_example_monkey_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/monkey/lv_example_monkey_2.c.obj
+.PHONY : examples/others/monkey/lv_example_monkey_2.c.obj
+
+examples/others/monkey/lv_example_monkey_2.i: examples/others/monkey/lv_example_monkey_2.c.i
+.PHONY : examples/others/monkey/lv_example_monkey_2.i
+
+# target to preprocess a source file
+examples/others/monkey/lv_example_monkey_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/monkey/lv_example_monkey_2.c.i
+.PHONY : examples/others/monkey/lv_example_monkey_2.c.i
+
+examples/others/monkey/lv_example_monkey_2.s: examples/others/monkey/lv_example_monkey_2.c.s
+.PHONY : examples/others/monkey/lv_example_monkey_2.s
+
+# target to generate assembly for a file
+examples/others/monkey/lv_example_monkey_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/monkey/lv_example_monkey_2.c.s
+.PHONY : examples/others/monkey/lv_example_monkey_2.c.s
+
+examples/others/monkey/lv_example_monkey_3.obj: examples/others/monkey/lv_example_monkey_3.c.obj
+.PHONY : examples/others/monkey/lv_example_monkey_3.obj
+
+# target to build an object file
+examples/others/monkey/lv_example_monkey_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/monkey/lv_example_monkey_3.c.obj
+.PHONY : examples/others/monkey/lv_example_monkey_3.c.obj
+
+examples/others/monkey/lv_example_monkey_3.i: examples/others/monkey/lv_example_monkey_3.c.i
+.PHONY : examples/others/monkey/lv_example_monkey_3.i
+
+# target to preprocess a source file
+examples/others/monkey/lv_example_monkey_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/monkey/lv_example_monkey_3.c.i
+.PHONY : examples/others/monkey/lv_example_monkey_3.c.i
+
+examples/others/monkey/lv_example_monkey_3.s: examples/others/monkey/lv_example_monkey_3.c.s
+.PHONY : examples/others/monkey/lv_example_monkey_3.s
+
+# target to generate assembly for a file
+examples/others/monkey/lv_example_monkey_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/monkey/lv_example_monkey_3.c.s
+.PHONY : examples/others/monkey/lv_example_monkey_3.c.s
+
+examples/others/msg/lv_example_msg_1.obj: examples/others/msg/lv_example_msg_1.c.obj
+.PHONY : examples/others/msg/lv_example_msg_1.obj
+
+# target to build an object file
+examples/others/msg/lv_example_msg_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/msg/lv_example_msg_1.c.obj
+.PHONY : examples/others/msg/lv_example_msg_1.c.obj
+
+examples/others/msg/lv_example_msg_1.i: examples/others/msg/lv_example_msg_1.c.i
+.PHONY : examples/others/msg/lv_example_msg_1.i
+
+# target to preprocess a source file
+examples/others/msg/lv_example_msg_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/msg/lv_example_msg_1.c.i
+.PHONY : examples/others/msg/lv_example_msg_1.c.i
+
+examples/others/msg/lv_example_msg_1.s: examples/others/msg/lv_example_msg_1.c.s
+.PHONY : examples/others/msg/lv_example_msg_1.s
+
+# target to generate assembly for a file
+examples/others/msg/lv_example_msg_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/msg/lv_example_msg_1.c.s
+.PHONY : examples/others/msg/lv_example_msg_1.c.s
+
+examples/others/msg/lv_example_msg_2.obj: examples/others/msg/lv_example_msg_2.c.obj
+.PHONY : examples/others/msg/lv_example_msg_2.obj
+
+# target to build an object file
+examples/others/msg/lv_example_msg_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/msg/lv_example_msg_2.c.obj
+.PHONY : examples/others/msg/lv_example_msg_2.c.obj
+
+examples/others/msg/lv_example_msg_2.i: examples/others/msg/lv_example_msg_2.c.i
+.PHONY : examples/others/msg/lv_example_msg_2.i
+
+# target to preprocess a source file
+examples/others/msg/lv_example_msg_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/msg/lv_example_msg_2.c.i
+.PHONY : examples/others/msg/lv_example_msg_2.c.i
+
+examples/others/msg/lv_example_msg_2.s: examples/others/msg/lv_example_msg_2.c.s
+.PHONY : examples/others/msg/lv_example_msg_2.s
+
+# target to generate assembly for a file
+examples/others/msg/lv_example_msg_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/msg/lv_example_msg_2.c.s
+.PHONY : examples/others/msg/lv_example_msg_2.c.s
+
+examples/others/msg/lv_example_msg_3.obj: examples/others/msg/lv_example_msg_3.c.obj
+.PHONY : examples/others/msg/lv_example_msg_3.obj
+
+# target to build an object file
+examples/others/msg/lv_example_msg_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/msg/lv_example_msg_3.c.obj
+.PHONY : examples/others/msg/lv_example_msg_3.c.obj
+
+examples/others/msg/lv_example_msg_3.i: examples/others/msg/lv_example_msg_3.c.i
+.PHONY : examples/others/msg/lv_example_msg_3.i
+
+# target to preprocess a source file
+examples/others/msg/lv_example_msg_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/msg/lv_example_msg_3.c.i
+.PHONY : examples/others/msg/lv_example_msg_3.c.i
+
+examples/others/msg/lv_example_msg_3.s: examples/others/msg/lv_example_msg_3.c.s
+.PHONY : examples/others/msg/lv_example_msg_3.s
+
+# target to generate assembly for a file
+examples/others/msg/lv_example_msg_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/msg/lv_example_msg_3.c.s
+.PHONY : examples/others/msg/lv_example_msg_3.c.s
+
+examples/others/snapshot/lv_example_snapshot_1.obj: examples/others/snapshot/lv_example_snapshot_1.c.obj
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.obj
+
+# target to build an object file
+examples/others/snapshot/lv_example_snapshot_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/snapshot/lv_example_snapshot_1.c.obj
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.c.obj
+
+examples/others/snapshot/lv_example_snapshot_1.i: examples/others/snapshot/lv_example_snapshot_1.c.i
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.i
+
+# target to preprocess a source file
+examples/others/snapshot/lv_example_snapshot_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/snapshot/lv_example_snapshot_1.c.i
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.c.i
+
+examples/others/snapshot/lv_example_snapshot_1.s: examples/others/snapshot/lv_example_snapshot_1.c.s
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.s
+
+# target to generate assembly for a file
+examples/others/snapshot/lv_example_snapshot_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/others/snapshot/lv_example_snapshot_1.c.s
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.c.s
+
+examples/porting/lv_port_disp_template.obj: examples/porting/lv_port_disp_template.c.obj
+.PHONY : examples/porting/lv_port_disp_template.obj
+
+# target to build an object file
+examples/porting/lv_port_disp_template.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/porting/lv_port_disp_template.c.obj
+.PHONY : examples/porting/lv_port_disp_template.c.obj
+
+examples/porting/lv_port_disp_template.i: examples/porting/lv_port_disp_template.c.i
+.PHONY : examples/porting/lv_port_disp_template.i
+
+# target to preprocess a source file
+examples/porting/lv_port_disp_template.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/porting/lv_port_disp_template.c.i
+.PHONY : examples/porting/lv_port_disp_template.c.i
+
+examples/porting/lv_port_disp_template.s: examples/porting/lv_port_disp_template.c.s
+.PHONY : examples/porting/lv_port_disp_template.s
+
+# target to generate assembly for a file
+examples/porting/lv_port_disp_template.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/porting/lv_port_disp_template.c.s
+.PHONY : examples/porting/lv_port_disp_template.c.s
+
+examples/porting/lv_port_fs_template.obj: examples/porting/lv_port_fs_template.c.obj
+.PHONY : examples/porting/lv_port_fs_template.obj
+
+# target to build an object file
+examples/porting/lv_port_fs_template.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/porting/lv_port_fs_template.c.obj
+.PHONY : examples/porting/lv_port_fs_template.c.obj
+
+examples/porting/lv_port_fs_template.i: examples/porting/lv_port_fs_template.c.i
+.PHONY : examples/porting/lv_port_fs_template.i
+
+# target to preprocess a source file
+examples/porting/lv_port_fs_template.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/porting/lv_port_fs_template.c.i
+.PHONY : examples/porting/lv_port_fs_template.c.i
+
+examples/porting/lv_port_fs_template.s: examples/porting/lv_port_fs_template.c.s
+.PHONY : examples/porting/lv_port_fs_template.s
+
+# target to generate assembly for a file
+examples/porting/lv_port_fs_template.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/porting/lv_port_fs_template.c.s
+.PHONY : examples/porting/lv_port_fs_template.c.s
+
+examples/porting/lv_port_indev_template.obj: examples/porting/lv_port_indev_template.c.obj
+.PHONY : examples/porting/lv_port_indev_template.obj
+
+# target to build an object file
+examples/porting/lv_port_indev_template.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/porting/lv_port_indev_template.c.obj
+.PHONY : examples/porting/lv_port_indev_template.c.obj
+
+examples/porting/lv_port_indev_template.i: examples/porting/lv_port_indev_template.c.i
+.PHONY : examples/porting/lv_port_indev_template.i
+
+# target to preprocess a source file
+examples/porting/lv_port_indev_template.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/porting/lv_port_indev_template.c.i
+.PHONY : examples/porting/lv_port_indev_template.c.i
+
+examples/porting/lv_port_indev_template.s: examples/porting/lv_port_indev_template.c.s
+.PHONY : examples/porting/lv_port_indev_template.s
+
+# target to generate assembly for a file
+examples/porting/lv_port_indev_template.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/porting/lv_port_indev_template.c.s
+.PHONY : examples/porting/lv_port_indev_template.c.s
+
+examples/scroll/lv_example_scroll_1.obj: examples/scroll/lv_example_scroll_1.c.obj
+.PHONY : examples/scroll/lv_example_scroll_1.obj
+
+# target to build an object file
+examples/scroll/lv_example_scroll_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_1.c.obj
+.PHONY : examples/scroll/lv_example_scroll_1.c.obj
+
+examples/scroll/lv_example_scroll_1.i: examples/scroll/lv_example_scroll_1.c.i
+.PHONY : examples/scroll/lv_example_scroll_1.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_1.c.i
+.PHONY : examples/scroll/lv_example_scroll_1.c.i
+
+examples/scroll/lv_example_scroll_1.s: examples/scroll/lv_example_scroll_1.c.s
+.PHONY : examples/scroll/lv_example_scroll_1.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_1.c.s
+.PHONY : examples/scroll/lv_example_scroll_1.c.s
+
+examples/scroll/lv_example_scroll_2.obj: examples/scroll/lv_example_scroll_2.c.obj
+.PHONY : examples/scroll/lv_example_scroll_2.obj
+
+# target to build an object file
+examples/scroll/lv_example_scroll_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_2.c.obj
+.PHONY : examples/scroll/lv_example_scroll_2.c.obj
+
+examples/scroll/lv_example_scroll_2.i: examples/scroll/lv_example_scroll_2.c.i
+.PHONY : examples/scroll/lv_example_scroll_2.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_2.c.i
+.PHONY : examples/scroll/lv_example_scroll_2.c.i
+
+examples/scroll/lv_example_scroll_2.s: examples/scroll/lv_example_scroll_2.c.s
+.PHONY : examples/scroll/lv_example_scroll_2.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_2.c.s
+.PHONY : examples/scroll/lv_example_scroll_2.c.s
+
+examples/scroll/lv_example_scroll_3.obj: examples/scroll/lv_example_scroll_3.c.obj
+.PHONY : examples/scroll/lv_example_scroll_3.obj
+
+# target to build an object file
+examples/scroll/lv_example_scroll_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_3.c.obj
+.PHONY : examples/scroll/lv_example_scroll_3.c.obj
+
+examples/scroll/lv_example_scroll_3.i: examples/scroll/lv_example_scroll_3.c.i
+.PHONY : examples/scroll/lv_example_scroll_3.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_3.c.i
+.PHONY : examples/scroll/lv_example_scroll_3.c.i
+
+examples/scroll/lv_example_scroll_3.s: examples/scroll/lv_example_scroll_3.c.s
+.PHONY : examples/scroll/lv_example_scroll_3.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_3.c.s
+.PHONY : examples/scroll/lv_example_scroll_3.c.s
+
+examples/scroll/lv_example_scroll_4.obj: examples/scroll/lv_example_scroll_4.c.obj
+.PHONY : examples/scroll/lv_example_scroll_4.obj
+
+# target to build an object file
+examples/scroll/lv_example_scroll_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_4.c.obj
+.PHONY : examples/scroll/lv_example_scroll_4.c.obj
+
+examples/scroll/lv_example_scroll_4.i: examples/scroll/lv_example_scroll_4.c.i
+.PHONY : examples/scroll/lv_example_scroll_4.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_4.c.i
+.PHONY : examples/scroll/lv_example_scroll_4.c.i
+
+examples/scroll/lv_example_scroll_4.s: examples/scroll/lv_example_scroll_4.c.s
+.PHONY : examples/scroll/lv_example_scroll_4.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_4.c.s
+.PHONY : examples/scroll/lv_example_scroll_4.c.s
+
+examples/scroll/lv_example_scroll_5.obj: examples/scroll/lv_example_scroll_5.c.obj
+.PHONY : examples/scroll/lv_example_scroll_5.obj
+
+# target to build an object file
+examples/scroll/lv_example_scroll_5.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_5.c.obj
+.PHONY : examples/scroll/lv_example_scroll_5.c.obj
+
+examples/scroll/lv_example_scroll_5.i: examples/scroll/lv_example_scroll_5.c.i
+.PHONY : examples/scroll/lv_example_scroll_5.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_5.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_5.c.i
+.PHONY : examples/scroll/lv_example_scroll_5.c.i
+
+examples/scroll/lv_example_scroll_5.s: examples/scroll/lv_example_scroll_5.c.s
+.PHONY : examples/scroll/lv_example_scroll_5.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_5.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_5.c.s
+.PHONY : examples/scroll/lv_example_scroll_5.c.s
+
+examples/scroll/lv_example_scroll_6.obj: examples/scroll/lv_example_scroll_6.c.obj
+.PHONY : examples/scroll/lv_example_scroll_6.obj
+
+# target to build an object file
+examples/scroll/lv_example_scroll_6.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_6.c.obj
+.PHONY : examples/scroll/lv_example_scroll_6.c.obj
+
+examples/scroll/lv_example_scroll_6.i: examples/scroll/lv_example_scroll_6.c.i
+.PHONY : examples/scroll/lv_example_scroll_6.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_6.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_6.c.i
+.PHONY : examples/scroll/lv_example_scroll_6.c.i
+
+examples/scroll/lv_example_scroll_6.s: examples/scroll/lv_example_scroll_6.c.s
+.PHONY : examples/scroll/lv_example_scroll_6.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_6.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/scroll/lv_example_scroll_6.c.s
+.PHONY : examples/scroll/lv_example_scroll_6.c.s
+
+examples/styles/lv_example_style_1.obj: examples/styles/lv_example_style_1.c.obj
+.PHONY : examples/styles/lv_example_style_1.obj
+
+# target to build an object file
+examples/styles/lv_example_style_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_1.c.obj
+.PHONY : examples/styles/lv_example_style_1.c.obj
+
+examples/styles/lv_example_style_1.i: examples/styles/lv_example_style_1.c.i
+.PHONY : examples/styles/lv_example_style_1.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_1.c.i
+.PHONY : examples/styles/lv_example_style_1.c.i
+
+examples/styles/lv_example_style_1.s: examples/styles/lv_example_style_1.c.s
+.PHONY : examples/styles/lv_example_style_1.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_1.c.s
+.PHONY : examples/styles/lv_example_style_1.c.s
+
+examples/styles/lv_example_style_10.obj: examples/styles/lv_example_style_10.c.obj
+.PHONY : examples/styles/lv_example_style_10.obj
+
+# target to build an object file
+examples/styles/lv_example_style_10.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_10.c.obj
+.PHONY : examples/styles/lv_example_style_10.c.obj
+
+examples/styles/lv_example_style_10.i: examples/styles/lv_example_style_10.c.i
+.PHONY : examples/styles/lv_example_style_10.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_10.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_10.c.i
+.PHONY : examples/styles/lv_example_style_10.c.i
+
+examples/styles/lv_example_style_10.s: examples/styles/lv_example_style_10.c.s
+.PHONY : examples/styles/lv_example_style_10.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_10.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_10.c.s
+.PHONY : examples/styles/lv_example_style_10.c.s
+
+examples/styles/lv_example_style_11.obj: examples/styles/lv_example_style_11.c.obj
+.PHONY : examples/styles/lv_example_style_11.obj
+
+# target to build an object file
+examples/styles/lv_example_style_11.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_11.c.obj
+.PHONY : examples/styles/lv_example_style_11.c.obj
+
+examples/styles/lv_example_style_11.i: examples/styles/lv_example_style_11.c.i
+.PHONY : examples/styles/lv_example_style_11.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_11.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_11.c.i
+.PHONY : examples/styles/lv_example_style_11.c.i
+
+examples/styles/lv_example_style_11.s: examples/styles/lv_example_style_11.c.s
+.PHONY : examples/styles/lv_example_style_11.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_11.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_11.c.s
+.PHONY : examples/styles/lv_example_style_11.c.s
+
+examples/styles/lv_example_style_12.obj: examples/styles/lv_example_style_12.c.obj
+.PHONY : examples/styles/lv_example_style_12.obj
+
+# target to build an object file
+examples/styles/lv_example_style_12.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_12.c.obj
+.PHONY : examples/styles/lv_example_style_12.c.obj
+
+examples/styles/lv_example_style_12.i: examples/styles/lv_example_style_12.c.i
+.PHONY : examples/styles/lv_example_style_12.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_12.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_12.c.i
+.PHONY : examples/styles/lv_example_style_12.c.i
+
+examples/styles/lv_example_style_12.s: examples/styles/lv_example_style_12.c.s
+.PHONY : examples/styles/lv_example_style_12.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_12.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_12.c.s
+.PHONY : examples/styles/lv_example_style_12.c.s
+
+examples/styles/lv_example_style_13.obj: examples/styles/lv_example_style_13.c.obj
+.PHONY : examples/styles/lv_example_style_13.obj
+
+# target to build an object file
+examples/styles/lv_example_style_13.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_13.c.obj
+.PHONY : examples/styles/lv_example_style_13.c.obj
+
+examples/styles/lv_example_style_13.i: examples/styles/lv_example_style_13.c.i
+.PHONY : examples/styles/lv_example_style_13.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_13.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_13.c.i
+.PHONY : examples/styles/lv_example_style_13.c.i
+
+examples/styles/lv_example_style_13.s: examples/styles/lv_example_style_13.c.s
+.PHONY : examples/styles/lv_example_style_13.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_13.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_13.c.s
+.PHONY : examples/styles/lv_example_style_13.c.s
+
+examples/styles/lv_example_style_14.obj: examples/styles/lv_example_style_14.c.obj
+.PHONY : examples/styles/lv_example_style_14.obj
+
+# target to build an object file
+examples/styles/lv_example_style_14.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_14.c.obj
+.PHONY : examples/styles/lv_example_style_14.c.obj
+
+examples/styles/lv_example_style_14.i: examples/styles/lv_example_style_14.c.i
+.PHONY : examples/styles/lv_example_style_14.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_14.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_14.c.i
+.PHONY : examples/styles/lv_example_style_14.c.i
+
+examples/styles/lv_example_style_14.s: examples/styles/lv_example_style_14.c.s
+.PHONY : examples/styles/lv_example_style_14.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_14.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_14.c.s
+.PHONY : examples/styles/lv_example_style_14.c.s
+
+examples/styles/lv_example_style_15.obj: examples/styles/lv_example_style_15.c.obj
+.PHONY : examples/styles/lv_example_style_15.obj
+
+# target to build an object file
+examples/styles/lv_example_style_15.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_15.c.obj
+.PHONY : examples/styles/lv_example_style_15.c.obj
+
+examples/styles/lv_example_style_15.i: examples/styles/lv_example_style_15.c.i
+.PHONY : examples/styles/lv_example_style_15.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_15.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_15.c.i
+.PHONY : examples/styles/lv_example_style_15.c.i
+
+examples/styles/lv_example_style_15.s: examples/styles/lv_example_style_15.c.s
+.PHONY : examples/styles/lv_example_style_15.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_15.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_15.c.s
+.PHONY : examples/styles/lv_example_style_15.c.s
+
+examples/styles/lv_example_style_2.obj: examples/styles/lv_example_style_2.c.obj
+.PHONY : examples/styles/lv_example_style_2.obj
+
+# target to build an object file
+examples/styles/lv_example_style_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_2.c.obj
+.PHONY : examples/styles/lv_example_style_2.c.obj
+
+examples/styles/lv_example_style_2.i: examples/styles/lv_example_style_2.c.i
+.PHONY : examples/styles/lv_example_style_2.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_2.c.i
+.PHONY : examples/styles/lv_example_style_2.c.i
+
+examples/styles/lv_example_style_2.s: examples/styles/lv_example_style_2.c.s
+.PHONY : examples/styles/lv_example_style_2.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_2.c.s
+.PHONY : examples/styles/lv_example_style_2.c.s
+
+examples/styles/lv_example_style_3.obj: examples/styles/lv_example_style_3.c.obj
+.PHONY : examples/styles/lv_example_style_3.obj
+
+# target to build an object file
+examples/styles/lv_example_style_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_3.c.obj
+.PHONY : examples/styles/lv_example_style_3.c.obj
+
+examples/styles/lv_example_style_3.i: examples/styles/lv_example_style_3.c.i
+.PHONY : examples/styles/lv_example_style_3.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_3.c.i
+.PHONY : examples/styles/lv_example_style_3.c.i
+
+examples/styles/lv_example_style_3.s: examples/styles/lv_example_style_3.c.s
+.PHONY : examples/styles/lv_example_style_3.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_3.c.s
+.PHONY : examples/styles/lv_example_style_3.c.s
+
+examples/styles/lv_example_style_4.obj: examples/styles/lv_example_style_4.c.obj
+.PHONY : examples/styles/lv_example_style_4.obj
+
+# target to build an object file
+examples/styles/lv_example_style_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_4.c.obj
+.PHONY : examples/styles/lv_example_style_4.c.obj
+
+examples/styles/lv_example_style_4.i: examples/styles/lv_example_style_4.c.i
+.PHONY : examples/styles/lv_example_style_4.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_4.c.i
+.PHONY : examples/styles/lv_example_style_4.c.i
+
+examples/styles/lv_example_style_4.s: examples/styles/lv_example_style_4.c.s
+.PHONY : examples/styles/lv_example_style_4.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_4.c.s
+.PHONY : examples/styles/lv_example_style_4.c.s
+
+examples/styles/lv_example_style_5.obj: examples/styles/lv_example_style_5.c.obj
+.PHONY : examples/styles/lv_example_style_5.obj
+
+# target to build an object file
+examples/styles/lv_example_style_5.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_5.c.obj
+.PHONY : examples/styles/lv_example_style_5.c.obj
+
+examples/styles/lv_example_style_5.i: examples/styles/lv_example_style_5.c.i
+.PHONY : examples/styles/lv_example_style_5.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_5.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_5.c.i
+.PHONY : examples/styles/lv_example_style_5.c.i
+
+examples/styles/lv_example_style_5.s: examples/styles/lv_example_style_5.c.s
+.PHONY : examples/styles/lv_example_style_5.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_5.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_5.c.s
+.PHONY : examples/styles/lv_example_style_5.c.s
+
+examples/styles/lv_example_style_6.obj: examples/styles/lv_example_style_6.c.obj
+.PHONY : examples/styles/lv_example_style_6.obj
+
+# target to build an object file
+examples/styles/lv_example_style_6.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_6.c.obj
+.PHONY : examples/styles/lv_example_style_6.c.obj
+
+examples/styles/lv_example_style_6.i: examples/styles/lv_example_style_6.c.i
+.PHONY : examples/styles/lv_example_style_6.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_6.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_6.c.i
+.PHONY : examples/styles/lv_example_style_6.c.i
+
+examples/styles/lv_example_style_6.s: examples/styles/lv_example_style_6.c.s
+.PHONY : examples/styles/lv_example_style_6.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_6.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_6.c.s
+.PHONY : examples/styles/lv_example_style_6.c.s
+
+examples/styles/lv_example_style_7.obj: examples/styles/lv_example_style_7.c.obj
+.PHONY : examples/styles/lv_example_style_7.obj
+
+# target to build an object file
+examples/styles/lv_example_style_7.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_7.c.obj
+.PHONY : examples/styles/lv_example_style_7.c.obj
+
+examples/styles/lv_example_style_7.i: examples/styles/lv_example_style_7.c.i
+.PHONY : examples/styles/lv_example_style_7.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_7.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_7.c.i
+.PHONY : examples/styles/lv_example_style_7.c.i
+
+examples/styles/lv_example_style_7.s: examples/styles/lv_example_style_7.c.s
+.PHONY : examples/styles/lv_example_style_7.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_7.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_7.c.s
+.PHONY : examples/styles/lv_example_style_7.c.s
+
+examples/styles/lv_example_style_8.obj: examples/styles/lv_example_style_8.c.obj
+.PHONY : examples/styles/lv_example_style_8.obj
+
+# target to build an object file
+examples/styles/lv_example_style_8.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_8.c.obj
+.PHONY : examples/styles/lv_example_style_8.c.obj
+
+examples/styles/lv_example_style_8.i: examples/styles/lv_example_style_8.c.i
+.PHONY : examples/styles/lv_example_style_8.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_8.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_8.c.i
+.PHONY : examples/styles/lv_example_style_8.c.i
+
+examples/styles/lv_example_style_8.s: examples/styles/lv_example_style_8.c.s
+.PHONY : examples/styles/lv_example_style_8.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_8.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_8.c.s
+.PHONY : examples/styles/lv_example_style_8.c.s
+
+examples/styles/lv_example_style_9.obj: examples/styles/lv_example_style_9.c.obj
+.PHONY : examples/styles/lv_example_style_9.obj
+
+# target to build an object file
+examples/styles/lv_example_style_9.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_9.c.obj
+.PHONY : examples/styles/lv_example_style_9.c.obj
+
+examples/styles/lv_example_style_9.i: examples/styles/lv_example_style_9.c.i
+.PHONY : examples/styles/lv_example_style_9.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_9.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_9.c.i
+.PHONY : examples/styles/lv_example_style_9.c.i
+
+examples/styles/lv_example_style_9.s: examples/styles/lv_example_style_9.c.s
+.PHONY : examples/styles/lv_example_style_9.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_9.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/styles/lv_example_style_9.c.s
+.PHONY : examples/styles/lv_example_style_9.c.s
+
+examples/widgets/animimg/lv_example_animimg_1.obj: examples/widgets/animimg/lv_example_animimg_1.c.obj
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.obj
+
+# target to build an object file
+examples/widgets/animimg/lv_example_animimg_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/animimg/lv_example_animimg_1.c.obj
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.c.obj
+
+examples/widgets/animimg/lv_example_animimg_1.i: examples/widgets/animimg/lv_example_animimg_1.c.i
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.i
+
+# target to preprocess a source file
+examples/widgets/animimg/lv_example_animimg_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/animimg/lv_example_animimg_1.c.i
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.c.i
+
+examples/widgets/animimg/lv_example_animimg_1.s: examples/widgets/animimg/lv_example_animimg_1.c.s
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.s
+
+# target to generate assembly for a file
+examples/widgets/animimg/lv_example_animimg_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/animimg/lv_example_animimg_1.c.s
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.c.s
+
+examples/widgets/arc/lv_example_arc_1.obj: examples/widgets/arc/lv_example_arc_1.c.obj
+.PHONY : examples/widgets/arc/lv_example_arc_1.obj
+
+# target to build an object file
+examples/widgets/arc/lv_example_arc_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/arc/lv_example_arc_1.c.obj
+.PHONY : examples/widgets/arc/lv_example_arc_1.c.obj
+
+examples/widgets/arc/lv_example_arc_1.i: examples/widgets/arc/lv_example_arc_1.c.i
+.PHONY : examples/widgets/arc/lv_example_arc_1.i
+
+# target to preprocess a source file
+examples/widgets/arc/lv_example_arc_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/arc/lv_example_arc_1.c.i
+.PHONY : examples/widgets/arc/lv_example_arc_1.c.i
+
+examples/widgets/arc/lv_example_arc_1.s: examples/widgets/arc/lv_example_arc_1.c.s
+.PHONY : examples/widgets/arc/lv_example_arc_1.s
+
+# target to generate assembly for a file
+examples/widgets/arc/lv_example_arc_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/arc/lv_example_arc_1.c.s
+.PHONY : examples/widgets/arc/lv_example_arc_1.c.s
+
+examples/widgets/arc/lv_example_arc_2.obj: examples/widgets/arc/lv_example_arc_2.c.obj
+.PHONY : examples/widgets/arc/lv_example_arc_2.obj
+
+# target to build an object file
+examples/widgets/arc/lv_example_arc_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/arc/lv_example_arc_2.c.obj
+.PHONY : examples/widgets/arc/lv_example_arc_2.c.obj
+
+examples/widgets/arc/lv_example_arc_2.i: examples/widgets/arc/lv_example_arc_2.c.i
+.PHONY : examples/widgets/arc/lv_example_arc_2.i
+
+# target to preprocess a source file
+examples/widgets/arc/lv_example_arc_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/arc/lv_example_arc_2.c.i
+.PHONY : examples/widgets/arc/lv_example_arc_2.c.i
+
+examples/widgets/arc/lv_example_arc_2.s: examples/widgets/arc/lv_example_arc_2.c.s
+.PHONY : examples/widgets/arc/lv_example_arc_2.s
+
+# target to generate assembly for a file
+examples/widgets/arc/lv_example_arc_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/arc/lv_example_arc_2.c.s
+.PHONY : examples/widgets/arc/lv_example_arc_2.c.s
+
+examples/widgets/bar/lv_example_bar_1.obj: examples/widgets/bar/lv_example_bar_1.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_1.obj
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_1.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_1.c.obj
+
+examples/widgets/bar/lv_example_bar_1.i: examples/widgets/bar/lv_example_bar_1.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_1.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_1.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_1.c.i
+
+examples/widgets/bar/lv_example_bar_1.s: examples/widgets/bar/lv_example_bar_1.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_1.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_1.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_1.c.s
+
+examples/widgets/bar/lv_example_bar_2.obj: examples/widgets/bar/lv_example_bar_2.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_2.obj
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_2.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_2.c.obj
+
+examples/widgets/bar/lv_example_bar_2.i: examples/widgets/bar/lv_example_bar_2.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_2.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_2.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_2.c.i
+
+examples/widgets/bar/lv_example_bar_2.s: examples/widgets/bar/lv_example_bar_2.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_2.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_2.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_2.c.s
+
+examples/widgets/bar/lv_example_bar_3.obj: examples/widgets/bar/lv_example_bar_3.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_3.obj
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_3.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_3.c.obj
+
+examples/widgets/bar/lv_example_bar_3.i: examples/widgets/bar/lv_example_bar_3.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_3.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_3.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_3.c.i
+
+examples/widgets/bar/lv_example_bar_3.s: examples/widgets/bar/lv_example_bar_3.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_3.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_3.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_3.c.s
+
+examples/widgets/bar/lv_example_bar_4.obj: examples/widgets/bar/lv_example_bar_4.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_4.obj
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_4.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_4.c.obj
+
+examples/widgets/bar/lv_example_bar_4.i: examples/widgets/bar/lv_example_bar_4.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_4.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_4.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_4.c.i
+
+examples/widgets/bar/lv_example_bar_4.s: examples/widgets/bar/lv_example_bar_4.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_4.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_4.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_4.c.s
+
+examples/widgets/bar/lv_example_bar_5.obj: examples/widgets/bar/lv_example_bar_5.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_5.obj
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_5.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_5.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_5.c.obj
+
+examples/widgets/bar/lv_example_bar_5.i: examples/widgets/bar/lv_example_bar_5.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_5.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_5.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_5.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_5.c.i
+
+examples/widgets/bar/lv_example_bar_5.s: examples/widgets/bar/lv_example_bar_5.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_5.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_5.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_5.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_5.c.s
+
+examples/widgets/bar/lv_example_bar_6.obj: examples/widgets/bar/lv_example_bar_6.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_6.obj
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_6.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_6.c.obj
+.PHONY : examples/widgets/bar/lv_example_bar_6.c.obj
+
+examples/widgets/bar/lv_example_bar_6.i: examples/widgets/bar/lv_example_bar_6.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_6.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_6.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_6.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_6.c.i
+
+examples/widgets/bar/lv_example_bar_6.s: examples/widgets/bar/lv_example_bar_6.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_6.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_6.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/bar/lv_example_bar_6.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_6.c.s
+
+examples/widgets/btn/lv_example_btn_1.obj: examples/widgets/btn/lv_example_btn_1.c.obj
+.PHONY : examples/widgets/btn/lv_example_btn_1.obj
+
+# target to build an object file
+examples/widgets/btn/lv_example_btn_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btn/lv_example_btn_1.c.obj
+.PHONY : examples/widgets/btn/lv_example_btn_1.c.obj
+
+examples/widgets/btn/lv_example_btn_1.i: examples/widgets/btn/lv_example_btn_1.c.i
+.PHONY : examples/widgets/btn/lv_example_btn_1.i
+
+# target to preprocess a source file
+examples/widgets/btn/lv_example_btn_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btn/lv_example_btn_1.c.i
+.PHONY : examples/widgets/btn/lv_example_btn_1.c.i
+
+examples/widgets/btn/lv_example_btn_1.s: examples/widgets/btn/lv_example_btn_1.c.s
+.PHONY : examples/widgets/btn/lv_example_btn_1.s
+
+# target to generate assembly for a file
+examples/widgets/btn/lv_example_btn_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btn/lv_example_btn_1.c.s
+.PHONY : examples/widgets/btn/lv_example_btn_1.c.s
+
+examples/widgets/btn/lv_example_btn_2.obj: examples/widgets/btn/lv_example_btn_2.c.obj
+.PHONY : examples/widgets/btn/lv_example_btn_2.obj
+
+# target to build an object file
+examples/widgets/btn/lv_example_btn_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btn/lv_example_btn_2.c.obj
+.PHONY : examples/widgets/btn/lv_example_btn_2.c.obj
+
+examples/widgets/btn/lv_example_btn_2.i: examples/widgets/btn/lv_example_btn_2.c.i
+.PHONY : examples/widgets/btn/lv_example_btn_2.i
+
+# target to preprocess a source file
+examples/widgets/btn/lv_example_btn_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btn/lv_example_btn_2.c.i
+.PHONY : examples/widgets/btn/lv_example_btn_2.c.i
+
+examples/widgets/btn/lv_example_btn_2.s: examples/widgets/btn/lv_example_btn_2.c.s
+.PHONY : examples/widgets/btn/lv_example_btn_2.s
+
+# target to generate assembly for a file
+examples/widgets/btn/lv_example_btn_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btn/lv_example_btn_2.c.s
+.PHONY : examples/widgets/btn/lv_example_btn_2.c.s
+
+examples/widgets/btn/lv_example_btn_3.obj: examples/widgets/btn/lv_example_btn_3.c.obj
+.PHONY : examples/widgets/btn/lv_example_btn_3.obj
+
+# target to build an object file
+examples/widgets/btn/lv_example_btn_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btn/lv_example_btn_3.c.obj
+.PHONY : examples/widgets/btn/lv_example_btn_3.c.obj
+
+examples/widgets/btn/lv_example_btn_3.i: examples/widgets/btn/lv_example_btn_3.c.i
+.PHONY : examples/widgets/btn/lv_example_btn_3.i
+
+# target to preprocess a source file
+examples/widgets/btn/lv_example_btn_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btn/lv_example_btn_3.c.i
+.PHONY : examples/widgets/btn/lv_example_btn_3.c.i
+
+examples/widgets/btn/lv_example_btn_3.s: examples/widgets/btn/lv_example_btn_3.c.s
+.PHONY : examples/widgets/btn/lv_example_btn_3.s
+
+# target to generate assembly for a file
+examples/widgets/btn/lv_example_btn_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btn/lv_example_btn_3.c.s
+.PHONY : examples/widgets/btn/lv_example_btn_3.c.s
+
+examples/widgets/btnmatrix/lv_example_btnmatrix_1.obj: examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.obj
+
+# target to build an object file
+examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj
+
+examples/widgets/btnmatrix/lv_example_btnmatrix_1.i: examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.i
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.i
+
+# target to preprocess a source file
+examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.i
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.i
+
+examples/widgets/btnmatrix/lv_example_btnmatrix_1.s: examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.s
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.s
+
+# target to generate assembly for a file
+examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.s
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.s
+
+examples/widgets/btnmatrix/lv_example_btnmatrix_2.obj: examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.obj
+
+# target to build an object file
+examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj
+
+examples/widgets/btnmatrix/lv_example_btnmatrix_2.i: examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.i
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.i
+
+# target to preprocess a source file
+examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.i
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.i
+
+examples/widgets/btnmatrix/lv_example_btnmatrix_2.s: examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.s
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.s
+
+# target to generate assembly for a file
+examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.s
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.s
+
+examples/widgets/btnmatrix/lv_example_btnmatrix_3.obj: examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.obj
+
+# target to build an object file
+examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj
+
+examples/widgets/btnmatrix/lv_example_btnmatrix_3.i: examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.i
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.i
+
+# target to preprocess a source file
+examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.i
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.i
+
+examples/widgets/btnmatrix/lv_example_btnmatrix_3.s: examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.s
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.s
+
+# target to generate assembly for a file
+examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.s
+.PHONY : examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.s
+
+examples/widgets/calendar/lv_example_calendar_1.obj: examples/widgets/calendar/lv_example_calendar_1.c.obj
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.obj
+
+# target to build an object file
+examples/widgets/calendar/lv_example_calendar_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/calendar/lv_example_calendar_1.c.obj
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.c.obj
+
+examples/widgets/calendar/lv_example_calendar_1.i: examples/widgets/calendar/lv_example_calendar_1.c.i
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.i
+
+# target to preprocess a source file
+examples/widgets/calendar/lv_example_calendar_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/calendar/lv_example_calendar_1.c.i
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.c.i
+
+examples/widgets/calendar/lv_example_calendar_1.s: examples/widgets/calendar/lv_example_calendar_1.c.s
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.s
+
+# target to generate assembly for a file
+examples/widgets/calendar/lv_example_calendar_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/calendar/lv_example_calendar_1.c.s
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.c.s
+
+examples/widgets/canvas/lv_example_canvas_1.obj: examples/widgets/canvas/lv_example_canvas_1.c.obj
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.obj
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/canvas/lv_example_canvas_1.c.obj
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.c.obj
+
+examples/widgets/canvas/lv_example_canvas_1.i: examples/widgets/canvas/lv_example_canvas_1.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/canvas/lv_example_canvas_1.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.c.i
+
+examples/widgets/canvas/lv_example_canvas_1.s: examples/widgets/canvas/lv_example_canvas_1.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/canvas/lv_example_canvas_1.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.c.s
+
+examples/widgets/canvas/lv_example_canvas_2.obj: examples/widgets/canvas/lv_example_canvas_2.c.obj
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.obj
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/canvas/lv_example_canvas_2.c.obj
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.c.obj
+
+examples/widgets/canvas/lv_example_canvas_2.i: examples/widgets/canvas/lv_example_canvas_2.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/canvas/lv_example_canvas_2.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.c.i
+
+examples/widgets/canvas/lv_example_canvas_2.s: examples/widgets/canvas/lv_example_canvas_2.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/canvas/lv_example_canvas_2.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.c.s
+
+examples/widgets/chart/lv_example_chart_1.obj: examples/widgets/chart/lv_example_chart_1.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_1.obj
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_1.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_1.c.obj
+
+examples/widgets/chart/lv_example_chart_1.i: examples/widgets/chart/lv_example_chart_1.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_1.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_1.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_1.c.i
+
+examples/widgets/chart/lv_example_chart_1.s: examples/widgets/chart/lv_example_chart_1.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_1.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_1.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_1.c.s
+
+examples/widgets/chart/lv_example_chart_2.obj: examples/widgets/chart/lv_example_chart_2.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_2.obj
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_2.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_2.c.obj
+
+examples/widgets/chart/lv_example_chart_2.i: examples/widgets/chart/lv_example_chart_2.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_2.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_2.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_2.c.i
+
+examples/widgets/chart/lv_example_chart_2.s: examples/widgets/chart/lv_example_chart_2.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_2.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_2.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_2.c.s
+
+examples/widgets/chart/lv_example_chart_3.obj: examples/widgets/chart/lv_example_chart_3.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_3.obj
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_3.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_3.c.obj
+
+examples/widgets/chart/lv_example_chart_3.i: examples/widgets/chart/lv_example_chart_3.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_3.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_3.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_3.c.i
+
+examples/widgets/chart/lv_example_chart_3.s: examples/widgets/chart/lv_example_chart_3.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_3.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_3.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_3.c.s
+
+examples/widgets/chart/lv_example_chart_4.obj: examples/widgets/chart/lv_example_chart_4.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_4.obj
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_4.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_4.c.obj
+
+examples/widgets/chart/lv_example_chart_4.i: examples/widgets/chart/lv_example_chart_4.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_4.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_4.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_4.c.i
+
+examples/widgets/chart/lv_example_chart_4.s: examples/widgets/chart/lv_example_chart_4.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_4.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_4.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_4.c.s
+
+examples/widgets/chart/lv_example_chart_5.obj: examples/widgets/chart/lv_example_chart_5.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_5.obj
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_5.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_5.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_5.c.obj
+
+examples/widgets/chart/lv_example_chart_5.i: examples/widgets/chart/lv_example_chart_5.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_5.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_5.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_5.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_5.c.i
+
+examples/widgets/chart/lv_example_chart_5.s: examples/widgets/chart/lv_example_chart_5.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_5.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_5.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_5.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_5.c.s
+
+examples/widgets/chart/lv_example_chart_6.obj: examples/widgets/chart/lv_example_chart_6.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_6.obj
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_6.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_6.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_6.c.obj
+
+examples/widgets/chart/lv_example_chart_6.i: examples/widgets/chart/lv_example_chart_6.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_6.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_6.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_6.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_6.c.i
+
+examples/widgets/chart/lv_example_chart_6.s: examples/widgets/chart/lv_example_chart_6.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_6.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_6.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_6.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_6.c.s
+
+examples/widgets/chart/lv_example_chart_7.obj: examples/widgets/chart/lv_example_chart_7.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_7.obj
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_7.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_7.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_7.c.obj
+
+examples/widgets/chart/lv_example_chart_7.i: examples/widgets/chart/lv_example_chart_7.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_7.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_7.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_7.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_7.c.i
+
+examples/widgets/chart/lv_example_chart_7.s: examples/widgets/chart/lv_example_chart_7.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_7.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_7.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_7.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_7.c.s
+
+examples/widgets/chart/lv_example_chart_8.obj: examples/widgets/chart/lv_example_chart_8.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_8.obj
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_8.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_8.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_8.c.obj
+
+examples/widgets/chart/lv_example_chart_8.i: examples/widgets/chart/lv_example_chart_8.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_8.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_8.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_8.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_8.c.i
+
+examples/widgets/chart/lv_example_chart_8.s: examples/widgets/chart/lv_example_chart_8.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_8.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_8.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_8.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_8.c.s
+
+examples/widgets/chart/lv_example_chart_9.obj: examples/widgets/chart/lv_example_chart_9.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_9.obj
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_9.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_9.c.obj
+.PHONY : examples/widgets/chart/lv_example_chart_9.c.obj
+
+examples/widgets/chart/lv_example_chart_9.i: examples/widgets/chart/lv_example_chart_9.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_9.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_9.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_9.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_9.c.i
+
+examples/widgets/chart/lv_example_chart_9.s: examples/widgets/chart/lv_example_chart_9.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_9.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_9.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/chart/lv_example_chart_9.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_9.c.s
+
+examples/widgets/checkbox/lv_example_checkbox_1.obj: examples/widgets/checkbox/lv_example_checkbox_1.c.obj
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.obj
+
+# target to build an object file
+examples/widgets/checkbox/lv_example_checkbox_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/checkbox/lv_example_checkbox_1.c.obj
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.c.obj
+
+examples/widgets/checkbox/lv_example_checkbox_1.i: examples/widgets/checkbox/lv_example_checkbox_1.c.i
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.i
+
+# target to preprocess a source file
+examples/widgets/checkbox/lv_example_checkbox_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/checkbox/lv_example_checkbox_1.c.i
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.c.i
+
+examples/widgets/checkbox/lv_example_checkbox_1.s: examples/widgets/checkbox/lv_example_checkbox_1.c.s
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.s
+
+# target to generate assembly for a file
+examples/widgets/checkbox/lv_example_checkbox_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/checkbox/lv_example_checkbox_1.c.s
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.c.s
+
+examples/widgets/checkbox/lv_example_checkbox_2.obj: examples/widgets/checkbox/lv_example_checkbox_2.c.obj
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.obj
+
+# target to build an object file
+examples/widgets/checkbox/lv_example_checkbox_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/checkbox/lv_example_checkbox_2.c.obj
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.c.obj
+
+examples/widgets/checkbox/lv_example_checkbox_2.i: examples/widgets/checkbox/lv_example_checkbox_2.c.i
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.i
+
+# target to preprocess a source file
+examples/widgets/checkbox/lv_example_checkbox_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/checkbox/lv_example_checkbox_2.c.i
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.c.i
+
+examples/widgets/checkbox/lv_example_checkbox_2.s: examples/widgets/checkbox/lv_example_checkbox_2.c.s
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.s
+
+# target to generate assembly for a file
+examples/widgets/checkbox/lv_example_checkbox_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/checkbox/lv_example_checkbox_2.c.s
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.c.s
+
+examples/widgets/colorwheel/lv_example_colorwheel_1.obj: examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj
+.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.obj
+
+# target to build an object file
+examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj
+.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj
+
+examples/widgets/colorwheel/lv_example_colorwheel_1.i: examples/widgets/colorwheel/lv_example_colorwheel_1.c.i
+.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.i
+
+# target to preprocess a source file
+examples/widgets/colorwheel/lv_example_colorwheel_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/colorwheel/lv_example_colorwheel_1.c.i
+.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.c.i
+
+examples/widgets/colorwheel/lv_example_colorwheel_1.s: examples/widgets/colorwheel/lv_example_colorwheel_1.c.s
+.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.s
+
+# target to generate assembly for a file
+examples/widgets/colorwheel/lv_example_colorwheel_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/colorwheel/lv_example_colorwheel_1.c.s
+.PHONY : examples/widgets/colorwheel/lv_example_colorwheel_1.c.s
+
+examples/widgets/dropdown/lv_example_dropdown_1.obj: examples/widgets/dropdown/lv_example_dropdown_1.c.obj
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.obj
+
+# target to build an object file
+examples/widgets/dropdown/lv_example_dropdown_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/dropdown/lv_example_dropdown_1.c.obj
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.c.obj
+
+examples/widgets/dropdown/lv_example_dropdown_1.i: examples/widgets/dropdown/lv_example_dropdown_1.c.i
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.i
+
+# target to preprocess a source file
+examples/widgets/dropdown/lv_example_dropdown_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/dropdown/lv_example_dropdown_1.c.i
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.c.i
+
+examples/widgets/dropdown/lv_example_dropdown_1.s: examples/widgets/dropdown/lv_example_dropdown_1.c.s
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.s
+
+# target to generate assembly for a file
+examples/widgets/dropdown/lv_example_dropdown_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/dropdown/lv_example_dropdown_1.c.s
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.c.s
+
+examples/widgets/dropdown/lv_example_dropdown_2.obj: examples/widgets/dropdown/lv_example_dropdown_2.c.obj
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.obj
+
+# target to build an object file
+examples/widgets/dropdown/lv_example_dropdown_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/dropdown/lv_example_dropdown_2.c.obj
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.c.obj
+
+examples/widgets/dropdown/lv_example_dropdown_2.i: examples/widgets/dropdown/lv_example_dropdown_2.c.i
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.i
+
+# target to preprocess a source file
+examples/widgets/dropdown/lv_example_dropdown_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/dropdown/lv_example_dropdown_2.c.i
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.c.i
+
+examples/widgets/dropdown/lv_example_dropdown_2.s: examples/widgets/dropdown/lv_example_dropdown_2.c.s
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.s
+
+# target to generate assembly for a file
+examples/widgets/dropdown/lv_example_dropdown_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/dropdown/lv_example_dropdown_2.c.s
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.c.s
+
+examples/widgets/dropdown/lv_example_dropdown_3.obj: examples/widgets/dropdown/lv_example_dropdown_3.c.obj
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.obj
+
+# target to build an object file
+examples/widgets/dropdown/lv_example_dropdown_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/dropdown/lv_example_dropdown_3.c.obj
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.c.obj
+
+examples/widgets/dropdown/lv_example_dropdown_3.i: examples/widgets/dropdown/lv_example_dropdown_3.c.i
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.i
+
+# target to preprocess a source file
+examples/widgets/dropdown/lv_example_dropdown_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/dropdown/lv_example_dropdown_3.c.i
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.c.i
+
+examples/widgets/dropdown/lv_example_dropdown_3.s: examples/widgets/dropdown/lv_example_dropdown_3.c.s
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.s
+
+# target to generate assembly for a file
+examples/widgets/dropdown/lv_example_dropdown_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/dropdown/lv_example_dropdown_3.c.s
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.c.s
+
+examples/widgets/img/lv_example_img_1.obj: examples/widgets/img/lv_example_img_1.c.obj
+.PHONY : examples/widgets/img/lv_example_img_1.obj
+
+# target to build an object file
+examples/widgets/img/lv_example_img_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_1.c.obj
+.PHONY : examples/widgets/img/lv_example_img_1.c.obj
+
+examples/widgets/img/lv_example_img_1.i: examples/widgets/img/lv_example_img_1.c.i
+.PHONY : examples/widgets/img/lv_example_img_1.i
+
+# target to preprocess a source file
+examples/widgets/img/lv_example_img_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_1.c.i
+.PHONY : examples/widgets/img/lv_example_img_1.c.i
+
+examples/widgets/img/lv_example_img_1.s: examples/widgets/img/lv_example_img_1.c.s
+.PHONY : examples/widgets/img/lv_example_img_1.s
+
+# target to generate assembly for a file
+examples/widgets/img/lv_example_img_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_1.c.s
+.PHONY : examples/widgets/img/lv_example_img_1.c.s
+
+examples/widgets/img/lv_example_img_2.obj: examples/widgets/img/lv_example_img_2.c.obj
+.PHONY : examples/widgets/img/lv_example_img_2.obj
+
+# target to build an object file
+examples/widgets/img/lv_example_img_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_2.c.obj
+.PHONY : examples/widgets/img/lv_example_img_2.c.obj
+
+examples/widgets/img/lv_example_img_2.i: examples/widgets/img/lv_example_img_2.c.i
+.PHONY : examples/widgets/img/lv_example_img_2.i
+
+# target to preprocess a source file
+examples/widgets/img/lv_example_img_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_2.c.i
+.PHONY : examples/widgets/img/lv_example_img_2.c.i
+
+examples/widgets/img/lv_example_img_2.s: examples/widgets/img/lv_example_img_2.c.s
+.PHONY : examples/widgets/img/lv_example_img_2.s
+
+# target to generate assembly for a file
+examples/widgets/img/lv_example_img_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_2.c.s
+.PHONY : examples/widgets/img/lv_example_img_2.c.s
+
+examples/widgets/img/lv_example_img_3.obj: examples/widgets/img/lv_example_img_3.c.obj
+.PHONY : examples/widgets/img/lv_example_img_3.obj
+
+# target to build an object file
+examples/widgets/img/lv_example_img_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_3.c.obj
+.PHONY : examples/widgets/img/lv_example_img_3.c.obj
+
+examples/widgets/img/lv_example_img_3.i: examples/widgets/img/lv_example_img_3.c.i
+.PHONY : examples/widgets/img/lv_example_img_3.i
+
+# target to preprocess a source file
+examples/widgets/img/lv_example_img_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_3.c.i
+.PHONY : examples/widgets/img/lv_example_img_3.c.i
+
+examples/widgets/img/lv_example_img_3.s: examples/widgets/img/lv_example_img_3.c.s
+.PHONY : examples/widgets/img/lv_example_img_3.s
+
+# target to generate assembly for a file
+examples/widgets/img/lv_example_img_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_3.c.s
+.PHONY : examples/widgets/img/lv_example_img_3.c.s
+
+examples/widgets/img/lv_example_img_4.obj: examples/widgets/img/lv_example_img_4.c.obj
+.PHONY : examples/widgets/img/lv_example_img_4.obj
+
+# target to build an object file
+examples/widgets/img/lv_example_img_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_4.c.obj
+.PHONY : examples/widgets/img/lv_example_img_4.c.obj
+
+examples/widgets/img/lv_example_img_4.i: examples/widgets/img/lv_example_img_4.c.i
+.PHONY : examples/widgets/img/lv_example_img_4.i
+
+# target to preprocess a source file
+examples/widgets/img/lv_example_img_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_4.c.i
+.PHONY : examples/widgets/img/lv_example_img_4.c.i
+
+examples/widgets/img/lv_example_img_4.s: examples/widgets/img/lv_example_img_4.c.s
+.PHONY : examples/widgets/img/lv_example_img_4.s
+
+# target to generate assembly for a file
+examples/widgets/img/lv_example_img_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/img/lv_example_img_4.c.s
+.PHONY : examples/widgets/img/lv_example_img_4.c.s
+
+examples/widgets/imgbtn/lv_example_imgbtn_1.obj: examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj
+.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.obj
+
+# target to build an object file
+examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj
+.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj
+
+examples/widgets/imgbtn/lv_example_imgbtn_1.i: examples/widgets/imgbtn/lv_example_imgbtn_1.c.i
+.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.i
+
+# target to preprocess a source file
+examples/widgets/imgbtn/lv_example_imgbtn_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/imgbtn/lv_example_imgbtn_1.c.i
+.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.c.i
+
+examples/widgets/imgbtn/lv_example_imgbtn_1.s: examples/widgets/imgbtn/lv_example_imgbtn_1.c.s
+.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.s
+
+# target to generate assembly for a file
+examples/widgets/imgbtn/lv_example_imgbtn_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/imgbtn/lv_example_imgbtn_1.c.s
+.PHONY : examples/widgets/imgbtn/lv_example_imgbtn_1.c.s
+
+examples/widgets/keyboard/lv_example_keyboard_1.obj: examples/widgets/keyboard/lv_example_keyboard_1.c.obj
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.obj
+
+# target to build an object file
+examples/widgets/keyboard/lv_example_keyboard_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/keyboard/lv_example_keyboard_1.c.obj
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.c.obj
+
+examples/widgets/keyboard/lv_example_keyboard_1.i: examples/widgets/keyboard/lv_example_keyboard_1.c.i
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.i
+
+# target to preprocess a source file
+examples/widgets/keyboard/lv_example_keyboard_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/keyboard/lv_example_keyboard_1.c.i
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.c.i
+
+examples/widgets/keyboard/lv_example_keyboard_1.s: examples/widgets/keyboard/lv_example_keyboard_1.c.s
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.s
+
+# target to generate assembly for a file
+examples/widgets/keyboard/lv_example_keyboard_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/keyboard/lv_example_keyboard_1.c.s
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.c.s
+
+examples/widgets/label/lv_example_label_1.obj: examples/widgets/label/lv_example_label_1.c.obj
+.PHONY : examples/widgets/label/lv_example_label_1.obj
+
+# target to build an object file
+examples/widgets/label/lv_example_label_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_1.c.obj
+.PHONY : examples/widgets/label/lv_example_label_1.c.obj
+
+examples/widgets/label/lv_example_label_1.i: examples/widgets/label/lv_example_label_1.c.i
+.PHONY : examples/widgets/label/lv_example_label_1.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_1.c.i
+.PHONY : examples/widgets/label/lv_example_label_1.c.i
+
+examples/widgets/label/lv_example_label_1.s: examples/widgets/label/lv_example_label_1.c.s
+.PHONY : examples/widgets/label/lv_example_label_1.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_1.c.s
+.PHONY : examples/widgets/label/lv_example_label_1.c.s
+
+examples/widgets/label/lv_example_label_2.obj: examples/widgets/label/lv_example_label_2.c.obj
+.PHONY : examples/widgets/label/lv_example_label_2.obj
+
+# target to build an object file
+examples/widgets/label/lv_example_label_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_2.c.obj
+.PHONY : examples/widgets/label/lv_example_label_2.c.obj
+
+examples/widgets/label/lv_example_label_2.i: examples/widgets/label/lv_example_label_2.c.i
+.PHONY : examples/widgets/label/lv_example_label_2.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_2.c.i
+.PHONY : examples/widgets/label/lv_example_label_2.c.i
+
+examples/widgets/label/lv_example_label_2.s: examples/widgets/label/lv_example_label_2.c.s
+.PHONY : examples/widgets/label/lv_example_label_2.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_2.c.s
+.PHONY : examples/widgets/label/lv_example_label_2.c.s
+
+examples/widgets/label/lv_example_label_3.obj: examples/widgets/label/lv_example_label_3.c.obj
+.PHONY : examples/widgets/label/lv_example_label_3.obj
+
+# target to build an object file
+examples/widgets/label/lv_example_label_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_3.c.obj
+.PHONY : examples/widgets/label/lv_example_label_3.c.obj
+
+examples/widgets/label/lv_example_label_3.i: examples/widgets/label/lv_example_label_3.c.i
+.PHONY : examples/widgets/label/lv_example_label_3.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_3.c.i
+.PHONY : examples/widgets/label/lv_example_label_3.c.i
+
+examples/widgets/label/lv_example_label_3.s: examples/widgets/label/lv_example_label_3.c.s
+.PHONY : examples/widgets/label/lv_example_label_3.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_3.c.s
+.PHONY : examples/widgets/label/lv_example_label_3.c.s
+
+examples/widgets/label/lv_example_label_4.obj: examples/widgets/label/lv_example_label_4.c.obj
+.PHONY : examples/widgets/label/lv_example_label_4.obj
+
+# target to build an object file
+examples/widgets/label/lv_example_label_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_4.c.obj
+.PHONY : examples/widgets/label/lv_example_label_4.c.obj
+
+examples/widgets/label/lv_example_label_4.i: examples/widgets/label/lv_example_label_4.c.i
+.PHONY : examples/widgets/label/lv_example_label_4.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_4.c.i
+.PHONY : examples/widgets/label/lv_example_label_4.c.i
+
+examples/widgets/label/lv_example_label_4.s: examples/widgets/label/lv_example_label_4.c.s
+.PHONY : examples/widgets/label/lv_example_label_4.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_4.c.s
+.PHONY : examples/widgets/label/lv_example_label_4.c.s
+
+examples/widgets/label/lv_example_label_5.obj: examples/widgets/label/lv_example_label_5.c.obj
+.PHONY : examples/widgets/label/lv_example_label_5.obj
+
+# target to build an object file
+examples/widgets/label/lv_example_label_5.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_5.c.obj
+.PHONY : examples/widgets/label/lv_example_label_5.c.obj
+
+examples/widgets/label/lv_example_label_5.i: examples/widgets/label/lv_example_label_5.c.i
+.PHONY : examples/widgets/label/lv_example_label_5.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_5.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_5.c.i
+.PHONY : examples/widgets/label/lv_example_label_5.c.i
+
+examples/widgets/label/lv_example_label_5.s: examples/widgets/label/lv_example_label_5.c.s
+.PHONY : examples/widgets/label/lv_example_label_5.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_5.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/label/lv_example_label_5.c.s
+.PHONY : examples/widgets/label/lv_example_label_5.c.s
+
+examples/widgets/led/lv_example_led_1.obj: examples/widgets/led/lv_example_led_1.c.obj
+.PHONY : examples/widgets/led/lv_example_led_1.obj
+
+# target to build an object file
+examples/widgets/led/lv_example_led_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/led/lv_example_led_1.c.obj
+.PHONY : examples/widgets/led/lv_example_led_1.c.obj
+
+examples/widgets/led/lv_example_led_1.i: examples/widgets/led/lv_example_led_1.c.i
+.PHONY : examples/widgets/led/lv_example_led_1.i
+
+# target to preprocess a source file
+examples/widgets/led/lv_example_led_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/led/lv_example_led_1.c.i
+.PHONY : examples/widgets/led/lv_example_led_1.c.i
+
+examples/widgets/led/lv_example_led_1.s: examples/widgets/led/lv_example_led_1.c.s
+.PHONY : examples/widgets/led/lv_example_led_1.s
+
+# target to generate assembly for a file
+examples/widgets/led/lv_example_led_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/led/lv_example_led_1.c.s
+.PHONY : examples/widgets/led/lv_example_led_1.c.s
+
+examples/widgets/line/lv_example_line_1.obj: examples/widgets/line/lv_example_line_1.c.obj
+.PHONY : examples/widgets/line/lv_example_line_1.obj
+
+# target to build an object file
+examples/widgets/line/lv_example_line_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/line/lv_example_line_1.c.obj
+.PHONY : examples/widgets/line/lv_example_line_1.c.obj
+
+examples/widgets/line/lv_example_line_1.i: examples/widgets/line/lv_example_line_1.c.i
+.PHONY : examples/widgets/line/lv_example_line_1.i
+
+# target to preprocess a source file
+examples/widgets/line/lv_example_line_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/line/lv_example_line_1.c.i
+.PHONY : examples/widgets/line/lv_example_line_1.c.i
+
+examples/widgets/line/lv_example_line_1.s: examples/widgets/line/lv_example_line_1.c.s
+.PHONY : examples/widgets/line/lv_example_line_1.s
+
+# target to generate assembly for a file
+examples/widgets/line/lv_example_line_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/line/lv_example_line_1.c.s
+.PHONY : examples/widgets/line/lv_example_line_1.c.s
+
+examples/widgets/list/lv_example_list_1.obj: examples/widgets/list/lv_example_list_1.c.obj
+.PHONY : examples/widgets/list/lv_example_list_1.obj
+
+# target to build an object file
+examples/widgets/list/lv_example_list_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/list/lv_example_list_1.c.obj
+.PHONY : examples/widgets/list/lv_example_list_1.c.obj
+
+examples/widgets/list/lv_example_list_1.i: examples/widgets/list/lv_example_list_1.c.i
+.PHONY : examples/widgets/list/lv_example_list_1.i
+
+# target to preprocess a source file
+examples/widgets/list/lv_example_list_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/list/lv_example_list_1.c.i
+.PHONY : examples/widgets/list/lv_example_list_1.c.i
+
+examples/widgets/list/lv_example_list_1.s: examples/widgets/list/lv_example_list_1.c.s
+.PHONY : examples/widgets/list/lv_example_list_1.s
+
+# target to generate assembly for a file
+examples/widgets/list/lv_example_list_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/list/lv_example_list_1.c.s
+.PHONY : examples/widgets/list/lv_example_list_1.c.s
+
+examples/widgets/list/lv_example_list_2.obj: examples/widgets/list/lv_example_list_2.c.obj
+.PHONY : examples/widgets/list/lv_example_list_2.obj
+
+# target to build an object file
+examples/widgets/list/lv_example_list_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/list/lv_example_list_2.c.obj
+.PHONY : examples/widgets/list/lv_example_list_2.c.obj
+
+examples/widgets/list/lv_example_list_2.i: examples/widgets/list/lv_example_list_2.c.i
+.PHONY : examples/widgets/list/lv_example_list_2.i
+
+# target to preprocess a source file
+examples/widgets/list/lv_example_list_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/list/lv_example_list_2.c.i
+.PHONY : examples/widgets/list/lv_example_list_2.c.i
+
+examples/widgets/list/lv_example_list_2.s: examples/widgets/list/lv_example_list_2.c.s
+.PHONY : examples/widgets/list/lv_example_list_2.s
+
+# target to generate assembly for a file
+examples/widgets/list/lv_example_list_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/list/lv_example_list_2.c.s
+.PHONY : examples/widgets/list/lv_example_list_2.c.s
+
+examples/widgets/menu/lv_example_menu_1.obj: examples/widgets/menu/lv_example_menu_1.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_1.obj
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_1.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_1.c.obj
+
+examples/widgets/menu/lv_example_menu_1.i: examples/widgets/menu/lv_example_menu_1.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_1.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_1.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_1.c.i
+
+examples/widgets/menu/lv_example_menu_1.s: examples/widgets/menu/lv_example_menu_1.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_1.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_1.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_1.c.s
+
+examples/widgets/menu/lv_example_menu_2.obj: examples/widgets/menu/lv_example_menu_2.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_2.obj
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_2.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_2.c.obj
+
+examples/widgets/menu/lv_example_menu_2.i: examples/widgets/menu/lv_example_menu_2.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_2.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_2.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_2.c.i
+
+examples/widgets/menu/lv_example_menu_2.s: examples/widgets/menu/lv_example_menu_2.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_2.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_2.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_2.c.s
+
+examples/widgets/menu/lv_example_menu_3.obj: examples/widgets/menu/lv_example_menu_3.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_3.obj
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_3.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_3.c.obj
+
+examples/widgets/menu/lv_example_menu_3.i: examples/widgets/menu/lv_example_menu_3.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_3.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_3.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_3.c.i
+
+examples/widgets/menu/lv_example_menu_3.s: examples/widgets/menu/lv_example_menu_3.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_3.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_3.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_3.c.s
+
+examples/widgets/menu/lv_example_menu_4.obj: examples/widgets/menu/lv_example_menu_4.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_4.obj
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_4.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_4.c.obj
+
+examples/widgets/menu/lv_example_menu_4.i: examples/widgets/menu/lv_example_menu_4.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_4.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_4.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_4.c.i
+
+examples/widgets/menu/lv_example_menu_4.s: examples/widgets/menu/lv_example_menu_4.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_4.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_4.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_4.c.s
+
+examples/widgets/menu/lv_example_menu_5.obj: examples/widgets/menu/lv_example_menu_5.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_5.obj
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_5.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_5.c.obj
+.PHONY : examples/widgets/menu/lv_example_menu_5.c.obj
+
+examples/widgets/menu/lv_example_menu_5.i: examples/widgets/menu/lv_example_menu_5.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_5.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_5.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_5.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_5.c.i
+
+examples/widgets/menu/lv_example_menu_5.s: examples/widgets/menu/lv_example_menu_5.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_5.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_5.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/menu/lv_example_menu_5.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_5.c.s
+
+examples/widgets/meter/lv_example_meter_1.obj: examples/widgets/meter/lv_example_meter_1.c.obj
+.PHONY : examples/widgets/meter/lv_example_meter_1.obj
+
+# target to build an object file
+examples/widgets/meter/lv_example_meter_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_1.c.obj
+.PHONY : examples/widgets/meter/lv_example_meter_1.c.obj
+
+examples/widgets/meter/lv_example_meter_1.i: examples/widgets/meter/lv_example_meter_1.c.i
+.PHONY : examples/widgets/meter/lv_example_meter_1.i
+
+# target to preprocess a source file
+examples/widgets/meter/lv_example_meter_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_1.c.i
+.PHONY : examples/widgets/meter/lv_example_meter_1.c.i
+
+examples/widgets/meter/lv_example_meter_1.s: examples/widgets/meter/lv_example_meter_1.c.s
+.PHONY : examples/widgets/meter/lv_example_meter_1.s
+
+# target to generate assembly for a file
+examples/widgets/meter/lv_example_meter_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_1.c.s
+.PHONY : examples/widgets/meter/lv_example_meter_1.c.s
+
+examples/widgets/meter/lv_example_meter_2.obj: examples/widgets/meter/lv_example_meter_2.c.obj
+.PHONY : examples/widgets/meter/lv_example_meter_2.obj
+
+# target to build an object file
+examples/widgets/meter/lv_example_meter_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_2.c.obj
+.PHONY : examples/widgets/meter/lv_example_meter_2.c.obj
+
+examples/widgets/meter/lv_example_meter_2.i: examples/widgets/meter/lv_example_meter_2.c.i
+.PHONY : examples/widgets/meter/lv_example_meter_2.i
+
+# target to preprocess a source file
+examples/widgets/meter/lv_example_meter_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_2.c.i
+.PHONY : examples/widgets/meter/lv_example_meter_2.c.i
+
+examples/widgets/meter/lv_example_meter_2.s: examples/widgets/meter/lv_example_meter_2.c.s
+.PHONY : examples/widgets/meter/lv_example_meter_2.s
+
+# target to generate assembly for a file
+examples/widgets/meter/lv_example_meter_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_2.c.s
+.PHONY : examples/widgets/meter/lv_example_meter_2.c.s
+
+examples/widgets/meter/lv_example_meter_3.obj: examples/widgets/meter/lv_example_meter_3.c.obj
+.PHONY : examples/widgets/meter/lv_example_meter_3.obj
+
+# target to build an object file
+examples/widgets/meter/lv_example_meter_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_3.c.obj
+.PHONY : examples/widgets/meter/lv_example_meter_3.c.obj
+
+examples/widgets/meter/lv_example_meter_3.i: examples/widgets/meter/lv_example_meter_3.c.i
+.PHONY : examples/widgets/meter/lv_example_meter_3.i
+
+# target to preprocess a source file
+examples/widgets/meter/lv_example_meter_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_3.c.i
+.PHONY : examples/widgets/meter/lv_example_meter_3.c.i
+
+examples/widgets/meter/lv_example_meter_3.s: examples/widgets/meter/lv_example_meter_3.c.s
+.PHONY : examples/widgets/meter/lv_example_meter_3.s
+
+# target to generate assembly for a file
+examples/widgets/meter/lv_example_meter_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_3.c.s
+.PHONY : examples/widgets/meter/lv_example_meter_3.c.s
+
+examples/widgets/meter/lv_example_meter_4.obj: examples/widgets/meter/lv_example_meter_4.c.obj
+.PHONY : examples/widgets/meter/lv_example_meter_4.obj
+
+# target to build an object file
+examples/widgets/meter/lv_example_meter_4.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_4.c.obj
+.PHONY : examples/widgets/meter/lv_example_meter_4.c.obj
+
+examples/widgets/meter/lv_example_meter_4.i: examples/widgets/meter/lv_example_meter_4.c.i
+.PHONY : examples/widgets/meter/lv_example_meter_4.i
+
+# target to preprocess a source file
+examples/widgets/meter/lv_example_meter_4.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_4.c.i
+.PHONY : examples/widgets/meter/lv_example_meter_4.c.i
+
+examples/widgets/meter/lv_example_meter_4.s: examples/widgets/meter/lv_example_meter_4.c.s
+.PHONY : examples/widgets/meter/lv_example_meter_4.s
+
+# target to generate assembly for a file
+examples/widgets/meter/lv_example_meter_4.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/meter/lv_example_meter_4.c.s
+.PHONY : examples/widgets/meter/lv_example_meter_4.c.s
+
+examples/widgets/msgbox/lv_example_msgbox_1.obj: examples/widgets/msgbox/lv_example_msgbox_1.c.obj
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.obj
+
+# target to build an object file
+examples/widgets/msgbox/lv_example_msgbox_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/msgbox/lv_example_msgbox_1.c.obj
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.c.obj
+
+examples/widgets/msgbox/lv_example_msgbox_1.i: examples/widgets/msgbox/lv_example_msgbox_1.c.i
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.i
+
+# target to preprocess a source file
+examples/widgets/msgbox/lv_example_msgbox_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/msgbox/lv_example_msgbox_1.c.i
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.c.i
+
+examples/widgets/msgbox/lv_example_msgbox_1.s: examples/widgets/msgbox/lv_example_msgbox_1.c.s
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.s
+
+# target to generate assembly for a file
+examples/widgets/msgbox/lv_example_msgbox_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/msgbox/lv_example_msgbox_1.c.s
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.c.s
+
+examples/widgets/obj/lv_example_obj_1.obj: examples/widgets/obj/lv_example_obj_1.c.obj
+.PHONY : examples/widgets/obj/lv_example_obj_1.obj
+
+# target to build an object file
+examples/widgets/obj/lv_example_obj_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/obj/lv_example_obj_1.c.obj
+.PHONY : examples/widgets/obj/lv_example_obj_1.c.obj
+
+examples/widgets/obj/lv_example_obj_1.i: examples/widgets/obj/lv_example_obj_1.c.i
+.PHONY : examples/widgets/obj/lv_example_obj_1.i
+
+# target to preprocess a source file
+examples/widgets/obj/lv_example_obj_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/obj/lv_example_obj_1.c.i
+.PHONY : examples/widgets/obj/lv_example_obj_1.c.i
+
+examples/widgets/obj/lv_example_obj_1.s: examples/widgets/obj/lv_example_obj_1.c.s
+.PHONY : examples/widgets/obj/lv_example_obj_1.s
+
+# target to generate assembly for a file
+examples/widgets/obj/lv_example_obj_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/obj/lv_example_obj_1.c.s
+.PHONY : examples/widgets/obj/lv_example_obj_1.c.s
+
+examples/widgets/obj/lv_example_obj_2.obj: examples/widgets/obj/lv_example_obj_2.c.obj
+.PHONY : examples/widgets/obj/lv_example_obj_2.obj
+
+# target to build an object file
+examples/widgets/obj/lv_example_obj_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/obj/lv_example_obj_2.c.obj
+.PHONY : examples/widgets/obj/lv_example_obj_2.c.obj
+
+examples/widgets/obj/lv_example_obj_2.i: examples/widgets/obj/lv_example_obj_2.c.i
+.PHONY : examples/widgets/obj/lv_example_obj_2.i
+
+# target to preprocess a source file
+examples/widgets/obj/lv_example_obj_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/obj/lv_example_obj_2.c.i
+.PHONY : examples/widgets/obj/lv_example_obj_2.c.i
+
+examples/widgets/obj/lv_example_obj_2.s: examples/widgets/obj/lv_example_obj_2.c.s
+.PHONY : examples/widgets/obj/lv_example_obj_2.s
+
+# target to generate assembly for a file
+examples/widgets/obj/lv_example_obj_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/obj/lv_example_obj_2.c.s
+.PHONY : examples/widgets/obj/lv_example_obj_2.c.s
+
+examples/widgets/roller/lv_example_roller_1.obj: examples/widgets/roller/lv_example_roller_1.c.obj
+.PHONY : examples/widgets/roller/lv_example_roller_1.obj
+
+# target to build an object file
+examples/widgets/roller/lv_example_roller_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/roller/lv_example_roller_1.c.obj
+.PHONY : examples/widgets/roller/lv_example_roller_1.c.obj
+
+examples/widgets/roller/lv_example_roller_1.i: examples/widgets/roller/lv_example_roller_1.c.i
+.PHONY : examples/widgets/roller/lv_example_roller_1.i
+
+# target to preprocess a source file
+examples/widgets/roller/lv_example_roller_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/roller/lv_example_roller_1.c.i
+.PHONY : examples/widgets/roller/lv_example_roller_1.c.i
+
+examples/widgets/roller/lv_example_roller_1.s: examples/widgets/roller/lv_example_roller_1.c.s
+.PHONY : examples/widgets/roller/lv_example_roller_1.s
+
+# target to generate assembly for a file
+examples/widgets/roller/lv_example_roller_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/roller/lv_example_roller_1.c.s
+.PHONY : examples/widgets/roller/lv_example_roller_1.c.s
+
+examples/widgets/roller/lv_example_roller_2.obj: examples/widgets/roller/lv_example_roller_2.c.obj
+.PHONY : examples/widgets/roller/lv_example_roller_2.obj
+
+# target to build an object file
+examples/widgets/roller/lv_example_roller_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/roller/lv_example_roller_2.c.obj
+.PHONY : examples/widgets/roller/lv_example_roller_2.c.obj
+
+examples/widgets/roller/lv_example_roller_2.i: examples/widgets/roller/lv_example_roller_2.c.i
+.PHONY : examples/widgets/roller/lv_example_roller_2.i
+
+# target to preprocess a source file
+examples/widgets/roller/lv_example_roller_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/roller/lv_example_roller_2.c.i
+.PHONY : examples/widgets/roller/lv_example_roller_2.c.i
+
+examples/widgets/roller/lv_example_roller_2.s: examples/widgets/roller/lv_example_roller_2.c.s
+.PHONY : examples/widgets/roller/lv_example_roller_2.s
+
+# target to generate assembly for a file
+examples/widgets/roller/lv_example_roller_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/roller/lv_example_roller_2.c.s
+.PHONY : examples/widgets/roller/lv_example_roller_2.c.s
+
+examples/widgets/roller/lv_example_roller_3.obj: examples/widgets/roller/lv_example_roller_3.c.obj
+.PHONY : examples/widgets/roller/lv_example_roller_3.obj
+
+# target to build an object file
+examples/widgets/roller/lv_example_roller_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/roller/lv_example_roller_3.c.obj
+.PHONY : examples/widgets/roller/lv_example_roller_3.c.obj
+
+examples/widgets/roller/lv_example_roller_3.i: examples/widgets/roller/lv_example_roller_3.c.i
+.PHONY : examples/widgets/roller/lv_example_roller_3.i
+
+# target to preprocess a source file
+examples/widgets/roller/lv_example_roller_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/roller/lv_example_roller_3.c.i
+.PHONY : examples/widgets/roller/lv_example_roller_3.c.i
+
+examples/widgets/roller/lv_example_roller_3.s: examples/widgets/roller/lv_example_roller_3.c.s
+.PHONY : examples/widgets/roller/lv_example_roller_3.s
+
+# target to generate assembly for a file
+examples/widgets/roller/lv_example_roller_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/roller/lv_example_roller_3.c.s
+.PHONY : examples/widgets/roller/lv_example_roller_3.c.s
+
+examples/widgets/slider/lv_example_slider_1.obj: examples/widgets/slider/lv_example_slider_1.c.obj
+.PHONY : examples/widgets/slider/lv_example_slider_1.obj
+
+# target to build an object file
+examples/widgets/slider/lv_example_slider_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/slider/lv_example_slider_1.c.obj
+.PHONY : examples/widgets/slider/lv_example_slider_1.c.obj
+
+examples/widgets/slider/lv_example_slider_1.i: examples/widgets/slider/lv_example_slider_1.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_1.i
+
+# target to preprocess a source file
+examples/widgets/slider/lv_example_slider_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/slider/lv_example_slider_1.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_1.c.i
+
+examples/widgets/slider/lv_example_slider_1.s: examples/widgets/slider/lv_example_slider_1.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_1.s
+
+# target to generate assembly for a file
+examples/widgets/slider/lv_example_slider_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/slider/lv_example_slider_1.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_1.c.s
+
+examples/widgets/slider/lv_example_slider_2.obj: examples/widgets/slider/lv_example_slider_2.c.obj
+.PHONY : examples/widgets/slider/lv_example_slider_2.obj
+
+# target to build an object file
+examples/widgets/slider/lv_example_slider_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/slider/lv_example_slider_2.c.obj
+.PHONY : examples/widgets/slider/lv_example_slider_2.c.obj
+
+examples/widgets/slider/lv_example_slider_2.i: examples/widgets/slider/lv_example_slider_2.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_2.i
+
+# target to preprocess a source file
+examples/widgets/slider/lv_example_slider_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/slider/lv_example_slider_2.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_2.c.i
+
+examples/widgets/slider/lv_example_slider_2.s: examples/widgets/slider/lv_example_slider_2.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_2.s
+
+# target to generate assembly for a file
+examples/widgets/slider/lv_example_slider_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/slider/lv_example_slider_2.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_2.c.s
+
+examples/widgets/slider/lv_example_slider_3.obj: examples/widgets/slider/lv_example_slider_3.c.obj
+.PHONY : examples/widgets/slider/lv_example_slider_3.obj
+
+# target to build an object file
+examples/widgets/slider/lv_example_slider_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/slider/lv_example_slider_3.c.obj
+.PHONY : examples/widgets/slider/lv_example_slider_3.c.obj
+
+examples/widgets/slider/lv_example_slider_3.i: examples/widgets/slider/lv_example_slider_3.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_3.i
+
+# target to preprocess a source file
+examples/widgets/slider/lv_example_slider_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/slider/lv_example_slider_3.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_3.c.i
+
+examples/widgets/slider/lv_example_slider_3.s: examples/widgets/slider/lv_example_slider_3.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_3.s
+
+# target to generate assembly for a file
+examples/widgets/slider/lv_example_slider_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/slider/lv_example_slider_3.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_3.c.s
+
+examples/widgets/span/lv_example_span_1.obj: examples/widgets/span/lv_example_span_1.c.obj
+.PHONY : examples/widgets/span/lv_example_span_1.obj
+
+# target to build an object file
+examples/widgets/span/lv_example_span_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/span/lv_example_span_1.c.obj
+.PHONY : examples/widgets/span/lv_example_span_1.c.obj
+
+examples/widgets/span/lv_example_span_1.i: examples/widgets/span/lv_example_span_1.c.i
+.PHONY : examples/widgets/span/lv_example_span_1.i
+
+# target to preprocess a source file
+examples/widgets/span/lv_example_span_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/span/lv_example_span_1.c.i
+.PHONY : examples/widgets/span/lv_example_span_1.c.i
+
+examples/widgets/span/lv_example_span_1.s: examples/widgets/span/lv_example_span_1.c.s
+.PHONY : examples/widgets/span/lv_example_span_1.s
+
+# target to generate assembly for a file
+examples/widgets/span/lv_example_span_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/span/lv_example_span_1.c.s
+.PHONY : examples/widgets/span/lv_example_span_1.c.s
+
+examples/widgets/spinbox/lv_example_spinbox_1.obj: examples/widgets/spinbox/lv_example_spinbox_1.c.obj
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.obj
+
+# target to build an object file
+examples/widgets/spinbox/lv_example_spinbox_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/spinbox/lv_example_spinbox_1.c.obj
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.c.obj
+
+examples/widgets/spinbox/lv_example_spinbox_1.i: examples/widgets/spinbox/lv_example_spinbox_1.c.i
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.i
+
+# target to preprocess a source file
+examples/widgets/spinbox/lv_example_spinbox_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/spinbox/lv_example_spinbox_1.c.i
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.c.i
+
+examples/widgets/spinbox/lv_example_spinbox_1.s: examples/widgets/spinbox/lv_example_spinbox_1.c.s
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.s
+
+# target to generate assembly for a file
+examples/widgets/spinbox/lv_example_spinbox_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/spinbox/lv_example_spinbox_1.c.s
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.c.s
+
+examples/widgets/spinner/lv_example_spinner_1.obj: examples/widgets/spinner/lv_example_spinner_1.c.obj
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.obj
+
+# target to build an object file
+examples/widgets/spinner/lv_example_spinner_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/spinner/lv_example_spinner_1.c.obj
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.c.obj
+
+examples/widgets/spinner/lv_example_spinner_1.i: examples/widgets/spinner/lv_example_spinner_1.c.i
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.i
+
+# target to preprocess a source file
+examples/widgets/spinner/lv_example_spinner_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/spinner/lv_example_spinner_1.c.i
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.c.i
+
+examples/widgets/spinner/lv_example_spinner_1.s: examples/widgets/spinner/lv_example_spinner_1.c.s
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.s
+
+# target to generate assembly for a file
+examples/widgets/spinner/lv_example_spinner_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/spinner/lv_example_spinner_1.c.s
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.c.s
+
+examples/widgets/switch/lv_example_switch_1.obj: examples/widgets/switch/lv_example_switch_1.c.obj
+.PHONY : examples/widgets/switch/lv_example_switch_1.obj
+
+# target to build an object file
+examples/widgets/switch/lv_example_switch_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/switch/lv_example_switch_1.c.obj
+.PHONY : examples/widgets/switch/lv_example_switch_1.c.obj
+
+examples/widgets/switch/lv_example_switch_1.i: examples/widgets/switch/lv_example_switch_1.c.i
+.PHONY : examples/widgets/switch/lv_example_switch_1.i
+
+# target to preprocess a source file
+examples/widgets/switch/lv_example_switch_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/switch/lv_example_switch_1.c.i
+.PHONY : examples/widgets/switch/lv_example_switch_1.c.i
+
+examples/widgets/switch/lv_example_switch_1.s: examples/widgets/switch/lv_example_switch_1.c.s
+.PHONY : examples/widgets/switch/lv_example_switch_1.s
+
+# target to generate assembly for a file
+examples/widgets/switch/lv_example_switch_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/switch/lv_example_switch_1.c.s
+.PHONY : examples/widgets/switch/lv_example_switch_1.c.s
+
+examples/widgets/table/lv_example_table_1.obj: examples/widgets/table/lv_example_table_1.c.obj
+.PHONY : examples/widgets/table/lv_example_table_1.obj
+
+# target to build an object file
+examples/widgets/table/lv_example_table_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/table/lv_example_table_1.c.obj
+.PHONY : examples/widgets/table/lv_example_table_1.c.obj
+
+examples/widgets/table/lv_example_table_1.i: examples/widgets/table/lv_example_table_1.c.i
+.PHONY : examples/widgets/table/lv_example_table_1.i
+
+# target to preprocess a source file
+examples/widgets/table/lv_example_table_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/table/lv_example_table_1.c.i
+.PHONY : examples/widgets/table/lv_example_table_1.c.i
+
+examples/widgets/table/lv_example_table_1.s: examples/widgets/table/lv_example_table_1.c.s
+.PHONY : examples/widgets/table/lv_example_table_1.s
+
+# target to generate assembly for a file
+examples/widgets/table/lv_example_table_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/table/lv_example_table_1.c.s
+.PHONY : examples/widgets/table/lv_example_table_1.c.s
+
+examples/widgets/table/lv_example_table_2.obj: examples/widgets/table/lv_example_table_2.c.obj
+.PHONY : examples/widgets/table/lv_example_table_2.obj
+
+# target to build an object file
+examples/widgets/table/lv_example_table_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/table/lv_example_table_2.c.obj
+.PHONY : examples/widgets/table/lv_example_table_2.c.obj
+
+examples/widgets/table/lv_example_table_2.i: examples/widgets/table/lv_example_table_2.c.i
+.PHONY : examples/widgets/table/lv_example_table_2.i
+
+# target to preprocess a source file
+examples/widgets/table/lv_example_table_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/table/lv_example_table_2.c.i
+.PHONY : examples/widgets/table/lv_example_table_2.c.i
+
+examples/widgets/table/lv_example_table_2.s: examples/widgets/table/lv_example_table_2.c.s
+.PHONY : examples/widgets/table/lv_example_table_2.s
+
+# target to generate assembly for a file
+examples/widgets/table/lv_example_table_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/table/lv_example_table_2.c.s
+.PHONY : examples/widgets/table/lv_example_table_2.c.s
+
+examples/widgets/tabview/lv_example_tabview_1.obj: examples/widgets/tabview/lv_example_tabview_1.c.obj
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.obj
+
+# target to build an object file
+examples/widgets/tabview/lv_example_tabview_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/tabview/lv_example_tabview_1.c.obj
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.c.obj
+
+examples/widgets/tabview/lv_example_tabview_1.i: examples/widgets/tabview/lv_example_tabview_1.c.i
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.i
+
+# target to preprocess a source file
+examples/widgets/tabview/lv_example_tabview_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/tabview/lv_example_tabview_1.c.i
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.c.i
+
+examples/widgets/tabview/lv_example_tabview_1.s: examples/widgets/tabview/lv_example_tabview_1.c.s
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.s
+
+# target to generate assembly for a file
+examples/widgets/tabview/lv_example_tabview_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/tabview/lv_example_tabview_1.c.s
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.c.s
+
+examples/widgets/tabview/lv_example_tabview_2.obj: examples/widgets/tabview/lv_example_tabview_2.c.obj
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.obj
+
+# target to build an object file
+examples/widgets/tabview/lv_example_tabview_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/tabview/lv_example_tabview_2.c.obj
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.c.obj
+
+examples/widgets/tabview/lv_example_tabview_2.i: examples/widgets/tabview/lv_example_tabview_2.c.i
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.i
+
+# target to preprocess a source file
+examples/widgets/tabview/lv_example_tabview_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/tabview/lv_example_tabview_2.c.i
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.c.i
+
+examples/widgets/tabview/lv_example_tabview_2.s: examples/widgets/tabview/lv_example_tabview_2.c.s
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.s
+
+# target to generate assembly for a file
+examples/widgets/tabview/lv_example_tabview_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/tabview/lv_example_tabview_2.c.s
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.c.s
+
+examples/widgets/textarea/lv_example_textarea_1.obj: examples/widgets/textarea/lv_example_textarea_1.c.obj
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.obj
+
+# target to build an object file
+examples/widgets/textarea/lv_example_textarea_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/textarea/lv_example_textarea_1.c.obj
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.c.obj
+
+examples/widgets/textarea/lv_example_textarea_1.i: examples/widgets/textarea/lv_example_textarea_1.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.i
+
+# target to preprocess a source file
+examples/widgets/textarea/lv_example_textarea_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/textarea/lv_example_textarea_1.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.c.i
+
+examples/widgets/textarea/lv_example_textarea_1.s: examples/widgets/textarea/lv_example_textarea_1.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.s
+
+# target to generate assembly for a file
+examples/widgets/textarea/lv_example_textarea_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/textarea/lv_example_textarea_1.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.c.s
+
+examples/widgets/textarea/lv_example_textarea_2.obj: examples/widgets/textarea/lv_example_textarea_2.c.obj
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.obj
+
+# target to build an object file
+examples/widgets/textarea/lv_example_textarea_2.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/textarea/lv_example_textarea_2.c.obj
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.c.obj
+
+examples/widgets/textarea/lv_example_textarea_2.i: examples/widgets/textarea/lv_example_textarea_2.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.i
+
+# target to preprocess a source file
+examples/widgets/textarea/lv_example_textarea_2.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/textarea/lv_example_textarea_2.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.c.i
+
+examples/widgets/textarea/lv_example_textarea_2.s: examples/widgets/textarea/lv_example_textarea_2.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.s
+
+# target to generate assembly for a file
+examples/widgets/textarea/lv_example_textarea_2.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/textarea/lv_example_textarea_2.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.c.s
+
+examples/widgets/textarea/lv_example_textarea_3.obj: examples/widgets/textarea/lv_example_textarea_3.c.obj
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.obj
+
+# target to build an object file
+examples/widgets/textarea/lv_example_textarea_3.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/textarea/lv_example_textarea_3.c.obj
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.c.obj
+
+examples/widgets/textarea/lv_example_textarea_3.i: examples/widgets/textarea/lv_example_textarea_3.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.i
+
+# target to preprocess a source file
+examples/widgets/textarea/lv_example_textarea_3.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/textarea/lv_example_textarea_3.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.c.i
+
+examples/widgets/textarea/lv_example_textarea_3.s: examples/widgets/textarea/lv_example_textarea_3.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.s
+
+# target to generate assembly for a file
+examples/widgets/textarea/lv_example_textarea_3.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/textarea/lv_example_textarea_3.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.c.s
+
+examples/widgets/tileview/lv_example_tileview_1.obj: examples/widgets/tileview/lv_example_tileview_1.c.obj
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.obj
+
+# target to build an object file
+examples/widgets/tileview/lv_example_tileview_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/tileview/lv_example_tileview_1.c.obj
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.c.obj
+
+examples/widgets/tileview/lv_example_tileview_1.i: examples/widgets/tileview/lv_example_tileview_1.c.i
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.i
+
+# target to preprocess a source file
+examples/widgets/tileview/lv_example_tileview_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/tileview/lv_example_tileview_1.c.i
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.c.i
+
+examples/widgets/tileview/lv_example_tileview_1.s: examples/widgets/tileview/lv_example_tileview_1.c.s
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.s
+
+# target to generate assembly for a file
+examples/widgets/tileview/lv_example_tileview_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/tileview/lv_example_tileview_1.c.s
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.c.s
+
+examples/widgets/win/lv_example_win_1.obj: examples/widgets/win/lv_example_win_1.c.obj
+.PHONY : examples/widgets/win/lv_example_win_1.obj
+
+# target to build an object file
+examples/widgets/win/lv_example_win_1.c.obj:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/win/lv_example_win_1.c.obj
+.PHONY : examples/widgets/win/lv_example_win_1.c.obj
+
+examples/widgets/win/lv_example_win_1.i: examples/widgets/win/lv_example_win_1.c.i
+.PHONY : examples/widgets/win/lv_example_win_1.i
+
+# target to preprocess a source file
+examples/widgets/win/lv_example_win_1.c.i:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/win/lv_example_win_1.c.i
+.PHONY : examples/widgets/win/lv_example_win_1.c.i
+
+examples/widgets/win/lv_example_win_1.s: examples/widgets/win/lv_example_win_1.c.s
+.PHONY : examples/widgets/win/lv_example_win_1.s
+
+# target to generate assembly for a file
+examples/widgets/win/lv_example_win_1.c.s:
+	cd /Users/sergeybarabash/robo/linear_scale/combined_fw/build && $(MAKE) $(MAKESILENT) -f esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/build.make esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/examples/widgets/win/lv_example_win_1.c.s
+.PHONY : examples/widgets/win/lv_example_win_1.c.s
+
 src/core/lv_disp.obj: src/core/lv_disp.c.obj
 .PHONY : src/core/lv_disp.obj
 
@@ -4796,6 +8900,519 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_lvgl__lvgl"
+	@echo "... examples/anim/lv_example_anim_1.obj"
+	@echo "... examples/anim/lv_example_anim_1.i"
+	@echo "... examples/anim/lv_example_anim_1.s"
+	@echo "... examples/anim/lv_example_anim_2.obj"
+	@echo "... examples/anim/lv_example_anim_2.i"
+	@echo "... examples/anim/lv_example_anim_2.s"
+	@echo "... examples/anim/lv_example_anim_3.obj"
+	@echo "... examples/anim/lv_example_anim_3.i"
+	@echo "... examples/anim/lv_example_anim_3.s"
+	@echo "... examples/anim/lv_example_anim_timeline_1.obj"
+	@echo "... examples/anim/lv_example_anim_timeline_1.i"
+	@echo "... examples/anim/lv_example_anim_timeline_1.s"
+	@echo "... examples/assets/animimg001.obj"
+	@echo "... examples/assets/animimg001.i"
+	@echo "... examples/assets/animimg001.s"
+	@echo "... examples/assets/animimg002.obj"
+	@echo "... examples/assets/animimg002.i"
+	@echo "... examples/assets/animimg002.s"
+	@echo "... examples/assets/animimg003.obj"
+	@echo "... examples/assets/animimg003.i"
+	@echo "... examples/assets/animimg003.s"
+	@echo "... examples/assets/emoji/img_emoji_F617.obj"
+	@echo "... examples/assets/emoji/img_emoji_F617.i"
+	@echo "... examples/assets/emoji/img_emoji_F617.s"
+	@echo "... examples/assets/img_caret_down.obj"
+	@echo "... examples/assets/img_caret_down.i"
+	@echo "... examples/assets/img_caret_down.s"
+	@echo "... examples/assets/img_cogwheel_alpha16.obj"
+	@echo "... examples/assets/img_cogwheel_alpha16.i"
+	@echo "... examples/assets/img_cogwheel_alpha16.s"
+	@echo "... examples/assets/img_cogwheel_argb.obj"
+	@echo "... examples/assets/img_cogwheel_argb.i"
+	@echo "... examples/assets/img_cogwheel_argb.s"
+	@echo "... examples/assets/img_cogwheel_chroma_keyed.obj"
+	@echo "... examples/assets/img_cogwheel_chroma_keyed.i"
+	@echo "... examples/assets/img_cogwheel_chroma_keyed.s"
+	@echo "... examples/assets/img_cogwheel_indexed16.obj"
+	@echo "... examples/assets/img_cogwheel_indexed16.i"
+	@echo "... examples/assets/img_cogwheel_indexed16.s"
+	@echo "... examples/assets/img_cogwheel_rgb.obj"
+	@echo "... examples/assets/img_cogwheel_rgb.i"
+	@echo "... examples/assets/img_cogwheel_rgb.s"
+	@echo "... examples/assets/img_hand.obj"
+	@echo "... examples/assets/img_hand.i"
+	@echo "... examples/assets/img_hand.s"
+	@echo "... examples/assets/img_skew_strip.obj"
+	@echo "... examples/assets/img_skew_strip.i"
+	@echo "... examples/assets/img_skew_strip.s"
+	@echo "... examples/assets/img_star.obj"
+	@echo "... examples/assets/img_star.i"
+	@echo "... examples/assets/img_star.s"
+	@echo "... examples/assets/imgbtn_left.obj"
+	@echo "... examples/assets/imgbtn_left.i"
+	@echo "... examples/assets/imgbtn_left.s"
+	@echo "... examples/assets/imgbtn_mid.obj"
+	@echo "... examples/assets/imgbtn_mid.i"
+	@echo "... examples/assets/imgbtn_mid.s"
+	@echo "... examples/assets/imgbtn_right.obj"
+	@echo "... examples/assets/imgbtn_right.i"
+	@echo "... examples/assets/imgbtn_right.s"
+	@echo "... examples/event/lv_example_event_1.obj"
+	@echo "... examples/event/lv_example_event_1.i"
+	@echo "... examples/event/lv_example_event_1.s"
+	@echo "... examples/event/lv_example_event_2.obj"
+	@echo "... examples/event/lv_example_event_2.i"
+	@echo "... examples/event/lv_example_event_2.s"
+	@echo "... examples/event/lv_example_event_3.obj"
+	@echo "... examples/event/lv_example_event_3.i"
+	@echo "... examples/event/lv_example_event_3.s"
+	@echo "... examples/event/lv_example_event_4.obj"
+	@echo "... examples/event/lv_example_event_4.i"
+	@echo "... examples/event/lv_example_event_4.s"
+	@echo "... examples/get_started/lv_example_get_started_1.obj"
+	@echo "... examples/get_started/lv_example_get_started_1.i"
+	@echo "... examples/get_started/lv_example_get_started_1.s"
+	@echo "... examples/get_started/lv_example_get_started_2.obj"
+	@echo "... examples/get_started/lv_example_get_started_2.i"
+	@echo "... examples/get_started/lv_example_get_started_2.s"
+	@echo "... examples/get_started/lv_example_get_started_3.obj"
+	@echo "... examples/get_started/lv_example_get_started_3.i"
+	@echo "... examples/get_started/lv_example_get_started_3.s"
+	@echo "... examples/layouts/flex/lv_example_flex_1.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_1.i"
+	@echo "... examples/layouts/flex/lv_example_flex_1.s"
+	@echo "... examples/layouts/flex/lv_example_flex_2.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_2.i"
+	@echo "... examples/layouts/flex/lv_example_flex_2.s"
+	@echo "... examples/layouts/flex/lv_example_flex_3.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_3.i"
+	@echo "... examples/layouts/flex/lv_example_flex_3.s"
+	@echo "... examples/layouts/flex/lv_example_flex_4.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_4.i"
+	@echo "... examples/layouts/flex/lv_example_flex_4.s"
+	@echo "... examples/layouts/flex/lv_example_flex_5.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_5.i"
+	@echo "... examples/layouts/flex/lv_example_flex_5.s"
+	@echo "... examples/layouts/flex/lv_example_flex_6.obj"
+	@echo "... examples/layouts/flex/lv_example_flex_6.i"
+	@echo "... examples/layouts/flex/lv_example_flex_6.s"
+	@echo "... examples/layouts/grid/lv_example_grid_1.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_1.i"
+	@echo "... examples/layouts/grid/lv_example_grid_1.s"
+	@echo "... examples/layouts/grid/lv_example_grid_2.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_2.i"
+	@echo "... examples/layouts/grid/lv_example_grid_2.s"
+	@echo "... examples/layouts/grid/lv_example_grid_3.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_3.i"
+	@echo "... examples/layouts/grid/lv_example_grid_3.s"
+	@echo "... examples/layouts/grid/lv_example_grid_4.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_4.i"
+	@echo "... examples/layouts/grid/lv_example_grid_4.s"
+	@echo "... examples/layouts/grid/lv_example_grid_5.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_5.i"
+	@echo "... examples/layouts/grid/lv_example_grid_5.s"
+	@echo "... examples/layouts/grid/lv_example_grid_6.obj"
+	@echo "... examples/layouts/grid/lv_example_grid_6.i"
+	@echo "... examples/layouts/grid/lv_example_grid_6.s"
+	@echo "... examples/libs/bmp/lv_example_bmp_1.obj"
+	@echo "... examples/libs/bmp/lv_example_bmp_1.i"
+	@echo "... examples/libs/bmp/lv_example_bmp_1.s"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.obj"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.i"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.s"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.obj"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.i"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.s"
+	@echo "... examples/libs/freetype/lv_example_freetype_1.obj"
+	@echo "... examples/libs/freetype/lv_example_freetype_1.i"
+	@echo "... examples/libs/freetype/lv_example_freetype_1.s"
+	@echo "... examples/libs/gif/img_bulb_gif.obj"
+	@echo "... examples/libs/gif/img_bulb_gif.i"
+	@echo "... examples/libs/gif/img_bulb_gif.s"
+	@echo "... examples/libs/gif/lv_example_gif_1.obj"
+	@echo "... examples/libs/gif/lv_example_gif_1.i"
+	@echo "... examples/libs/gif/lv_example_gif_1.s"
+	@echo "... examples/libs/png/img_wink_png.obj"
+	@echo "... examples/libs/png/img_wink_png.i"
+	@echo "... examples/libs/png/img_wink_png.s"
+	@echo "... examples/libs/png/lv_example_png_1.obj"
+	@echo "... examples/libs/png/lv_example_png_1.i"
+	@echo "... examples/libs/png/lv_example_png_1.s"
+	@echo "... examples/libs/qrcode/lv_example_qrcode_1.obj"
+	@echo "... examples/libs/qrcode/lv_example_qrcode_1.i"
+	@echo "... examples/libs/qrcode/lv_example_qrcode_1.s"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_1.obj"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_1.i"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_1.s"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_2.obj"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_2.i"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_2.s"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.obj"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.i"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.s"
+	@echo "... examples/libs/sjpg/lv_example_sjpg_1.obj"
+	@echo "... examples/libs/sjpg/lv_example_sjpg_1.i"
+	@echo "... examples/libs/sjpg/lv_example_sjpg_1.s"
+	@echo "... examples/others/fragment/lv_example_fragment_1.obj"
+	@echo "... examples/others/fragment/lv_example_fragment_1.i"
+	@echo "... examples/others/fragment/lv_example_fragment_1.s"
+	@echo "... examples/others/fragment/lv_example_fragment_2.obj"
+	@echo "... examples/others/fragment/lv_example_fragment_2.i"
+	@echo "... examples/others/fragment/lv_example_fragment_2.s"
+	@echo "... examples/others/gridnav/lv_example_gridnav_1.obj"
+	@echo "... examples/others/gridnav/lv_example_gridnav_1.i"
+	@echo "... examples/others/gridnav/lv_example_gridnav_1.s"
+	@echo "... examples/others/gridnav/lv_example_gridnav_2.obj"
+	@echo "... examples/others/gridnav/lv_example_gridnav_2.i"
+	@echo "... examples/others/gridnav/lv_example_gridnav_2.s"
+	@echo "... examples/others/gridnav/lv_example_gridnav_3.obj"
+	@echo "... examples/others/gridnav/lv_example_gridnav_3.i"
+	@echo "... examples/others/gridnav/lv_example_gridnav_3.s"
+	@echo "... examples/others/gridnav/lv_example_gridnav_4.obj"
+	@echo "... examples/others/gridnav/lv_example_gridnav_4.i"
+	@echo "... examples/others/gridnav/lv_example_gridnav_4.s"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_1.obj"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_1.i"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_1.s"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_2.obj"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_2.i"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_2.s"
+	@echo "... examples/others/imgfont/lv_example_imgfont_1.obj"
+	@echo "... examples/others/imgfont/lv_example_imgfont_1.i"
+	@echo "... examples/others/imgfont/lv_example_imgfont_1.s"
+	@echo "... examples/others/monkey/lv_example_monkey_1.obj"
+	@echo "... examples/others/monkey/lv_example_monkey_1.i"
+	@echo "... examples/others/monkey/lv_example_monkey_1.s"
+	@echo "... examples/others/monkey/lv_example_monkey_2.obj"
+	@echo "... examples/others/monkey/lv_example_monkey_2.i"
+	@echo "... examples/others/monkey/lv_example_monkey_2.s"
+	@echo "... examples/others/monkey/lv_example_monkey_3.obj"
+	@echo "... examples/others/monkey/lv_example_monkey_3.i"
+	@echo "... examples/others/monkey/lv_example_monkey_3.s"
+	@echo "... examples/others/msg/lv_example_msg_1.obj"
+	@echo "... examples/others/msg/lv_example_msg_1.i"
+	@echo "... examples/others/msg/lv_example_msg_1.s"
+	@echo "... examples/others/msg/lv_example_msg_2.obj"
+	@echo "... examples/others/msg/lv_example_msg_2.i"
+	@echo "... examples/others/msg/lv_example_msg_2.s"
+	@echo "... examples/others/msg/lv_example_msg_3.obj"
+	@echo "... examples/others/msg/lv_example_msg_3.i"
+	@echo "... examples/others/msg/lv_example_msg_3.s"
+	@echo "... examples/others/snapshot/lv_example_snapshot_1.obj"
+	@echo "... examples/others/snapshot/lv_example_snapshot_1.i"
+	@echo "... examples/others/snapshot/lv_example_snapshot_1.s"
+	@echo "... examples/porting/lv_port_disp_template.obj"
+	@echo "... examples/porting/lv_port_disp_template.i"
+	@echo "... examples/porting/lv_port_disp_template.s"
+	@echo "... examples/porting/lv_port_fs_template.obj"
+	@echo "... examples/porting/lv_port_fs_template.i"
+	@echo "... examples/porting/lv_port_fs_template.s"
+	@echo "... examples/porting/lv_port_indev_template.obj"
+	@echo "... examples/porting/lv_port_indev_template.i"
+	@echo "... examples/porting/lv_port_indev_template.s"
+	@echo "... examples/scroll/lv_example_scroll_1.obj"
+	@echo "... examples/scroll/lv_example_scroll_1.i"
+	@echo "... examples/scroll/lv_example_scroll_1.s"
+	@echo "... examples/scroll/lv_example_scroll_2.obj"
+	@echo "... examples/scroll/lv_example_scroll_2.i"
+	@echo "... examples/scroll/lv_example_scroll_2.s"
+	@echo "... examples/scroll/lv_example_scroll_3.obj"
+	@echo "... examples/scroll/lv_example_scroll_3.i"
+	@echo "... examples/scroll/lv_example_scroll_3.s"
+	@echo "... examples/scroll/lv_example_scroll_4.obj"
+	@echo "... examples/scroll/lv_example_scroll_4.i"
+	@echo "... examples/scroll/lv_example_scroll_4.s"
+	@echo "... examples/scroll/lv_example_scroll_5.obj"
+	@echo "... examples/scroll/lv_example_scroll_5.i"
+	@echo "... examples/scroll/lv_example_scroll_5.s"
+	@echo "... examples/scroll/lv_example_scroll_6.obj"
+	@echo "... examples/scroll/lv_example_scroll_6.i"
+	@echo "... examples/scroll/lv_example_scroll_6.s"
+	@echo "... examples/styles/lv_example_style_1.obj"
+	@echo "... examples/styles/lv_example_style_1.i"
+	@echo "... examples/styles/lv_example_style_1.s"
+	@echo "... examples/styles/lv_example_style_10.obj"
+	@echo "... examples/styles/lv_example_style_10.i"
+	@echo "... examples/styles/lv_example_style_10.s"
+	@echo "... examples/styles/lv_example_style_11.obj"
+	@echo "... examples/styles/lv_example_style_11.i"
+	@echo "... examples/styles/lv_example_style_11.s"
+	@echo "... examples/styles/lv_example_style_12.obj"
+	@echo "... examples/styles/lv_example_style_12.i"
+	@echo "... examples/styles/lv_example_style_12.s"
+	@echo "... examples/styles/lv_example_style_13.obj"
+	@echo "... examples/styles/lv_example_style_13.i"
+	@echo "... examples/styles/lv_example_style_13.s"
+	@echo "... examples/styles/lv_example_style_14.obj"
+	@echo "... examples/styles/lv_example_style_14.i"
+	@echo "... examples/styles/lv_example_style_14.s"
+	@echo "... examples/styles/lv_example_style_15.obj"
+	@echo "... examples/styles/lv_example_style_15.i"
+	@echo "... examples/styles/lv_example_style_15.s"
+	@echo "... examples/styles/lv_example_style_2.obj"
+	@echo "... examples/styles/lv_example_style_2.i"
+	@echo "... examples/styles/lv_example_style_2.s"
+	@echo "... examples/styles/lv_example_style_3.obj"
+	@echo "... examples/styles/lv_example_style_3.i"
+	@echo "... examples/styles/lv_example_style_3.s"
+	@echo "... examples/styles/lv_example_style_4.obj"
+	@echo "... examples/styles/lv_example_style_4.i"
+	@echo "... examples/styles/lv_example_style_4.s"
+	@echo "... examples/styles/lv_example_style_5.obj"
+	@echo "... examples/styles/lv_example_style_5.i"
+	@echo "... examples/styles/lv_example_style_5.s"
+	@echo "... examples/styles/lv_example_style_6.obj"
+	@echo "... examples/styles/lv_example_style_6.i"
+	@echo "... examples/styles/lv_example_style_6.s"
+	@echo "... examples/styles/lv_example_style_7.obj"
+	@echo "... examples/styles/lv_example_style_7.i"
+	@echo "... examples/styles/lv_example_style_7.s"
+	@echo "... examples/styles/lv_example_style_8.obj"
+	@echo "... examples/styles/lv_example_style_8.i"
+	@echo "... examples/styles/lv_example_style_8.s"
+	@echo "... examples/styles/lv_example_style_9.obj"
+	@echo "... examples/styles/lv_example_style_9.i"
+	@echo "... examples/styles/lv_example_style_9.s"
+	@echo "... examples/widgets/animimg/lv_example_animimg_1.obj"
+	@echo "... examples/widgets/animimg/lv_example_animimg_1.i"
+	@echo "... examples/widgets/animimg/lv_example_animimg_1.s"
+	@echo "... examples/widgets/arc/lv_example_arc_1.obj"
+	@echo "... examples/widgets/arc/lv_example_arc_1.i"
+	@echo "... examples/widgets/arc/lv_example_arc_1.s"
+	@echo "... examples/widgets/arc/lv_example_arc_2.obj"
+	@echo "... examples/widgets/arc/lv_example_arc_2.i"
+	@echo "... examples/widgets/arc/lv_example_arc_2.s"
+	@echo "... examples/widgets/bar/lv_example_bar_1.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_1.i"
+	@echo "... examples/widgets/bar/lv_example_bar_1.s"
+	@echo "... examples/widgets/bar/lv_example_bar_2.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_2.i"
+	@echo "... examples/widgets/bar/lv_example_bar_2.s"
+	@echo "... examples/widgets/bar/lv_example_bar_3.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_3.i"
+	@echo "... examples/widgets/bar/lv_example_bar_3.s"
+	@echo "... examples/widgets/bar/lv_example_bar_4.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_4.i"
+	@echo "... examples/widgets/bar/lv_example_bar_4.s"
+	@echo "... examples/widgets/bar/lv_example_bar_5.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_5.i"
+	@echo "... examples/widgets/bar/lv_example_bar_5.s"
+	@echo "... examples/widgets/bar/lv_example_bar_6.obj"
+	@echo "... examples/widgets/bar/lv_example_bar_6.i"
+	@echo "... examples/widgets/bar/lv_example_bar_6.s"
+	@echo "... examples/widgets/btn/lv_example_btn_1.obj"
+	@echo "... examples/widgets/btn/lv_example_btn_1.i"
+	@echo "... examples/widgets/btn/lv_example_btn_1.s"
+	@echo "... examples/widgets/btn/lv_example_btn_2.obj"
+	@echo "... examples/widgets/btn/lv_example_btn_2.i"
+	@echo "... examples/widgets/btn/lv_example_btn_2.s"
+	@echo "... examples/widgets/btn/lv_example_btn_3.obj"
+	@echo "... examples/widgets/btn/lv_example_btn_3.i"
+	@echo "... examples/widgets/btn/lv_example_btn_3.s"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_1.obj"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_1.i"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_1.s"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_2.obj"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_2.i"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_2.s"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_3.obj"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_3.i"
+	@echo "... examples/widgets/btnmatrix/lv_example_btnmatrix_3.s"
+	@echo "... examples/widgets/calendar/lv_example_calendar_1.obj"
+	@echo "... examples/widgets/calendar/lv_example_calendar_1.i"
+	@echo "... examples/widgets/calendar/lv_example_calendar_1.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_1.obj"
+	@echo "... examples/widgets/canvas/lv_example_canvas_1.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_1.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_2.obj"
+	@echo "... examples/widgets/canvas/lv_example_canvas_2.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_2.s"
+	@echo "... examples/widgets/chart/lv_example_chart_1.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_1.i"
+	@echo "... examples/widgets/chart/lv_example_chart_1.s"
+	@echo "... examples/widgets/chart/lv_example_chart_2.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_2.i"
+	@echo "... examples/widgets/chart/lv_example_chart_2.s"
+	@echo "... examples/widgets/chart/lv_example_chart_3.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_3.i"
+	@echo "... examples/widgets/chart/lv_example_chart_3.s"
+	@echo "... examples/widgets/chart/lv_example_chart_4.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_4.i"
+	@echo "... examples/widgets/chart/lv_example_chart_4.s"
+	@echo "... examples/widgets/chart/lv_example_chart_5.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_5.i"
+	@echo "... examples/widgets/chart/lv_example_chart_5.s"
+	@echo "... examples/widgets/chart/lv_example_chart_6.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_6.i"
+	@echo "... examples/widgets/chart/lv_example_chart_6.s"
+	@echo "... examples/widgets/chart/lv_example_chart_7.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_7.i"
+	@echo "... examples/widgets/chart/lv_example_chart_7.s"
+	@echo "... examples/widgets/chart/lv_example_chart_8.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_8.i"
+	@echo "... examples/widgets/chart/lv_example_chart_8.s"
+	@echo "... examples/widgets/chart/lv_example_chart_9.obj"
+	@echo "... examples/widgets/chart/lv_example_chart_9.i"
+	@echo "... examples/widgets/chart/lv_example_chart_9.s"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.obj"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.i"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.s"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.obj"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.i"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.s"
+	@echo "... examples/widgets/colorwheel/lv_example_colorwheel_1.obj"
+	@echo "... examples/widgets/colorwheel/lv_example_colorwheel_1.i"
+	@echo "... examples/widgets/colorwheel/lv_example_colorwheel_1.s"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.obj"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.i"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.s"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.obj"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.i"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.s"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.obj"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.i"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.s"
+	@echo "... examples/widgets/img/lv_example_img_1.obj"
+	@echo "... examples/widgets/img/lv_example_img_1.i"
+	@echo "... examples/widgets/img/lv_example_img_1.s"
+	@echo "... examples/widgets/img/lv_example_img_2.obj"
+	@echo "... examples/widgets/img/lv_example_img_2.i"
+	@echo "... examples/widgets/img/lv_example_img_2.s"
+	@echo "... examples/widgets/img/lv_example_img_3.obj"
+	@echo "... examples/widgets/img/lv_example_img_3.i"
+	@echo "... examples/widgets/img/lv_example_img_3.s"
+	@echo "... examples/widgets/img/lv_example_img_4.obj"
+	@echo "... examples/widgets/img/lv_example_img_4.i"
+	@echo "... examples/widgets/img/lv_example_img_4.s"
+	@echo "... examples/widgets/imgbtn/lv_example_imgbtn_1.obj"
+	@echo "... examples/widgets/imgbtn/lv_example_imgbtn_1.i"
+	@echo "... examples/widgets/imgbtn/lv_example_imgbtn_1.s"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.obj"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.i"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.s"
+	@echo "... examples/widgets/label/lv_example_label_1.obj"
+	@echo "... examples/widgets/label/lv_example_label_1.i"
+	@echo "... examples/widgets/label/lv_example_label_1.s"
+	@echo "... examples/widgets/label/lv_example_label_2.obj"
+	@echo "... examples/widgets/label/lv_example_label_2.i"
+	@echo "... examples/widgets/label/lv_example_label_2.s"
+	@echo "... examples/widgets/label/lv_example_label_3.obj"
+	@echo "... examples/widgets/label/lv_example_label_3.i"
+	@echo "... examples/widgets/label/lv_example_label_3.s"
+	@echo "... examples/widgets/label/lv_example_label_4.obj"
+	@echo "... examples/widgets/label/lv_example_label_4.i"
+	@echo "... examples/widgets/label/lv_example_label_4.s"
+	@echo "... examples/widgets/label/lv_example_label_5.obj"
+	@echo "... examples/widgets/label/lv_example_label_5.i"
+	@echo "... examples/widgets/label/lv_example_label_5.s"
+	@echo "... examples/widgets/led/lv_example_led_1.obj"
+	@echo "... examples/widgets/led/lv_example_led_1.i"
+	@echo "... examples/widgets/led/lv_example_led_1.s"
+	@echo "... examples/widgets/line/lv_example_line_1.obj"
+	@echo "... examples/widgets/line/lv_example_line_1.i"
+	@echo "... examples/widgets/line/lv_example_line_1.s"
+	@echo "... examples/widgets/list/lv_example_list_1.obj"
+	@echo "... examples/widgets/list/lv_example_list_1.i"
+	@echo "... examples/widgets/list/lv_example_list_1.s"
+	@echo "... examples/widgets/list/lv_example_list_2.obj"
+	@echo "... examples/widgets/list/lv_example_list_2.i"
+	@echo "... examples/widgets/list/lv_example_list_2.s"
+	@echo "... examples/widgets/menu/lv_example_menu_1.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_1.i"
+	@echo "... examples/widgets/menu/lv_example_menu_1.s"
+	@echo "... examples/widgets/menu/lv_example_menu_2.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_2.i"
+	@echo "... examples/widgets/menu/lv_example_menu_2.s"
+	@echo "... examples/widgets/menu/lv_example_menu_3.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_3.i"
+	@echo "... examples/widgets/menu/lv_example_menu_3.s"
+	@echo "... examples/widgets/menu/lv_example_menu_4.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_4.i"
+	@echo "... examples/widgets/menu/lv_example_menu_4.s"
+	@echo "... examples/widgets/menu/lv_example_menu_5.obj"
+	@echo "... examples/widgets/menu/lv_example_menu_5.i"
+	@echo "... examples/widgets/menu/lv_example_menu_5.s"
+	@echo "... examples/widgets/meter/lv_example_meter_1.obj"
+	@echo "... examples/widgets/meter/lv_example_meter_1.i"
+	@echo "... examples/widgets/meter/lv_example_meter_1.s"
+	@echo "... examples/widgets/meter/lv_example_meter_2.obj"
+	@echo "... examples/widgets/meter/lv_example_meter_2.i"
+	@echo "... examples/widgets/meter/lv_example_meter_2.s"
+	@echo "... examples/widgets/meter/lv_example_meter_3.obj"
+	@echo "... examples/widgets/meter/lv_example_meter_3.i"
+	@echo "... examples/widgets/meter/lv_example_meter_3.s"
+	@echo "... examples/widgets/meter/lv_example_meter_4.obj"
+	@echo "... examples/widgets/meter/lv_example_meter_4.i"
+	@echo "... examples/widgets/meter/lv_example_meter_4.s"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.obj"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.i"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.s"
+	@echo "... examples/widgets/obj/lv_example_obj_1.obj"
+	@echo "... examples/widgets/obj/lv_example_obj_1.i"
+	@echo "... examples/widgets/obj/lv_example_obj_1.s"
+	@echo "... examples/widgets/obj/lv_example_obj_2.obj"
+	@echo "... examples/widgets/obj/lv_example_obj_2.i"
+	@echo "... examples/widgets/obj/lv_example_obj_2.s"
+	@echo "... examples/widgets/roller/lv_example_roller_1.obj"
+	@echo "... examples/widgets/roller/lv_example_roller_1.i"
+	@echo "... examples/widgets/roller/lv_example_roller_1.s"
+	@echo "... examples/widgets/roller/lv_example_roller_2.obj"
+	@echo "... examples/widgets/roller/lv_example_roller_2.i"
+	@echo "... examples/widgets/roller/lv_example_roller_2.s"
+	@echo "... examples/widgets/roller/lv_example_roller_3.obj"
+	@echo "... examples/widgets/roller/lv_example_roller_3.i"
+	@echo "... examples/widgets/roller/lv_example_roller_3.s"
+	@echo "... examples/widgets/slider/lv_example_slider_1.obj"
+	@echo "... examples/widgets/slider/lv_example_slider_1.i"
+	@echo "... examples/widgets/slider/lv_example_slider_1.s"
+	@echo "... examples/widgets/slider/lv_example_slider_2.obj"
+	@echo "... examples/widgets/slider/lv_example_slider_2.i"
+	@echo "... examples/widgets/slider/lv_example_slider_2.s"
+	@echo "... examples/widgets/slider/lv_example_slider_3.obj"
+	@echo "... examples/widgets/slider/lv_example_slider_3.i"
+	@echo "... examples/widgets/slider/lv_example_slider_3.s"
+	@echo "... examples/widgets/span/lv_example_span_1.obj"
+	@echo "... examples/widgets/span/lv_example_span_1.i"
+	@echo "... examples/widgets/span/lv_example_span_1.s"
+	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.obj"
+	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.i"
+	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.s"
+	@echo "... examples/widgets/spinner/lv_example_spinner_1.obj"
+	@echo "... examples/widgets/spinner/lv_example_spinner_1.i"
+	@echo "... examples/widgets/spinner/lv_example_spinner_1.s"
+	@echo "... examples/widgets/switch/lv_example_switch_1.obj"
+	@echo "... examples/widgets/switch/lv_example_switch_1.i"
+	@echo "... examples/widgets/switch/lv_example_switch_1.s"
+	@echo "... examples/widgets/table/lv_example_table_1.obj"
+	@echo "... examples/widgets/table/lv_example_table_1.i"
+	@echo "... examples/widgets/table/lv_example_table_1.s"
+	@echo "... examples/widgets/table/lv_example_table_2.obj"
+	@echo "... examples/widgets/table/lv_example_table_2.i"
+	@echo "... examples/widgets/table/lv_example_table_2.s"
+	@echo "... examples/widgets/tabview/lv_example_tabview_1.obj"
+	@echo "... examples/widgets/tabview/lv_example_tabview_1.i"
+	@echo "... examples/widgets/tabview/lv_example_tabview_1.s"
+	@echo "... examples/widgets/tabview/lv_example_tabview_2.obj"
+	@echo "... examples/widgets/tabview/lv_example_tabview_2.i"
+	@echo "... examples/widgets/tabview/lv_example_tabview_2.s"
+	@echo "... examples/widgets/textarea/lv_example_textarea_1.obj"
+	@echo "... examples/widgets/textarea/lv_example_textarea_1.i"
+	@echo "... examples/widgets/textarea/lv_example_textarea_1.s"
+	@echo "... examples/widgets/textarea/lv_example_textarea_2.obj"
+	@echo "... examples/widgets/textarea/lv_example_textarea_2.i"
+	@echo "... examples/widgets/textarea/lv_example_textarea_2.s"
+	@echo "... examples/widgets/textarea/lv_example_textarea_3.obj"
+	@echo "... examples/widgets/textarea/lv_example_textarea_3.i"
+	@echo "... examples/widgets/textarea/lv_example_textarea_3.s"
+	@echo "... examples/widgets/tileview/lv_example_tileview_1.obj"
+	@echo "... examples/widgets/tileview/lv_example_tileview_1.i"
+	@echo "... examples/widgets/tileview/lv_example_tileview_1.s"
+	@echo "... examples/widgets/win/lv_example_win_1.obj"
+	@echo "... examples/widgets/win/lv_example_win_1.i"
+	@echo "... examples/widgets/win/lv_example_win_1.s"
 	@echo "... src/core/lv_disp.obj"
 	@echo "... src/core/lv_disp.i"
 	@echo "... src/core/lv_disp.s"

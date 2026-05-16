@@ -69,6 +69,8 @@ void app_main(void)
 {
     ESP_LOGI(TAG, "DRO firmware starting");
 
+    esp_log_level_set("GT911", ESP_LOG_WARN);
+
     i2c_config_t i2c_conf = {
         .mode = I2C_MODE_MASTER, .sda_io_num = 48, .scl_io_num = 47,
         .sda_pullup_en = GPIO_PULLUP_ENABLE, .scl_pullup_en = GPIO_PULLUP_ENABLE,
@@ -119,13 +121,34 @@ void app_main(void)
     styles_init();
     ui_main_create();
 
+    /* activate all setpoints at current scale positions */
+    logic_update(scale_get_position(SCALE_AXIAL), scale_get_position(SCALE_RADIAL));
+    logic_get()->spindle_raw = spindle_enc_get_count();
+    for (int i = 0; i < CFG_MAX_SETPOINTS; i++) {
+        logic_zero_sp(AXIS_RADIAL, i);
+        logic_zero_sp(AXIS_AXIAL, i);
+        logic_zero_spindle_sp(i);
+    }
+
+    /* drain initial LVGL rendering so main loop starts at full speed */
+    for (int i = 0; i < 20; i++) {
+        lv_timer_handler();
+        vTaskDelay(pdMS_TO_TICKS(5));
+    }
+
     uint32_t rpm_tick = 0;
+    uint32_t last_btn_ms = 0;
 
     while (1) {
         int32_t axial = scale_get_position(SCALE_AXIAL);
         int32_t radial = scale_get_position(SCALE_RADIAL);
         logic_update(axial, radial);
-        logic_handle_btn(buttons_read());
+
+        uint32_t now = esp_timer_get_time() / 1000;
+        if (now - last_btn_ms >= CFG_BTN_POLL_MS) {
+            last_btn_ms = now;
+            logic_handle_btn(buttons_read());
+        }
 
         state_t *st = logic_get();
         st->spindle_raw = spindle_enc_get_count();

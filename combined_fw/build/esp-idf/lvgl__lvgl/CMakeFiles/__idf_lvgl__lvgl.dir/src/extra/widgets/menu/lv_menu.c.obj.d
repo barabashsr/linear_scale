@@ -115,4 +115,16 @@ esp-idf/lvgl__lvgl/CMakeFiles/__idf_lvgl__lvgl.dir/src/extra/widgets/menu/lv_men
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../core/lv_obj_class.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../core/lv_event.h \
  /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../core/lv_group.h \
- /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../core/../misc/lv_ll.h
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../core/../misc/lv_ll.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../layouts/flex/lv_flex.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../layouts/flex/../../../core/lv_obj.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/lv_label.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/../lv_conf_internal.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/../core/lv_obj.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/../font/lv_font.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/../font/lv_symbol_def.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/../misc/lv_txt.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/../draw/lv_draw.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/lv_btn.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/lv_img.h \
+ /Users/sergeybarabash/robo/linear_scale/combined_fw/managed_components/lvgl__lvgl/src/extra/widgets/menu/../../../widgets/../misc/lv_fs.h

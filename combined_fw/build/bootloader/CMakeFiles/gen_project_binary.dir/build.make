@@ -70,7 +70,7 @@ CMakeFiles/gen_project_binary: .bin_timestamp
 
 .bin_timestamp: bootloader.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sergeybarabash/robo/linear_scale/combined_fw/build/bootloader/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating binary image from built executable"
-	/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 40m --flash_size 4MB --min-rev-full 0 --max-rev-full 99 -o /Users/sergeybarabash/robo/linear_scale/combined_fw/build/bootloader/bootloader.bin /Users/sergeybarabash/robo/linear_scale/combined_fw/build/bootloader/bootloader.elf
+	/Users/sergeybarabash/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/sergeybarabash/robo/esp/v5.4/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32s3 elf2image --flash_mode dio --flash_freq 80m --flash_size 4MB --min-rev-full 0 --max-rev-full 99 -o /Users/sergeybarabash/robo/linear_scale/combined_fw/build/bootloader/bootloader.bin /Users/sergeybarabash/robo/linear_scale/combined_fw/build/bootloader/bootloader.elf
 	/usr/local/bin/cmake -E echo "Generated /Users/sergeybarabash/robo/linear_scale/combined_fw/build/bootloader/bootloader.bin"
 	/usr/local/bin/cmake -E md5sum /Users/sergeybarabash/robo/linear_scale/combined_fw/build/bootloader/bootloader.bin > /Users/sergeybarabash/robo/linear_scale/combined_fw/build/bootloader/.bin_timestamp
 
